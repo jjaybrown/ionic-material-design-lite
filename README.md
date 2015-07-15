@@ -11,6 +11,8 @@ You can override both iOS and Android platform styles to use Material Design (Li
 
 `$mdlConfigProvider.allPlatforms = true`
 
+Otherwise only Android will use the Material Design (Lite) styles.
+
 ##Installation
 
 ##Contribute
