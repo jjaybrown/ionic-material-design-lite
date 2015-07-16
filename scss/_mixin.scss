@@ -11,6 +11,10 @@
   &[disabled] {
     background-color: $normal;
   }
+
+  .mdl-ripple {
+    background: $active;
+  }
 }
 
 @mixin button__coloured-outline-states($normal, $active) {
@@ -35,5 +39,9 @@
   &[disabled] {
     background-color: transparent;
     color: $normal;
+  }
+
+  .mdl-ripple {
+    background: lighten($active, 20%);
   }
 }

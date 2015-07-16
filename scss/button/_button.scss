@@ -152,4 +152,10 @@
       }
     }
   }
+
+  .button {
+    &.mdl-button__ripple-container {
+      @extend .mdl-button__ripple-container;
+    }
+  }
 }
