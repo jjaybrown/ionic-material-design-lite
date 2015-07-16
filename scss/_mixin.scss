@@ -1,0 +1,39 @@
+@mixin button__coloured-states($normal, $active) {
+  &:hover, &:focus {
+    background-color: $normal;
+  }
+
+  &:active {
+    background-color: $active;
+  }
+
+  &.disabled,
+  &[disabled] {
+    background-color: $normal;
+  }
+}
+
+@mixin button__coloured-outline-states($normal, $active) {
+  color: $normal;
+
+  &:hover {
+    @extend .mdl-button:hover;
+    color: $normal;
+  }
+
+  &:focus {
+    @extend .mdl-button:focus;
+    color: $normal;
+  }
+
+  &:active {
+    color: $active;
+    background-color: transparent;
+  }
+
+  &.disabled,
+  &[disabled] {
+    background-color: transparent;
+    color: $normal;
+  }
+}

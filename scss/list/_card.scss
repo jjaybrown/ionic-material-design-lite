@@ -1,0 +1,23 @@
+@import "bower_components/ionic/scss/_list.scss";
+@import "bower_components/ionic/scss/_items.scss";
+@import "bower_components/material-design-lite/src/card/_card.scss";
+
+.platform-android, .platform-override {
+  .card,
+  .list-inset {
+    @extend .card;
+    @extend .list-insert;
+  }
+
+  .card {
+    @extend .mdl-card;
+    min-height: inherit;
+
+    .item {
+      &.item-text-wrap {
+        @extend .item-text-wrap;
+        @extend .mdl-card__supporting-text;
+      }
+    }
+  }
+}

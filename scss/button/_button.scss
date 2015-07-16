@@ -1,0 +1,155 @@
+.platform-android, .platform-override {
+  .button {
+    @extend .mdl-button;
+    @extend .mdl-button--raised;
+
+    &:focus:not(:active) {
+      @include shadow-2dp();
+    }
+
+    &:hover, &:focus {
+      background-color: $button-default-bg;
+    }
+
+    &:active {
+      background-color: $button-default-active-bg;
+    }
+
+    &.disabled,
+    &[disabled] {
+      opacity: .4;
+      cursor: default !important;
+      pointer-events: none;
+    }
+
+    &.button-small {
+      @extend .button-small;
+    }
+
+    &.button-large {
+      @extend .button-large;
+    }
+
+    &.button-positive,
+    &.button-calm,
+    &.button-assertive,
+    &.button-balanced,
+    &.button-energized,
+    &.button-royal,
+    &.button-dark {
+      color: #FFFFFF;
+
+      &.disabled,
+      &[disabled] {
+        color: #FFFFFF;
+      }
+    }
+
+    &.button-light {
+      @extend .button-light;
+      @include button__coloured-states($button-light-bg, $button-light-active-bg);
+    }
+
+    &.button-stable {
+      @extend .button-stable;
+      @include button__coloured-states($button-stable-bg, $button-stable-active-bg);
+    }
+
+    &.button-positive {
+      @extend .button-positive;
+      @include button__coloured-states($button-positive-bg, $button-positive-active-bg);
+    }
+
+    &.button-calm {
+      @extend .button-calm;
+      @include button__coloured-states($button-calm-bg, $button-calm-active-bg);
+    }
+
+    &.button-assertive {
+      @extend .button-assertive;
+      @include button__coloured-states($button-assertive-bg, $button-assertive-active-bg);
+    }
+
+    &.button-balanced {
+      @extend .button-balanced;
+      @include button__coloured-states($button-balanced-bg, $button-balanced-active-bg);
+    }
+
+    &.button-energized {
+      @extend .button-energized;
+      @include button__coloured-states($button-energized-bg, $button-energized-active-bg);
+    }
+
+    &.button-royal {
+      @extend .button-royal;
+      @include button__coloured-states($button-royal-bg, $button-royal-active-bg);
+    }
+
+    &.button-dark {
+      @extend .button-dark;
+      @include button__coloured-states($button-dark-bg, $button-dark-active-bg);
+    }
+  }
+
+  .button {
+    &.button-outline, &.button-clear {
+      box-shadow:none;
+
+      &:focus:not(:active) {
+        box-shadow:none;
+      }
+
+      &.button-positive,
+      &.button-calm,
+      &.button-assertive,
+      &.button-balanced,
+      &.button-energized,
+      &.button-royal,
+      &.button-dark {
+        color: #FFFFFF;
+
+        &.disabled,
+        &[disabled] {
+          color: #FFFFFF;
+        }
+      }
+
+      &.button-light {
+        @include button__coloured-outline-states($button-dark-bg, $button-dark-bg);
+      }
+
+      &.button-stable {
+        @include button__coloured-outline-states($button-stable-bg, $button-stable-active-bg);
+        color: $button-dark-bg;
+      }
+
+      &.button-positive {
+        @include button__coloured-outline-states($button-positive-bg, $button-positive-active-bg);
+      }
+
+      &.button-calm {
+        @include button__coloured-outline-states($button-calm-bg, $button-calm-active-bg);
+      }
+
+      &.button-assertive {
+        @include button__coloured-outline-states($button-assertive-bg, $button-assertive-active-bg);
+      }
+
+      &.button-balanced {
+        @include button__coloured-outline-states($button-balanced-bg, $button-balanced-active-bg);
+      }
+
+      &.button-energized {
+        @include button__coloured-outline-states($button-energized-bg, $button-energized-active-bg);
+      }
+
+      &.button-royal {
+        @include button__coloured-outline-states($button-royal-bg, $button-royal-active-bg);
+      }
+
+      &.button-dark {
+        @include button__coloured-outline-states($button-dark-bg, $button-dark-active-bg);
+      }
+    }
+  }
+}

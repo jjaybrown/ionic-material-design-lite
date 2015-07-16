@@ -1,0 +1,17 @@
+@import "bower_components/ionic/scss/_mixins.scss";
+@import "bower_components/material-design-lite/src/_mixins.scss";
+@import "bower_components/material-design-lite/src/_color-definitions.scss";
+@import "variables";
+
+
+@import "bower_components/ionic/scss/_variables.scss";
+@import "bower_components/ionic/scss/_button.scss";
+@import "bower_components/material-design-lite/src/button/_button.scss";
+@import "mixin";
+@import "button/button";
+@import "bar/bar-header";
+@import "list/card";
+
+.platform-android, .platform-override {
+  font-family: $preferred_font;
+}
