@@ -158,4 +158,21 @@
       @extend .mdl-button__ripple-container;
     }
   }
+
+  .item__actions {
+    .button {
+      min-height: 36px;
+      height: 36px;
+      line-height: 36px;
+    }
+  }
+
+  .tab-item {
+    max-width: 100%;
+
+    .button {
+      width: 100%;
+      height: 100%;
+    }
+  }
 }

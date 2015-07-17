@@ -1,0 +1,50 @@
+.platform-android, .platform-override {
+  .item.item-avatar {
+    &:first-child {
+      min-height: 40px;
+
+      h2 {
+        margin-top:3px;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+
+    &.item-avatar--expand {
+      &:first-child {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        align-content: flex-end;
+        height: $card-cover-image-height;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+          @extend .mdl-card__title-text;
+          align-self:auto;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        p {
+          overflow: visible;
+          text-overflow: inherit;
+          color: inherit;
+        }
+
+        &.item-avatar > img:first-child {
+          top: auto;
+          bottom: 18px;
+        }
+      }
+    }
+  }
+}

@@ -19,6 +19,7 @@
 
 @mixin button__coloured-outline-states($normal, $active) {
   color: $normal;
+  background-color: transparent;
 
   &:hover {
     @extend .mdl-button:hover;
@@ -32,12 +33,10 @@
 
   &:active {
     color: $active;
-    background-color: transparent;
   }
 
   &.disabled,
   &[disabled] {
-    background-color: transparent;
     color: $normal;
   }
 

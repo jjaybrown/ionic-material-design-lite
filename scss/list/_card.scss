@@ -1,22 +1,57 @@
-@import "bower_components/ionic/scss/_list.scss";
-@import "bower_components/ionic/scss/_items.scss";
-@import "bower_components/material-design-lite/src/card/_card.scss";
-
 .platform-android, .platform-override {
   .card,
   .list-inset {
     @extend .card;
     @extend .list-insert;
+    width: auto;
   }
 
   .card {
     @extend .mdl-card;
     min-height: inherit;
 
+    &.card--expand {
+      .item {
+
+        &:first-child {
+          &.item-divider {
+            @extend .mdl-card--expand;
+
+            display: flex;
+            height: $card-cover-image-height;
+          }
+        }
+      }
+    }
+
     .item {
+      &:first-child {
+        &.item-divider {
+
+          h1,
+          h2,
+          h3,
+          h4,
+          h5 {
+            @extend .mdl-card__title-text;
+          }
+        }
+      }
+
       &.item-text-wrap {
         @extend .item-text-wrap;
         @extend .mdl-card__supporting-text;
+        width: 100%;
+      }
+
+      &:last-child.item-divider {
+        line-height: 36px;
+        font-weight: normal;
+      }
+
+      &:last-child.item-divider.item__actions {
+        @extend .mdl-card__actions;
+        border-top: none;
       }
     }
   }

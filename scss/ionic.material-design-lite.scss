@@ -6,10 +6,16 @@
 @import "bower_components/ionic/scss/_button.scss";
 @import "bower_components/material-design-lite/src/ripple/_ripple.scss";
 @import "bower_components/material-design-lite/src/button/_button.scss";
+@import "bower_components/ionic/scss/_list.scss";
+@import "bower_components/ionic/scss/_items.scss";
+@import "bower_components/material-design-lite/src/card/_card.scss";
+@import "bower_components/ionic/scss/_items.scss";
+@import "bower_components/material-design-lite/src/list/_list.scss";
 @import "mixin";
 @import "button/button";
 @import "bar/bar-header";
 @import "list/card";
+@import "list/item";
 @import "ripple";
 
 .platform-android, .platform-override {
