@@ -11,6 +11,7 @@ var karma = require('gulp-karma');
 var uglify = require('gulp-uglify');
 var coveralls = require('gulp-coveralls');
 var stripCssComments = require('gulp-strip-css-comments');
+var autoprefixer = require('gulp-autoprefixer');
 
 var paths = {
     sass: ['./scss/**/*.scss'],
@@ -36,6 +37,10 @@ gulp.task('sass', function(done) {
     gulp.src(paths.sass)
         .pipe(sass({ errLogToConsole: true }))
         .pipe(stripCssComments())
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
         .pipe(gulp.dest(paths.dist))
         .pipe(minifyCss({ keepSpecialComments: 0 }))
         .pipe(rename({ extname: '.min.css' }))
