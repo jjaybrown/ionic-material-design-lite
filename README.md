@@ -26,7 +26,13 @@ Refer to these files by adding a `<link>` and a `<script>` element into your HTM
 TBC
 
 ### Bower
-Assuming you have `wiredep` setup for your project and `bower` you can run `bower install ionic-material-design-lite` which will automatically include `ionic.material-design-lite.min.css` and `ionic.material-design-lite.min.js` into your project otherwise refer to these files by adding a `<link>` and a `<script>` element into your HTML pages.
+Assuming you have `wiredep` setup for your project and `bower` you can run:
+
+`bower install ionic-material-design-lite`
+
+This will automatically include `ionic.material-design-lite.min.css` and `ionic.material-design-lite.min.js` into your project.
+
+Otherwise refer to these files by adding a `<link>` and a `<script>` element into your HTML pages.
 
 ## Contribute
 Everyone is welcome to fork and create pull requests.
