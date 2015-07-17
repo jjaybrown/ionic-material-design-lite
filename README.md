@@ -16,8 +16,38 @@ You can override both iOS and Android platform styles to use Material Design (Li
 
 Otherwise only Android will use the Material Design (Lite) styles.
 
-##Installation
+## Installation
 
-##Contribute
+### Manually 
+You can manually add the css and js files to your project by pasting `ionic.material-design-lite.min.css` and `ionic.material-design-lite.min.js` located in the `dist` folder into your project directory.
+Refer to these files by adding a `<link>` and a `<script>` element into your HTML pages.
 
-##Development
+### CDN 
+TBC
+
+### Bower
+Assuming you have `wiredep` setup for your project and `bower` you can run `bower install ionic-material-design-lite` which will automatically include `ionic.material-design-lite.min.css` and `ionic.material-design-lite.min.js` into your project otherwise refer to these files by adding a `<link>` and a `<script>` element into your HTML pages.
+
+## Contribute
+Everyone is welcome to fork and create pull requests.
+
+### Guidelines
+1. Use BEM Methodology (https://en.bem.info/) when writing and modifying Sass files.
+2. Always write and update tests, your PR won't be accepted unless it has suitable tests written and they pass.
+
+## Development
+To get started, first install the necessary dependencies, from the root of the project:
+
+`npm install && bower install`
+
+You are good to go. But here's a helpful list of `gulp commands` to get you up to speed:
+
+`gulp dist` - processes CSS and JS files and places them into the `dist` folder
+
+`gulp test` - run jasmine/karma tests
+
+`gulp coverage` - run jasmine/karma tests with coverage
+
+`gulp scripts` - processes JS files only and minifies ready for distribution 
+
+`gulp sass` - processes Sass files and produces CSS and minifies ready for distribution 
