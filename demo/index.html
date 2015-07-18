@@ -12,6 +12,26 @@
     <script src="../bower_components/ionic/release/js/ionic.bundle.js"></script>
     <script src="../dist/ionic.material-design-lite.min.js"></script>
     <script src="js/app.js"></script>
+    <style>
+        .my-amazing-header {
+            background-color: black;
+            color: white;
+        }
+        .my-amazing-header::before {
+            background: url('http://ionicframework.com/img/docs/delorean.jpg') center / cover;
+            content: ' ';
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            bottom: -2px;
+            left: -2px;
+            opacity: 0.8;
+            z-index: -1;
+            filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="2" /></filter></svg>#filter');
+            -webkit-filter: blur(2px);
+            filter: blur(2px);
+        }
+    </style>
 </head>
 <body class="platform-android" ng-app="material-starter">
     <ion-content overflow-scroll="true">
@@ -170,7 +190,7 @@
         </div>
 
         <div class="list card">
-            <div class="item item-avatar item-avatar--expand" style="background: url('http://ionicframework.com/img/docs/delorean.jpg') center / cover; color: white;">
+            <div class="item item-avatar item-avatar--expand my-amazing-header">
                 <img src="http://ionicframework.com/img/docs/mcfly.jpg">
                 <h2>Marty McFly</h2>
                 <p>November 05, 1955</p>
