@@ -11,9 +11,11 @@
 @import "bower_components/material-design-lite/src/card/_card.scss";
 @import "bower_components/ionic/scss/_items.scss";
 @import "bower_components/material-design-lite/src/list/_list.scss";
+@import "bower_components/ionic/scss/_bar.scss";
+@import "bower_components/material-design-lite/src/layout/_layout.scss";
 @import "mixin";
 @import "button/button";
-@import "bar/bar-header";
+@import "bar/bar";
 @import "list/card";
 @import "list/item";
 @import "ripple";

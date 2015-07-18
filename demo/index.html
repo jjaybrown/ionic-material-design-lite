@@ -34,7 +34,13 @@
     </style>
 </head>
 <body class="platform-android" ng-app="material-starter">
-    <ion-content overflow-scroll="true">
+    <div class="bar bar-header bar-light">
+        <div class="h1 title">bar-light</div>
+    </div>
+    <div class="bar bar-subheader">
+        <h2 class="title">Sub Header</h2>
+    </div>
+    <ion-content overflow-scroll="true" class="has-header has-subheader">
         <p>
             <button class="button">Default</button>
             <button class="button" disabled>Default</button>

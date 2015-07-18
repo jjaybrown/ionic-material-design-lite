@@ -1,0 +1,26 @@
+.platform-android, .platform-override {
+  .bar {
+    @extend .bar;
+    height: $bar-height;
+    line-height: $bar-height;
+  }
+
+  .bar-header {
+    @extend .mdl-layout__header;
+    @extend .mdl-layout--fixed-header;
+    @extend .is-casting-shadow;
+    display: flex;
+
+    &.bar-light {
+      @extend .bar-light;
+    }
+
+    &.bar-stable {
+      @extend .bar-stable;
+    }
+
+    &.bar-positive {
+      @extend .bar-positive;
+    }
+  }
+}
