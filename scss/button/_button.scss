@@ -121,6 +121,9 @@
       &.button-stable {
         @include button__coloured-outline-states($button-stable-bg, $button-stable-active-bg);
         color: $button-dark-bg;
+        &:focus, &:hover {
+          color: $button-dark-bg;
+        }
       }
 
       &.button-positive {
