@@ -5,6 +5,7 @@
     <title></title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="../bower_components/ionic/release/css/ionic.min.css">
     <link rel="stylesheet" type="text/css" href="../dist/ionic.material-design-lite.css">
@@ -35,12 +36,11 @@
 </head>
 <body class="platform-android" ng-app="material-starter">
     <div class="bar bar-header bar-light">
-        <div class="h1 title">bar-light</div>
+        <button class="button icon ion-navicon" no-ripple></button>
+        <h1 class="title">Header Buttons</h1>
+        <button class="button">Edit</button>
     </div>
-    <div class="bar bar-subheader">
-        <h2 class="title">Sub Header</h2>
-    </div>
-    <ion-content overflow-scroll="true" class="has-header has-subheader">
+    <ion-content overflow-scroll="true" class="has-header padding">
         <p>
             <button class="button">Default</button>
             <button class="button" disabled>Default</button>

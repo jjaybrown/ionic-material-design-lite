@@ -1,0 +1,18 @@
+.platform-android, .platform-override {
+  .has-header {
+    @extend .has-header;
+    top: $bar-height;
+  }
+
+  .has-subheader {
+    @extend.has-header;
+    top: $bar-height + $bar-subheader-height;
+  }
+
+  .has-tabs-top {
+    top: $bar-height + $tabs-height;
+  }
+  .has-header.has-subheader.has-tabs-top {
+    top: $bar-height + $bar-subheader-height + $tabs-height;
+  }
+}

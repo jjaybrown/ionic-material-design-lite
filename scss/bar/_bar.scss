@@ -3,6 +3,14 @@
     @extend .bar;
     height: $bar-height;
     line-height: $bar-height;
+
+    .title {
+      @extend .mdl-layout-title;
+      position: absolute;
+      text-align: left;
+      line-height: $bar-height;
+      margin-left: 70px;
+    }
   }
 
   .bar-header {
@@ -22,5 +30,70 @@
     &.bar-positive {
       @extend .bar-positive;
     }
+
+    &.bar-calm {
+      @extend .bar-calm;
+    }
+
+    &.bar-balanced {
+      @extend .bar-balanced;
+    }
+
+    &.bar-energized {
+      @extend .bar-energized;
+    }
+
+    &.bar-assertive {
+      @extend .bar-assertive;
+    }
+
+    &.bar-royal {
+      @extend .bar-royal;
+    }
+
+    &.bar-dark {
+      @extend .bar-dark;
+    }
+
+    .bar-light,
+    .bar-stable,
+    .bar-positive,
+    .bar-calm,
+    .bar-balanced,
+    .bar-energized,
+    .bar-assertive,
+    .bar-royal,
+    .bar-dark {
+      .button {
+        //background-color: transparent !important;
+      }
+    }
+  }
+
+  .bar {
+    .button {
+      @extend .button-clear;
+      @extend .mdl-navigation__link;
+      background-color: transparent;
+      padding-left: 8px;
+      padding-right: 8px;
+      max-width: 64px;
+
+      &.icon {
+        line-height: $bar-height;
+
+        &:before {
+          line-height: $bar-height;
+        }
+      }
+    }
+  }
+
+  .bar .title + .button:last-child,
+  .bar > .button + .button:last-child,
+  .bar > .button.pull-right,
+  .bar .buttons.pull-right,
+  .bar .title + .buttons {
+    top: 8px;
   }
 }
