@@ -3231,7 +3231,7 @@ a.item-content {
 .platform-android .button.button-light.disabled, .platform-android .button.disabled.button-light, .platform-android .button.button-light[disabled], .platform-android .button[disabled].button-light, .platform-override .button.button-light.disabled, .platform-override .button.disabled.button-light, .platform-override .button.button-light[disabled], .platform-override .button[disabled].button-light {
   background-color: #FAFAFA; }
 .platform-android .button.button-light .mdl-ripple, .platform-override .button.button-light .mdl-ripple {
-  background: #FAFAFA; }
+  background: white; }
 .platform-android .button.button-stable:hover, .platform-android .button.button-stable:focus, .platform-override .button.button-stable:hover, .platform-override .button.button-stable:focus {
   background-color: #F5F5F5; }
 .platform-android .button.button-stable:active, .platform-override .button.button-stable:active {
@@ -3239,7 +3239,7 @@ a.item-content {
 .platform-android .button.button-stable.disabled, .platform-android .button.disabled.button-stable, .platform-android .button.button-stable[disabled], .platform-android .button[disabled].button-stable, .platform-override .button.button-stable.disabled, .platform-override .button.disabled.button-stable, .platform-override .button.button-stable[disabled], .platform-override .button[disabled].button-stable {
   background-color: #F5F5F5; }
 .platform-android .button.button-stable .mdl-ripple, .platform-override .button.button-stable .mdl-ripple {
-  background: #FAFAFA; }
+  background: white; }
 .platform-android .button.button-positive:hover, .platform-android .button.button-positive:focus, .platform-override .button.button-positive:hover, .platform-override .button.button-positive:focus {
   background-color: #3F51B5; }
 .platform-android .button.button-positive:active, .platform-override .button.button-positive:active {
@@ -3247,7 +3247,7 @@ a.item-content {
 .platform-android .button.button-positive.disabled, .platform-android .button.disabled.button-positive, .platform-android .button.button-positive[disabled], .platform-android .button[disabled].button-positive, .platform-override .button.button-positive.disabled, .platform-override .button.disabled.button-positive, .platform-override .button.button-positive[disabled], .platform-override .button[disabled].button-positive {
   background-color: #3F51B5; }
 .platform-android .button.button-positive .mdl-ripple, .platform-override .button.button-positive .mdl-ripple {
-  background: #FAFAFA; }
+  background: #8591d5; }
 .platform-android .button.button-calm:hover, .platform-android .button.button-calm:focus, .platform-override .button.button-calm:hover, .platform-override .button.button-calm:focus {
   background-color: #2196F3; }
 .platform-android .button.button-calm:active, .platform-override .button.button-calm:active {
@@ -3255,7 +3255,7 @@ a.item-content {
 .platform-android .button.button-calm.disabled, .platform-android .button.disabled.button-calm, .platform-android .button.button-calm[disabled], .platform-android .button[disabled].button-calm, .platform-override .button.button-calm.disabled, .platform-override .button.disabled.button-calm, .platform-override .button.button-calm[disabled], .platform-override .button[disabled].button-calm {
   background-color: #2196F3; }
 .platform-android .button.button-calm .mdl-ripple, .platform-override .button.button-calm .mdl-ripple {
-  background: #FAFAFA; }
+  background: #82c4f8; }
 .platform-android .button.button-assertive:hover, .platform-android .button.button-assertive:focus, .platform-override .button.button-assertive:hover, .platform-override .button.button-assertive:focus {
   background-color: #F44336; }
 .platform-android .button.button-assertive:active, .platform-override .button.button-assertive:active {
@@ -3263,7 +3263,7 @@ a.item-content {
 .platform-android .button.button-assertive.disabled, .platform-android .button.disabled.button-assertive, .platform-android .button.button-assertive[disabled], .platform-android .button[disabled].button-assertive, .platform-override .button.button-assertive.disabled, .platform-override .button.disabled.button-assertive, .platform-override .button.button-assertive[disabled], .platform-override .button[disabled].button-assertive {
   background-color: #F44336; }
 .platform-android .button.button-assertive .mdl-ripple, .platform-override .button.button-assertive .mdl-ripple {
-  background: #FAFAFA; }
+  background: #f99d97; }
 .platform-android .button.button-balanced:hover, .platform-android .button.button-balanced:focus, .platform-override .button.button-balanced:hover, .platform-override .button.button-balanced:focus {
   background-color: #4CAF50; }
 .platform-android .button.button-balanced:active, .platform-override .button.button-balanced:active {
@@ -3271,7 +3271,7 @@ a.item-content {
 .platform-android .button.button-balanced.disabled, .platform-android .button.disabled.button-balanced, .platform-android .button.button-balanced[disabled], .platform-android .button[disabled].button-balanced, .platform-override .button.button-balanced.disabled, .platform-override .button.disabled.button-balanced, .platform-override .button.button-balanced[disabled], .platform-override .button[disabled].button-balanced {
   background-color: #4CAF50; }
 .platform-android .button.button-balanced .mdl-ripple, .platform-override .button.button-balanced .mdl-ripple {
-  background: #FAFAFA; }
+  background: #92cf94; }
 .platform-android .button.button-energized:hover, .platform-android .button.button-energized:focus, .platform-override .button.button-energized:hover, .platform-override .button.button-energized:focus {
   background-color: #FFC107; }
 .platform-android .button.button-energized:active, .platform-override .button.button-energized:active {
@@ -3279,7 +3279,7 @@ a.item-content {
 .platform-android .button.button-energized.disabled, .platform-android .button.disabled.button-energized, .platform-android .button.button-energized[disabled], .platform-android .button[disabled].button-energized, .platform-override .button.button-energized.disabled, .platform-override .button.disabled.button-energized, .platform-override .button.button-energized[disabled], .platform-override .button[disabled].button-energized {
   background-color: #FFC107; }
 .platform-android .button.button-energized .mdl-ripple, .platform-override .button.button-energized .mdl-ripple {
-  background: #FAFAFA; }
+  background: #ffdb6d; }
 .platform-android .button.button-royal:hover, .platform-android .button.button-royal:focus, .platform-override .button.button-royal:hover, .platform-override .button.button-royal:focus {
   background-color: #673AB7; }
 .platform-android .button.button-royal:active, .platform-override .button.button-royal:active {
@@ -3287,7 +3287,7 @@ a.item-content {
 .platform-android .button.button-royal.disabled, .platform-android .button.disabled.button-royal, .platform-android .button.button-royal[disabled], .platform-android .button[disabled].button-royal, .platform-override .button.button-royal.disabled, .platform-override .button.disabled.button-royal, .platform-override .button.button-royal[disabled], .platform-override .button[disabled].button-royal {
   background-color: #673AB7; }
 .platform-android .button.button-royal .mdl-ripple, .platform-override .button.button-royal .mdl-ripple {
-  background: #FAFAFA; }
+  background: #9f80d7; }
 .platform-android .button.button-dark:hover, .platform-android .button.button-dark:focus, .platform-override .button.button-dark:hover, .platform-override .button.button-dark:focus {
   background-color: #212121; }
 .platform-android .button.button-dark:active, .platform-override .button.button-dark:active {
@@ -3295,7 +3295,7 @@ a.item-content {
 .platform-android .button.button-dark.disabled, .platform-android .button.disabled.button-dark, .platform-android .button.button-dark[disabled], .platform-android .button[disabled].button-dark, .platform-override .button.button-dark.disabled, .platform-override .button.disabled.button-dark, .platform-override .button.button-dark[disabled], .platform-override .button[disabled].button-dark {
   background-color: #212121; }
 .platform-android .button.button-dark .mdl-ripple, .platform-override .button.button-dark .mdl-ripple {
-  background: #FAFAFA; }
+  background: #545454; }
 .platform-android .button.button-outline, .platform-android .button.button-clear, .platform-override .button.button-outline, .platform-override .button.button-clear {
   box-shadow: none; }
   .platform-android .button.button-outline:focus:not(:active), .platform-android .button.button-clear:focus:not(:active), .platform-override .button.button-outline:focus:not(:active), .platform-override .button.button-clear:focus:not(:active) {

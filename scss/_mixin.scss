@@ -13,7 +13,7 @@
   }
 
   .mdl-ripple {
-    background: $light;
+    background: lighten($normal, 20%);
   }
 }
 
