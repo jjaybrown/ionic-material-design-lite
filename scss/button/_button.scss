@@ -92,6 +92,10 @@
   }
 
   .button {
+    &.button-outline {
+      border-width: 1px;
+      border-style: solid;
+    }
     &.button-outline, &.button-clear {
       box-shadow:none;
 

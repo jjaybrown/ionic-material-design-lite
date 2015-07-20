@@ -3296,6 +3296,9 @@ a.item-content {
   background-color: #212121; }
 .platform-android .button.button-dark .mdl-ripple, .platform-override .button.button-dark .mdl-ripple {
   background: #262626; }
+.platform-android .button.button-outline, .platform-override .button.button-outline {
+  border-width: 1px;
+  border-style: solid; }
 .platform-android .button.button-outline, .platform-android .button.button-clear, .platform-override .button.button-outline, .platform-override .button.button-clear {
   box-shadow: none; }
   .platform-android .button.button-outline:focus:not(:active), .platform-android .button.button-clear:focus:not(:active), .platform-override .button.button-outline:focus:not(:active), .platform-override .button.button-clear:focus:not(:active) {
@@ -3331,6 +3334,8 @@ a.item-content {
       color: #F5F5F5; }
     .platform-android .button.button-outline.button-stable .mdl-ripple, .platform-android .button.button-clear.button-stable .mdl-ripple, .platform-override .button.button-outline.button-stable .mdl-ripple, .platform-override .button.button-clear.button-stable .mdl-ripple {
       background: white; }
+    .platform-android .button.button-outline.button-stable:focus, .platform-android .button.button-outline.button-stable:hover, .platform-android .button.button-clear.button-stable:focus, .platform-android .button.button-clear.button-stable:hover, .platform-override .button.button-outline.button-stable:focus, .platform-override .button.button-outline.button-stable:hover, .platform-override .button.button-clear.button-stable:focus, .platform-override .button.button-clear.button-stable:hover {
+      color: #212121; }
   .platform-android .button.button-outline.button-positive, .platform-android .button.button-clear.button-positive, .platform-override .button.button-outline.button-positive, .platform-override .button.button-clear.button-positive {
     color: #3F51B5;
     background-color: transparent; }
