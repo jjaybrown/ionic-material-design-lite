@@ -21,7 +21,8 @@
     "tests"
   ],
   "dependencies": {
-    "material-design-lite": "https://github.com/google/material-design-lite.git#v1.0.0-rc.1"
+    "material-design-lite": "https://github.com/google/material-design-lite.git#v1.0.0-rc.1",
+    "material-design-icons": "~2.0.0"
   },
   "devDependencies": {
     "ionic": "~1.0.1"
