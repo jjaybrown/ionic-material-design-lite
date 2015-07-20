@@ -1,4 +1,7 @@
 # Material Design Lite for Ionic Framework
+
+[![Join the chat at https://gitter.im/delta98/ionic-material-design-lite](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/delta98/ionic-material-design-lite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Bring Material Design to your Ionic based applications. This simple module will update Ionic Frameworks's common components and directives to use [Google's Material Design (Lite)](http://www.getmdl.io/) for the Android platform automatically.
 
 ## Example Kitchen Sink (WIP)

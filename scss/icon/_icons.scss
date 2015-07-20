@@ -1,0 +1,9 @@
+.platform-android, .platform-override {
+  .icon:before {
+    font-family: 'Material Icons';
+  }
+
+  .ion-navicon:before {
+    content: '\e5d2';
+  }
+}
