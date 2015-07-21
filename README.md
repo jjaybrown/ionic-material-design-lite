@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/delta98/ionic-material-design-lite.png?label=ready&title=Ready)](https://waffle.io/delta98/ionic-material-design-lite)
 # Material Design Lite for Ionic Framework
 
 [![Join the chat at https://gitter.im/delta98/ionic-material-design-lite](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/delta98/ionic-material-design-lite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
