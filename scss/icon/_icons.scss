@@ -1,9 +1,85 @@
-.platform-android, .platform-override {
-  .icon:before {
-    font-family: 'Material Icons';
-  }
+@import "./_codepoints.scss";
 
-  .ion-navicon:before {
-    content: '\e5d2';
+/**
+* Add additional platform icons
+*/
+.ion-star:before,
+.ion-star-outline:before,
+.ion-star-half:before
+{
+  font-family: 'Ionicons';
+}
+
+.ion-star:before { content: $ionicon-var-ios-star; }
+.ion-star-outline:before { content: $ionicon-var-ios-star-outline; }
+.ion-star-half:before { content: $ionicon-var-ios-star-half; }
+
+$ionic-android-icon-map: (
+  'ion-arrow-up-a': $ionicon-var-android-arrow-up,
+  'ion-arrow-up-c': $ionicon-var-android-arrow-up,
+  'ion-arrow-down-a': $ionicon-var-android-arrow-down,
+  'ion-arrow-down-c': $ionicon-var-android-arrow-down,
+  'ion-arrow-left-a': $ionicon-var-android-arrow-back,
+  'ion-arrow-left-c': $ionicon-var-android-arrow-back,
+  'ion-arrow-right-a': $ionicon-var-android-arrow-forward,
+  'ion-ion-arrow-right-c': $ionicon-var-android-arrow-forward,
+  'ion-close-circled': $ionicon-var-android-cancel,
+  'ion-refresh': $ionicon-var-android-refresh,
+  'ion-loop': $ionicon-var-android-sync
+);
+
+$material-icon-map: (
+  'ion-arrow-up-b': $material-arrow-up-b,
+  'ion-arrow-down-b': $material-arrow-down-b,
+  'ion-arrow-swap': $material-swap-horizontal,
+  'ion-chevron-up': $material-chevron-up,
+  'ion-chevron-down': $material-chevron-down,
+  'ion-chevron-right': $material-chevron-right,
+  'ion-chevron-left': $material-chevron-left,
+  'ion-navicon': $material-navicon,
+  'ion-arrow-shrink': $material-shrink,
+  'ion-arrow-expand': $material-expand,
+  'ion-arrow-move': $material-arrow-move,
+  'ion-checkmark-circled': $material-check-circle,
+  'ion-checkmark': $material-checkmark,
+  'ion-close': $material-close,
+  'ion-plus': $material-plus,
+  'ion-plus-circled' : $material-plus-circled,
+  'ion-plus-circled-outline': $material-plus-circled,
+  'ion-remove': $material-minus,
+  'ion-remove-circled': $material-minus-circled,
+  'ion-remove-circled-outline': $material-minus-outlined,
+  'ion-information': $material-information,
+  'ion-information-circled': $material-information,
+  'ion-help': $material-help,
+  'ion-help-circled': $material-help,
+  'ion-help-outline': $material-help-outline,
+  'ion-backspace': $material-backspace,
+  'ion-alert': $material-alert,
+  'ion-alert-circled': $material-alert-circled,
+  'ion-alert-circled-outline': $material-alert-circled-outline,
+  'ion-shuffle': $material-shuffle,
+  'ion-home': $material-home,
+  'ion-search': $material-search,
+  'ion-flag': $material-flag,
+  'ion-star': $material-star,
+  'ion-star-outline': $material-star-outline,
+  'ion-star-half': $material-star-half
+);
+
+/**
+* Override Android icons
+*/
+.platform-android, .platform-override {
+  &.use-material-icons {
+    // Override with Ionic Android icons
+    @each $class, $code-point in $ionic-android-icon-map {
+      @include override-ionic-icon($class, $code-point, false);
+    }
+
+    // Override with Material Design icons
+    @each $class, $code-point in $material-icon-map {
+      @include override-ionic-icon($class, $code-point);
+    }
   }
 }

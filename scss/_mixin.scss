@@ -57,3 +57,14 @@
     background: lighten($active, 20%);
   }
 }
+
+@mixin override-ionic-icon($class, $code-point, $fontOverride: true) {
+  .#{$class}:before,
+  {
+    @if $fontOverride {
+      font-family: 'Material Icons';
+    }
+
+    content: $code-point;
+  }
+}
