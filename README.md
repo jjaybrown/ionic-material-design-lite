@@ -51,7 +51,7 @@ Everyone is welcome to fork and create pull requests.
 ### Branching and Issues
 Everyone is encouraged to create and resolve issues. When creating an issue ensure you provide as much detail as possible, including any supporting materials that demonstrate the issue OR if it's a feature a detailed statement as to what you are proposing, how it fits within Material Design in the context of Ionic and links to any supporting documents, libraries etc.
 
-#### Creating a Branch
+#### Creating a Branch and working on an issue
 The project uses waffle.io to manage the issues. If a branch doesn't currently exist you should follow these steps and conventions.
 
 1. After you have identified an issue you would like to work on you should comment and let others who you will be working on that issue, if it is already active proceed to Step 3.
