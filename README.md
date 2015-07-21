@@ -54,7 +54,7 @@ Everyone is encouraged to create and resolve issues. When creating an issue ensu
 #### Creating a Branch and working on an issue
 The project uses waffle.io to manage the issues. If a branch doesn't currently exist you should follow these steps and conventions.
 
-1. After you have identified an issue you would like to work on you should comment and let others who you will be working on that issue, if it is already active proceed to Step 3.
+1. After you have identified an issue you would like to work on you should comment and let others know who you will be working on that issue, if it is already active proceed to Step 3.
 2. Create a branch with the following syntax <`feat`|`bugfix`>-short-name`#ISSUENUM` e.g. `feat-material-icons#7`. The issue should have enough detail as to make others aware of what the branch is for by using the issue number associated with it.
 3. Make regular updates and notify others of your progress on the issue, likewise if you would like to be involved let the issue owner know so they can tell you how you may be able to help.
 
