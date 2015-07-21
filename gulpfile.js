@@ -103,3 +103,9 @@ gulp.task('git-check', function(done) {
     }
     done();
 });
+
+
+gulp.task('watch', function() {
+  gulp.watch(paths.js, ['scripts']);
+  gulp.watch(paths.sass, ['sass']);
+});
