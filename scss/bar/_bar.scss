@@ -80,8 +80,14 @@
       min-width: 64px;
       text-align: center;
 
+      &:hover, &:focus {
+        color: inherit;
+      }
+
       &.icon {
-        border-radius: 0;
+        &:first-child {
+          margin-left: 5px;
+        }
 
         &.icon:before,
         &:before,
