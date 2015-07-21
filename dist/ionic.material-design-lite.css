@@ -3934,10 +3934,209 @@ a.item-content {
     top: auto;
     bottom: 18px; }
 
-.platform-android .icon:before, .platform-override .icon:before {
-  font-family: 'Material Icons'; }
-.platform-android .ion-navicon:before, .platform-override .ion-navicon:before {
-  content: '\e5d2'; }
+
+.ion-star:before, .ion-star-outline:before, .ion-star-half:before, .ion-heart:before, .ion-heart-outline:before {
+  font-family: 'Ionicons'; }
+
+.ion-star:before {
+  content: "\f4b3"; }
+
+.ion-star-outline:before {
+  content: "\f4b2"; }
+
+.ion-star-half:before {
+  content: "\f4b1"; }
+
+.ion-heart:before {
+  content: "\f443"; }
+
+.ion-heart-outline:before {
+  content: "\f442"; }
+
+
+.platform-android.use-material-icons .ion-arrow-up-a:before, .platform-override.use-material-icons .ion-arrow-up-a:before {
+  content: "\f366"; }
+.platform-android.use-material-icons .ion-arrow-up-c:before, .platform-override.use-material-icons .ion-arrow-up-c:before {
+  content: "\f366"; }
+.platform-android.use-material-icons .ion-arrow-down-a:before, .platform-override.use-material-icons .ion-arrow-down-a:before {
+  content: "\f35d"; }
+.platform-android.use-material-icons .ion-arrow-down-c:before, .platform-override.use-material-icons .ion-arrow-down-c:before {
+  content: "\f35d"; }
+.platform-android.use-material-icons .ion-arrow-left-a:before, .platform-override.use-material-icons .ion-arrow-left-a:before {
+  content: "\f2ca"; }
+.platform-android.use-material-icons .ion-arrow-left-c:before, .platform-override.use-material-icons .ion-arrow-left-c:before {
+  content: "\f2ca"; }
+.platform-android.use-material-icons .ion-arrow-right-a:before, .platform-override.use-material-icons .ion-arrow-right-a:before {
+  content: "\f30f"; }
+.platform-android.use-material-icons .ion-ion-arrow-right-c:before, .platform-override.use-material-icons .ion-ion-arrow-right-c:before {
+  content: "\f30f"; }
+.platform-android.use-material-icons .ion-close-circled:before, .platform-override.use-material-icons .ion-close-circled:before {
+  content: "\f36e"; }
+.platform-android.use-material-icons .ion-refresh:before, .platform-override.use-material-icons .ion-refresh:before {
+  content: "\f3a8"; }
+.platform-android.use-material-icons .ion-loop:before, .platform-override.use-material-icons .ion-loop:before {
+  content: "\f3b1"; }
+.platform-android.use-material-icons .ion-heart:before, .platform-override.use-material-icons .ion-heart:before {
+  content: "\f388"; }
+.platform-android.use-material-icons .ion-heart-outline:before, .platform-override.use-material-icons .ion-heart-outline:before {
+  content: "\f387"; }
+.platform-android.use-material-icons .ion-clock:before, .platform-override.use-material-icons .ion-clock:before {
+  content: "\f3b3"; }
+.platform-android.use-material-icons .ion-pinpoint:before, .platform-override.use-material-icons .ion-pinpoint:before {
+  content: "\f2e9"; }
+.platform-android.use-material-icons .ion-chatboxes:before, .platform-override.use-material-icons .ion-chatboxes:before {
+  content: "\f2d4"; }
+.platform-android.use-material-icons .ion-chatbox-working:before, .platform-override.use-material-icons .ion-chatbox-working:before {
+  content: "\f3b2"; }
+.platform-android.use-material-icons .ion-compass:before, .platform-override.use-material-icons .ion-compass:before {
+  content: "\f37c"; }
+.platform-android.use-material-icons .ion-person:before, .platform-override.use-material-icons .ion-person:before {
+  content: "\f3a0"; }
+.platform-android.use-material-icons .ion-person-stalker:before, .platform-override.use-material-icons .ion-person-stalker:before {
+  content: "\f39e"; }
+.platform-android.use-material-icons .ion-person-add:before, .platform-override.use-material-icons .ion-person-add:before {
+  content: "\f39f"; }
+.platform-android.use-material-icons .ion-arrow-up-b:before, .platform-override.use-material-icons .ion-arrow-up-b:before {
+  font-family: 'Material Icons';
+  content: "\e5c7"; }
+.platform-android.use-material-icons .ion-arrow-down-b:before, .platform-override.use-material-icons .ion-arrow-down-b:before {
+  font-family: 'Material Icons';
+  content: "\e5c5"; }
+.platform-android.use-material-icons .ion-arrow-swap:before, .platform-override.use-material-icons .ion-arrow-swap:before {
+  font-family: 'Material Icons';
+  content: "\e8d4"; }
+.platform-android.use-material-icons .ion-chevron-up:before, .platform-override.use-material-icons .ion-chevron-up:before {
+  font-family: 'Material Icons';
+  content: "\e5ce"; }
+.platform-android.use-material-icons .ion-chevron-down:before, .platform-override.use-material-icons .ion-chevron-down:before {
+  font-family: 'Material Icons';
+  content: "\e5cf"; }
+.platform-android.use-material-icons .ion-chevron-right:before, .platform-override.use-material-icons .ion-chevron-right:before {
+  font-family: 'Material Icons';
+  content: "\e5cc"; }
+.platform-android.use-material-icons .ion-chevron-left:before, .platform-override.use-material-icons .ion-chevron-left:before {
+  font-family: 'Material Icons';
+  content: "\e5cb"; }
+.platform-android.use-material-icons .ion-navicon:before, .platform-override.use-material-icons .ion-navicon:before {
+  font-family: 'Material Icons';
+  content: "\e5d2"; }
+.platform-android.use-material-icons .ion-arrow-shrink:before, .platform-override.use-material-icons .ion-arrow-shrink:before {
+  font-family: 'Material Icons';
+  content: "\e5d1"; }
+.platform-android.use-material-icons .ion-arrow-expand:before, .platform-override.use-material-icons .ion-arrow-expand:before {
+  font-family: 'Material Icons';
+  content: "\e5d0"; }
+.platform-android.use-material-icons .ion-arrow-move:before, .platform-override.use-material-icons .ion-arrow-move:before {
+  font-family: 'Material Icons';
+  content: "\e89f"; }
+.platform-android.use-material-icons .ion-checkmark-circled:before, .platform-override.use-material-icons .ion-checkmark-circled:before {
+  font-family: 'Material Icons';
+  content: "\e86c"; }
+.platform-android.use-material-icons .ion-checkmark:before, .platform-override.use-material-icons .ion-checkmark:before {
+  font-family: 'Material Icons';
+  content: "\e5ca"; }
+.platform-android.use-material-icons .ion-close:before, .platform-override.use-material-icons .ion-close:before {
+  font-family: 'Material Icons';
+  content: "\e5cd"; }
+.platform-android.use-material-icons .ion-plus:before, .platform-override.use-material-icons .ion-plus:before {
+  font-family: 'Material Icons';
+  content: "\e145"; }
+.platform-android.use-material-icons .ion-plus-circled:before, .platform-override.use-material-icons .ion-plus-circled:before {
+  font-family: 'Material Icons';
+  content: "\e147"; }
+.platform-android.use-material-icons .ion-plus-circled-outline:before, .platform-override.use-material-icons .ion-plus-circled-outline:before {
+  font-family: 'Material Icons';
+  content: "\e147"; }
+.platform-android.use-material-icons .ion-remove:before, .platform-override.use-material-icons .ion-remove:before {
+  font-family: 'Material Icons';
+  content: "\e15b"; }
+.platform-android.use-material-icons .ion-remove-circled:before, .platform-override.use-material-icons .ion-remove-circled:before {
+  font-family: 'Material Icons';
+  content: "\e15c"; }
+.platform-android.use-material-icons .ion-remove-circled-outline:before, .platform-override.use-material-icons .ion-remove-circled-outline:before {
+  font-family: 'Material Icons';
+  content: "\e15d"; }
+.platform-android.use-material-icons .ion-information:before, .platform-override.use-material-icons .ion-information:before {
+  font-family: 'Material Icons';
+  content: "\e88e"; }
+.platform-android.use-material-icons .ion-information-circled:before, .platform-override.use-material-icons .ion-information-circled:before {
+  font-family: 'Material Icons';
+  content: "\e88e"; }
+.platform-android.use-material-icons .ion-help:before, .platform-override.use-material-icons .ion-help:before {
+  font-family: 'Material Icons';
+  content: "\e887"; }
+.platform-android.use-material-icons .ion-help-circled:before, .platform-override.use-material-icons .ion-help-circled:before {
+  font-family: 'Material Icons';
+  content: "\e887"; }
+.platform-android.use-material-icons .ion-help-outline:before, .platform-override.use-material-icons .ion-help-outline:before {
+  font-family: 'Material Icons';
+  content: "\e8fd"; }
+.platform-android.use-material-icons .ion-backspace:before, .platform-override.use-material-icons .ion-backspace:before {
+  font-family: 'Material Icons';
+  content: "\e14a"; }
+.platform-android.use-material-icons .ion-alert:before, .platform-override.use-material-icons .ion-alert:before {
+  font-family: 'Material Icons';
+  content: "\e002"; }
+.platform-android.use-material-icons .ion-alert-circled:before, .platform-override.use-material-icons .ion-alert-circled:before {
+  font-family: 'Material Icons';
+  content: "\e000"; }
+.platform-android.use-material-icons .ion-alert-circled-outline:before, .platform-override.use-material-icons .ion-alert-circled-outline:before {
+  font-family: 'Material Icons';
+  content: "\e001"; }
+.platform-android.use-material-icons .ion-shuffle:before, .platform-override.use-material-icons .ion-shuffle:before {
+  font-family: 'Material Icons';
+  content: "\e043"; }
+.platform-android.use-material-icons .ion-home:before, .platform-override.use-material-icons .ion-home:before {
+  font-family: 'Material Icons';
+  content: "\e88a"; }
+.platform-android.use-material-icons .ion-search:before, .platform-override.use-material-icons .ion-search:before {
+  font-family: 'Material Icons';
+  content: "\e8b6"; }
+.platform-android.use-material-icons .ion-flag:before, .platform-override.use-material-icons .ion-flag:before {
+  font-family: 'Material Icons';
+  content: "\e153"; }
+.platform-android.use-material-icons .ion-star:before, .platform-override.use-material-icons .ion-star:before {
+  font-family: 'Material Icons';
+  content: "\e838"; }
+.platform-android.use-material-icons .ion-star-outline:before, .platform-override.use-material-icons .ion-star-outline:before {
+  font-family: 'Material Icons';
+  content: "\e83a"; }
+.platform-android.use-material-icons .ion-star-half:before, .platform-override.use-material-icons .ion-star-half:before {
+  font-family: 'Material Icons';
+  content: "\e839"; }
+.platform-android.use-material-icons .ion-more:before, .platform-override.use-material-icons .ion-more:before {
+  font-family: 'Material Icons';
+  content: "\e5d3"; }
+.platform-android.use-material-icons .ion-grid:before, .platform-override.use-material-icons .ion-grid:before {
+  font-family: 'Material Icons';
+  content: "\e5c3"; }
+.platform-android.use-material-icons .ion-calendar:before, .platform-override.use-material-icons .ion-calendar:before {
+  font-family: 'Material Icons';
+  content: "\e8a3"; }
+.platform-android.use-material-icons .ion-navigate:before, .platform-override.use-material-icons .ion-navigate:before {
+  font-family: 'Material Icons';
+  content: "\e55d"; }
+.platform-android.use-material-icons .ion-location:before, .platform-override.use-material-icons .ion-location:before {
+  font-family: 'Material Icons';
+  content: "\e55f"; }
+.platform-android.use-material-icons .ion-pin:before, .platform-override.use-material-icons .ion-pin:before {
+  font-family: 'Material Icons';
+  content: "\e55e"; }
+.platform-android.use-material-icons .ion-map:before, .platform-override.use-material-icons .ion-map:before {
+  font-family: 'Material Icons';
+  content: "\e55b"; }
+.platform-android.use-material-icons .ion-locked:before, .platform-override.use-material-icons .ion-locked:before {
+  font-family: 'Material Icons';
+  content: "\e898"; }
+.platform-android.use-material-icons .ion-unlocked:before, .platform-override.use-material-icons .ion-unlocked:before {
+  font-family: 'Material Icons';
+  content: "\e899"; }
+.platform-android.use-material-icons .ion-chatbubble:before, .platform-override.use-material-icons .ion-chatbubble:before {
+  font-family: 'Material Icons';
+  content: "\e0ca"; }
+.platform-android.use-material-icons .ion-chatbubble-working:before, .platform-override.use-material-icons .ion-chatbubble-working:before {
+  font-family: 'Material Icons';
+  content: "\e0b7"; }
 
 .platform-android, .platform-override {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; }
