@@ -1,5 +1,15 @@
 @mixin button__coloured-states($normal, $active) {
-  &:hover, &:focus {
+
+  &:hover {
+    @extend .mdl-button:hover;
+    background-color: $normal;
+    &:not(:active) {
+      @include shadow-2dp();
+    }
+  }
+
+  &:focus {
+    @extend .mdl-button:focus;
     background-color: $normal;
   }
 
@@ -24,6 +34,9 @@
   &:hover {
     @extend .mdl-button:hover;
     color: $normal;
+    &:not(:active) {
+      box-shadow: none;
+    }
   }
 
   &:focus {
