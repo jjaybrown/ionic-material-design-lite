@@ -77,13 +77,24 @@
       background-color: transparent;
       padding-left: 8px;
       padding-right: 8px;
-      max-width: 64px;
+      min-width: 64px;
+      text-align: center;
 
       &.icon {
-        line-height: $bar-height;
+        border-radius: 0;
 
-        &:before {
-          line-height: $bar-height;
+        &.icon:before,
+        &:before,
+        &.icon-left:before,
+        &.icon-right:before {
+          padding: 0;
+          transform: translate(- ($button-fab-font-size / 2) - 4, - $button-fab-font-size / 2);
+        }
+
+        & .mdl-button__ripple-container {
+          height: 32px;
+          width: 32px;
+          transform: translate($button-fab-font-size / 2, $button-fab-font-size / 2);
         }
       }
     }

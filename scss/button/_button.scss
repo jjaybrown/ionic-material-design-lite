@@ -3,8 +3,13 @@
     @extend .mdl-button;
     @extend .mdl-button--raised;
 
+    &.activated, &.active {
+      @extend .mdl-button;
+      @extend .mdl-button--raised;
+    }
+
     &:focus:not(:active) {
-      //@include shadow-2dp();
+      @include shadow-2dp();
     }
 
     &:hover, &:focus {
@@ -92,11 +97,15 @@
   }
 
   .button {
-    &.button-outline, &.button-clear {
+    &.button-outline, &.button-clear, &.button-icon {
       box-shadow:none;
 
       &:focus:not(:active) {
         box-shadow:none;
+      }
+
+      &:focus, &:hover {
+        color: $button-dark-bg;
       }
 
       &.button-positive,
@@ -121,6 +130,7 @@
       &.button-stable {
         @include button__coloured-outline-states($button-stable-bg, $button-stable-active-bg);
         color: $button-dark-bg;
+
         &:focus, &:hover {
           color: $button-dark-bg;
         }
@@ -154,6 +164,55 @@
         @include button__coloured-outline-states($button-dark-bg, $button-dark-active-bg);
       }
     }
+
+    &.button--fab {
+      @extend .mdl-button--fab;
+
+      &.button-light {
+        @extend .button-light;
+        @include button__coloured-states($button-light-bg, $button-light-active-bg);
+      }
+
+      &.button-stable {
+        @extend .button-stable;
+        @include button__coloured-states($button-stable-bg, $button-stable-active-bg);
+      }
+
+      &.button-positive {
+        @extend .button-positive;
+        @include button__coloured-states($button-positive-bg, $button-positive-active-bg);
+      }
+
+      &.button-calm {
+        @extend .button-calm;
+        @include button__coloured-states($button-calm-bg, $button-calm-active-bg);
+      }
+
+      &.button-assertive {
+        @extend .button-assertive;
+        @include button__coloured-states($button-assertive-bg, $button-assertive-active-bg);
+      }
+
+      &.button-balanced {
+        @extend .button-balanced;
+        @include button__coloured-states($button-balanced-bg, $button-balanced-active-bg);
+      }
+
+      &.button-energized {
+        @extend .button-energized;
+        @include button__coloured-states($button-energized-bg, $button-energized-active-bg);
+      }
+
+      &.button-royal {
+        @extend .button-royal;
+        @include button__coloured-states($button-royal-bg, $button-royal-active-bg);
+      }
+
+      &.button-dark {
+        @extend .button-dark;
+        @include button__coloured-states($button-dark-bg, $button-dark-active-bg);
+      }
+    }
   }
 
   .button {
@@ -176,6 +235,37 @@
     .button {
       width: 100%;
       height: 100%;
+    }
+  }
+
+  .button {
+    &.button-icon, &.icon {
+      @extend .mdl-button--icon;
+      background-color: transparent;
+      min-height: inherit;
+      border-radius: 0;
+      height: 32px;
+      width: 32px;
+
+      &.icon:before,
+      &:before,
+      &.icon-left:before,
+      &.icon-right:before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 0;
+        transform: translate(- $button-fab-font-size / 2, - $button-fab-font-size / 2);
+        line-height: $button-fab-font-size;
+        width: $button-fab-font-size;
+        font-size: $button-fab-font-size;
+
+        & .mdl-button__ripple-container {
+          height: 32px;
+          width: 32px;
+          transform: translate($button-fab-font-size / 2, $button-fab-font-size / 2);
+        }
+      }
     }
   }
 }
