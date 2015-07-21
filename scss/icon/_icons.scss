@@ -5,7 +5,9 @@
 */
 .ion-star:before,
 .ion-star-outline:before,
-.ion-star-half:before
+.ion-star-half:before,
+.ion-heart:before,
+.ion-heart-outline:before
 {
   font-family: 'Ionicons';
 }
@@ -13,6 +15,8 @@
 .ion-star:before { content: $ionicon-var-ios-star; }
 .ion-star-outline:before { content: $ionicon-var-ios-star-outline; }
 .ion-star-half:before { content: $ionicon-var-ios-star-half; }
+.ion-heart:before { content: $ionicon-var-ios-heart; }
+.ion-heart-outline:before { content: $ionicon-var-ios-heart-outline; }
 
 $ionic-android-icon-map: (
   'ion-arrow-up-a': $ionicon-var-android-arrow-up,
@@ -25,7 +29,17 @@ $ionic-android-icon-map: (
   'ion-ion-arrow-right-c': $ionicon-var-android-arrow-forward,
   'ion-close-circled': $ionicon-var-android-cancel,
   'ion-refresh': $ionicon-var-android-refresh,
-  'ion-loop': $ionicon-var-android-sync
+  'ion-loop': $ionicon-var-android-sync,
+  'ion-heart': $ionicon-var-android-favorite,
+  'ion-heart-outline': $ionicon-var-android-favorite-outline,
+  'ion-clock': $ionicon-var-android-time,
+  'ion-pinpoint': $ionicon-var-android-locate,
+  'ion-chatboxes': $ionicon-var-android-chat,
+  'ion-chatbox-working': $ionicon-var-android-textsms,
+  'ion-compass': $ionicon-var-android-compass,
+  'ion-person': $ionicon-var-android-person,
+  'ion-person-stalker': $ionicon-var-android-people,
+  'ion-person-add': $ionicon-var-android-person-add
 );
 
 $material-icon-map: (
@@ -64,7 +78,18 @@ $material-icon-map: (
   'ion-flag': $material-flag,
   'ion-star': $material-star,
   'ion-star-outline': $material-star-outline,
-  'ion-star-half': $material-star-half
+  'ion-star-half': $material-star-half,
+  'ion-more': $material-more,
+  'ion-grid': $material-grid,
+  'ion-calendar': $material-calendar,
+  'ion-navigate': $material-navigation,
+  'ion-location': $material-location,
+  'ion-pin': $material-pin-drop,
+  'ion-map': $material-map,
+  'ion-locked': $material-lock-closed,
+  'ion-unlocked': $material-lock-open,
+  'ion-chatbubble': $material-chat-bubble,
+  'ion-chatbubble-working': $material-chat-working
 );
 
 /**
