@@ -17,6 +17,7 @@
 @import "bower_components/ionic/scss/_bar.scss";
 @import "bower_components/material-design-lite/src/layout/_layout.scss";
 @import "bower_components/ionic/scss/ionicons/_ionicons-variables.scss";
+@import "bower_components/material-design-lite/src/typography/_typography.scss";
 @import "mixin";
 @import "button/button";
 @import "bar/bar";
@@ -24,6 +25,7 @@
 @import "list/item";
 @import "ripple";
 @import "icon/icons";
+@import "content/content";
 
 .platform-android, .platform-override {
   font-family: $preferred_font;
