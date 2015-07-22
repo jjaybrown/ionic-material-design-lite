@@ -14,5 +14,6 @@ $dark:                            #212121;
 /**
 * Bars
 */
-
 $bar-height: 56px; // @TODO assign only to android
+$bar-subheader-height: 48px;
+$expanded-bar-height: ($bar-height * 2);

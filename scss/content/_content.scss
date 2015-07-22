@@ -1,0 +1,5 @@
+.platform-android, .platform-override {
+  .has-expanded-header.has-subheader {
+    top: $expanded-bar-height + $bar-subheader-height;
+  }
+}

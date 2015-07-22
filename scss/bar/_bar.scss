@@ -3,6 +3,31 @@
     @extend .bar;
     height: $bar-height;
     line-height: $bar-height;
+  }
+
+  .bar-header {
+    @extend .mdl-layout__header;
+    @extend .mdl-layout--fixed-header;
+    @extend .is-casting-shadow;
+    display: flex;
+
+    &.bar-header--expanded {
+      height: $expanded-bar-height;
+
+      .title {
+        @include typo-headline();
+        margin-top: $bar-height;
+        line-height: $bar-height;
+      }
+
+      + .has-header {
+        top: $expanded-bar-height;
+      }
+
+      + .bar-subheader {
+        top: $expanded-bar-height;
+      }
+    }
 
     .title {
       @extend .mdl-layout-title;
@@ -11,13 +36,6 @@
       line-height: $bar-height;
       margin-left: 70px;
     }
-  }
-
-  .bar-header {
-    @extend .mdl-layout__header;
-    @extend .mdl-layout--fixed-header;
-    @extend .is-casting-shadow;
-    display: flex;
 
     &.bar-light {
       @extend .bar-light;
@@ -70,6 +88,19 @@
     }
   }
 
+  .bar.bar-subheader {
+    top: $bar-height - 1;
+    height: $bar-subheader-height;
+
+    .title {
+        @extend .mdl-typography--subhead-color-contrast;
+        text-align: left;
+        line-height: $bar-subheader-height;
+        opacity: 0.54;
+        font-weight: 500;
+    }
+  }
+
   .bar {
     .button {
       @extend .button-clear;
@@ -85,6 +116,9 @@
       }
 
       &.icon {
+        min-height: $bar-height - 1;
+        border-radius: 0;
+
         &:first-child {
           margin-left: 5px;
         }
