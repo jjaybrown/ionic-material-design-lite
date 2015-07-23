@@ -1,0 +1,74 @@
+.platform-android, .platform-override {
+  .tabs-top > .tabs, .tabs.tabs-top {
+    top: $bar-height - 1;
+  }
+
+  .tabs, .tabs-striped.tabs {
+    @extend .mdl-tabs__tab-bar;
+  }
+
+  .tabs-top.tabs-striped .tab-item.tab-item-active,
+  .tabs-bottom.tabs-striped .tab-item.tab-item-active{
+    border: none;
+  }
+
+  .tab-item {
+    @extend .mdl-tabs__tab;
+
+    &.tab-item-active:before {
+      height: 2px;
+      width: 100%;
+      display: block;
+      content: " ";
+      bottom: 0px;
+      left: 0px;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.54);
+      animation: border-expand 0.2s cubic-bezier(0.4, 0.0, 0.4, 1) 0.01s alternate forwards;
+      transition: all 1s cubic-bezier(0.4, 0.0, 1, 1);
+    }
+  }
+
+  @include tab-colour-mdl-ripple('tabs-standard', $tabs-light-bg, true);
+  @include tab-colour-mdl-ripple('tabs-light', $tabs-light-bg, true);
+  @include tab-colour-mdl-ripple('tabs-stable', $tabs-stable-bg, true);
+  @include tab-colour-mdl-ripple('tabs-positive', $tabs-positive-bg);
+  @include tab-colour-mdl-ripple('tabs-calm', $tabs-calm-bg);
+  @include tab-colour-mdl-ripple('tabs-assertive', $tabs-assertive-bg);
+  @include tab-colour-mdl-ripple('tabs-balanced', $tabs-balanced-bg);
+  @include tab-colour-mdl-ripple('tabs-energized', $tabs-energized-bg);
+  @include tab-colour-mdl-ripple('tabs-royal', $tabs-royal-bg);
+  @include tab-colour-mdl-ripple('tabs-dark', $tabs-dark-bg);
+
+  @include tab-border-color('tabs-color-light', $light);
+  @include tab-border-color('tabs-color-stable', $stable);
+  @include tab-border-color('tabs-color-positive', $positive);
+  @include tab-border-color('tabs-color-calm', $calm);
+  @include tab-border-color('tabs-color-assertive', $assertive);
+  @include tab-border-color('tabs-color-balanced', $balanced);
+  @include tab-border-color('tabs-color-energized', $energized);
+  @include tab-border-color('tabs-color-royal', $royal);
+  @include tab-border-color('tabs-color-dark', $dark);
+
+  @include mdl-tabs-striped('tabs-light', $dark, $light);
+  @include mdl-tabs-striped('tabs-stable', $dark, $stable);
+  @include mdl-tabs-striped('tabs-positive', $light, $positive);
+  @include mdl-tabs-striped('tabs-calm', $light, $calm);
+  @include mdl-tabs-striped('tabs-assertive', $light, $assertive);
+  @include mdl-tabs-striped('tabs-balanced', $light, $balanced);
+  @include mdl-tabs-striped('tabs-energized', $light, $energized);
+  @include mdl-tabs-striped('tabs-royal', $light, $royal);
+  @include mdl-tabs-striped('tabs-dark', $light, $dark);
+
+  @keyframes border-expand {
+    0% {
+      opacity: 0;
+      width: 0;
+    }
+
+    100% {
+      opacity: 1;
+      width: 100%;
+    }
+  }
+}

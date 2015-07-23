@@ -58,13 +58,91 @@
   }
 }
 
-@mixin override-ionic-icon($class, $code-point, $fontOverride: true) {
-  .#{$class}:before,
+@mixin override-ionic-icon($style, $code-point, $fontOverride: true) {
+  .#{$style}:before,
   {
     @if $fontOverride {
       font-family: 'Material Icons';
     }
 
     content: $code-point;
+  }
+}
+
+@mixin tab-colour-mdl-ripple($style, $color, $darken: false) {
+  .#{$style} {
+    .mdl-tabs__tab .mdl-tabs__ripple-container {
+      & .mdl-ripple {
+        @if $darken {
+          background: darken($color, 20%);
+        } @else {
+          background: lighten($color, 20%);
+        }
+      }
+    }
+  }
+}
+
+@mixin tab-border-color($style, $color) {
+  .#{$style} {
+    .tab-item, .mdl-tabs__tab {
+      color: rgba($color, $tabs-striped-off-opacity);
+
+      &.tab-item-active {
+        color: $color;
+      }
+
+      &.tab-item-active:before {
+        background: $color;
+      }
+    }
+
+    .mdl-tabs__tab .mdl-tabs__ripple-container {
+      & .mdl-ripple {
+        background: lighten($color, 20%);
+      }
+    }
+  }
+}
+
+@mixin mdl-tabs-striped($style, $color, $background) {
+  .#{$style} {
+    .tabs, .tabs-striped.tabs {
+      background-color: $background;
+    }
+    .tab-item, .mdl-tabs__tab {
+      color: rgba($color, $tabs-striped-off-opacity);
+      opacity: 1;
+      .badge {
+        @extend .mdl-badge;
+      }
+      &.tab-item-active,
+      &.active,
+      &.activated {
+        color: $color;
+        border-style: solid;
+        border-width: 0;
+        border-color: $color;
+      }
+
+      &.tab-item-active:before {
+        background: $color;
+      }
+    }
+  }
+  .tabs-top{
+    .tab-item {
+      &.tab-item-active,
+      &.active,
+      &.activated {
+        .badge {
+          top: 10%;
+        }
+      }
+
+      .badge {
+        top: 10%;
+      }
+    }
   }
 }
