@@ -1,10 +1,9 @@
+@import "variables";
+@import "bower_components/ionic/scss/_variables.scss";
 @import "bower_components/ionic/scss/_mixins.scss";
+@import "bower_components/ionic/scss/_scaffolding.scss";
 @import "bower_components/material-design-lite/src/_mixins.scss";
 @import "bower_components/material-design-lite/src/_color-definitions.scss";
-@import "bower_components/ionic/scss/_variables.scss";
-// Keep  Scaffolding above variables to ensure we don't override defaults for iOS
-@import "bower_components/ionic/scss/_scaffolding.scss";
-@import "variables";
 @import "scaffolding";
 @import "bower_components/ionic/scss/_button.scss";
 @import "bower_components/material-design-lite/src/ripple/_ripple.scss";
@@ -18,6 +17,8 @@
 @import "bower_components/material-design-lite/src/layout/_layout.scss";
 @import "bower_components/ionic/scss/ionicons/_ionicons-variables.scss";
 @import "bower_components/material-design-lite/src/typography/_typography.scss";
+@import "bower_components/ionic/scss/_tabs.scss";
+@import "bower_components/material-design-lite/src/tabs/_tabs.scss";
 @import "mixin";
 @import "button/button";
 @import "bar/bar";
@@ -26,6 +27,8 @@
 @import "ripple";
 @import "icon/icons";
 @import "content/content";
+@import "tabs/tabs";
+@import "badge";
 
 .platform-android, .platform-override {
   font-family: $preferred_font;

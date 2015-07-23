@@ -10,6 +10,12 @@
     @extend .mdl-layout--fixed-header;
     @extend .is-casting-shadow;
     display: flex;
+    z-index: 9;
+
+    &.not-casting-shadow {
+      box-shadow: none;
+      z-index: inherit;
+    }
 
     &.bar-header--expanded {
       height: $expanded-bar-height;
@@ -26,6 +32,10 @@
 
       + .bar-subheader {
         top: $expanded-bar-height;
+      }
+
+      + .tabs, + .tabs-top > .tabs, .tabs.tabs-top {
+        top: $expanded-bar-height - 1;
       }
     }
 
@@ -83,7 +93,7 @@
     .bar-royal,
     .bar-dark {
       .button {
-        //background-color: transparent !important;
+        background-color: transparent !important;
       }
     }
   }
