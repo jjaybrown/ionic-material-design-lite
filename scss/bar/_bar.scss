@@ -7,6 +7,14 @@
     padding: 0;
   }
 
+  .not-casting-shadow {
+    .bar-header {
+      box-shadow: none;
+      z-index: inherit;
+    }
+
+  }
+
   .bar-header {
     @include shadow-2dp();
     display: flex;
@@ -46,8 +54,12 @@
       line-height: $bar-height;
     }
 
-    .button:first-child + .title, .buttons-left + .title {
+    .button:first-child + .title, .buttons.buttons-left + .title {
       left: 72px !important; // Don't want nav transition to change position
+    }
+
+    .buttons.hide + .title {
+      left: inherit !important; // Don't want nav transition to change position
     }
 
     &.bar-light {

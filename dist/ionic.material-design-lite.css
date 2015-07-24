@@ -1714,7 +1714,7 @@ a.item-content {
   .mdl-card__title.mdl-card--border {
     border-bottom: 1px solid #ccc; }
 
-.mdl-card__title-text, .platform-android .card .item:first-child.item-divider h1, .platform-android .list-inset .item:first-child.item-divider h1, .platform-android .card .item:first-child.item-divider h2, .platform-android .list-inset .item:first-child.item-divider h2, .platform-android .card .item:first-child.item-divider h3, .platform-android .list-inset .item:first-child.item-divider h3, .platform-android .card .item:first-child.item-divider h4, .platform-android .list-inset .item:first-child.item-divider h4, .platform-android .card .item:first-child.item-divider h5, .platform-android .list-inset .item:first-child.item-divider h5, .platform-override .card .item:first-child.item-divider h1, .platform-override .list-inset .item:first-child.item-divider h1, .platform-override .card .item:first-child.item-divider h2, .platform-override .list-inset .item:first-child.item-divider h2, .platform-override .card .item:first-child.item-divider h3, .platform-override .list-inset .item:first-child.item-divider h3, .platform-override .card .item:first-child.item-divider h4, .platform-override .list-inset .item:first-child.item-divider h4, .platform-override .card .item:first-child.item-divider h5, .platform-override .list-inset .item:first-child.item-divider h5, .platform-android .item.item-avatar.item-avatar--expand:first-child h1, .platform-android .item.item-avatar.item-avatar--expand:first-child h2, .platform-android .item.item-avatar.item-avatar--expand:first-child h3, .platform-android .item.item-avatar.item-avatar--expand:first-child h4, .platform-android .item.item-avatar.item-avatar--expand:first-child h5, .platform-override .item.item-avatar.item-avatar--expand:first-child h1, .platform-override .item.item-avatar.item-avatar--expand:first-child h2, .platform-override .item.item-avatar.item-avatar--expand:first-child h3, .platform-override .item.item-avatar.item-avatar--expand:first-child h4, .platform-override .item.item-avatar.item-avatar--expand:first-child h5 {
+.mdl-card__title-text, .platform-android .card .item:first-child.item-divider h1, .platform-android .list-inset .item:first-child.item-divider h1, .platform-android .card .item:first-child.item-divider h2, .platform-android .list-inset .item:first-child.item-divider h2, .platform-android .card .item:first-child.item-divider h3, .platform-android .list-inset .item:first-child.item-divider h3, .platform-android .card .item:first-child.item-divider h4, .platform-android .list-inset .item:first-child.item-divider h4, .platform-android .card .item:first-child.item-divider h5, .platform-android .list-inset .item:first-child.item-divider h5, .platform-override .card .item:first-child.item-divider h1, .platform-override .list-inset .item:first-child.item-divider h1, .platform-override .card .item:first-child.item-divider h2, .platform-override .list-inset .item:first-child.item-divider h2, .platform-override .card .item:first-child.item-divider h3, .platform-override .list-inset .item:first-child.item-divider h3, .platform-override .card .item:first-child.item-divider h4, .platform-override .list-inset .item:first-child.item-divider h4, .platform-override .card .item:first-child.item-divider h5, .platform-override .list-inset .item:first-child.item-divider h5, .platform-android .item.item-avatar h1, .platform-android .item.item-avatar h2, .platform-android .item.item-avatar h3, .platform-android .item.item-avatar h4, .platform-android .item.item-avatar h5, .platform-override .item.item-avatar h1, .platform-override .item.item-avatar h2, .platform-override .item.item-avatar h3, .platform-override .item.item-avatar h4, .platform-override .item.item-avatar h5 {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
@@ -5180,6 +5180,9 @@ ion-tabs.tabs-color-active-dark .tab-item {
   line-height: 56px;
   background-image: none !important;
   padding: 0; }
+.platform-android .not-casting-shadow .bar-header, .platform-override .not-casting-shadow .bar-header {
+  box-shadow: none;
+  z-index: inherit; }
 .platform-android .bar-header, .platform-override .bar-header {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   display: -webkit-flex;
@@ -5209,8 +5212,10 @@ ion-tabs.tabs-color-active-dark .tab-item {
     position: absolute;
     text-align: left;
     line-height: 56px; }
-  .platform-android .bar-header .button:first-child + .title, .platform-android .bar-header .buttons-left + .title, .platform-override .bar-header .button:first-child + .title, .platform-override .bar-header .buttons-left + .title {
+  .platform-android .bar-header .button:first-child + .title, .platform-android .bar-header .buttons.buttons-left + .title, .platform-override .bar-header .button:first-child + .title, .platform-override .bar-header .buttons.buttons-left + .title {
     left: 72px !important; }
+  .platform-android .bar-header .buttons.hide + .title, .platform-override .bar-header .buttons.hide + .title {
+    left: inherit !important; }
   .platform-android .bar-header .bar-light, .platform-android .bar-header .bar-stable, .platform-android .bar-header .bar-positive, .platform-android .bar-header .bar-calm, .platform-android .bar-header .bar-balanced, .platform-android .bar-header .bar-energized, .platform-android .bar-header .bar-assertive, .platform-android .bar-header .bar-royal, .platform-android .bar-header .bar-dark, .platform-override .bar-header .bar-light, .platform-override .bar-header .bar-stable, .platform-override .bar-header .bar-positive, .platform-override .bar-header .bar-calm, .platform-override .bar-header .bar-balanced, .platform-override .bar-header .bar-energized, .platform-override .bar-header .bar-assertive, .platform-override .bar-header .bar-royal, .platform-override .bar-header .bar-dark {
     background-image: none !important; }
     .platform-android .bar-header .bar-light .button, .platform-android .bar-header .bar-stable .button, .platform-android .bar-header .bar-positive .button, .platform-android .bar-header .bar-calm .button, .platform-android .bar-header .bar-balanced .button, .platform-android .bar-header .bar-energized .button, .platform-android .bar-header .bar-assertive .button, .platform-android .bar-header .bar-royal .button, .platform-android .bar-header .bar-dark .button, .platform-override .bar-header .bar-light .button, .platform-override .bar-header .bar-stable .button, .platform-override .bar-header .bar-positive .button, .platform-override .bar-header .bar-calm .button, .platform-override .bar-header .bar-balanced .button, .platform-override .bar-header .bar-energized .button, .platform-override .bar-header .bar-assertive .button, .platform-override .bar-header .bar-royal .button, .platform-override .bar-header .bar-dark .button {
@@ -5262,8 +5267,6 @@ ion-tabs.tabs-color-active-dark .tab-item {
   width: auto; }
 .platform-android .card, .platform-android .list-inset, .platform-override .card, .platform-override .list-inset {
   min-height: inherit; }
-  .platform-android .card h2, .platform-android .list-inset h2, .platform-override .card h2, .platform-override .list-inset h2 {
-    line-height: 19px; }
   .platform-android .card.card--expand .item:first-child.item-divider, .platform-android .card--expand.card .item:first-child.item-divider, .platform-android .card--expand.list-inset .item:first-child.item-divider, .platform-override .card.card--expand .item:first-child.item-divider, .platform-override .card--expand.card .item:first-child.item-divider, .platform-override .card--expand.list-inset .item:first-child.item-divider {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -5281,10 +5284,12 @@ ion-tabs.tabs-color-active-dark .tab-item {
 
 .platform-android .item.item-avatar:first-child, .platform-override .item.item-avatar:first-child {
   min-height: 40px; }
-  .platform-android .item.item-avatar:first-child h2, .platform-override .item.item-avatar:first-child h2 {
-    margin-top: 3px; }
-  .platform-android .item.item-avatar:first-child p, .platform-override .item.item-avatar:first-child p {
-    margin: 0; }
+.platform-android .item.item-avatar h1, .platform-android .item.item-avatar h2, .platform-android .item.item-avatar h3, .platform-android .item.item-avatar h4, .platform-android .item.item-avatar h5, .platform-override .item.item-avatar h1, .platform-override .item.item-avatar h2, .platform-override .item.item-avatar h3, .platform-override .item.item-avatar h4, .platform-override .item.item-avatar h5 {
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto; }
+.platform-android .item.item-avatar p, .platform-override .item.item-avatar p {
+  margin: 0; }
 .platform-android .item.item-avatar.item-avatar--expand:first-child, .platform-override .item.item-avatar.item-avatar--expand:first-child {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5299,10 +5304,6 @@ ion-tabs.tabs-color-active-dark .tab-item {
   -ms-flex-line-pack: end;
   align-content: flex-end;
   height: 186px; }
-  .platform-android .item.item-avatar.item-avatar--expand:first-child h1, .platform-android .item.item-avatar.item-avatar--expand:first-child h2, .platform-android .item.item-avatar.item-avatar--expand:first-child h3, .platform-android .item.item-avatar.item-avatar--expand:first-child h4, .platform-android .item.item-avatar.item-avatar--expand:first-child h5, .platform-override .item.item-avatar.item-avatar--expand:first-child h1, .platform-override .item.item-avatar.item-avatar--expand:first-child h2, .platform-override .item.item-avatar.item-avatar--expand:first-child h3, .platform-override .item.item-avatar.item-avatar--expand:first-child h4, .platform-override .item.item-avatar.item-avatar--expand:first-child h5 {
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    align-self: auto; }
   .platform-android .item.item-avatar.item-avatar--expand:first-child h1, .platform-android .item.item-avatar.item-avatar--expand:first-child h2, .platform-android .item.item-avatar.item-avatar--expand:first-child h3, .platform-android .item.item-avatar.item-avatar--expand:first-child h4, .platform-android .item.item-avatar.item-avatar--expand:first-child h5, .platform-android .item.item-avatar.item-avatar--expand:first-child p, .platform-override .item.item-avatar.item-avatar--expand:first-child h1, .platform-override .item.item-avatar.item-avatar--expand:first-child h2, .platform-override .item.item-avatar.item-avatar--expand:first-child h3, .platform-override .item.item-avatar.item-avatar--expand:first-child h4, .platform-override .item.item-avatar.item-avatar--expand:first-child h5, .platform-override .item.item-avatar.item-avatar--expand:first-child p {
     overflow: visible;
     text-overflow: inherit;
@@ -5540,6 +5541,8 @@ ion-tabs.tabs-color-active-dark .tab-item {
  }
   .platform-android .tabs-top > .tabs, .platform-android .tabs.tabs-top, .platform-override .tabs-top > .tabs, .platform-override .tabs.tabs-top {
     top: 55px; }
+  .platform-android .has-tabs-top, .platform-override .has-tabs-top {
+    top: 0; }
   .platform-android .tabs.is-casting-shadow, .platform-android .tabs-striped.tabs.is-casting-shadow, .platform-override .tabs.is-casting-shadow, .platform-override .tabs-striped.tabs.is-casting-shadow {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
   .platform-android .tabs-top.tabs-striped .tab-item.tab-item-active, .platform-android .tabs-bottom.tabs-striped .tab-item.tab-item-active, .platform-override .tabs-top.tabs-striped .tab-item.tab-item-active, .platform-override .tabs-bottom.tabs-striped .tab-item.tab-item-active {

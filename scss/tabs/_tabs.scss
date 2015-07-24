@@ -3,6 +3,10 @@
     top: $bar-height - 1;
   }
 
+  .has-tabs-top {
+    top: 0;
+  }
+
   .tabs, .tabs-striped.tabs {
     @extend .mdl-tabs__tab-bar;
 

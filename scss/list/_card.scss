@@ -10,10 +10,6 @@
     @extend .mdl-card;
     min-height: inherit;
 
-    h2 {
-      line-height: 19px;
-    }
-
     &.card--expand {
       .item {
 
