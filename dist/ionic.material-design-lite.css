@@ -573,22 +573,22 @@ ion-infinite-scroll {
   .button-icon .icon:before, .button-icon.icon:before {
     font-size: 32px; }
 
-.button-clear, .platform-android .bar .button, .platform-override .bar .button {
+.button-clear, .platform-android .bar .button, .platform-android .bar .back-button, .platform-override .bar .button, .platform-override .bar .back-button {
   transition: opacity .1s;
   padding: 0 6px;
   max-height: 42px;
   border-color: transparent;
   background: none;
   box-shadow: none; }
-  .button-clear.button-clear, .platform-android .bar .button, .platform-override .bar .button {
+  .button-clear.button-clear, .platform-android .bar .button, .platform-android .bar .back-button, .platform-override .bar .button, .platform-override .bar .back-button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #b2b2b2; }
-  .button-clear.button-icon, .platform-android .bar .button-icon.button, .platform-override .bar .button-icon.button {
+  .button-clear.button-icon, .platform-android .bar .button-icon.button, .platform-android .bar .button-icon.back-button, .platform-override .bar .button-icon.button, .platform-override .bar .button-icon.back-button {
     border-color: transparent;
     background: none; }
-  .button-clear.active, .platform-android .bar .active.button, .platform-override .bar .active.button, .button-clear.activated, .platform-android .bar .activated.button, .platform-override .bar .activated.button {
+  .button-clear.active, .platform-android .bar .active.button, .platform-android .bar .active.back-button, .platform-override .bar .active.button, .platform-override .bar .active.back-button, .button-clear.activated, .platform-android .bar .activated.button, .platform-android .bar .activated.back-button, .platform-override .bar .activated.button, .platform-override .bar .activated.back-button {
     opacity: 0.3; }
 
 .button-outline {
@@ -2977,7 +2977,7 @@ a.item-content {
   flex-wrap: nowrap;
   box-sizing: border-box; }
 
-.mdl-navigation__link, .platform-android .bar .button, .platform-override .bar .button {
+.mdl-navigation__link, .platform-android .bar .button, .platform-android .bar .back-button, .platform-override .bar .button, .platform-override .bar .back-button {
   color: rgb(66,66,66);
   text-decoration: none;
   font-weight: 700;
@@ -3077,7 +3077,7 @@ a.item-content {
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch; }
-    .mdl-layout__drawer .mdl-navigation__link, .mdl-layout__drawer .platform-android .bar .button, .platform-android .bar .mdl-layout__drawer .button, .mdl-layout__drawer .platform-override .bar .button, .platform-override .bar .mdl-layout__drawer .button {
+    .mdl-layout__drawer .mdl-navigation__link, .mdl-layout__drawer .platform-android .bar .button, .platform-android .bar .mdl-layout__drawer .button, .mdl-layout__drawer .platform-android .bar .back-button, .platform-android .bar .mdl-layout__drawer .back-button, .mdl-layout__drawer .platform-override .bar .button, .platform-override .bar .mdl-layout__drawer .button, .mdl-layout__drawer .platform-override .bar .back-button, .platform-override .bar .mdl-layout__drawer .back-button {
       display: block;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
@@ -3085,7 +3085,7 @@ a.item-content {
       padding: 16px 24px;
       margin: 0; }
       @media screen and (max-width: 850px) {
-        .mdl-layout__drawer .mdl-navigation__link, .mdl-layout__drawer .platform-android .bar .button, .platform-android .bar .mdl-layout__drawer .button, .mdl-layout__drawer .platform-override .bar .button, .platform-override .bar .mdl-layout__drawer .button {
+        .mdl-layout__drawer .mdl-navigation__link, .mdl-layout__drawer .platform-android .bar .button, .platform-android .bar .mdl-layout__drawer .button, .mdl-layout__drawer .platform-android .bar .back-button, .platform-android .bar .mdl-layout__drawer .back-button, .mdl-layout__drawer .platform-override .bar .button, .platform-override .bar .mdl-layout__drawer .button, .mdl-layout__drawer .platform-override .bar .back-button, .platform-override .bar .mdl-layout__drawer .back-button {
           padding: 16px 16px; } }
       .mdl-layout__drawer .mdl-navigation__link--current {
         background-color: rgb(0,0,0);
@@ -3115,12 +3115,12 @@ a.item-content {
   left: 0;
   color: rgb(255,255,255);
   z-index: 4; }
-  .mdl-layout__header .mdl-layout__drawer-button, .platform-android .bar-header .mdl-layout__drawer-button, .platform-override .bar-header .mdl-layout__drawer-button {
+  .mdl-layout__header .mdl-layout__drawer-button {
     position: absolute;
     color: rgb(255,255,255);
     background-color: inherit; }
     @media screen and (max-width: 850px) {
-      .mdl-layout__header .mdl-layout__drawer-button, .platform-android .bar-header .mdl-layout__drawer-button, .platform-override .bar-header .mdl-layout__drawer-button {
+      .mdl-layout__header .mdl-layout__drawer-button {
         margin: 4px; } }
   @media screen and (max-width: 850px) {
     .mdl-layout__drawer-button {
@@ -3130,7 +3130,7 @@ a.item-content {
     .mdl-layout--fixed-drawer > .mdl-layout__drawer-button {
       display: none; } }
 
-.mdl-layout__header, .platform-android .bar-header, .platform-override .bar-header {
+.mdl-layout__header {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -3161,12 +3161,12 @@ a.item-content {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: max-height, box-shadow; }
   @media screen and (max-width: 850px) {
-    .mdl-layout__header, .platform-android .bar-header, .platform-override .bar-header {
+    .mdl-layout__header {
       min-height: 56px; } }
-  .mdl-layout--fixed-drawer:not(.is-small-screen) > .mdl-layout__header, .platform-android .mdl-layout--fixed-drawer:not(.is-small-screen) > .bar-header, .platform-override .mdl-layout--fixed-drawer:not(.is-small-screen) > .bar-header {
+  .mdl-layout--fixed-drawer:not(.is-small-screen) > .mdl-layout__header {
     margin-left: 240px;
     width: calc(100% - 240px); }
-  .mdl-layout__header > .mdl-layout-icon, .platform-android .bar-header > .mdl-layout-icon, .platform-override .bar-header > .mdl-layout-icon {
+  .mdl-layout__header > .mdl-layout-icon {
     position: absolute;
     left: 24px;
     top: 16px;
@@ -3176,25 +3176,25 @@ a.item-content {
     z-index: 3;
     display: block; }
     @media screen and (max-width: 850px) {
-      .mdl-layout__header > .mdl-layout-icon, .platform-android .bar-header > .mdl-layout-icon, .platform-override .bar-header > .mdl-layout-icon {
+      .mdl-layout__header > .mdl-layout-icon {
         left: 16px;
         top: 12px; } }
-  .mdl-layout.has-drawer .mdl-layout__header > .mdl-layout-icon, .mdl-layout.has-drawer .platform-android .bar-header > .mdl-layout-icon, .platform-android .mdl-layout.has-drawer .bar-header > .mdl-layout-icon, .mdl-layout.has-drawer .platform-override .bar-header > .mdl-layout-icon, .platform-override .mdl-layout.has-drawer .bar-header > .mdl-layout-icon {
+  .mdl-layout.has-drawer .mdl-layout__header > .mdl-layout-icon {
     display: none; }
-  .mdl-layout__header.is-compact, .platform-android .is-compact.bar-header, .platform-override .is-compact.bar-header {
+  .mdl-layout__header.is-compact {
     max-height: 64px; }
     @media screen and (max-width: 850px) {
-      .mdl-layout__header.is-compact, .platform-android .is-compact.bar-header, .platform-override .is-compact.bar-header {
+      .mdl-layout__header.is-compact {
         max-height: 56px; } }
-  .mdl-layout__header.is-compact.has-tabs, .platform-android .is-compact.has-tabs.bar-header, .platform-override .is-compact.has-tabs.bar-header {
+  .mdl-layout__header.is-compact.has-tabs {
     height: 112px; }
     @media screen and (max-width: 850px) {
-      .mdl-layout__header.is-compact.has-tabs, .platform-android .is-compact.has-tabs.bar-header, .platform-override .is-compact.has-tabs.bar-header {
+      .mdl-layout__header.is-compact.has-tabs {
         min-height: 104px; } }
   @media screen and (max-width: 850px) {
-    .mdl-layout__header, .platform-android .bar-header, .platform-override .bar-header {
+    .mdl-layout__header {
       display: none; }
-    .mdl-layout--fixed-header > .mdl-layout__header, .platform-android .bar-header > .mdl-layout__header, .platform-override .bar-header > .mdl-layout__header, .platform-android .mdl-layout--fixed-header > .bar-header, .platform-android .bar-header > .bar-header, .platform-override .mdl-layout--fixed-header > .bar-header, .platform-override .bar-header > .bar-header {
+    .mdl-layout--fixed-header > .mdl-layout__header {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; } }
@@ -3212,7 +3212,7 @@ a.item-content {
 .mdl-layout__header--waterfall {
   box-shadow: none;
   overflow: hidden; }
-  .mdl-layout__header--waterfall.is-casting-shadow, .platform-android .mdl-layout__header--waterfall.bar-header, .platform-override .mdl-layout__header--waterfall.bar-header {
+  .mdl-layout__header--waterfall.is-casting-shadow {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
 
 .mdl-layout__header-row {
@@ -3261,13 +3261,13 @@ a.item-content {
     @media screen and (max-width: 850px) {
       .mdl-layout__header-row .mdl-navigation {
         height: 56px; } }
-  .mdl-layout__header-row .mdl-navigation__link, .mdl-layout__header-row .platform-android .bar .button, .platform-android .bar .mdl-layout__header-row .button, .mdl-layout__header-row .platform-override .bar .button, .platform-override .bar .mdl-layout__header-row .button {
+  .mdl-layout__header-row .mdl-navigation__link, .mdl-layout__header-row .platform-android .bar .button, .platform-android .bar .mdl-layout__header-row .button, .mdl-layout__header-row .platform-android .bar .back-button, .platform-android .bar .mdl-layout__header-row .back-button, .mdl-layout__header-row .platform-override .bar .button, .platform-override .bar .mdl-layout__header-row .button, .mdl-layout__header-row .platform-override .bar .back-button, .platform-override .bar .mdl-layout__header-row .back-button {
     display: block;
     color: rgb(255,255,255);
     line-height: 64px;
     padding: 0 24px; }
     @media screen and (max-width: 850px) {
-      .mdl-layout__header-row .mdl-navigation__link, .mdl-layout__header-row .platform-android .bar .button, .platform-android .bar .mdl-layout__header-row .button, .mdl-layout__header-row .platform-override .bar .button, .platform-override .bar .mdl-layout__header-row .button {
+      .mdl-layout__header-row .mdl-navigation__link, .mdl-layout__header-row .platform-android .bar .button, .platform-android .bar .mdl-layout__header-row .button, .mdl-layout__header-row .platform-android .bar .back-button, .platform-android .bar .mdl-layout__header-row .back-button, .mdl-layout__header-row .platform-override .bar .button, .platform-override .bar .mdl-layout__header-row .button, .mdl-layout__header-row .platform-override .bar .back-button, .platform-override .bar .mdl-layout__header-row .back-button {
         line-height: 56px;
         padding: 0 16px; } }
 
@@ -5177,8 +5177,11 @@ ion-tabs.tabs-color-active-dark .tab-item {
 
 .platform-android .bar, .platform-override .bar {
   height: 56px;
-  line-height: 56px; }
+  line-height: 56px;
+  background-image: none !important;
+  padding: 0; }
 .platform-android .bar-header, .platform-override .bar-header {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -5187,7 +5190,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
     box-shadow: none;
     z-index: inherit; }
   .platform-android .bar-header.bar-header--expanded, .platform-override .bar-header.bar-header--expanded {
-    height: 112px; }
+    height: 128px; }
     .platform-android .bar-header.bar-header--expanded .title, .platform-override .bar-header.bar-header--expanded .title {
       font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
       font-size: 24px;
@@ -5195,20 +5198,23 @@ ion-tabs.tabs-color-active-dark .tab-item {
       line-height: 32px;
       -moz-osx-font-smoothing: grayscale;
       margin-top: 56px;
-      line-height: 56px; }
+      line-height: 72px; }
     .platform-android .bar-header.bar-header--expanded + .has-header, .platform-android .bar-header.bar-header--expanded + .has-subheader, .platform-override .bar-header.bar-header--expanded + .has-header, .platform-override .bar-header.bar-header--expanded + .has-subheader {
-      top: 112px; }
+      top: 128px; }
     .platform-android .bar-header.bar-header--expanded + .bar-subheader, .platform-override .bar-header.bar-header--expanded + .bar-subheader {
-      top: 112px; }
+      top: 128px; }
     .platform-android .bar-header.bar-header--expanded + .tabs, .platform-android .bar-header.bar-header--expanded + .tabs-top > .tabs, .platform-android .bar-header.bar-header--expanded .tabs.tabs-top, .platform-override .bar-header.bar-header--expanded + .tabs, .platform-override .bar-header.bar-header--expanded + .tabs-top > .tabs, .platform-override .bar-header.bar-header--expanded .tabs.tabs-top {
-      top: 111px; }
+      top: 127px; }
   .platform-android .bar-header .title, .platform-override .bar-header .title {
     position: absolute;
     text-align: left;
-    line-height: 56px;
-    margin-left: 70px; }
-  .platform-android .bar-header .bar-light .button, .platform-android .bar-header .bar-stable .button, .platform-android .bar-header .bar-positive .button, .platform-android .bar-header .bar-calm .button, .platform-android .bar-header .bar-balanced .button, .platform-android .bar-header .bar-energized .button, .platform-android .bar-header .bar-assertive .button, .platform-android .bar-header .bar-royal .button, .platform-android .bar-header .bar-dark .button, .platform-override .bar-header .bar-light .button, .platform-override .bar-header .bar-stable .button, .platform-override .bar-header .bar-positive .button, .platform-override .bar-header .bar-calm .button, .platform-override .bar-header .bar-balanced .button, .platform-override .bar-header .bar-energized .button, .platform-override .bar-header .bar-assertive .button, .platform-override .bar-header .bar-royal .button, .platform-override .bar-header .bar-dark .button {
-    background-color: transparent !important; }
+    line-height: 56px; }
+  .platform-android .bar-header .button:first-child + .title, .platform-android .bar-header .buttons-left + .title, .platform-override .bar-header .button:first-child + .title, .platform-override .bar-header .buttons-left + .title {
+    left: 72px !important; }
+  .platform-android .bar-header .bar-light, .platform-android .bar-header .bar-stable, .platform-android .bar-header .bar-positive, .platform-android .bar-header .bar-calm, .platform-android .bar-header .bar-balanced, .platform-android .bar-header .bar-energized, .platform-android .bar-header .bar-assertive, .platform-android .bar-header .bar-royal, .platform-android .bar-header .bar-dark, .platform-override .bar-header .bar-light, .platform-override .bar-header .bar-stable, .platform-override .bar-header .bar-positive, .platform-override .bar-header .bar-calm, .platform-override .bar-header .bar-balanced, .platform-override .bar-header .bar-energized, .platform-override .bar-header .bar-assertive, .platform-override .bar-header .bar-royal, .platform-override .bar-header .bar-dark {
+    background-image: none !important; }
+    .platform-android .bar-header .bar-light .button, .platform-android .bar-header .bar-stable .button, .platform-android .bar-header .bar-positive .button, .platform-android .bar-header .bar-calm .button, .platform-android .bar-header .bar-balanced .button, .platform-android .bar-header .bar-energized .button, .platform-android .bar-header .bar-assertive .button, .platform-android .bar-header .bar-royal .button, .platform-android .bar-header .bar-dark .button, .platform-override .bar-header .bar-light .button, .platform-override .bar-header .bar-stable .button, .platform-override .bar-header .bar-positive .button, .platform-override .bar-header .bar-calm .button, .platform-override .bar-header .bar-balanced .button, .platform-override .bar-header .bar-energized .button, .platform-override .bar-header .bar-assertive .button, .platform-override .bar-header .bar-royal .button, .platform-override .bar-header .bar-dark .button {
+      background-color: transparent !important; }
 .platform-android .bar.bar-subheader, .platform-android .bar-subheader.bar, .platform-override .bar.bar-subheader, .platform-override .bar-subheader.bar {
   top: 55px;
   height: 48px; }
@@ -5217,28 +5223,38 @@ ion-tabs.tabs-color-active-dark .tab-item {
     line-height: 48px;
     opacity: 0.54;
     font-weight: 500; }
-.platform-android .bar .button, .platform-override .bar .button {
-  background-color: transparent;
+.platform-android .bar .button, .platform-android .bar .back-button, .platform-override .bar .button, .platform-override .bar .back-button {
+  background-color: transparent !important;
   padding-left: 8px;
   padding-right: 8px;
   min-width: 64px;
   text-align: center; }
-  .platform-android .bar .button:hover, .platform-android .bar .button:focus, .platform-override .bar .button:hover, .platform-override .bar .button:focus {
+  .platform-android .bar .button:hover, .platform-android .bar .button:focus, .platform-android .bar .back-button:hover, .platform-android .bar .back-button:focus, .platform-override .bar .button:hover, .platform-override .bar .button:focus, .platform-override .bar .back-button:hover, .platform-override .bar .back-button:focus {
     color: inherit; }
-  .platform-android .bar .button.icon, .platform-override .bar .button.icon {
+  .platform-android .bar .button.icon, .platform-android .bar .button.back-button, .platform-android .bar .back-button.icon, .platform-android .bar .back-button.back-button, .platform-override .bar .button.icon, .platform-override .bar .button.back-button, .platform-override .bar .back-button.icon, .platform-override .bar .back-button.back-button {
     min-height: 55px;
     border-radius: 0; }
-    .platform-android .bar .button.icon:first-child, .platform-override .bar .button.icon:first-child {
+    .platform-android .bar .button.icon:first-child, .platform-android .bar .button.back-button:first-child, .platform-android .bar .back-button.icon:first-child, .platform-android .bar .back-button.back-button:first-child, .platform-override .bar .button.icon:first-child, .platform-override .bar .button.back-button:first-child, .platform-override .bar .back-button.icon:first-child, .platform-override .bar .back-button.back-button:first-child {
       margin-left: 5px; }
-    .platform-android .bar .button.icon.icon:before, .platform-android .bar .button.icon:before, .platform-android .bar .button.icon.icon-left:before, .platform-android .bar .button.icon.icon-right:before, .platform-override .bar .button.icon.icon:before, .platform-override .bar .button.icon:before, .platform-override .bar .button.icon.icon-left:before, .platform-override .bar .button.icon.icon-right:before {
+    .platform-android .bar .button.icon.icon:before, .platform-android .bar .button.icon:before, .platform-android .bar .button.icon.icon-left:before, .platform-android .bar .button.icon.icon-right:before, .platform-android .bar .button.back-button.icon:before, .platform-android .bar .button.back-button:before, .platform-android .bar .button.back-button.icon-left:before, .platform-android .bar .button.back-button.icon-right:before, .platform-android .bar .back-button.icon.icon:before, .platform-android .bar .back-button.icon:before, .platform-android .bar .back-button.icon.icon-left:before, .platform-android .bar .back-button.icon.icon-right:before, .platform-android .bar .back-button.back-button.icon:before, .platform-android .bar .back-button.back-button:before, .platform-android .bar .back-button.back-button.icon-left:before, .platform-android .bar .back-button.back-button.icon-right:before, .platform-override .bar .button.icon.icon:before, .platform-override .bar .button.icon:before, .platform-override .bar .button.icon.icon-left:before, .platform-override .bar .button.icon.icon-right:before, .platform-override .bar .button.back-button.icon:before, .platform-override .bar .button.back-button:before, .platform-override .bar .button.back-button.icon-left:before, .platform-override .bar .button.back-button.icon-right:before, .platform-override .bar .back-button.icon.icon:before, .platform-override .bar .back-button.icon:before, .platform-override .bar .back-button.icon.icon-left:before, .platform-override .bar .back-button.icon.icon-right:before, .platform-override .bar .back-button.back-button.icon:before, .platform-override .bar .back-button.back-button:before, .platform-override .bar .back-button.back-button.icon-left:before, .platform-override .bar .back-button.back-button.icon-right:before {
       padding: 0;
       -webkit-transform: translate(-16px, -12px);
       transform: translate(-16px, -12px); }
-    .platform-android .bar .button.icon .mdl-button__ripple-container, .platform-override .bar .button.icon .mdl-button__ripple-container {
+    .platform-android .bar .button.icon .mdl-button__ripple-container, .platform-android .bar .button.back-button .mdl-button__ripple-container, .platform-android .bar .back-button.icon .mdl-button__ripple-container, .platform-android .bar .back-button.back-button .mdl-button__ripple-container, .platform-override .bar .button.icon .mdl-button__ripple-container, .platform-override .bar .button.back-button .mdl-button__ripple-container, .platform-override .bar .back-button.icon .mdl-button__ripple-container, .platform-override .bar .back-button.back-button .mdl-button__ripple-container {
       height: 32px;
       width: 32px;
       -webkit-transform: translate(12px, 12px);
       transform: translate(12px, 12px); }
+  .platform-android .bar .button.back-button, .platform-android .bar .back-button.back-button, .platform-override .bar .button.back-button, .platform-override .bar .back-button.back-button {
+    display: block; }
+    .platform-android .bar .button.back-button .mdl-button__ripple-container, .platform-android .bar .back-button.back-button .mdl-button__ripple-container, .platform-override .bar .button.back-button .mdl-button__ripple-container, .platform-override .bar .back-button.back-button .mdl-button__ripple-container {
+      opacity: 0; }
+    .platform-android .bar .button.back-button .icon:before, .platform-android .bar .back-button.back-button .icon:before, .platform-override .bar .button.back-button .icon:before, .platform-override .bar .back-button.back-button .icon:before {
+      line-height: 56px; }
+    .platform-android .bar .button.back-button.hide, .platform-android .bar .back-button.back-button.hide, .platform-override .bar .button.back-button.hide, .platform-override .bar .back-button.back-button.hide {
+      display: none; }
+  .platform-android .bar .button.back-button.active, .platform-android .bar .button.back-button.activated, .platform-android .bar .back-button.back-button.active, .platform-android .bar .back-button.back-button.activated, .platform-override .bar .button.back-button.active, .platform-override .bar .button.back-button.activated, .platform-override .bar .back-button.back-button.active, .platform-override .bar .back-button.back-button.activated {
+    opacity: 1; }
 .platform-android .bar .title + .button:last-child, .platform-android .bar > .button + .button:last-child, .platform-android .bar > .button.pull-right, .platform-android .bar .buttons.pull-right, .platform-android .bar .title + .buttons, .platform-override .bar .title + .button:last-child, .platform-override .bar > .button + .button:last-child, .platform-override .bar > .button.pull-right, .platform-override .bar .buttons.pull-right, .platform-override .bar .title + .buttons {
   top: 8px; }
 
@@ -5246,11 +5262,15 @@ ion-tabs.tabs-color-active-dark .tab-item {
   width: auto; }
 .platform-android .card, .platform-android .list-inset, .platform-override .card, .platform-override .list-inset {
   min-height: inherit; }
+  .platform-android .card h2, .platform-android .list-inset h2, .platform-override .card h2, .platform-override .list-inset h2 {
+    line-height: 19px; }
   .platform-android .card.card--expand .item:first-child.item-divider, .platform-android .card--expand.card .item:first-child.item-divider, .platform-android .card--expand.list-inset .item:first-child.item-divider, .platform-override .card.card--expand .item:first-child.item-divider, .platform-override .card--expand.card .item:first-child.item-divider, .platform-override .card--expand.list-inset .item:first-child.item-divider {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     height: 186px; }
+  .platform-android .card .tab-item, .platform-android .list-inset .tab-item, .platform-override .card .tab-item, .platform-override .list-inset .tab-item {
+    padding: 0; }
   .platform-android .card .item.item-text-wrap, .platform-android .list-inset .item.item-text-wrap, .platform-override .card .item.item-text-wrap, .platform-override .list-inset .item.item-text-wrap {
     width: 100%; }
   .platform-android .card .item:last-child.item-divider, .platform-android .list-inset .item:last-child.item-divider, .platform-override .card .item:last-child.item-divider, .platform-override .list-inset .item:last-child.item-divider {
@@ -5496,9 +5516,9 @@ ion-tabs.tabs-color-active-dark .tab-item {
   content: "\e0b7"; }
 
 .platform-android .has-expanded-header.has-subheader, .platform-override .has-expanded-header.has-subheader {
-  top: 160px; }
+  top: 176px; }
 .platform-android .has-expanded-header.has-tabs-top, .platform-override .has-expanded-header.has-tabs-top {
-  top: 161px; }
+  top: 177px; }
 
 .platform-android, .platform-override {
   @-webkit-keyframes border-expand {
@@ -5520,6 +5540,8 @@ ion-tabs.tabs-color-active-dark .tab-item {
  }
   .platform-android .tabs-top > .tabs, .platform-android .tabs.tabs-top, .platform-override .tabs-top > .tabs, .platform-override .tabs.tabs-top {
     top: 55px; }
+  .platform-android .tabs.is-casting-shadow, .platform-android .tabs-striped.tabs.is-casting-shadow, .platform-override .tabs.is-casting-shadow, .platform-override .tabs-striped.tabs.is-casting-shadow {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
   .platform-android .tabs-top.tabs-striped .tab-item.tab-item-active, .platform-android .tabs-bottom.tabs-striped .tab-item.tab-item-active, .platform-override .tabs-top.tabs-striped .tab-item.tab-item-active, .platform-override .tabs-bottom.tabs-striped .tab-item.tab-item-active {
     border: none; }
   .platform-android .tab-item.tab-item-active:before, .platform-override .tab-item.tab-item-active:before {
@@ -5770,6 +5792,75 @@ ion-tabs.tabs-color-active-dark .tab-item {
     top: 10%; }
   .platform-android .tabs-top .tab-item .badge, .platform-override .tabs-top .tab-item .badge {
     top: 10%; }
+
+[nav-view-transition="ios"] [nav-view="entering"], [nav-view-transition="ios"] [nav-view="leaving"] {
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(.36, .66, .04, 1);
+  transition-property: opacity, -webkit-transform, box-shadow;
+  transition-property: opacity, transform, box-shadow; }
+[nav-view-transition="ios"][nav-view-direction="forward"], [nav-view-transition="ios"][nav-view-direction="back"] {
+  background-color: #000; }
+[nav-view-transition="ios"] [nav-view="active"], [nav-view-transition="ios"][nav-view-direction="forward"] [nav-view="entering"], [nav-view-transition="ios"][nav-view-direction="back"] [nav-view="leaving"] {
+  z-index: 3; }
+[nav-view-transition="ios"][nav-view-direction="back"] [nav-view="entering"], [nav-view-transition="ios"][nav-view-direction="forward"] [nav-view="leaving"] {
+  z-index: 2; }
+
+[nav-bar-transition="ios"] .title, [nav-bar-transition="ios"] .buttons, [nav-bar-transition="ios"] .back-text {
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(.36, .66, .04, 1);
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform; }
+[nav-bar-transition="ios"] [nav-bar="active"], [nav-bar-transition="ios"] [nav-bar="entering"] {
+  z-index: 10; }
+  [nav-bar-transition="ios"] [nav-bar="active"] .bar, [nav-bar-transition="ios"] [nav-bar="entering"] .bar {
+    background-image: none; }
+[nav-bar-transition="ios"] [nav-bar="cached"] {
+  display: block; }
+  [nav-bar-transition="ios"] [nav-bar="cached"] .header-item {
+    display: none; }
+
+[nav-view-transition="android"] [nav-view="entering"], [nav-view-transition="android"] [nav-view="leaving"] {
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0.6, 0.2, 1);
+  transition-property: -webkit-transform;
+  transition-property: transform; }
+[nav-view-transition="android"] [nav-view="active"], [nav-view-transition="android"][nav-view-direction="forward"] [nav-view="entering"], [nav-view-transition="android"][nav-view-direction="back"] [nav-view="leaving"] {
+  z-index: 3; }
+[nav-view-transition="android"][nav-view-direction="back"] [nav-view="entering"], [nav-view-transition="android"][nav-view-direction="forward"] [nav-view="leaving"] {
+  z-index: 2; }
+
+[nav-bar-transition="android"] .title, [nav-bar-transition="android"] .buttons {
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0.6, 0.2, 1);
+  transition-property: opacity; }
+[nav-bar-transition="android"] [nav-bar="active"], [nav-bar-transition="android"] [nav-bar="entering"] {
+  z-index: 10; }
+  [nav-bar-transition="android"] [nav-bar="active"] .bar, [nav-bar-transition="android"] [nav-bar="entering"] .bar {
+    background-image: none; }
+[nav-bar-transition="android"] [nav-bar="cached"] {
+  display: block; }
+  [nav-bar-transition="android"] [nav-bar="cached"] .header-item {
+    display: none; }
+
+[nav-swipe="fast"] [nav-view], [nav-swipe="fast"] .title, [nav-swipe="fast"] .buttons, [nav-swipe="fast"] .back-text {
+  transition-duration: 50ms;
+  transition-timing-function: linear; }
+
+[nav-swipe="slow"] [nav-view], [nav-swipe="slow"] .title, [nav-swipe="slow"] .buttons, [nav-swipe="slow"] .back-text {
+  transition-duration: 160ms;
+  transition-timing-function: linear; }
+
+[nav-view="cached"], [nav-bar="cached"] {
+  display: none; }
+
+[nav-view="stage"] {
+  opacity: 0;
+  transition-duration: 0; }
+
+[nav-bar="stage"] .title, [nav-bar="stage"] .buttons, [nav-bar="stage"] .back-text {
+  position: absolute;
+  opacity: 0;
+  transition-duration: 0s; }
 
 .platform-android, .platform-override {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; }
