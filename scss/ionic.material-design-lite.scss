@@ -29,6 +29,7 @@
 @import "content/content";
 @import "tabs/tabs";
 @import "badge";
+@import "transitions";
 
 .platform-android, .platform-override {
   font-family: $preferred_font;

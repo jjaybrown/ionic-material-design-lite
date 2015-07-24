@@ -10,6 +10,10 @@
     @extend .mdl-card;
     min-height: inherit;
 
+    h2 {
+      line-height: 19px;
+    }
+
     &.card--expand {
       .item {
 
@@ -22,6 +26,10 @@
           }
         }
       }
+    }
+
+    .tab-item {
+      padding: 0;
     }
 
     .item {

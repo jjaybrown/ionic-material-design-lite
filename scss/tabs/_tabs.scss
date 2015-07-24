@@ -5,6 +5,10 @@
 
   .tabs, .tabs-striped.tabs {
     @extend .mdl-tabs__tab-bar;
+
+    &.is-casting-shadow {
+      @include shadow-2dp();
+    }
   }
 
   .tabs-top.tabs-striped .tab-item.tab-item-active,
