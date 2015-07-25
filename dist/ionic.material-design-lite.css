@@ -293,26 +293,26 @@ ion-infinite-scroll {
   .button.button-block, .button.button-full {
     margin-top: 10px;
     margin-bottom: 10px; }
-  .button.button-light, .platform-android .button.button-light, .platform-override .button.button-light, .platform-android .button.button--fab.button-light, .platform-override .button.button--fab.button-light {
+  .button.button-light {
     border-color: #ddd;
     background-color: #FAFAFA;
     color: #444; }
-    .button.button-light:hover, .platform-android .button.button--fab.button-light:hover, .platform-override .button.button--fab.button-light:hover {
+    .button.button-light:hover {
       color: #444;
       text-decoration: none; }
-    .button.button-light.active, .platform-android .button.active.button--fab.button-light, .platform-override .button.active.button--fab.button-light, .button.button-light.activated, .platform-android .button.activated.button--fab.button-light, .platform-override .button.activated.button--fab.button-light {
+    .button.button-light.active, .button.button-light.activated {
       border-color: #ccc;
       background-color: #fafafa;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-light.button-clear, .platform-android .bar .button.button-light, .platform-override .bar .button.button-light, .platform-android .button.button-clear.button--fab.button-light, .platform-override .button.button-clear.button--fab.button-light {
+    .button.button-light.button-clear, .platform-android .bar .button.button-light, .platform-override .bar .button.button-light {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #ddd; }
-    .button.button-light.button-icon, .platform-android .button.button-icon.button--fab.button-light, .platform-override .button.button-icon.button--fab.button-light {
+    .button.button-light.button-icon {
       border-color: transparent;
       background: none; }
-    .button.button-light.button-outline, .platform-android .button.button-outline.button--fab.button-light, .platform-override .button.button-outline.button--fab.button-light {
+    .button.button-light.button-outline {
       border-color: #ddd;
       background: transparent;
       color: #ddd; }
@@ -320,26 +320,26 @@ ion-infinite-scroll {
         background-color: #ddd;
         box-shadow: none;
         color: #fff; }
-  .button.button-stable, .platform-android .button.button-stable, .platform-override .button.button-stable, .platform-android .button.button--fab.button-stable, .platform-override .button.button--fab.button-stable {
+  .button.button-stable {
     border-color: #b2b2b2;
     background-color: #F5F5F5;
     color: #444; }
-    .button.button-stable:hover, .platform-android .button.button--fab.button-stable:hover, .platform-override .button.button--fab.button-stable:hover {
+    .button.button-stable:hover {
       color: #444;
       text-decoration: none; }
-    .button.button-stable.active, .platform-android .button.active.button--fab.button-stable, .platform-override .button.active.button--fab.button-stable, .button.button-stable.activated, .platform-android .button.activated.button--fab.button-stable, .platform-override .button.activated.button--fab.button-stable {
+    .button.button-stable.active, .button.button-stable.activated {
       border-color: #a2a2a2;
       background-color: #e5e5e5;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-stable.button-clear, .platform-android .bar .button.button-stable, .platform-override .bar .button.button-stable, .platform-android .button.button-clear.button--fab.button-stable, .platform-override .button.button-clear.button--fab.button-stable {
+    .button.button-stable.button-clear, .platform-android .bar .button.button-stable, .platform-override .bar .button.button-stable {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #b2b2b2; }
-    .button.button-stable.button-icon, .platform-android .button.button-icon.button--fab.button-stable, .platform-override .button.button-icon.button--fab.button-stable {
+    .button.button-stable.button-icon {
       border-color: transparent;
       background: none; }
-    .button.button-stable.button-outline, .platform-android .button.button-outline.button--fab.button-stable, .platform-override .button.button-outline.button--fab.button-stable {
+    .button.button-stable.button-outline {
       border-color: #b2b2b2;
       background: transparent;
       color: #b2b2b2; }
@@ -347,26 +347,26 @@ ion-infinite-scroll {
         background-color: #b2b2b2;
         box-shadow: none;
         color: #fff; }
-  .button.button-positive, .platform-android .button.button-positive, .platform-override .button.button-positive, .platform-android .button.button--fab.button-positive, .platform-override .button.button--fab.button-positive {
+  .button.button-positive {
     border-color: #32408f;
     background-color: #3F51B5;
     color: #fff; }
-    .button.button-positive:hover, .platform-android .button.button--fab.button-positive:hover, .platform-override .button.button--fab.button-positive:hover {
+    .button.button-positive:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-positive.active, .platform-android .button.active.button--fab.button-positive, .platform-override .button.active.button--fab.button-positive, .button.button-positive.activated, .platform-android .button.activated.button--fab.button-positive, .platform-override .button.activated.button--fab.button-positive {
+    .button.button-positive.active, .button.button-positive.activated {
       border-color: #32408f;
       background-color: #32408f;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-positive.button-clear, .platform-android .bar .button.button-positive, .platform-override .bar .button.button-positive, .platform-android .button.button-clear.button--fab.button-positive, .platform-override .button.button-clear.button--fab.button-positive {
+    .button.button-positive.button-clear, .platform-android .bar .button.button-positive, .platform-override .bar .button.button-positive {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #3F51B5; }
-    .button.button-positive.button-icon, .platform-android .button.button-icon.button--fab.button-positive, .platform-override .button.button-icon.button--fab.button-positive {
+    .button.button-positive.button-icon {
       border-color: transparent;
       background: none; }
-    .button.button-positive.button-outline, .platform-android .button.button-outline.button--fab.button-positive, .platform-override .button.button-outline.button--fab.button-positive {
+    .button.button-positive.button-outline {
       border-color: #3F51B5;
       background: transparent;
       color: #3F51B5; }
@@ -374,26 +374,26 @@ ion-infinite-scroll {
         background-color: #3F51B5;
         box-shadow: none;
         color: #fff; }
-  .button.button-calm, .platform-android .button.button-calm, .platform-override .button.button-calm, .platform-android .button.button--fab.button-calm, .platform-override .button.button--fab.button-calm {
+  .button.button-calm {
     border-color: #0c7cd5;
     background-color: #2196F3;
     color: #fff; }
-    .button.button-calm:hover, .platform-android .button.button--fab.button-calm:hover, .platform-override .button.button--fab.button-calm:hover {
+    .button.button-calm:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-calm.active, .platform-android .button.active.button--fab.button-calm, .platform-override .button.active.button--fab.button-calm, .button.button-calm.activated, .platform-android .button.activated.button--fab.button-calm, .platform-override .button.activated.button--fab.button-calm {
+    .button.button-calm.active, .button.button-calm.activated {
       border-color: #0c7cd5;
       background-color: #0c7cd5;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-calm.button-clear, .platform-android .bar .button.button-calm, .platform-override .bar .button.button-calm, .platform-android .button.button-clear.button--fab.button-calm, .platform-override .button.button-clear.button--fab.button-calm {
+    .button.button-calm.button-clear, .platform-android .bar .button.button-calm, .platform-override .bar .button.button-calm {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #2196F3; }
-    .button.button-calm.button-icon, .platform-android .button.button-icon.button--fab.button-calm, .platform-override .button.button-icon.button--fab.button-calm {
+    .button.button-calm.button-icon {
       border-color: transparent;
       background: none; }
-    .button.button-calm.button-outline, .platform-android .button.button-outline.button--fab.button-calm, .platform-override .button.button-outline.button--fab.button-calm {
+    .button.button-calm.button-outline {
       border-color: #2196F3;
       background: transparent;
       color: #2196F3; }
@@ -401,26 +401,26 @@ ion-infinite-scroll {
         background-color: #2196F3;
         box-shadow: none;
         color: #fff; }
-  .button.button-assertive, .platform-android .button.button-assertive, .platform-override .button.button-assertive, .platform-android .button.button--fab.button-assertive, .platform-override .button.button--fab.button-assertive {
+  .button.button-assertive {
     border-color: #ea1c0d;
     background-color: #F44336;
     color: #fff; }
-    .button.button-assertive:hover, .platform-android .button.button--fab.button-assertive:hover, .platform-override .button.button--fab.button-assertive:hover {
+    .button.button-assertive:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-assertive.active, .platform-android .button.active.button--fab.button-assertive, .platform-override .button.active.button--fab.button-assertive, .button.button-assertive.activated, .platform-android .button.activated.button--fab.button-assertive, .platform-override .button.activated.button--fab.button-assertive {
+    .button.button-assertive.active, .button.button-assertive.activated {
       border-color: #ea1c0d;
       background-color: #ea1c0d;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-assertive.button-clear, .platform-android .bar .button.button-assertive, .platform-override .bar .button.button-assertive, .platform-android .button.button-clear.button--fab.button-assertive, .platform-override .button.button-clear.button--fab.button-assertive {
+    .button.button-assertive.button-clear, .platform-android .bar .button.button-assertive, .platform-override .bar .button.button-assertive {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #F44336; }
-    .button.button-assertive.button-icon, .platform-android .button.button-icon.button--fab.button-assertive, .platform-override .button.button-icon.button--fab.button-assertive {
+    .button.button-assertive.button-icon {
       border-color: transparent;
       background: none; }
-    .button.button-assertive.button-outline, .platform-android .button.button-outline.button--fab.button-assertive, .platform-override .button.button-outline.button--fab.button-assertive {
+    .button.button-assertive.button-outline {
       border-color: #F44336;
       background: transparent;
       color: #F44336; }
@@ -428,26 +428,26 @@ ion-infinite-scroll {
         background-color: #F44336;
         box-shadow: none;
         color: #fff; }
-  .button.button-balanced, .platform-android .button.button-balanced, .platform-override .button.button-balanced, .platform-android .button.button--fab.button-balanced, .platform-override .button.button--fab.button-balanced {
+  .button.button-balanced {
     border-color: #3d8b40;
     background-color: #4CAF50;
     color: #fff; }
-    .button.button-balanced:hover, .platform-android .button.button--fab.button-balanced:hover, .platform-override .button.button--fab.button-balanced:hover {
+    .button.button-balanced:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-balanced.active, .platform-android .button.active.button--fab.button-balanced, .platform-override .button.active.button--fab.button-balanced, .button.button-balanced.activated, .platform-android .button.activated.button--fab.button-balanced, .platform-override .button.activated.button--fab.button-balanced {
+    .button.button-balanced.active, .button.button-balanced.activated {
       border-color: #3d8b40;
       background-color: #3d8b40;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-balanced.button-clear, .platform-android .bar .button.button-balanced, .platform-override .bar .button.button-balanced, .platform-android .button.button-clear.button--fab.button-balanced, .platform-override .button.button-clear.button--fab.button-balanced {
+    .button.button-balanced.button-clear, .platform-android .bar .button.button-balanced, .platform-override .bar .button.button-balanced {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #4CAF50; }
-    .button.button-balanced.button-icon, .platform-android .button.button-icon.button--fab.button-balanced, .platform-override .button.button-icon.button--fab.button-balanced {
+    .button.button-balanced.button-icon {
       border-color: transparent;
       background: none; }
-    .button.button-balanced.button-outline, .platform-android .button.button-outline.button--fab.button-balanced, .platform-override .button.button-outline.button--fab.button-balanced {
+    .button.button-balanced.button-outline {
       border-color: #4CAF50;
       background: transparent;
       color: #4CAF50; }
@@ -455,26 +455,26 @@ ion-infinite-scroll {
         background-color: #4CAF50;
         box-shadow: none;
         color: #fff; }
-  .button.button-energized, .platform-android .button.button-energized, .platform-override .button.button-energized, .platform-android .button.button--fab.button-energized, .platform-override .button.button--fab.button-energized {
+  .button.button-energized {
     border-color: #ecb100;
     background-color: #FFC107;
     color: #fff; }
-    .button.button-energized:hover, .platform-android .button.button--fab.button-energized:hover, .platform-override .button.button--fab.button-energized:hover {
+    .button.button-energized:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-energized.active, .platform-android .button.active.button--fab.button-energized, .platform-override .button.active.button--fab.button-energized, .button.button-energized.activated, .platform-android .button.activated.button--fab.button-energized, .platform-override .button.activated.button--fab.button-energized {
+    .button.button-energized.active, .button.button-energized.activated {
       border-color: #ecb100;
       background-color: #ecb100;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-energized.button-clear, .platform-android .bar .button.button-energized, .platform-override .bar .button.button-energized, .platform-android .button.button-clear.button--fab.button-energized, .platform-override .button.button-clear.button--fab.button-energized {
+    .button.button-energized.button-clear, .platform-android .bar .button.button-energized, .platform-override .bar .button.button-energized {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #FFC107; }
-    .button.button-energized.button-icon, .platform-android .button.button-icon.button--fab.button-energized, .platform-override .button.button-icon.button--fab.button-energized {
+    .button.button-energized.button-icon {
       border-color: transparent;
       background: none; }
-    .button.button-energized.button-outline, .platform-android .button.button-outline.button--fab.button-energized, .platform-override .button.button-outline.button--fab.button-energized {
+    .button.button-energized.button-outline {
       border-color: #FFC107;
       background: transparent;
       color: #FFC107; }
@@ -482,26 +482,26 @@ ion-infinite-scroll {
         background-color: #FFC107;
         box-shadow: none;
         color: #fff; }
-  .button.button-royal, .platform-android .button.button-royal, .platform-override .button.button-royal, .platform-android .button.button--fab.button-royal, .platform-override .button.button--fab.button-royal {
+  .button.button-royal {
     border-color: #563098;
     background-color: #673AB7;
     color: #fff; }
-    .button.button-royal:hover, .platform-android .button.button--fab.button-royal:hover, .platform-override .button.button--fab.button-royal:hover {
+    .button.button-royal:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-royal.active, .platform-android .button.active.button--fab.button-royal, .platform-override .button.active.button--fab.button-royal, .button.button-royal.activated, .platform-android .button.activated.button--fab.button-royal, .platform-override .button.activated.button--fab.button-royal {
+    .button.button-royal.active, .button.button-royal.activated {
       border-color: #563098;
       background-color: #563098;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-royal.button-clear, .platform-android .bar .button.button-royal, .platform-override .bar .button.button-royal, .platform-android .button.button-clear.button--fab.button-royal, .platform-override .button.button-clear.button--fab.button-royal {
+    .button.button-royal.button-clear, .platform-android .bar .button.button-royal, .platform-override .bar .button.button-royal {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #673AB7; }
-    .button.button-royal.button-icon, .platform-android .button.button-icon.button--fab.button-royal, .platform-override .button.button-icon.button--fab.button-royal {
+    .button.button-royal.button-icon {
       border-color: transparent;
       background: none; }
-    .button.button-royal.button-outline, .platform-android .button.button-outline.button--fab.button-royal, .platform-override .button.button-outline.button--fab.button-royal {
+    .button.button-royal.button-outline {
       border-color: #673AB7;
       background: transparent;
       color: #673AB7; }
@@ -509,26 +509,26 @@ ion-infinite-scroll {
         background-color: #673AB7;
         box-shadow: none;
         color: #fff; }
-  .button.button-dark, .platform-android .button.button-dark, .platform-override .button.button-dark, .platform-android .button.button--fab.button-dark, .platform-override .button.button--fab.button-dark {
+  .button.button-dark {
     border-color: #111;
     background-color: #212121;
     color: #fff; }
-    .button.button-dark:hover, .platform-android .button.button--fab.button-dark:hover, .platform-override .button.button--fab.button-dark:hover {
+    .button.button-dark:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-dark.active, .platform-android .button.active.button--fab.button-dark, .platform-override .button.active.button--fab.button-dark, .button.button-dark.activated, .platform-android .button.activated.button--fab.button-dark, .platform-override .button.activated.button--fab.button-dark {
+    .button.button-dark.active, .button.button-dark.activated {
       border-color: #000;
       background-color: #262626;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-dark.button-clear, .platform-android .bar .button.button-dark, .platform-override .bar .button.button-dark, .platform-android .button.button-clear.button--fab.button-dark, .platform-override .button.button-clear.button--fab.button-dark {
+    .button.button-dark.button-clear, .platform-android .bar .button.button-dark, .platform-override .bar .button.button-dark {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #212121; }
-    .button.button-dark.button-icon, .platform-android .button.button-icon.button--fab.button-dark, .platform-override .button.button-icon.button--fab.button-dark {
+    .button.button-dark.button-icon {
       border-color: transparent;
       background: none; }
-    .button.button-dark.button-outline, .platform-android .button.button-outline.button--fab.button-dark, .platform-override .button.button-outline.button--fab.button-dark {
+    .button.button-dark.button-outline {
       border-color: #212121;
       background: transparent;
       color: #212121; }
@@ -4777,118 +4777,154 @@ ion-tabs.tabs-color-active-dark .tab-item {
   opacity: .4;
   cursor: default !important;
   pointer-events: none; }
-.platform-android .button.button-positive, .platform-android .button.button--fab.button-positive, .platform-android .button.button-calm, .platform-android .button.button--fab.button-calm, .platform-android .button.button-assertive, .platform-android .button.button--fab.button-assertive, .platform-android .button.button-balanced, .platform-android .button.button--fab.button-balanced, .platform-android .button.button-energized, .platform-android .button.button--fab.button-energized, .platform-android .button.button-royal, .platform-android .button.button--fab.button-royal, .platform-android .button.button-dark, .platform-android .button.button--fab.button-dark, .platform-override .button.button-positive, .platform-override .button.button--fab.button-positive, .platform-override .button.button-calm, .platform-override .button.button--fab.button-calm, .platform-override .button.button-assertive, .platform-override .button.button--fab.button-assertive, .platform-override .button.button-balanced, .platform-override .button.button--fab.button-balanced, .platform-override .button.button-energized, .platform-override .button.button--fab.button-energized, .platform-override .button.button-royal, .platform-override .button.button--fab.button-royal, .platform-override .button.button-dark, .platform-override .button.button--fab.button-dark {
+.platform-android .button.button-positive, .platform-android .button.button-calm, .platform-android .button.button-assertive, .platform-android .button.button-balanced, .platform-android .button.button-energized, .platform-android .button.button-royal, .platform-android .button.button-dark, .platform-override .button.button-positive, .platform-override .button.button-calm, .platform-override .button.button-assertive, .platform-override .button.button-balanced, .platform-override .button.button-energized, .platform-override .button.button-royal, .platform-override .button.button-dark {
   color: #FFFFFF; }
-  .platform-android .button.button-positive.disabled, .platform-android .button.disabled.button-positive, .platform-android .button.button-positive[disabled], .platform-android .button[disabled].button-positive, .platform-android .button.button-calm.disabled, .platform-android .button.disabled.button-calm, .platform-android .button.button-calm[disabled], .platform-android .button[disabled].button-calm, .platform-android .button.button-assertive.disabled, .platform-android .button.disabled.button-assertive, .platform-android .button.button-assertive[disabled], .platform-android .button[disabled].button-assertive, .platform-android .button.button-balanced.disabled, .platform-android .button.disabled.button-balanced, .platform-android .button.button-balanced[disabled], .platform-android .button[disabled].button-balanced, .platform-android .button.button-energized.disabled, .platform-android .button.disabled.button-energized, .platform-android .button.button-energized[disabled], .platform-android .button[disabled].button-energized, .platform-android .button.button-royal.disabled, .platform-android .button.disabled.button-royal, .platform-android .button.button-royal[disabled], .platform-android .button[disabled].button-royal, .platform-android .button.button-dark.disabled, .platform-android .button.disabled.button-dark, .platform-android .button.button-dark[disabled], .platform-android .button[disabled].button-dark, .platform-override .button.button-positive.disabled, .platform-override .button.disabled.button-positive, .platform-override .button.button-positive[disabled], .platform-override .button[disabled].button-positive, .platform-override .button.button-calm.disabled, .platform-override .button.disabled.button-calm, .platform-override .button.button-calm[disabled], .platform-override .button[disabled].button-calm, .platform-override .button.button-assertive.disabled, .platform-override .button.disabled.button-assertive, .platform-override .button.button-assertive[disabled], .platform-override .button[disabled].button-assertive, .platform-override .button.button-balanced.disabled, .platform-override .button.disabled.button-balanced, .platform-override .button.button-balanced[disabled], .platform-override .button[disabled].button-balanced, .platform-override .button.button-energized.disabled, .platform-override .button.disabled.button-energized, .platform-override .button.button-energized[disabled], .platform-override .button[disabled].button-energized, .platform-override .button.button-royal.disabled, .platform-override .button.disabled.button-royal, .platform-override .button.button-royal[disabled], .platform-override .button[disabled].button-royal, .platform-override .button.button-dark.disabled, .platform-override .button.disabled.button-dark, .platform-override .button.button-dark[disabled], .platform-override .button[disabled].button-dark {
+  .platform-android .button.button-positive.disabled, .platform-android .button.button-positive[disabled], .platform-android .button.button-calm.disabled, .platform-android .button.button-calm[disabled], .platform-android .button.button-assertive.disabled, .platform-android .button.button-assertive[disabled], .platform-android .button.button-balanced.disabled, .platform-android .button.button-balanced[disabled], .platform-android .button.button-energized.disabled, .platform-android .button.button-energized[disabled], .platform-android .button.button-royal.disabled, .platform-android .button.button-royal[disabled], .platform-android .button.button-dark.disabled, .platform-android .button.button-dark[disabled], .platform-override .button.button-positive.disabled, .platform-override .button.button-positive[disabled], .platform-override .button.button-calm.disabled, .platform-override .button.button-calm[disabled], .platform-override .button.button-assertive.disabled, .platform-override .button.button-assertive[disabled], .platform-override .button.button-balanced.disabled, .platform-override .button.button-balanced[disabled], .platform-override .button.button-energized.disabled, .platform-override .button.button-energized[disabled], .platform-override .button.button-royal.disabled, .platform-override .button.button-royal[disabled], .platform-override .button.button-dark.disabled, .platform-override .button.button-dark[disabled] {
     color: #FFFFFF; }
-.platform-android .button.button-light:hover, .platform-override .button.button-light:hover {
+.platform-android .button.button-light, .platform-override .button.button-light {
   background-color: #FAFAFA; }
-  .platform-android .button.button-light:hover:not(:active), .platform-override .button.button-light:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button-light:focus, .platform-override .button.button-light:focus {
-  background-color: #FAFAFA; }
-.platform-android .button.button-light:active, .platform-override .button.button-light:active {
-  background-color: #fafafa; }
-.platform-android .button.button-light.disabled, .platform-android .button.disabled.button-light, .platform-android .button.button-light[disabled], .platform-android .button[disabled].button-light, .platform-override .button.button-light.disabled, .platform-override .button.disabled.button-light, .platform-override .button.button-light[disabled], .platform-override .button[disabled].button-light {
-  background-color: #FAFAFA; }
-.platform-android .button.button-light .mdl-ripple, .platform-override .button.button-light .mdl-ripple {
-  background: white; }
-.platform-android .button.button-stable:hover, .platform-override .button.button-stable:hover {
+  .platform-android .button.button-light:hover, .platform-override .button.button-light:hover {
+    background-color: #FAFAFA; }
+    .platform-android .button.button-light:hover:not(:active), .platform-override .button.button-light:hover:not(:active) {
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  .platform-android .button.button-light:focus:not(:active), .platform-android .button.button-light.activated, .platform-override .button.button-light:focus:not(:active), .platform-override .button.button-light.activated {
+    background-color: #FAFAFA; }
+  .platform-android .button.button-light:focus, .platform-override .button.button-light:focus {
+    background-color: #FAFAFA; }
+  .platform-android .button.button-light:active, .platform-override .button.button-light:active {
+    background-color: #fafafa; }
+  .platform-android .button.button-light.disabled, .platform-android .button.button-light[disabled], .platform-override .button.button-light.disabled, .platform-override .button.button-light[disabled] {
+    background-color: #FAFAFA; }
+  .platform-android .button.button-light .mdl-ripple, .platform-override .button.button-light .mdl-ripple {
+    background: white; }
+.platform-android .button.button-stable, .platform-override .button.button-stable {
   background-color: #F5F5F5; }
-  .platform-android .button.button-stable:hover:not(:active), .platform-override .button.button-stable:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button-stable:focus, .platform-override .button.button-stable:focus {
-  background-color: #F5F5F5; }
-.platform-android .button.button-stable:active, .platform-override .button.button-stable:active {
-  background-color: #e5e5e5; }
-.platform-android .button.button-stable.disabled, .platform-android .button.disabled.button-stable, .platform-android .button.button-stable[disabled], .platform-android .button[disabled].button-stable, .platform-override .button.button-stable.disabled, .platform-override .button.disabled.button-stable, .platform-override .button.button-stable[disabled], .platform-override .button[disabled].button-stable {
-  background-color: #F5F5F5; }
-.platform-android .button.button-stable .mdl-ripple, .platform-override .button.button-stable .mdl-ripple {
-  background: white; }
-.platform-android .button.button-positive:hover, .platform-override .button.button-positive:hover {
+  .platform-android .button.button-stable:hover, .platform-override .button.button-stable:hover {
+    background-color: #F5F5F5; }
+    .platform-android .button.button-stable:hover:not(:active), .platform-override .button.button-stable:hover:not(:active) {
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  .platform-android .button.button-stable:focus:not(:active), .platform-android .button.button-stable.activated, .platform-override .button.button-stable:focus:not(:active), .platform-override .button.button-stable.activated {
+    background-color: #F5F5F5; }
+  .platform-android .button.button-stable:focus, .platform-override .button.button-stable:focus {
+    background-color: #F5F5F5; }
+  .platform-android .button.button-stable:active, .platform-override .button.button-stable:active {
+    background-color: #e5e5e5; }
+  .platform-android .button.button-stable.disabled, .platform-android .button.button-stable[disabled], .platform-override .button.button-stable.disabled, .platform-override .button.button-stable[disabled] {
+    background-color: #F5F5F5; }
+  .platform-android .button.button-stable .mdl-ripple, .platform-override .button.button-stable .mdl-ripple {
+    background: white; }
+.platform-android .button.button-positive, .platform-override .button.button-positive {
   background-color: #3F51B5; }
-  .platform-android .button.button-positive:hover:not(:active), .platform-override .button.button-positive:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button-positive:focus, .platform-override .button.button-positive:focus {
-  background-color: #3F51B5; }
-.platform-android .button.button-positive:active, .platform-override .button.button-positive:active {
-  background-color: #32408f; }
-.platform-android .button.button-positive.disabled, .platform-android .button.disabled.button-positive, .platform-android .button.button-positive[disabled], .platform-android .button[disabled].button-positive, .platform-override .button.button-positive.disabled, .platform-override .button.disabled.button-positive, .platform-override .button.button-positive[disabled], .platform-override .button[disabled].button-positive {
-  background-color: #3F51B5; }
-.platform-android .button.button-positive .mdl-ripple, .platform-override .button.button-positive .mdl-ripple {
-  background: #8591d5; }
-.platform-android .button.button-calm:hover, .platform-override .button.button-calm:hover {
+  .platform-android .button.button-positive:hover, .platform-override .button.button-positive:hover {
+    background-color: #3F51B5; }
+    .platform-android .button.button-positive:hover:not(:active), .platform-override .button.button-positive:hover:not(:active) {
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  .platform-android .button.button-positive:focus:not(:active), .platform-android .button.button-positive.activated, .platform-override .button.button-positive:focus:not(:active), .platform-override .button.button-positive.activated {
+    background-color: #3F51B5; }
+  .platform-android .button.button-positive:focus, .platform-override .button.button-positive:focus {
+    background-color: #3F51B5; }
+  .platform-android .button.button-positive:active, .platform-override .button.button-positive:active {
+    background-color: #32408f; }
+  .platform-android .button.button-positive.disabled, .platform-android .button.button-positive[disabled], .platform-override .button.button-positive.disabled, .platform-override .button.button-positive[disabled] {
+    background-color: #3F51B5; }
+  .platform-android .button.button-positive .mdl-ripple, .platform-override .button.button-positive .mdl-ripple {
+    background: #8591d5; }
+.platform-android .button.button-calm, .platform-override .button.button-calm {
   background-color: #2196F3; }
-  .platform-android .button.button-calm:hover:not(:active), .platform-override .button.button-calm:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button-calm:focus, .platform-override .button.button-calm:focus {
-  background-color: #2196F3; }
-.platform-android .button.button-calm:active, .platform-override .button.button-calm:active {
-  background-color: #0c7cd5; }
-.platform-android .button.button-calm.disabled, .platform-android .button.disabled.button-calm, .platform-android .button.button-calm[disabled], .platform-android .button[disabled].button-calm, .platform-override .button.button-calm.disabled, .platform-override .button.disabled.button-calm, .platform-override .button.button-calm[disabled], .platform-override .button[disabled].button-calm {
-  background-color: #2196F3; }
-.platform-android .button.button-calm .mdl-ripple, .platform-override .button.button-calm .mdl-ripple {
-  background: #82c4f8; }
-.platform-android .button.button-assertive:hover, .platform-override .button.button-assertive:hover {
+  .platform-android .button.button-calm:hover, .platform-override .button.button-calm:hover {
+    background-color: #2196F3; }
+    .platform-android .button.button-calm:hover:not(:active), .platform-override .button.button-calm:hover:not(:active) {
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  .platform-android .button.button-calm:focus:not(:active), .platform-android .button.button-calm.activated, .platform-override .button.button-calm:focus:not(:active), .platform-override .button.button-calm.activated {
+    background-color: #2196F3; }
+  .platform-android .button.button-calm:focus, .platform-override .button.button-calm:focus {
+    background-color: #2196F3; }
+  .platform-android .button.button-calm:active, .platform-override .button.button-calm:active {
+    background-color: #0c7cd5; }
+  .platform-android .button.button-calm.disabled, .platform-android .button.button-calm[disabled], .platform-override .button.button-calm.disabled, .platform-override .button.button-calm[disabled] {
+    background-color: #2196F3; }
+  .platform-android .button.button-calm .mdl-ripple, .platform-override .button.button-calm .mdl-ripple {
+    background: #82c4f8; }
+.platform-android .button.button-assertive, .platform-override .button.button-assertive {
   background-color: #F44336; }
-  .platform-android .button.button-assertive:hover:not(:active), .platform-override .button.button-assertive:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button-assertive:focus, .platform-override .button.button-assertive:focus {
-  background-color: #F44336; }
-.platform-android .button.button-assertive:active, .platform-override .button.button-assertive:active {
-  background-color: #ea1c0d; }
-.platform-android .button.button-assertive.disabled, .platform-android .button.disabled.button-assertive, .platform-android .button.button-assertive[disabled], .platform-android .button[disabled].button-assertive, .platform-override .button.button-assertive.disabled, .platform-override .button.disabled.button-assertive, .platform-override .button.button-assertive[disabled], .platform-override .button[disabled].button-assertive {
-  background-color: #F44336; }
-.platform-android .button.button-assertive .mdl-ripple, .platform-override .button.button-assertive .mdl-ripple {
-  background: #f99d97; }
-.platform-android .button.button-balanced:hover, .platform-override .button.button-balanced:hover {
+  .platform-android .button.button-assertive:hover, .platform-override .button.button-assertive:hover {
+    background-color: #F44336; }
+    .platform-android .button.button-assertive:hover:not(:active), .platform-override .button.button-assertive:hover:not(:active) {
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  .platform-android .button.button-assertive:focus:not(:active), .platform-android .button.button-assertive.activated, .platform-override .button.button-assertive:focus:not(:active), .platform-override .button.button-assertive.activated {
+    background-color: #F44336; }
+  .platform-android .button.button-assertive:focus, .platform-override .button.button-assertive:focus {
+    background-color: #F44336; }
+  .platform-android .button.button-assertive:active, .platform-override .button.button-assertive:active {
+    background-color: #ea1c0d; }
+  .platform-android .button.button-assertive.disabled, .platform-android .button.button-assertive[disabled], .platform-override .button.button-assertive.disabled, .platform-override .button.button-assertive[disabled] {
+    background-color: #F44336; }
+  .platform-android .button.button-assertive .mdl-ripple, .platform-override .button.button-assertive .mdl-ripple {
+    background: #f99d97; }
+.platform-android .button.button-balanced, .platform-override .button.button-balanced {
   background-color: #4CAF50; }
-  .platform-android .button.button-balanced:hover:not(:active), .platform-override .button.button-balanced:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button-balanced:focus, .platform-override .button.button-balanced:focus {
-  background-color: #4CAF50; }
-.platform-android .button.button-balanced:active, .platform-override .button.button-balanced:active {
-  background-color: #3d8b40; }
-.platform-android .button.button-balanced.disabled, .platform-android .button.disabled.button-balanced, .platform-android .button.button-balanced[disabled], .platform-android .button[disabled].button-balanced, .platform-override .button.button-balanced.disabled, .platform-override .button.disabled.button-balanced, .platform-override .button.button-balanced[disabled], .platform-override .button[disabled].button-balanced {
-  background-color: #4CAF50; }
-.platform-android .button.button-balanced .mdl-ripple, .platform-override .button.button-balanced .mdl-ripple {
-  background: #92cf94; }
-.platform-android .button.button-energized:hover, .platform-override .button.button-energized:hover {
+  .platform-android .button.button-balanced:hover, .platform-override .button.button-balanced:hover {
+    background-color: #4CAF50; }
+    .platform-android .button.button-balanced:hover:not(:active), .platform-override .button.button-balanced:hover:not(:active) {
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  .platform-android .button.button-balanced:focus:not(:active), .platform-android .button.button-balanced.activated, .platform-override .button.button-balanced:focus:not(:active), .platform-override .button.button-balanced.activated {
+    background-color: #4CAF50; }
+  .platform-android .button.button-balanced:focus, .platform-override .button.button-balanced:focus {
+    background-color: #4CAF50; }
+  .platform-android .button.button-balanced:active, .platform-override .button.button-balanced:active {
+    background-color: #3d8b40; }
+  .platform-android .button.button-balanced.disabled, .platform-android .button.button-balanced[disabled], .platform-override .button.button-balanced.disabled, .platform-override .button.button-balanced[disabled] {
+    background-color: #4CAF50; }
+  .platform-android .button.button-balanced .mdl-ripple, .platform-override .button.button-balanced .mdl-ripple {
+    background: #92cf94; }
+.platform-android .button.button-energized, .platform-override .button.button-energized {
   background-color: #FFC107; }
-  .platform-android .button.button-energized:hover:not(:active), .platform-override .button.button-energized:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button-energized:focus, .platform-override .button.button-energized:focus {
-  background-color: #FFC107; }
-.platform-android .button.button-energized:active, .platform-override .button.button-energized:active {
-  background-color: #ecb100; }
-.platform-android .button.button-energized.disabled, .platform-android .button.disabled.button-energized, .platform-android .button.button-energized[disabled], .platform-android .button[disabled].button-energized, .platform-override .button.button-energized.disabled, .platform-override .button.disabled.button-energized, .platform-override .button.button-energized[disabled], .platform-override .button[disabled].button-energized {
-  background-color: #FFC107; }
-.platform-android .button.button-energized .mdl-ripple, .platform-override .button.button-energized .mdl-ripple {
-  background: #ffdb6d; }
-.platform-android .button.button-royal:hover, .platform-override .button.button-royal:hover {
+  .platform-android .button.button-energized:hover, .platform-override .button.button-energized:hover {
+    background-color: #FFC107; }
+    .platform-android .button.button-energized:hover:not(:active), .platform-override .button.button-energized:hover:not(:active) {
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  .platform-android .button.button-energized:focus:not(:active), .platform-android .button.button-energized.activated, .platform-override .button.button-energized:focus:not(:active), .platform-override .button.button-energized.activated {
+    background-color: #FFC107; }
+  .platform-android .button.button-energized:focus, .platform-override .button.button-energized:focus {
+    background-color: #FFC107; }
+  .platform-android .button.button-energized:active, .platform-override .button.button-energized:active {
+    background-color: #ecb100; }
+  .platform-android .button.button-energized.disabled, .platform-android .button.button-energized[disabled], .platform-override .button.button-energized.disabled, .platform-override .button.button-energized[disabled] {
+    background-color: #FFC107; }
+  .platform-android .button.button-energized .mdl-ripple, .platform-override .button.button-energized .mdl-ripple {
+    background: #ffdb6d; }
+.platform-android .button.button-royal, .platform-override .button.button-royal {
   background-color: #673AB7; }
-  .platform-android .button.button-royal:hover:not(:active), .platform-override .button.button-royal:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button-royal:focus, .platform-override .button.button-royal:focus {
-  background-color: #673AB7; }
-.platform-android .button.button-royal:active, .platform-override .button.button-royal:active {
-  background-color: #563098; }
-.platform-android .button.button-royal.disabled, .platform-android .button.disabled.button-royal, .platform-android .button.button-royal[disabled], .platform-android .button[disabled].button-royal, .platform-override .button.button-royal.disabled, .platform-override .button.disabled.button-royal, .platform-override .button.button-royal[disabled], .platform-override .button[disabled].button-royal {
-  background-color: #673AB7; }
-.platform-android .button.button-royal .mdl-ripple, .platform-override .button.button-royal .mdl-ripple {
-  background: #9f80d7; }
-.platform-android .button.button-dark:hover, .platform-override .button.button-dark:hover {
+  .platform-android .button.button-royal:hover, .platform-override .button.button-royal:hover {
+    background-color: #673AB7; }
+    .platform-android .button.button-royal:hover:not(:active), .platform-override .button.button-royal:hover:not(:active) {
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  .platform-android .button.button-royal:focus:not(:active), .platform-android .button.button-royal.activated, .platform-override .button.button-royal:focus:not(:active), .platform-override .button.button-royal.activated {
+    background-color: #673AB7; }
+  .platform-android .button.button-royal:focus, .platform-override .button.button-royal:focus {
+    background-color: #673AB7; }
+  .platform-android .button.button-royal:active, .platform-override .button.button-royal:active {
+    background-color: #563098; }
+  .platform-android .button.button-royal.disabled, .platform-android .button.button-royal[disabled], .platform-override .button.button-royal.disabled, .platform-override .button.button-royal[disabled] {
+    background-color: #673AB7; }
+  .platform-android .button.button-royal .mdl-ripple, .platform-override .button.button-royal .mdl-ripple {
+    background: #9f80d7; }
+.platform-android .button.button-dark, .platform-override .button.button-dark {
   background-color: #212121; }
-  .platform-android .button.button-dark:hover:not(:active), .platform-override .button.button-dark:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button-dark:focus, .platform-override .button.button-dark:focus {
-  background-color: #212121; }
-.platform-android .button.button-dark:active, .platform-override .button.button-dark:active {
-  background-color: #262626; }
-.platform-android .button.button-dark.disabled, .platform-android .button.disabled.button-dark, .platform-android .button.button-dark[disabled], .platform-android .button[disabled].button-dark, .platform-override .button.button-dark.disabled, .platform-override .button.disabled.button-dark, .platform-override .button.button-dark[disabled], .platform-override .button[disabled].button-dark {
-  background-color: #212121; }
-.platform-android .button.button-dark .mdl-ripple, .platform-override .button.button-dark .mdl-ripple {
-  background: #545454; }
+  .platform-android .button.button-dark:hover, .platform-override .button.button-dark:hover {
+    background-color: #212121; }
+    .platform-android .button.button-dark:hover:not(:active), .platform-override .button.button-dark:hover:not(:active) {
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  .platform-android .button.button-dark:focus:not(:active), .platform-android .button.button-dark.activated, .platform-override .button.button-dark:focus:not(:active), .platform-override .button.button-dark.activated {
+    background-color: #212121; }
+  .platform-android .button.button-dark:focus, .platform-override .button.button-dark:focus {
+    background-color: #212121; }
+  .platform-android .button.button-dark:active, .platform-override .button.button-dark:active {
+    background-color: #262626; }
+  .platform-android .button.button-dark.disabled, .platform-android .button.button-dark[disabled], .platform-override .button.button-dark.disabled, .platform-override .button.button-dark[disabled] {
+    background-color: #212121; }
+  .platform-android .button.button-dark .mdl-ripple, .platform-override .button.button-dark .mdl-ripple {
+    background: #545454; }
 .platform-android .button.button-outline, .platform-android .button.button-clear, .platform-android .bar .button, .platform-override .bar .platform-android .button, .platform-android .button.button-icon, .platform-override .button.button-outline, .platform-override .button.button-clear, .platform-android .bar .platform-override .button, .platform-override .bar .button, .platform-override .button.button-icon {
   box-shadow: none; }
   .platform-android .button.button-outline:focus:not(:active), .platform-android .button.button-clear:focus:not(:active), .platform-android .bar .button:focus:not(:active), .platform-override .bar .platform-android .button:focus:not(:active), .platform-android .button.button-icon:focus:not(:active), .platform-override .button.button-outline:focus:not(:active), .platform-override .button.button-clear:focus:not(:active), .platform-android .bar .platform-override .button:focus:not(:active), .platform-override .bar .button:focus:not(:active), .platform-override .button.button-icon:focus:not(:active) {
@@ -4897,7 +4933,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
     color: #212121; }
   .platform-android .button.button-outline.button-positive, .platform-android .button.button-outline.button-calm, .platform-android .button.button-outline.button-assertive, .platform-android .button.button-outline.button-balanced, .platform-android .button.button-outline.button-energized, .platform-android .button.button-outline.button-royal, .platform-android .button.button-outline.button-dark, .platform-android .button.button-clear.button-positive, .platform-android .bar .button.button-positive, .platform-override .bar .platform-android .button.button-positive, .platform-android .button.button-clear.button-calm, .platform-android .bar .button.button-calm, .platform-override .bar .platform-android .button.button-calm, .platform-android .button.button-clear.button-assertive, .platform-android .bar .button.button-assertive, .platform-override .bar .platform-android .button.button-assertive, .platform-android .button.button-clear.button-balanced, .platform-android .bar .button.button-balanced, .platform-override .bar .platform-android .button.button-balanced, .platform-android .button.button-clear.button-energized, .platform-android .bar .button.button-energized, .platform-override .bar .platform-android .button.button-energized, .platform-android .button.button-clear.button-royal, .platform-android .bar .button.button-royal, .platform-override .bar .platform-android .button.button-royal, .platform-android .button.button-clear.button-dark, .platform-android .bar .button.button-dark, .platform-override .bar .platform-android .button.button-dark, .platform-android .button.button-icon.button-positive, .platform-android .button.button-icon.button-calm, .platform-android .button.button-icon.button-assertive, .platform-android .button.button-icon.button-balanced, .platform-android .button.button-icon.button-energized, .platform-android .button.button-icon.button-royal, .platform-android .button.button-icon.button-dark, .platform-override .button.button-outline.button-positive, .platform-override .button.button-outline.button-calm, .platform-override .button.button-outline.button-assertive, .platform-override .button.button-outline.button-balanced, .platform-override .button.button-outline.button-energized, .platform-override .button.button-outline.button-royal, .platform-override .button.button-outline.button-dark, .platform-override .button.button-clear.button-positive, .platform-android .bar .platform-override .button.button-positive, .platform-override .bar .button.button-positive, .platform-override .button.button-clear.button-calm, .platform-android .bar .platform-override .button.button-calm, .platform-override .bar .button.button-calm, .platform-override .button.button-clear.button-assertive, .platform-android .bar .platform-override .button.button-assertive, .platform-override .bar .button.button-assertive, .platform-override .button.button-clear.button-balanced, .platform-android .bar .platform-override .button.button-balanced, .platform-override .bar .button.button-balanced, .platform-override .button.button-clear.button-energized, .platform-android .bar .platform-override .button.button-energized, .platform-override .bar .button.button-energized, .platform-override .button.button-clear.button-royal, .platform-android .bar .platform-override .button.button-royal, .platform-override .bar .button.button-royal, .platform-override .button.button-clear.button-dark, .platform-android .bar .platform-override .button.button-dark, .platform-override .bar .button.button-dark, .platform-override .button.button-icon.button-positive, .platform-override .button.button-icon.button-calm, .platform-override .button.button-icon.button-assertive, .platform-override .button.button-icon.button-balanced, .platform-override .button.button-icon.button-energized, .platform-override .button.button-icon.button-royal, .platform-override .button.button-icon.button-dark {
     color: #FFFFFF; }
-    .platform-android .button.button-outline.button-positive.disabled, .platform-android .button.button-outline.disabled.button-positive, .platform-android .button.button-outline.button-positive[disabled], .platform-android .button.button-outline[disabled].button-positive, .platform-android .button.button-outline.button-calm.disabled, .platform-android .button.button-outline.disabled.button-calm, .platform-android .button.button-outline.button-calm[disabled], .platform-android .button.button-outline[disabled].button-calm, .platform-android .button.button-outline.button-assertive.disabled, .platform-android .button.button-outline.disabled.button-assertive, .platform-android .button.button-outline.button-assertive[disabled], .platform-android .button.button-outline[disabled].button-assertive, .platform-android .button.button-outline.button-balanced.disabled, .platform-android .button.button-outline.disabled.button-balanced, .platform-android .button.button-outline.button-balanced[disabled], .platform-android .button.button-outline[disabled].button-balanced, .platform-android .button.button-outline.button-energized.disabled, .platform-android .button.button-outline.disabled.button-energized, .platform-android .button.button-outline.button-energized[disabled], .platform-android .button.button-outline[disabled].button-energized, .platform-android .button.button-outline.button-royal.disabled, .platform-android .button.button-outline.disabled.button-royal, .platform-android .button.button-outline.button-royal[disabled], .platform-android .button.button-outline[disabled].button-royal, .platform-android .button.button-outline.button-dark.disabled, .platform-android .button.button-outline.disabled.button-dark, .platform-android .button.button-outline.button-dark[disabled], .platform-android .button.button-outline[disabled].button-dark, .platform-android .button.button-clear.button-positive.disabled, .platform-android .button.button-clear.disabled.button-positive, .platform-android .bar .button.disabled.button-positive, .platform-override .bar .platform-android .button.disabled.button-positive, .platform-android .button.button-clear.button-positive[disabled], .platform-android .button.button-clear[disabled].button-positive, .platform-android .bar .button[disabled].button-positive, .platform-override .bar .platform-android .button[disabled].button-positive, .platform-android .button.button-clear.button-calm.disabled, .platform-android .button.button-clear.disabled.button-calm, .platform-android .bar .button.disabled.button-calm, .platform-override .bar .platform-android .button.disabled.button-calm, .platform-android .button.button-clear.button-calm[disabled], .platform-android .button.button-clear[disabled].button-calm, .platform-android .bar .button[disabled].button-calm, .platform-override .bar .platform-android .button[disabled].button-calm, .platform-android .button.button-clear.button-assertive.disabled, .platform-android .button.button-clear.disabled.button-assertive, .platform-android .bar .button.disabled.button-assertive, .platform-override .bar .platform-android .button.disabled.button-assertive, .platform-android .button.button-clear.button-assertive[disabled], .platform-android .button.button-clear[disabled].button-assertive, .platform-android .bar .button[disabled].button-assertive, .platform-override .bar .platform-android .button[disabled].button-assertive, .platform-android .button.button-clear.button-balanced.disabled, .platform-android .button.button-clear.disabled.button-balanced, .platform-android .bar .button.disabled.button-balanced, .platform-override .bar .platform-android .button.disabled.button-balanced, .platform-android .button.button-clear.button-balanced[disabled], .platform-android .button.button-clear[disabled].button-balanced, .platform-android .bar .button[disabled].button-balanced, .platform-override .bar .platform-android .button[disabled].button-balanced, .platform-android .button.button-clear.button-energized.disabled, .platform-android .button.button-clear.disabled.button-energized, .platform-android .bar .button.disabled.button-energized, .platform-override .bar .platform-android .button.disabled.button-energized, .platform-android .button.button-clear.button-energized[disabled], .platform-android .button.button-clear[disabled].button-energized, .platform-android .bar .button[disabled].button-energized, .platform-override .bar .platform-android .button[disabled].button-energized, .platform-android .button.button-clear.button-royal.disabled, .platform-android .button.button-clear.disabled.button-royal, .platform-android .bar .button.disabled.button-royal, .platform-override .bar .platform-android .button.disabled.button-royal, .platform-android .button.button-clear.button-royal[disabled], .platform-android .button.button-clear[disabled].button-royal, .platform-android .bar .button[disabled].button-royal, .platform-override .bar .platform-android .button[disabled].button-royal, .platform-android .button.button-clear.button-dark.disabled, .platform-android .button.button-clear.disabled.button-dark, .platform-android .bar .button.disabled.button-dark, .platform-override .bar .platform-android .button.disabled.button-dark, .platform-android .button.button-clear.button-dark[disabled], .platform-android .button.button-clear[disabled].button-dark, .platform-android .bar .button[disabled].button-dark, .platform-override .bar .platform-android .button[disabled].button-dark, .platform-android .button.button-icon.button-positive.disabled, .platform-android .button.button-icon.disabled.button-positive, .platform-android .button.button-icon.button-positive[disabled], .platform-android .button.button-icon[disabled].button-positive, .platform-android .button.button-icon.button-calm.disabled, .platform-android .button.button-icon.disabled.button-calm, .platform-android .button.button-icon.button-calm[disabled], .platform-android .button.button-icon[disabled].button-calm, .platform-android .button.button-icon.button-assertive.disabled, .platform-android .button.button-icon.disabled.button-assertive, .platform-android .button.button-icon.button-assertive[disabled], .platform-android .button.button-icon[disabled].button-assertive, .platform-android .button.button-icon.button-balanced.disabled, .platform-android .button.button-icon.disabled.button-balanced, .platform-android .button.button-icon.button-balanced[disabled], .platform-android .button.button-icon[disabled].button-balanced, .platform-android .button.button-icon.button-energized.disabled, .platform-android .button.button-icon.disabled.button-energized, .platform-android .button.button-icon.button-energized[disabled], .platform-android .button.button-icon[disabled].button-energized, .platform-android .button.button-icon.button-royal.disabled, .platform-android .button.button-icon.disabled.button-royal, .platform-android .button.button-icon.button-royal[disabled], .platform-android .button.button-icon[disabled].button-royal, .platform-android .button.button-icon.button-dark.disabled, .platform-android .button.button-icon.disabled.button-dark, .platform-android .button.button-icon.button-dark[disabled], .platform-android .button.button-icon[disabled].button-dark, .platform-override .button.button-outline.button-positive.disabled, .platform-override .button.button-outline.disabled.button-positive, .platform-override .button.button-outline.button-positive[disabled], .platform-override .button.button-outline[disabled].button-positive, .platform-override .button.button-outline.button-calm.disabled, .platform-override .button.button-outline.disabled.button-calm, .platform-override .button.button-outline.button-calm[disabled], .platform-override .button.button-outline[disabled].button-calm, .platform-override .button.button-outline.button-assertive.disabled, .platform-override .button.button-outline.disabled.button-assertive, .platform-override .button.button-outline.button-assertive[disabled], .platform-override .button.button-outline[disabled].button-assertive, .platform-override .button.button-outline.button-balanced.disabled, .platform-override .button.button-outline.disabled.button-balanced, .platform-override .button.button-outline.button-balanced[disabled], .platform-override .button.button-outline[disabled].button-balanced, .platform-override .button.button-outline.button-energized.disabled, .platform-override .button.button-outline.disabled.button-energized, .platform-override .button.button-outline.button-energized[disabled], .platform-override .button.button-outline[disabled].button-energized, .platform-override .button.button-outline.button-royal.disabled, .platform-override .button.button-outline.disabled.button-royal, .platform-override .button.button-outline.button-royal[disabled], .platform-override .button.button-outline[disabled].button-royal, .platform-override .button.button-outline.button-dark.disabled, .platform-override .button.button-outline.disabled.button-dark, .platform-override .button.button-outline.button-dark[disabled], .platform-override .button.button-outline[disabled].button-dark, .platform-override .button.button-clear.button-positive.disabled, .platform-override .button.button-clear.disabled.button-positive, .platform-android .bar .platform-override .button.disabled.button-positive, .platform-override .bar .button.disabled.button-positive, .platform-override .button.button-clear.button-positive[disabled], .platform-override .button.button-clear[disabled].button-positive, .platform-android .bar .platform-override .button[disabled].button-positive, .platform-override .bar .button[disabled].button-positive, .platform-override .button.button-clear.button-calm.disabled, .platform-override .button.button-clear.disabled.button-calm, .platform-android .bar .platform-override .button.disabled.button-calm, .platform-override .bar .button.disabled.button-calm, .platform-override .button.button-clear.button-calm[disabled], .platform-override .button.button-clear[disabled].button-calm, .platform-android .bar .platform-override .button[disabled].button-calm, .platform-override .bar .button[disabled].button-calm, .platform-override .button.button-clear.button-assertive.disabled, .platform-override .button.button-clear.disabled.button-assertive, .platform-android .bar .platform-override .button.disabled.button-assertive, .platform-override .bar .button.disabled.button-assertive, .platform-override .button.button-clear.button-assertive[disabled], .platform-override .button.button-clear[disabled].button-assertive, .platform-android .bar .platform-override .button[disabled].button-assertive, .platform-override .bar .button[disabled].button-assertive, .platform-override .button.button-clear.button-balanced.disabled, .platform-override .button.button-clear.disabled.button-balanced, .platform-android .bar .platform-override .button.disabled.button-balanced, .platform-override .bar .button.disabled.button-balanced, .platform-override .button.button-clear.button-balanced[disabled], .platform-override .button.button-clear[disabled].button-balanced, .platform-android .bar .platform-override .button[disabled].button-balanced, .platform-override .bar .button[disabled].button-balanced, .platform-override .button.button-clear.button-energized.disabled, .platform-override .button.button-clear.disabled.button-energized, .platform-android .bar .platform-override .button.disabled.button-energized, .platform-override .bar .button.disabled.button-energized, .platform-override .button.button-clear.button-energized[disabled], .platform-override .button.button-clear[disabled].button-energized, .platform-android .bar .platform-override .button[disabled].button-energized, .platform-override .bar .button[disabled].button-energized, .platform-override .button.button-clear.button-royal.disabled, .platform-override .button.button-clear.disabled.button-royal, .platform-android .bar .platform-override .button.disabled.button-royal, .platform-override .bar .button.disabled.button-royal, .platform-override .button.button-clear.button-royal[disabled], .platform-override .button.button-clear[disabled].button-royal, .platform-android .bar .platform-override .button[disabled].button-royal, .platform-override .bar .button[disabled].button-royal, .platform-override .button.button-clear.button-dark.disabled, .platform-override .button.button-clear.disabled.button-dark, .platform-android .bar .platform-override .button.disabled.button-dark, .platform-override .bar .button.disabled.button-dark, .platform-override .button.button-clear.button-dark[disabled], .platform-override .button.button-clear[disabled].button-dark, .platform-android .bar .platform-override .button[disabled].button-dark, .platform-override .bar .button[disabled].button-dark, .platform-override .button.button-icon.button-positive.disabled, .platform-override .button.button-icon.disabled.button-positive, .platform-override .button.button-icon.button-positive[disabled], .platform-override .button.button-icon[disabled].button-positive, .platform-override .button.button-icon.button-calm.disabled, .platform-override .button.button-icon.disabled.button-calm, .platform-override .button.button-icon.button-calm[disabled], .platform-override .button.button-icon[disabled].button-calm, .platform-override .button.button-icon.button-assertive.disabled, .platform-override .button.button-icon.disabled.button-assertive, .platform-override .button.button-icon.button-assertive[disabled], .platform-override .button.button-icon[disabled].button-assertive, .platform-override .button.button-icon.button-balanced.disabled, .platform-override .button.button-icon.disabled.button-balanced, .platform-override .button.button-icon.button-balanced[disabled], .platform-override .button.button-icon[disabled].button-balanced, .platform-override .button.button-icon.button-energized.disabled, .platform-override .button.button-icon.disabled.button-energized, .platform-override .button.button-icon.button-energized[disabled], .platform-override .button.button-icon[disabled].button-energized, .platform-override .button.button-icon.button-royal.disabled, .platform-override .button.button-icon.disabled.button-royal, .platform-override .button.button-icon.button-royal[disabled], .platform-override .button.button-icon[disabled].button-royal, .platform-override .button.button-icon.button-dark.disabled, .platform-override .button.button-icon.disabled.button-dark, .platform-override .button.button-icon.button-dark[disabled], .platform-override .button.button-icon[disabled].button-dark {
+    .platform-android .button.button-outline.button-positive.disabled, .platform-android .button.button-outline.button-positive[disabled], .platform-android .button.button-outline.button-calm.disabled, .platform-android .button.button-outline.button-calm[disabled], .platform-android .button.button-outline.button-assertive.disabled, .platform-android .button.button-outline.button-assertive[disabled], .platform-android .button.button-outline.button-balanced.disabled, .platform-android .button.button-outline.button-balanced[disabled], .platform-android .button.button-outline.button-energized.disabled, .platform-android .button.button-outline.button-energized[disabled], .platform-android .button.button-outline.button-royal.disabled, .platform-android .button.button-outline.button-royal[disabled], .platform-android .button.button-outline.button-dark.disabled, .platform-android .button.button-outline.button-dark[disabled], .platform-android .button.button-clear.button-positive.disabled, .platform-android .bar .button.button-positive.disabled, .platform-override .bar .platform-android .button.button-positive.disabled, .platform-android .button.button-clear.button-positive[disabled], .platform-android .bar .button.button-positive[disabled], .platform-override .bar .platform-android .button.button-positive[disabled], .platform-android .button.button-clear.button-calm.disabled, .platform-android .bar .button.button-calm.disabled, .platform-override .bar .platform-android .button.button-calm.disabled, .platform-android .button.button-clear.button-calm[disabled], .platform-android .bar .button.button-calm[disabled], .platform-override .bar .platform-android .button.button-calm[disabled], .platform-android .button.button-clear.button-assertive.disabled, .platform-android .bar .button.button-assertive.disabled, .platform-override .bar .platform-android .button.button-assertive.disabled, .platform-android .button.button-clear.button-assertive[disabled], .platform-android .bar .button.button-assertive[disabled], .platform-override .bar .platform-android .button.button-assertive[disabled], .platform-android .button.button-clear.button-balanced.disabled, .platform-android .bar .button.button-balanced.disabled, .platform-override .bar .platform-android .button.button-balanced.disabled, .platform-android .button.button-clear.button-balanced[disabled], .platform-android .bar .button.button-balanced[disabled], .platform-override .bar .platform-android .button.button-balanced[disabled], .platform-android .button.button-clear.button-energized.disabled, .platform-android .bar .button.button-energized.disabled, .platform-override .bar .platform-android .button.button-energized.disabled, .platform-android .button.button-clear.button-energized[disabled], .platform-android .bar .button.button-energized[disabled], .platform-override .bar .platform-android .button.button-energized[disabled], .platform-android .button.button-clear.button-royal.disabled, .platform-android .bar .button.button-royal.disabled, .platform-override .bar .platform-android .button.button-royal.disabled, .platform-android .button.button-clear.button-royal[disabled], .platform-android .bar .button.button-royal[disabled], .platform-override .bar .platform-android .button.button-royal[disabled], .platform-android .button.button-clear.button-dark.disabled, .platform-android .bar .button.button-dark.disabled, .platform-override .bar .platform-android .button.button-dark.disabled, .platform-android .button.button-clear.button-dark[disabled], .platform-android .bar .button.button-dark[disabled], .platform-override .bar .platform-android .button.button-dark[disabled], .platform-android .button.button-icon.button-positive.disabled, .platform-android .button.button-icon.button-positive[disabled], .platform-android .button.button-icon.button-calm.disabled, .platform-android .button.button-icon.button-calm[disabled], .platform-android .button.button-icon.button-assertive.disabled, .platform-android .button.button-icon.button-assertive[disabled], .platform-android .button.button-icon.button-balanced.disabled, .platform-android .button.button-icon.button-balanced[disabled], .platform-android .button.button-icon.button-energized.disabled, .platform-android .button.button-icon.button-energized[disabled], .platform-android .button.button-icon.button-royal.disabled, .platform-android .button.button-icon.button-royal[disabled], .platform-android .button.button-icon.button-dark.disabled, .platform-android .button.button-icon.button-dark[disabled], .platform-override .button.button-outline.button-positive.disabled, .platform-override .button.button-outline.button-positive[disabled], .platform-override .button.button-outline.button-calm.disabled, .platform-override .button.button-outline.button-calm[disabled], .platform-override .button.button-outline.button-assertive.disabled, .platform-override .button.button-outline.button-assertive[disabled], .platform-override .button.button-outline.button-balanced.disabled, .platform-override .button.button-outline.button-balanced[disabled], .platform-override .button.button-outline.button-energized.disabled, .platform-override .button.button-outline.button-energized[disabled], .platform-override .button.button-outline.button-royal.disabled, .platform-override .button.button-outline.button-royal[disabled], .platform-override .button.button-outline.button-dark.disabled, .platform-override .button.button-outline.button-dark[disabled], .platform-override .button.button-clear.button-positive.disabled, .platform-android .bar .platform-override .button.button-positive.disabled, .platform-override .bar .button.button-positive.disabled, .platform-override .button.button-clear.button-positive[disabled], .platform-android .bar .platform-override .button.button-positive[disabled], .platform-override .bar .button.button-positive[disabled], .platform-override .button.button-clear.button-calm.disabled, .platform-android .bar .platform-override .button.button-calm.disabled, .platform-override .bar .button.button-calm.disabled, .platform-override .button.button-clear.button-calm[disabled], .platform-android .bar .platform-override .button.button-calm[disabled], .platform-override .bar .button.button-calm[disabled], .platform-override .button.button-clear.button-assertive.disabled, .platform-android .bar .platform-override .button.button-assertive.disabled, .platform-override .bar .button.button-assertive.disabled, .platform-override .button.button-clear.button-assertive[disabled], .platform-android .bar .platform-override .button.button-assertive[disabled], .platform-override .bar .button.button-assertive[disabled], .platform-override .button.button-clear.button-balanced.disabled, .platform-android .bar .platform-override .button.button-balanced.disabled, .platform-override .bar .button.button-balanced.disabled, .platform-override .button.button-clear.button-balanced[disabled], .platform-android .bar .platform-override .button.button-balanced[disabled], .platform-override .bar .button.button-balanced[disabled], .platform-override .button.button-clear.button-energized.disabled, .platform-android .bar .platform-override .button.button-energized.disabled, .platform-override .bar .button.button-energized.disabled, .platform-override .button.button-clear.button-energized[disabled], .platform-android .bar .platform-override .button.button-energized[disabled], .platform-override .bar .button.button-energized[disabled], .platform-override .button.button-clear.button-royal.disabled, .platform-android .bar .platform-override .button.button-royal.disabled, .platform-override .bar .button.button-royal.disabled, .platform-override .button.button-clear.button-royal[disabled], .platform-android .bar .platform-override .button.button-royal[disabled], .platform-override .bar .button.button-royal[disabled], .platform-override .button.button-clear.button-dark.disabled, .platform-android .bar .platform-override .button.button-dark.disabled, .platform-override .bar .button.button-dark.disabled, .platform-override .button.button-clear.button-dark[disabled], .platform-android .bar .platform-override .button.button-dark[disabled], .platform-override .bar .button.button-dark[disabled], .platform-override .button.button-icon.button-positive.disabled, .platform-override .button.button-icon.button-positive[disabled], .platform-override .button.button-icon.button-calm.disabled, .platform-override .button.button-icon.button-calm[disabled], .platform-override .button.button-icon.button-assertive.disabled, .platform-override .button.button-icon.button-assertive[disabled], .platform-override .button.button-icon.button-balanced.disabled, .platform-override .button.button-icon.button-balanced[disabled], .platform-override .button.button-icon.button-energized.disabled, .platform-override .button.button-icon.button-energized[disabled], .platform-override .button.button-icon.button-royal.disabled, .platform-override .button.button-icon.button-royal[disabled], .platform-override .button.button-icon.button-dark.disabled, .platform-override .button.button-icon.button-dark[disabled] {
       color: #FFFFFF; }
   .platform-android .button.button-outline.button-light, .platform-android .button.button-clear.button-light, .platform-android .bar .button.button-light, .platform-override .bar .platform-android .button.button-light, .platform-android .button.button-icon.button-light, .platform-override .button.button-outline.button-light, .platform-override .button.button-clear.button-light, .platform-android .bar .platform-override .button.button-light, .platform-override .bar .button.button-light, .platform-override .button.button-icon.button-light {
     color: #212121;
@@ -4910,7 +4946,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
       color: #212121; }
     .platform-android .button.button-outline.button-light:active, .platform-android .button.button-clear.button-light:active, .platform-android .bar .button.button-light:active, .platform-override .bar .platform-android .button.button-light:active, .platform-android .button.button-icon.button-light:active, .platform-override .button.button-outline.button-light:active, .platform-override .button.button-clear.button-light:active, .platform-android .bar .platform-override .button.button-light:active, .platform-override .bar .button.button-light:active, .platform-override .button.button-icon.button-light:active {
       color: #212121; }
-    .platform-android .button.button-outline.button-light.disabled, .platform-android .button.button-outline.disabled.button-light, .platform-android .button.button-outline.button-light[disabled], .platform-android .button.button-outline[disabled].button-light, .platform-android .button.button-clear.button-light.disabled, .platform-android .button.button-clear.disabled.button-light, .platform-android .bar .button.disabled.button-light, .platform-override .bar .platform-android .button.disabled.button-light, .platform-android .button.button-clear.button-light[disabled], .platform-android .button.button-clear[disabled].button-light, .platform-android .bar .button[disabled].button-light, .platform-override .bar .platform-android .button[disabled].button-light, .platform-android .button.button-icon.button-light.disabled, .platform-android .button.button-icon.disabled.button-light, .platform-android .button.button-icon.button-light[disabled], .platform-android .button.button-icon[disabled].button-light, .platform-override .button.button-outline.button-light.disabled, .platform-override .button.button-outline.disabled.button-light, .platform-override .button.button-outline.button-light[disabled], .platform-override .button.button-outline[disabled].button-light, .platform-override .button.button-clear.button-light.disabled, .platform-override .button.button-clear.disabled.button-light, .platform-android .bar .platform-override .button.disabled.button-light, .platform-override .bar .button.disabled.button-light, .platform-override .button.button-clear.button-light[disabled], .platform-override .button.button-clear[disabled].button-light, .platform-android .bar .platform-override .button[disabled].button-light, .platform-override .bar .button[disabled].button-light, .platform-override .button.button-icon.button-light.disabled, .platform-override .button.button-icon.disabled.button-light, .platform-override .button.button-icon.button-light[disabled], .platform-override .button.button-icon[disabled].button-light {
+    .platform-android .button.button-outline.button-light.disabled, .platform-android .button.button-outline.button-light[disabled], .platform-android .button.button-clear.button-light.disabled, .platform-android .bar .button.button-light.disabled, .platform-override .bar .platform-android .button.button-light.disabled, .platform-android .button.button-clear.button-light[disabled], .platform-android .bar .button.button-light[disabled], .platform-override .bar .platform-android .button.button-light[disabled], .platform-android .button.button-icon.button-light.disabled, .platform-android .button.button-icon.button-light[disabled], .platform-override .button.button-outline.button-light.disabled, .platform-override .button.button-outline.button-light[disabled], .platform-override .button.button-clear.button-light.disabled, .platform-android .bar .platform-override .button.button-light.disabled, .platform-override .bar .button.button-light.disabled, .platform-override .button.button-clear.button-light[disabled], .platform-android .bar .platform-override .button.button-light[disabled], .platform-override .bar .button.button-light[disabled], .platform-override .button.button-icon.button-light.disabled, .platform-override .button.button-icon.button-light[disabled] {
       color: #212121; }
     .platform-android .button.button-outline.button-light .mdl-ripple, .platform-android .button.button-clear.button-light .mdl-ripple, .platform-android .bar .button.button-light .mdl-ripple, .platform-override .bar .platform-android .button.button-light .mdl-ripple, .platform-android .button.button-icon.button-light .mdl-ripple, .platform-override .button.button-outline.button-light .mdl-ripple, .platform-override .button.button-clear.button-light .mdl-ripple, .platform-android .bar .platform-override .button.button-light .mdl-ripple, .platform-override .bar .button.button-light .mdl-ripple, .platform-override .button.button-icon.button-light .mdl-ripple {
       background: #545454; }
@@ -4926,7 +4962,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
       color: #F5F5F5; }
     .platform-android .button.button-outline.button-stable:active, .platform-android .button.button-clear.button-stable:active, .platform-android .bar .button.button-stable:active, .platform-override .bar .platform-android .button.button-stable:active, .platform-android .button.button-icon.button-stable:active, .platform-override .button.button-outline.button-stable:active, .platform-override .button.button-clear.button-stable:active, .platform-android .bar .platform-override .button.button-stable:active, .platform-override .bar .button.button-stable:active, .platform-override .button.button-icon.button-stable:active {
       color: #e5e5e5; }
-    .platform-android .button.button-outline.button-stable.disabled, .platform-android .button.button-outline.disabled.button-stable, .platform-android .button.button-outline.button-stable[disabled], .platform-android .button.button-outline[disabled].button-stable, .platform-android .button.button-clear.button-stable.disabled, .platform-android .button.button-clear.disabled.button-stable, .platform-android .bar .button.disabled.button-stable, .platform-override .bar .platform-android .button.disabled.button-stable, .platform-android .button.button-clear.button-stable[disabled], .platform-android .button.button-clear[disabled].button-stable, .platform-android .bar .button[disabled].button-stable, .platform-override .bar .platform-android .button[disabled].button-stable, .platform-android .button.button-icon.button-stable.disabled, .platform-android .button.button-icon.disabled.button-stable, .platform-android .button.button-icon.button-stable[disabled], .platform-android .button.button-icon[disabled].button-stable, .platform-override .button.button-outline.button-stable.disabled, .platform-override .button.button-outline.disabled.button-stable, .platform-override .button.button-outline.button-stable[disabled], .platform-override .button.button-outline[disabled].button-stable, .platform-override .button.button-clear.button-stable.disabled, .platform-override .button.button-clear.disabled.button-stable, .platform-android .bar .platform-override .button.disabled.button-stable, .platform-override .bar .button.disabled.button-stable, .platform-override .button.button-clear.button-stable[disabled], .platform-override .button.button-clear[disabled].button-stable, .platform-android .bar .platform-override .button[disabled].button-stable, .platform-override .bar .button[disabled].button-stable, .platform-override .button.button-icon.button-stable.disabled, .platform-override .button.button-icon.disabled.button-stable, .platform-override .button.button-icon.button-stable[disabled], .platform-override .button.button-icon[disabled].button-stable {
+    .platform-android .button.button-outline.button-stable.disabled, .platform-android .button.button-outline.button-stable[disabled], .platform-android .button.button-clear.button-stable.disabled, .platform-android .bar .button.button-stable.disabled, .platform-override .bar .platform-android .button.button-stable.disabled, .platform-android .button.button-clear.button-stable[disabled], .platform-android .bar .button.button-stable[disabled], .platform-override .bar .platform-android .button.button-stable[disabled], .platform-android .button.button-icon.button-stable.disabled, .platform-android .button.button-icon.button-stable[disabled], .platform-override .button.button-outline.button-stable.disabled, .platform-override .button.button-outline.button-stable[disabled], .platform-override .button.button-clear.button-stable.disabled, .platform-android .bar .platform-override .button.button-stable.disabled, .platform-override .bar .button.button-stable.disabled, .platform-override .button.button-clear.button-stable[disabled], .platform-android .bar .platform-override .button.button-stable[disabled], .platform-override .bar .button.button-stable[disabled], .platform-override .button.button-icon.button-stable.disabled, .platform-override .button.button-icon.button-stable[disabled] {
       color: #F5F5F5; }
     .platform-android .button.button-outline.button-stable .mdl-ripple, .platform-android .button.button-clear.button-stable .mdl-ripple, .platform-android .bar .button.button-stable .mdl-ripple, .platform-override .bar .platform-android .button.button-stable .mdl-ripple, .platform-android .button.button-icon.button-stable .mdl-ripple, .platform-override .button.button-outline.button-stable .mdl-ripple, .platform-override .button.button-clear.button-stable .mdl-ripple, .platform-android .bar .platform-override .button.button-stable .mdl-ripple, .platform-override .bar .button.button-stable .mdl-ripple, .platform-override .button.button-icon.button-stable .mdl-ripple {
       background: white; }
@@ -4943,7 +4979,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
       color: #3F51B5; }
     .platform-android .button.button-outline.button-positive:active, .platform-android .button.button-clear.button-positive:active, .platform-android .bar .button.button-positive:active, .platform-override .bar .platform-android .button.button-positive:active, .platform-android .button.button-icon.button-positive:active, .platform-override .button.button-outline.button-positive:active, .platform-override .button.button-clear.button-positive:active, .platform-android .bar .platform-override .button.button-positive:active, .platform-override .bar .button.button-positive:active, .platform-override .button.button-icon.button-positive:active {
       color: #32408f; }
-    .platform-android .button.button-outline.button-positive.disabled, .platform-android .button.button-outline.disabled.button-positive, .platform-android .button.button-outline.button-positive[disabled], .platform-android .button.button-outline[disabled].button-positive, .platform-android .button.button-clear.button-positive.disabled, .platform-android .button.button-clear.disabled.button-positive, .platform-android .bar .button.disabled.button-positive, .platform-override .bar .platform-android .button.disabled.button-positive, .platform-android .button.button-clear.button-positive[disabled], .platform-android .button.button-clear[disabled].button-positive, .platform-android .bar .button[disabled].button-positive, .platform-override .bar .platform-android .button[disabled].button-positive, .platform-android .button.button-icon.button-positive.disabled, .platform-android .button.button-icon.disabled.button-positive, .platform-android .button.button-icon.button-positive[disabled], .platform-android .button.button-icon[disabled].button-positive, .platform-override .button.button-outline.button-positive.disabled, .platform-override .button.button-outline.disabled.button-positive, .platform-override .button.button-outline.button-positive[disabled], .platform-override .button.button-outline[disabled].button-positive, .platform-override .button.button-clear.button-positive.disabled, .platform-override .button.button-clear.disabled.button-positive, .platform-android .bar .platform-override .button.disabled.button-positive, .platform-override .bar .button.disabled.button-positive, .platform-override .button.button-clear.button-positive[disabled], .platform-override .button.button-clear[disabled].button-positive, .platform-android .bar .platform-override .button[disabled].button-positive, .platform-override .bar .button[disabled].button-positive, .platform-override .button.button-icon.button-positive.disabled, .platform-override .button.button-icon.disabled.button-positive, .platform-override .button.button-icon.button-positive[disabled], .platform-override .button.button-icon[disabled].button-positive {
+    .platform-android .button.button-outline.button-positive.disabled, .platform-android .button.button-outline.button-positive[disabled], .platform-android .button.button-clear.button-positive.disabled, .platform-android .bar .button.button-positive.disabled, .platform-override .bar .platform-android .button.button-positive.disabled, .platform-android .button.button-clear.button-positive[disabled], .platform-android .bar .button.button-positive[disabled], .platform-override .bar .platform-android .button.button-positive[disabled], .platform-android .button.button-icon.button-positive.disabled, .platform-android .button.button-icon.button-positive[disabled], .platform-override .button.button-outline.button-positive.disabled, .platform-override .button.button-outline.button-positive[disabled], .platform-override .button.button-clear.button-positive.disabled, .platform-android .bar .platform-override .button.button-positive.disabled, .platform-override .bar .button.button-positive.disabled, .platform-override .button.button-clear.button-positive[disabled], .platform-android .bar .platform-override .button.button-positive[disabled], .platform-override .bar .button.button-positive[disabled], .platform-override .button.button-icon.button-positive.disabled, .platform-override .button.button-icon.button-positive[disabled] {
       color: #3F51B5; }
     .platform-android .button.button-outline.button-positive .mdl-ripple, .platform-android .button.button-clear.button-positive .mdl-ripple, .platform-android .bar .button.button-positive .mdl-ripple, .platform-override .bar .platform-android .button.button-positive .mdl-ripple, .platform-android .button.button-icon.button-positive .mdl-ripple, .platform-override .button.button-outline.button-positive .mdl-ripple, .platform-override .button.button-clear.button-positive .mdl-ripple, .platform-android .bar .platform-override .button.button-positive .mdl-ripple, .platform-override .bar .button.button-positive .mdl-ripple, .platform-override .button.button-icon.button-positive .mdl-ripple {
       background: #606fc7; }
@@ -4958,7 +4994,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
       color: #2196F3; }
     .platform-android .button.button-outline.button-calm:active, .platform-android .button.button-clear.button-calm:active, .platform-android .bar .button.button-calm:active, .platform-override .bar .platform-android .button.button-calm:active, .platform-android .button.button-icon.button-calm:active, .platform-override .button.button-outline.button-calm:active, .platform-override .button.button-clear.button-calm:active, .platform-android .bar .platform-override .button.button-calm:active, .platform-override .bar .button.button-calm:active, .platform-override .button.button-icon.button-calm:active {
       color: #0c7cd5; }
-    .platform-android .button.button-outline.button-calm.disabled, .platform-android .button.button-outline.disabled.button-calm, .platform-android .button.button-outline.button-calm[disabled], .platform-android .button.button-outline[disabled].button-calm, .platform-android .button.button-clear.button-calm.disabled, .platform-android .button.button-clear.disabled.button-calm, .platform-android .bar .button.disabled.button-calm, .platform-override .bar .platform-android .button.disabled.button-calm, .platform-android .button.button-clear.button-calm[disabled], .platform-android .button.button-clear[disabled].button-calm, .platform-android .bar .button[disabled].button-calm, .platform-override .bar .platform-android .button[disabled].button-calm, .platform-android .button.button-icon.button-calm.disabled, .platform-android .button.button-icon.disabled.button-calm, .platform-android .button.button-icon.button-calm[disabled], .platform-android .button.button-icon[disabled].button-calm, .platform-override .button.button-outline.button-calm.disabled, .platform-override .button.button-outline.disabled.button-calm, .platform-override .button.button-outline.button-calm[disabled], .platform-override .button.button-outline[disabled].button-calm, .platform-override .button.button-clear.button-calm.disabled, .platform-override .button.button-clear.disabled.button-calm, .platform-android .bar .platform-override .button.disabled.button-calm, .platform-override .bar .button.disabled.button-calm, .platform-override .button.button-clear.button-calm[disabled], .platform-override .button.button-clear[disabled].button-calm, .platform-android .bar .platform-override .button[disabled].button-calm, .platform-override .bar .button[disabled].button-calm, .platform-override .button.button-icon.button-calm.disabled, .platform-override .button.button-icon.disabled.button-calm, .platform-override .button.button-icon.button-calm[disabled], .platform-override .button.button-icon[disabled].button-calm {
+    .platform-android .button.button-outline.button-calm.disabled, .platform-android .button.button-outline.button-calm[disabled], .platform-android .button.button-clear.button-calm.disabled, .platform-android .bar .button.button-calm.disabled, .platform-override .bar .platform-android .button.button-calm.disabled, .platform-android .button.button-clear.button-calm[disabled], .platform-android .bar .button.button-calm[disabled], .platform-override .bar .platform-android .button.button-calm[disabled], .platform-android .button.button-icon.button-calm.disabled, .platform-android .button.button-icon.button-calm[disabled], .platform-override .button.button-outline.button-calm.disabled, .platform-override .button.button-outline.button-calm[disabled], .platform-override .button.button-clear.button-calm.disabled, .platform-android .bar .platform-override .button.button-calm.disabled, .platform-override .bar .button.button-calm.disabled, .platform-override .button.button-clear.button-calm[disabled], .platform-android .bar .platform-override .button.button-calm[disabled], .platform-override .bar .button.button-calm[disabled], .platform-override .button.button-icon.button-calm.disabled, .platform-override .button.button-icon.button-calm[disabled] {
       color: #2196F3; }
     .platform-android .button.button-outline.button-calm .mdl-ripple, .platform-android .button.button-clear.button-calm .mdl-ripple, .platform-android .bar .button.button-calm .mdl-ripple, .platform-override .bar .platform-android .button.button-calm .mdl-ripple, .platform-android .button.button-icon.button-calm .mdl-ripple, .platform-override .button.button-outline.button-calm .mdl-ripple, .platform-override .button.button-clear.button-calm .mdl-ripple, .platform-android .bar .platform-override .button.button-calm .mdl-ripple, .platform-override .bar .button.button-calm .mdl-ripple, .platform-override .button.button-icon.button-calm .mdl-ripple {
       background: #51adf6; }
@@ -4973,7 +5009,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
       color: #F44336; }
     .platform-android .button.button-outline.button-assertive:active, .platform-android .button.button-clear.button-assertive:active, .platform-android .bar .button.button-assertive:active, .platform-override .bar .platform-android .button.button-assertive:active, .platform-android .button.button-icon.button-assertive:active, .platform-override .button.button-outline.button-assertive:active, .platform-override .button.button-clear.button-assertive:active, .platform-android .bar .platform-override .button.button-assertive:active, .platform-override .bar .button.button-assertive:active, .platform-override .button.button-icon.button-assertive:active {
       color: #ea1c0d; }
-    .platform-android .button.button-outline.button-assertive.disabled, .platform-android .button.button-outline.disabled.button-assertive, .platform-android .button.button-outline.button-assertive[disabled], .platform-android .button.button-outline[disabled].button-assertive, .platform-android .button.button-clear.button-assertive.disabled, .platform-android .button.button-clear.disabled.button-assertive, .platform-android .bar .button.disabled.button-assertive, .platform-override .bar .platform-android .button.disabled.button-assertive, .platform-android .button.button-clear.button-assertive[disabled], .platform-android .button.button-clear[disabled].button-assertive, .platform-android .bar .button[disabled].button-assertive, .platform-override .bar .platform-android .button[disabled].button-assertive, .platform-android .button.button-icon.button-assertive.disabled, .platform-android .button.button-icon.disabled.button-assertive, .platform-android .button.button-icon.button-assertive[disabled], .platform-android .button.button-icon[disabled].button-assertive, .platform-override .button.button-outline.button-assertive.disabled, .platform-override .button.button-outline.disabled.button-assertive, .platform-override .button.button-outline.button-assertive[disabled], .platform-override .button.button-outline[disabled].button-assertive, .platform-override .button.button-clear.button-assertive.disabled, .platform-override .button.button-clear.disabled.button-assertive, .platform-android .bar .platform-override .button.disabled.button-assertive, .platform-override .bar .button.disabled.button-assertive, .platform-override .button.button-clear.button-assertive[disabled], .platform-override .button.button-clear[disabled].button-assertive, .platform-android .bar .platform-override .button[disabled].button-assertive, .platform-override .bar .button[disabled].button-assertive, .platform-override .button.button-icon.button-assertive.disabled, .platform-override .button.button-icon.disabled.button-assertive, .platform-override .button.button-icon.button-assertive[disabled], .platform-override .button.button-icon[disabled].button-assertive {
+    .platform-android .button.button-outline.button-assertive.disabled, .platform-android .button.button-outline.button-assertive[disabled], .platform-android .button.button-clear.button-assertive.disabled, .platform-android .bar .button.button-assertive.disabled, .platform-override .bar .platform-android .button.button-assertive.disabled, .platform-android .button.button-clear.button-assertive[disabled], .platform-android .bar .button.button-assertive[disabled], .platform-override .bar .platform-android .button.button-assertive[disabled], .platform-android .button.button-icon.button-assertive.disabled, .platform-android .button.button-icon.button-assertive[disabled], .platform-override .button.button-outline.button-assertive.disabled, .platform-override .button.button-outline.button-assertive[disabled], .platform-override .button.button-clear.button-assertive.disabled, .platform-android .bar .platform-override .button.button-assertive.disabled, .platform-override .bar .button.button-assertive.disabled, .platform-override .button.button-clear.button-assertive[disabled], .platform-android .bar .platform-override .button.button-assertive[disabled], .platform-override .bar .button.button-assertive[disabled], .platform-override .button.button-icon.button-assertive.disabled, .platform-override .button.button-icon.button-assertive[disabled] {
       color: #F44336; }
     .platform-android .button.button-outline.button-assertive .mdl-ripple, .platform-android .button.button-clear.button-assertive .mdl-ripple, .platform-android .bar .button.button-assertive .mdl-ripple, .platform-override .bar .platform-android .button.button-assertive .mdl-ripple, .platform-android .button.button-icon.button-assertive .mdl-ripple, .platform-override .button.button-outline.button-assertive .mdl-ripple, .platform-override .button.button-clear.button-assertive .mdl-ripple, .platform-android .bar .platform-override .button.button-assertive .mdl-ripple, .platform-override .bar .button.button-assertive .mdl-ripple, .platform-override .button.button-icon.button-assertive .mdl-ripple {
       background: #f77066; }
@@ -4988,7 +5024,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
       color: #4CAF50; }
     .platform-android .button.button-outline.button-balanced:active, .platform-android .button.button-clear.button-balanced:active, .platform-android .bar .button.button-balanced:active, .platform-override .bar .platform-android .button.button-balanced:active, .platform-android .button.button-icon.button-balanced:active, .platform-override .button.button-outline.button-balanced:active, .platform-override .button.button-clear.button-balanced:active, .platform-android .bar .platform-override .button.button-balanced:active, .platform-override .bar .button.button-balanced:active, .platform-override .button.button-icon.button-balanced:active {
       color: #3d8b40; }
-    .platform-android .button.button-outline.button-balanced.disabled, .platform-android .button.button-outline.disabled.button-balanced, .platform-android .button.button-outline.button-balanced[disabled], .platform-android .button.button-outline[disabled].button-balanced, .platform-android .button.button-clear.button-balanced.disabled, .platform-android .button.button-clear.disabled.button-balanced, .platform-android .bar .button.disabled.button-balanced, .platform-override .bar .platform-android .button.disabled.button-balanced, .platform-android .button.button-clear.button-balanced[disabled], .platform-android .button.button-clear[disabled].button-balanced, .platform-android .bar .button[disabled].button-balanced, .platform-override .bar .platform-android .button[disabled].button-balanced, .platform-android .button.button-icon.button-balanced.disabled, .platform-android .button.button-icon.disabled.button-balanced, .platform-android .button.button-icon.button-balanced[disabled], .platform-android .button.button-icon[disabled].button-balanced, .platform-override .button.button-outline.button-balanced.disabled, .platform-override .button.button-outline.disabled.button-balanced, .platform-override .button.button-outline.button-balanced[disabled], .platform-override .button.button-outline[disabled].button-balanced, .platform-override .button.button-clear.button-balanced.disabled, .platform-override .button.button-clear.disabled.button-balanced, .platform-android .bar .platform-override .button.disabled.button-balanced, .platform-override .bar .button.disabled.button-balanced, .platform-override .button.button-clear.button-balanced[disabled], .platform-override .button.button-clear[disabled].button-balanced, .platform-android .bar .platform-override .button[disabled].button-balanced, .platform-override .bar .button[disabled].button-balanced, .platform-override .button.button-icon.button-balanced.disabled, .platform-override .button.button-icon.disabled.button-balanced, .platform-override .button.button-icon.button-balanced[disabled], .platform-override .button.button-icon[disabled].button-balanced {
+    .platform-android .button.button-outline.button-balanced.disabled, .platform-android .button.button-outline.button-balanced[disabled], .platform-android .button.button-clear.button-balanced.disabled, .platform-android .bar .button.button-balanced.disabled, .platform-override .bar .platform-android .button.button-balanced.disabled, .platform-android .button.button-clear.button-balanced[disabled], .platform-android .bar .button.button-balanced[disabled], .platform-override .bar .platform-android .button.button-balanced[disabled], .platform-android .button.button-icon.button-balanced.disabled, .platform-android .button.button-icon.button-balanced[disabled], .platform-override .button.button-outline.button-balanced.disabled, .platform-override .button.button-outline.button-balanced[disabled], .platform-override .button.button-clear.button-balanced.disabled, .platform-android .bar .platform-override .button.button-balanced.disabled, .platform-override .bar .button.button-balanced.disabled, .platform-override .button.button-clear.button-balanced[disabled], .platform-android .bar .platform-override .button.button-balanced[disabled], .platform-override .bar .button.button-balanced[disabled], .platform-override .button.button-icon.button-balanced.disabled, .platform-override .button.button-icon.button-balanced[disabled] {
       color: #4CAF50; }
     .platform-android .button.button-outline.button-balanced .mdl-ripple, .platform-android .button.button-clear.button-balanced .mdl-ripple, .platform-android .bar .button.button-balanced .mdl-ripple, .platform-override .bar .platform-android .button.button-balanced .mdl-ripple, .platform-android .button.button-icon.button-balanced .mdl-ripple, .platform-override .button.button-outline.button-balanced .mdl-ripple, .platform-override .button.button-clear.button-balanced .mdl-ripple, .platform-android .bar .platform-override .button.button-balanced .mdl-ripple, .platform-override .bar .button.button-balanced .mdl-ripple, .platform-override .button.button-icon.button-balanced .mdl-ripple {
       background: #6ec071; }
@@ -5003,7 +5039,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
       color: #FFC107; }
     .platform-android .button.button-outline.button-energized:active, .platform-android .button.button-clear.button-energized:active, .platform-android .bar .button.button-energized:active, .platform-override .bar .platform-android .button.button-energized:active, .platform-android .button.button-icon.button-energized:active, .platform-override .button.button-outline.button-energized:active, .platform-override .button.button-clear.button-energized:active, .platform-android .bar .platform-override .button.button-energized:active, .platform-override .bar .button.button-energized:active, .platform-override .button.button-icon.button-energized:active {
       color: #ecb100; }
-    .platform-android .button.button-outline.button-energized.disabled, .platform-android .button.button-outline.disabled.button-energized, .platform-android .button.button-outline.button-energized[disabled], .platform-android .button.button-outline[disabled].button-energized, .platform-android .button.button-clear.button-energized.disabled, .platform-android .button.button-clear.disabled.button-energized, .platform-android .bar .button.disabled.button-energized, .platform-override .bar .platform-android .button.disabled.button-energized, .platform-android .button.button-clear.button-energized[disabled], .platform-android .button.button-clear[disabled].button-energized, .platform-android .bar .button[disabled].button-energized, .platform-override .bar .platform-android .button[disabled].button-energized, .platform-android .button.button-icon.button-energized.disabled, .platform-android .button.button-icon.disabled.button-energized, .platform-android .button.button-icon.button-energized[disabled], .platform-android .button.button-icon[disabled].button-energized, .platform-override .button.button-outline.button-energized.disabled, .platform-override .button.button-outline.disabled.button-energized, .platform-override .button.button-outline.button-energized[disabled], .platform-override .button.button-outline[disabled].button-energized, .platform-override .button.button-clear.button-energized.disabled, .platform-override .button.button-clear.disabled.button-energized, .platform-android .bar .platform-override .button.disabled.button-energized, .platform-override .bar .button.disabled.button-energized, .platform-override .button.button-clear.button-energized[disabled], .platform-override .button.button-clear[disabled].button-energized, .platform-android .bar .platform-override .button[disabled].button-energized, .platform-override .bar .button[disabled].button-energized, .platform-override .button.button-icon.button-energized.disabled, .platform-override .button.button-icon.disabled.button-energized, .platform-override .button.button-icon.button-energized[disabled], .platform-override .button.button-icon[disabled].button-energized {
+    .platform-android .button.button-outline.button-energized.disabled, .platform-android .button.button-outline.button-energized[disabled], .platform-android .button.button-clear.button-energized.disabled, .platform-android .bar .button.button-energized.disabled, .platform-override .bar .platform-android .button.button-energized.disabled, .platform-android .button.button-clear.button-energized[disabled], .platform-android .bar .button.button-energized[disabled], .platform-override .bar .platform-android .button.button-energized[disabled], .platform-android .button.button-icon.button-energized.disabled, .platform-android .button.button-icon.button-energized[disabled], .platform-override .button.button-outline.button-energized.disabled, .platform-override .button.button-outline.button-energized[disabled], .platform-override .button.button-clear.button-energized.disabled, .platform-android .bar .platform-override .button.button-energized.disabled, .platform-override .bar .button.button-energized.disabled, .platform-override .button.button-clear.button-energized[disabled], .platform-android .bar .platform-override .button.button-energized[disabled], .platform-override .bar .button.button-energized[disabled], .platform-override .button.button-icon.button-energized.disabled, .platform-override .button.button-icon.button-energized[disabled] {
       color: #FFC107; }
     .platform-android .button.button-outline.button-energized .mdl-ripple, .platform-android .button.button-clear.button-energized .mdl-ripple, .platform-android .bar .button.button-energized .mdl-ripple, .platform-override .bar .platform-android .button.button-energized .mdl-ripple, .platform-android .button.button-icon.button-energized .mdl-ripple, .platform-override .button.button-outline.button-energized .mdl-ripple, .platform-override .button.button-clear.button-energized .mdl-ripple, .platform-android .bar .platform-override .button.button-energized .mdl-ripple, .platform-override .bar .button.button-energized .mdl-ripple, .platform-override .button.button-icon.button-energized .mdl-ripple {
       background: #ffd454; }
@@ -5018,7 +5054,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
       color: #673AB7; }
     .platform-android .button.button-outline.button-royal:active, .platform-android .button.button-clear.button-royal:active, .platform-android .bar .button.button-royal:active, .platform-override .bar .platform-android .button.button-royal:active, .platform-android .button.button-icon.button-royal:active, .platform-override .button.button-outline.button-royal:active, .platform-override .button.button-clear.button-royal:active, .platform-android .bar .platform-override .button.button-royal:active, .platform-override .bar .button.button-royal:active, .platform-override .button.button-icon.button-royal:active {
       color: #563098; }
-    .platform-android .button.button-outline.button-royal.disabled, .platform-android .button.button-outline.disabled.button-royal, .platform-android .button.button-outline.button-royal[disabled], .platform-android .button.button-outline[disabled].button-royal, .platform-android .button.button-clear.button-royal.disabled, .platform-android .button.button-clear.disabled.button-royal, .platform-android .bar .button.disabled.button-royal, .platform-override .bar .platform-android .button.disabled.button-royal, .platform-android .button.button-clear.button-royal[disabled], .platform-android .button.button-clear[disabled].button-royal, .platform-android .bar .button[disabled].button-royal, .platform-override .bar .platform-android .button[disabled].button-royal, .platform-android .button.button-icon.button-royal.disabled, .platform-android .button.button-icon.disabled.button-royal, .platform-android .button.button-icon.button-royal[disabled], .platform-android .button.button-icon[disabled].button-royal, .platform-override .button.button-outline.button-royal.disabled, .platform-override .button.button-outline.disabled.button-royal, .platform-override .button.button-outline.button-royal[disabled], .platform-override .button.button-outline[disabled].button-royal, .platform-override .button.button-clear.button-royal.disabled, .platform-override .button.button-clear.disabled.button-royal, .platform-android .bar .platform-override .button.disabled.button-royal, .platform-override .bar .button.disabled.button-royal, .platform-override .button.button-clear.button-royal[disabled], .platform-override .button.button-clear[disabled].button-royal, .platform-android .bar .platform-override .button[disabled].button-royal, .platform-override .bar .button[disabled].button-royal, .platform-override .button.button-icon.button-royal.disabled, .platform-override .button.button-icon.disabled.button-royal, .platform-override .button.button-icon.button-royal[disabled], .platform-override .button.button-icon[disabled].button-royal {
+    .platform-android .button.button-outline.button-royal.disabled, .platform-android .button.button-outline.button-royal[disabled], .platform-android .button.button-clear.button-royal.disabled, .platform-android .bar .button.button-royal.disabled, .platform-override .bar .platform-android .button.button-royal.disabled, .platform-android .button.button-clear.button-royal[disabled], .platform-android .bar .button.button-royal[disabled], .platform-override .bar .platform-android .button.button-royal[disabled], .platform-android .button.button-icon.button-royal.disabled, .platform-android .button.button-icon.button-royal[disabled], .platform-override .button.button-outline.button-royal.disabled, .platform-override .button.button-outline.button-royal[disabled], .platform-override .button.button-clear.button-royal.disabled, .platform-android .bar .platform-override .button.button-royal.disabled, .platform-override .bar .button.button-royal.disabled, .platform-override .button.button-clear.button-royal[disabled], .platform-android .bar .platform-override .button.button-royal[disabled], .platform-override .bar .button.button-royal[disabled], .platform-override .button.button-icon.button-royal.disabled, .platform-override .button.button-icon.button-royal[disabled] {
       color: #673AB7; }
     .platform-android .button.button-outline.button-royal .mdl-ripple, .platform-android .button.button-clear.button-royal .mdl-ripple, .platform-android .bar .button.button-royal .mdl-ripple, .platform-override .bar .platform-android .button.button-royal .mdl-ripple, .platform-android .button.button-icon.button-royal .mdl-ripple, .platform-override .button.button-outline.button-royal .mdl-ripple, .platform-override .button.button-clear.button-royal .mdl-ripple, .platform-android .bar .platform-override .button.button-royal .mdl-ripple, .platform-override .bar .button.button-royal .mdl-ripple, .platform-override .button.button-icon.button-royal .mdl-ripple {
       background: #8861cd; }
@@ -5033,118 +5069,165 @@ ion-tabs.tabs-color-active-dark .tab-item {
       color: #212121; }
     .platform-android .button.button-outline.button-dark:active, .platform-android .button.button-clear.button-dark:active, .platform-android .bar .button.button-dark:active, .platform-override .bar .platform-android .button.button-dark:active, .platform-android .button.button-icon.button-dark:active, .platform-override .button.button-outline.button-dark:active, .platform-override .button.button-clear.button-dark:active, .platform-android .bar .platform-override .button.button-dark:active, .platform-override .bar .button.button-dark:active, .platform-override .button.button-icon.button-dark:active {
       color: #262626; }
-    .platform-android .button.button-outline.button-dark.disabled, .platform-android .button.button-outline.disabled.button-dark, .platform-android .button.button-outline.button-dark[disabled], .platform-android .button.button-outline[disabled].button-dark, .platform-android .button.button-clear.button-dark.disabled, .platform-android .button.button-clear.disabled.button-dark, .platform-android .bar .button.disabled.button-dark, .platform-override .bar .platform-android .button.disabled.button-dark, .platform-android .button.button-clear.button-dark[disabled], .platform-android .button.button-clear[disabled].button-dark, .platform-android .bar .button[disabled].button-dark, .platform-override .bar .platform-android .button[disabled].button-dark, .platform-android .button.button-icon.button-dark.disabled, .platform-android .button.button-icon.disabled.button-dark, .platform-android .button.button-icon.button-dark[disabled], .platform-android .button.button-icon[disabled].button-dark, .platform-override .button.button-outline.button-dark.disabled, .platform-override .button.button-outline.disabled.button-dark, .platform-override .button.button-outline.button-dark[disabled], .platform-override .button.button-outline[disabled].button-dark, .platform-override .button.button-clear.button-dark.disabled, .platform-override .button.button-clear.disabled.button-dark, .platform-android .bar .platform-override .button.disabled.button-dark, .platform-override .bar .button.disabled.button-dark, .platform-override .button.button-clear.button-dark[disabled], .platform-override .button.button-clear[disabled].button-dark, .platform-android .bar .platform-override .button[disabled].button-dark, .platform-override .bar .button[disabled].button-dark, .platform-override .button.button-icon.button-dark.disabled, .platform-override .button.button-icon.disabled.button-dark, .platform-override .button.button-icon.button-dark[disabled], .platform-override .button.button-icon[disabled].button-dark {
+    .platform-android .button.button-outline.button-dark.disabled, .platform-android .button.button-outline.button-dark[disabled], .platform-android .button.button-clear.button-dark.disabled, .platform-android .bar .button.button-dark.disabled, .platform-override .bar .platform-android .button.button-dark.disabled, .platform-android .button.button-clear.button-dark[disabled], .platform-android .bar .button.button-dark[disabled], .platform-override .bar .platform-android .button.button-dark[disabled], .platform-android .button.button-icon.button-dark.disabled, .platform-android .button.button-icon.button-dark[disabled], .platform-override .button.button-outline.button-dark.disabled, .platform-override .button.button-outline.button-dark[disabled], .platform-override .button.button-clear.button-dark.disabled, .platform-android .bar .platform-override .button.button-dark.disabled, .platform-override .bar .button.button-dark.disabled, .platform-override .button.button-clear.button-dark[disabled], .platform-android .bar .platform-override .button.button-dark[disabled], .platform-override .bar .button.button-dark[disabled], .platform-override .button.button-icon.button-dark.disabled, .platform-override .button.button-icon.button-dark[disabled] {
       color: #212121; }
     .platform-android .button.button-outline.button-dark .mdl-ripple, .platform-android .button.button-clear.button-dark .mdl-ripple, .platform-android .bar .button.button-dark .mdl-ripple, .platform-override .bar .platform-android .button.button-dark .mdl-ripple, .platform-android .button.button-icon.button-dark .mdl-ripple, .platform-override .button.button-outline.button-dark .mdl-ripple, .platform-override .button.button-clear.button-dark .mdl-ripple, .platform-android .bar .platform-override .button.button-dark .mdl-ripple, .platform-override .bar .button.button-dark .mdl-ripple, .platform-override .button.button-icon.button-dark .mdl-ripple {
       background: #595959; }
-.platform-android .button.button--fab.button-light:hover, .platform-override .button.button--fab.button-light:hover {
-  background-color: #FAFAFA; }
-  .platform-android .button.button--fab.button-light:hover:not(:active), .platform-override .button.button--fab.button-light:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button--fab.button-light:focus, .platform-override .button.button--fab.button-light:focus {
-  background-color: #FAFAFA; }
-.platform-android .button.button--fab.button-light:active, .platform-override .button.button--fab.button-light:active {
-  background-color: #fafafa; }
-.platform-android .button.button--fab.button-light.disabled, .platform-android .button.button--fab.disabled.button-light, .platform-android .button.button--fab.button-light[disabled], .platform-android .button.button--fab[disabled].button-light, .platform-override .button.button--fab.button-light.disabled, .platform-override .button.button--fab.disabled.button-light, .platform-override .button.button--fab.button-light[disabled], .platform-override .button.button--fab[disabled].button-light {
-  background-color: #FAFAFA; }
-.platform-android .button.button--fab.button-light .mdl-ripple, .platform-override .button.button--fab.button-light .mdl-ripple {
-  background: white; }
-.platform-android .button.button--fab.button-stable:hover, .platform-override .button.button--fab.button-stable:hover {
-  background-color: #F5F5F5; }
-  .platform-android .button.button--fab.button-stable:hover:not(:active), .platform-override .button.button--fab.button-stable:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button--fab.button-stable:focus, .platform-override .button.button--fab.button-stable:focus {
-  background-color: #F5F5F5; }
-.platform-android .button.button--fab.button-stable:active, .platform-override .button.button--fab.button-stable:active {
-  background-color: #e5e5e5; }
-.platform-android .button.button--fab.button-stable.disabled, .platform-android .button.button--fab.disabled.button-stable, .platform-android .button.button--fab.button-stable[disabled], .platform-android .button.button--fab[disabled].button-stable, .platform-override .button.button--fab.button-stable.disabled, .platform-override .button.button--fab.disabled.button-stable, .platform-override .button.button--fab.button-stable[disabled], .platform-override .button.button--fab[disabled].button-stable {
-  background-color: #F5F5F5; }
-.platform-android .button.button--fab.button-stable .mdl-ripple, .platform-override .button.button--fab.button-stable .mdl-ripple {
-  background: white; }
-.platform-android .button.button--fab.button-positive:hover, .platform-override .button.button--fab.button-positive:hover {
-  background-color: #3F51B5; }
-  .platform-android .button.button--fab.button-positive:hover:not(:active), .platform-override .button.button--fab.button-positive:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button--fab.button-positive:focus, .platform-override .button.button--fab.button-positive:focus {
-  background-color: #3F51B5; }
-.platform-android .button.button--fab.button-positive:active, .platform-override .button.button--fab.button-positive:active {
-  background-color: #32408f; }
-.platform-android .button.button--fab.button-positive.disabled, .platform-android .button.button--fab.disabled.button-positive, .platform-android .button.button--fab.button-positive[disabled], .platform-android .button.button--fab[disabled].button-positive, .platform-override .button.button--fab.button-positive.disabled, .platform-override .button.button--fab.disabled.button-positive, .platform-override .button.button--fab.button-positive[disabled], .platform-override .button.button--fab[disabled].button-positive {
-  background-color: #3F51B5; }
-.platform-android .button.button--fab.button-positive .mdl-ripple, .platform-override .button.button--fab.button-positive .mdl-ripple {
-  background: #8591d5; }
-.platform-android .button.button--fab.button-calm:hover, .platform-override .button.button--fab.button-calm:hover {
-  background-color: #2196F3; }
-  .platform-android .button.button--fab.button-calm:hover:not(:active), .platform-override .button.button--fab.button-calm:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button--fab.button-calm:focus, .platform-override .button.button--fab.button-calm:focus {
-  background-color: #2196F3; }
-.platform-android .button.button--fab.button-calm:active, .platform-override .button.button--fab.button-calm:active {
-  background-color: #0c7cd5; }
-.platform-android .button.button--fab.button-calm.disabled, .platform-android .button.button--fab.disabled.button-calm, .platform-android .button.button--fab.button-calm[disabled], .platform-android .button.button--fab[disabled].button-calm, .platform-override .button.button--fab.button-calm.disabled, .platform-override .button.button--fab.disabled.button-calm, .platform-override .button.button--fab.button-calm[disabled], .platform-override .button.button--fab[disabled].button-calm {
-  background-color: #2196F3; }
-.platform-android .button.button--fab.button-calm .mdl-ripple, .platform-override .button.button--fab.button-calm .mdl-ripple {
-  background: #82c4f8; }
-.platform-android .button.button--fab.button-assertive:hover, .platform-override .button.button--fab.button-assertive:hover {
-  background-color: #F44336; }
-  .platform-android .button.button--fab.button-assertive:hover:not(:active), .platform-override .button.button--fab.button-assertive:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button--fab.button-assertive:focus, .platform-override .button.button--fab.button-assertive:focus {
-  background-color: #F44336; }
-.platform-android .button.button--fab.button-assertive:active, .platform-override .button.button--fab.button-assertive:active {
-  background-color: #ea1c0d; }
-.platform-android .button.button--fab.button-assertive.disabled, .platform-android .button.button--fab.disabled.button-assertive, .platform-android .button.button--fab.button-assertive[disabled], .platform-android .button.button--fab[disabled].button-assertive, .platform-override .button.button--fab.button-assertive.disabled, .platform-override .button.button--fab.disabled.button-assertive, .platform-override .button.button--fab.button-assertive[disabled], .platform-override .button.button--fab[disabled].button-assertive {
-  background-color: #F44336; }
-.platform-android .button.button--fab.button-assertive .mdl-ripple, .platform-override .button.button--fab.button-assertive .mdl-ripple {
-  background: #f99d97; }
-.platform-android .button.button--fab.button-balanced:hover, .platform-override .button.button--fab.button-balanced:hover {
-  background-color: #4CAF50; }
-  .platform-android .button.button--fab.button-balanced:hover:not(:active), .platform-override .button.button--fab.button-balanced:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button--fab.button-balanced:focus, .platform-override .button.button--fab.button-balanced:focus {
-  background-color: #4CAF50; }
-.platform-android .button.button--fab.button-balanced:active, .platform-override .button.button--fab.button-balanced:active {
-  background-color: #3d8b40; }
-.platform-android .button.button--fab.button-balanced.disabled, .platform-android .button.button--fab.disabled.button-balanced, .platform-android .button.button--fab.button-balanced[disabled], .platform-android .button.button--fab[disabled].button-balanced, .platform-override .button.button--fab.button-balanced.disabled, .platform-override .button.button--fab.disabled.button-balanced, .platform-override .button.button--fab.button-balanced[disabled], .platform-override .button.button--fab[disabled].button-balanced {
-  background-color: #4CAF50; }
-.platform-android .button.button--fab.button-balanced .mdl-ripple, .platform-override .button.button--fab.button-balanced .mdl-ripple {
-  background: #92cf94; }
-.platform-android .button.button--fab.button-energized:hover, .platform-override .button.button--fab.button-energized:hover {
-  background-color: #FFC107; }
-  .platform-android .button.button--fab.button-energized:hover:not(:active), .platform-override .button.button--fab.button-energized:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button--fab.button-energized:focus, .platform-override .button.button--fab.button-energized:focus {
-  background-color: #FFC107; }
-.platform-android .button.button--fab.button-energized:active, .platform-override .button.button--fab.button-energized:active {
-  background-color: #ecb100; }
-.platform-android .button.button--fab.button-energized.disabled, .platform-android .button.button--fab.disabled.button-energized, .platform-android .button.button--fab.button-energized[disabled], .platform-android .button.button--fab[disabled].button-energized, .platform-override .button.button--fab.button-energized.disabled, .platform-override .button.button--fab.disabled.button-energized, .platform-override .button.button--fab.button-energized[disabled], .platform-override .button.button--fab[disabled].button-energized {
-  background-color: #FFC107; }
-.platform-android .button.button--fab.button-energized .mdl-ripple, .platform-override .button.button--fab.button-energized .mdl-ripple {
-  background: #ffdb6d; }
-.platform-android .button.button--fab.button-royal:hover, .platform-override .button.button--fab.button-royal:hover {
-  background-color: #673AB7; }
-  .platform-android .button.button--fab.button-royal:hover:not(:active), .platform-override .button.button--fab.button-royal:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button--fab.button-royal:focus, .platform-override .button.button--fab.button-royal:focus {
-  background-color: #673AB7; }
-.platform-android .button.button--fab.button-royal:active, .platform-override .button.button--fab.button-royal:active {
-  background-color: #563098; }
-.platform-android .button.button--fab.button-royal.disabled, .platform-android .button.button--fab.disabled.button-royal, .platform-android .button.button--fab.button-royal[disabled], .platform-android .button.button--fab[disabled].button-royal, .platform-override .button.button--fab.button-royal.disabled, .platform-override .button.button--fab.disabled.button-royal, .platform-override .button.button--fab.button-royal[disabled], .platform-override .button.button--fab[disabled].button-royal {
-  background-color: #673AB7; }
-.platform-android .button.button--fab.button-royal .mdl-ripple, .platform-override .button.button--fab.button-royal .mdl-ripple {
-  background: #9f80d7; }
-.platform-android .button.button--fab.button-dark:hover, .platform-override .button.button--fab.button-dark:hover {
-  background-color: #212121; }
-  .platform-android .button.button--fab.button-dark:hover:not(:active), .platform-override .button.button--fab.button-dark:hover:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-.platform-android .button.button--fab.button-dark:focus, .platform-override .button.button--fab.button-dark:focus {
-  background-color: #212121; }
-.platform-android .button.button--fab.button-dark:active, .platform-override .button.button--fab.button-dark:active {
-  background-color: #262626; }
-.platform-android .button.button--fab.button-dark.disabled, .platform-android .button.button--fab.disabled.button-dark, .platform-android .button.button--fab.button-dark[disabled], .platform-android .button.button--fab[disabled].button-dark, .platform-override .button.button--fab.button-dark.disabled, .platform-override .button.button--fab.disabled.button-dark, .platform-override .button.button--fab.button-dark[disabled], .platform-override .button.button--fab[disabled].button-dark {
-  background-color: #212121; }
-.platform-android .button.button--fab.button-dark .mdl-ripple, .platform-override .button.button--fab.button-dark .mdl-ripple {
-  background: #545454; }
+.platform-android .button.button--fab, .platform-override .button.button--fab {
+  height: 56px;
+  width: 56px; }
+  .platform-android .button.button--fab.button--fab-mini, .platform-override .button.button--fab.button--fab-mini {
+    height: 40px;
+    min-width: 40px;
+    width: 40px; }
+  .platform-android .button.button--fab.button-light, .platform-override .button.button--fab.button-light {
+    background-color: #FAFAFA; }
+    .platform-android .button.button--fab.button-light:hover, .platform-override .button.button--fab.button-light:hover {
+      background-color: #FAFAFA; }
+      .platform-android .button.button--fab.button-light:hover:not(:active), .platform-override .button.button--fab.button-light:hover:not(:active) {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    .platform-android .button.button--fab.button-light:focus:not(:active), .platform-android .button.button--fab.button-light.activated, .platform-override .button.button--fab.button-light:focus:not(:active), .platform-override .button.button--fab.button-light.activated {
+      background-color: #FAFAFA; }
+    .platform-android .button.button--fab.button-light:focus, .platform-override .button.button--fab.button-light:focus {
+      background-color: #FAFAFA; }
+    .platform-android .button.button--fab.button-light:active, .platform-override .button.button--fab.button-light:active {
+      background-color: #fafafa; }
+    .platform-android .button.button--fab.button-light.disabled, .platform-android .button.button--fab.button-light[disabled], .platform-override .button.button--fab.button-light.disabled, .platform-override .button.button--fab.button-light[disabled] {
+      background-color: #FAFAFA; }
+    .platform-android .button.button--fab.button-light .mdl-ripple, .platform-override .button.button--fab.button-light .mdl-ripple {
+      background: white; }
+  .platform-android .button.button--fab.button-stable, .platform-override .button.button--fab.button-stable {
+    background-color: #F5F5F5; }
+    .platform-android .button.button--fab.button-stable:hover, .platform-override .button.button--fab.button-stable:hover {
+      background-color: #F5F5F5; }
+      .platform-android .button.button--fab.button-stable:hover:not(:active), .platform-override .button.button--fab.button-stable:hover:not(:active) {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    .platform-android .button.button--fab.button-stable:focus:not(:active), .platform-android .button.button--fab.button-stable.activated, .platform-override .button.button--fab.button-stable:focus:not(:active), .platform-override .button.button--fab.button-stable.activated {
+      background-color: #F5F5F5; }
+    .platform-android .button.button--fab.button-stable:focus, .platform-override .button.button--fab.button-stable:focus {
+      background-color: #F5F5F5; }
+    .platform-android .button.button--fab.button-stable:active, .platform-override .button.button--fab.button-stable:active {
+      background-color: #e5e5e5; }
+    .platform-android .button.button--fab.button-stable.disabled, .platform-android .button.button--fab.button-stable[disabled], .platform-override .button.button--fab.button-stable.disabled, .platform-override .button.button--fab.button-stable[disabled] {
+      background-color: #F5F5F5; }
+    .platform-android .button.button--fab.button-stable .mdl-ripple, .platform-override .button.button--fab.button-stable .mdl-ripple {
+      background: white; }
+  .platform-android .button.button--fab.button-positive, .platform-override .button.button--fab.button-positive {
+    background-color: #3F51B5; }
+    .platform-android .button.button--fab.button-positive:hover, .platform-override .button.button--fab.button-positive:hover {
+      background-color: #3F51B5; }
+      .platform-android .button.button--fab.button-positive:hover:not(:active), .platform-override .button.button--fab.button-positive:hover:not(:active) {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    .platform-android .button.button--fab.button-positive:focus:not(:active), .platform-android .button.button--fab.button-positive.activated, .platform-override .button.button--fab.button-positive:focus:not(:active), .platform-override .button.button--fab.button-positive.activated {
+      background-color: #3F51B5; }
+    .platform-android .button.button--fab.button-positive:focus, .platform-override .button.button--fab.button-positive:focus {
+      background-color: #3F51B5; }
+    .platform-android .button.button--fab.button-positive:active, .platform-override .button.button--fab.button-positive:active {
+      background-color: #32408f; }
+    .platform-android .button.button--fab.button-positive.disabled, .platform-android .button.button--fab.button-positive[disabled], .platform-override .button.button--fab.button-positive.disabled, .platform-override .button.button--fab.button-positive[disabled] {
+      background-color: #3F51B5; }
+    .platform-android .button.button--fab.button-positive .mdl-ripple, .platform-override .button.button--fab.button-positive .mdl-ripple {
+      background: #8591d5; }
+  .platform-android .button.button--fab.button-calm, .platform-override .button.button--fab.button-calm {
+    background-color: #2196F3; }
+    .platform-android .button.button--fab.button-calm:hover, .platform-override .button.button--fab.button-calm:hover {
+      background-color: #2196F3; }
+      .platform-android .button.button--fab.button-calm:hover:not(:active), .platform-override .button.button--fab.button-calm:hover:not(:active) {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    .platform-android .button.button--fab.button-calm:focus:not(:active), .platform-android .button.button--fab.button-calm.activated, .platform-override .button.button--fab.button-calm:focus:not(:active), .platform-override .button.button--fab.button-calm.activated {
+      background-color: #2196F3; }
+    .platform-android .button.button--fab.button-calm:focus, .platform-override .button.button--fab.button-calm:focus {
+      background-color: #2196F3; }
+    .platform-android .button.button--fab.button-calm:active, .platform-override .button.button--fab.button-calm:active {
+      background-color: #0c7cd5; }
+    .platform-android .button.button--fab.button-calm.disabled, .platform-android .button.button--fab.button-calm[disabled], .platform-override .button.button--fab.button-calm.disabled, .platform-override .button.button--fab.button-calm[disabled] {
+      background-color: #2196F3; }
+    .platform-android .button.button--fab.button-calm .mdl-ripple, .platform-override .button.button--fab.button-calm .mdl-ripple {
+      background: #82c4f8; }
+  .platform-android .button.button--fab.button-assertive, .platform-override .button.button--fab.button-assertive {
+    background-color: #F44336; }
+    .platform-android .button.button--fab.button-assertive:hover, .platform-override .button.button--fab.button-assertive:hover {
+      background-color: #F44336; }
+      .platform-android .button.button--fab.button-assertive:hover:not(:active), .platform-override .button.button--fab.button-assertive:hover:not(:active) {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    .platform-android .button.button--fab.button-assertive:focus:not(:active), .platform-android .button.button--fab.button-assertive.activated, .platform-override .button.button--fab.button-assertive:focus:not(:active), .platform-override .button.button--fab.button-assertive.activated {
+      background-color: #F44336; }
+    .platform-android .button.button--fab.button-assertive:focus, .platform-override .button.button--fab.button-assertive:focus {
+      background-color: #F44336; }
+    .platform-android .button.button--fab.button-assertive:active, .platform-override .button.button--fab.button-assertive:active {
+      background-color: #ea1c0d; }
+    .platform-android .button.button--fab.button-assertive.disabled, .platform-android .button.button--fab.button-assertive[disabled], .platform-override .button.button--fab.button-assertive.disabled, .platform-override .button.button--fab.button-assertive[disabled] {
+      background-color: #F44336; }
+    .platform-android .button.button--fab.button-assertive .mdl-ripple, .platform-override .button.button--fab.button-assertive .mdl-ripple {
+      background: #f99d97; }
+  .platform-android .button.button--fab.button-balanced, .platform-override .button.button--fab.button-balanced {
+    background-color: #4CAF50; }
+    .platform-android .button.button--fab.button-balanced:hover, .platform-override .button.button--fab.button-balanced:hover {
+      background-color: #4CAF50; }
+      .platform-android .button.button--fab.button-balanced:hover:not(:active), .platform-override .button.button--fab.button-balanced:hover:not(:active) {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    .platform-android .button.button--fab.button-balanced:focus:not(:active), .platform-android .button.button--fab.button-balanced.activated, .platform-override .button.button--fab.button-balanced:focus:not(:active), .platform-override .button.button--fab.button-balanced.activated {
+      background-color: #4CAF50; }
+    .platform-android .button.button--fab.button-balanced:focus, .platform-override .button.button--fab.button-balanced:focus {
+      background-color: #4CAF50; }
+    .platform-android .button.button--fab.button-balanced:active, .platform-override .button.button--fab.button-balanced:active {
+      background-color: #3d8b40; }
+    .platform-android .button.button--fab.button-balanced.disabled, .platform-android .button.button--fab.button-balanced[disabled], .platform-override .button.button--fab.button-balanced.disabled, .platform-override .button.button--fab.button-balanced[disabled] {
+      background-color: #4CAF50; }
+    .platform-android .button.button--fab.button-balanced .mdl-ripple, .platform-override .button.button--fab.button-balanced .mdl-ripple {
+      background: #92cf94; }
+  .platform-android .button.button--fab.button-energized, .platform-override .button.button--fab.button-energized {
+    background-color: #FFC107; }
+    .platform-android .button.button--fab.button-energized:hover, .platform-override .button.button--fab.button-energized:hover {
+      background-color: #FFC107; }
+      .platform-android .button.button--fab.button-energized:hover:not(:active), .platform-override .button.button--fab.button-energized:hover:not(:active) {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    .platform-android .button.button--fab.button-energized:focus:not(:active), .platform-android .button.button--fab.button-energized.activated, .platform-override .button.button--fab.button-energized:focus:not(:active), .platform-override .button.button--fab.button-energized.activated {
+      background-color: #FFC107; }
+    .platform-android .button.button--fab.button-energized:focus, .platform-override .button.button--fab.button-energized:focus {
+      background-color: #FFC107; }
+    .platform-android .button.button--fab.button-energized:active, .platform-override .button.button--fab.button-energized:active {
+      background-color: #ecb100; }
+    .platform-android .button.button--fab.button-energized.disabled, .platform-android .button.button--fab.button-energized[disabled], .platform-override .button.button--fab.button-energized.disabled, .platform-override .button.button--fab.button-energized[disabled] {
+      background-color: #FFC107; }
+    .platform-android .button.button--fab.button-energized .mdl-ripple, .platform-override .button.button--fab.button-energized .mdl-ripple {
+      background: #ffdb6d; }
+  .platform-android .button.button--fab.button-royal, .platform-override .button.button--fab.button-royal {
+    background-color: #673AB7; }
+    .platform-android .button.button--fab.button-royal:hover, .platform-override .button.button--fab.button-royal:hover {
+      background-color: #673AB7; }
+      .platform-android .button.button--fab.button-royal:hover:not(:active), .platform-override .button.button--fab.button-royal:hover:not(:active) {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    .platform-android .button.button--fab.button-royal:focus:not(:active), .platform-android .button.button--fab.button-royal.activated, .platform-override .button.button--fab.button-royal:focus:not(:active), .platform-override .button.button--fab.button-royal.activated {
+      background-color: #673AB7; }
+    .platform-android .button.button--fab.button-royal:focus, .platform-override .button.button--fab.button-royal:focus {
+      background-color: #673AB7; }
+    .platform-android .button.button--fab.button-royal:active, .platform-override .button.button--fab.button-royal:active {
+      background-color: #563098; }
+    .platform-android .button.button--fab.button-royal.disabled, .platform-android .button.button--fab.button-royal[disabled], .platform-override .button.button--fab.button-royal.disabled, .platform-override .button.button--fab.button-royal[disabled] {
+      background-color: #673AB7; }
+    .platform-android .button.button--fab.button-royal .mdl-ripple, .platform-override .button.button--fab.button-royal .mdl-ripple {
+      background: #9f80d7; }
+  .platform-android .button.button--fab.button-dark, .platform-override .button.button--fab.button-dark {
+    background-color: #212121; }
+    .platform-android .button.button--fab.button-dark:hover, .platform-override .button.button--fab.button-dark:hover {
+      background-color: #212121; }
+      .platform-android .button.button--fab.button-dark:hover:not(:active), .platform-override .button.button--fab.button-dark:hover:not(:active) {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    .platform-android .button.button--fab.button-dark:focus:not(:active), .platform-android .button.button--fab.button-dark.activated, .platform-override .button.button--fab.button-dark:focus:not(:active), .platform-override .button.button--fab.button-dark.activated {
+      background-color: #212121; }
+    .platform-android .button.button--fab.button-dark:focus, .platform-override .button.button--fab.button-dark:focus {
+      background-color: #212121; }
+    .platform-android .button.button--fab.button-dark:active, .platform-override .button.button--fab.button-dark:active {
+      background-color: #262626; }
+    .platform-android .button.button--fab.button-dark.disabled, .platform-android .button.button--fab.button-dark[disabled], .platform-override .button.button--fab.button-dark.disabled, .platform-override .button.button--fab.button-dark[disabled] {
+      background-color: #212121; }
+    .platform-android .button.button--fab.button-dark .mdl-ripple, .platform-override .button.button--fab.button-dark .mdl-ripple {
+      background: #545454; }
+  .platform-android .button.button--fab:active, .platform-override .button.button--fab:active {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2); }
+  .platform-android .button.button--fab:focus:not(:active), .platform-android .button.button--fab.activated, .platform-android .button.button--fab.active, .platform-override .button.button--fab:focus:not(:active), .platform-override .button.button--fab.activated, .platform-override .button.button--fab.active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36); }
 .platform-android .item__actions .button, .platform-override .item__actions .button {
   min-height: 36px;
   height: 36px;
@@ -5157,8 +5240,15 @@ ion-tabs.tabs-color-active-dark .tab-item {
 .platform-android .button.button-icon, .platform-android .button.icon, .platform-override .button.button-icon, .platform-override .button.icon {
   background-color: transparent;
   min-height: inherit;
-  height: 32px;
-  width: 32px; }
+  height: 40px;
+  width: 40px; }
+  .platform-android .button.button-icon.button--fab, .platform-android .button.icon.button--fab, .platform-override .button.button-icon.button--fab, .platform-override .button.icon.button--fab {
+    height: 56px;
+    width: 56px; }
+    .platform-android .button.button-icon.button--fab.button--fab-mini, .platform-android .button.icon.button--fab.button--fab-mini, .platform-override .button.button-icon.button--fab.button--fab-mini, .platform-override .button.icon.button--fab.button--fab-mini {
+      height: 40px;
+      min-width: 40px;
+      width: 40px; }
   .platform-android .button.button-icon.icon:before, .platform-android .button.button-icon:before, .platform-android .button.button-icon.icon-left:before, .platform-android .button.button-icon.icon-right:before, .platform-android .button.icon.icon:before, .platform-android .button.icon:before, .platform-android .button.icon.icon-left:before, .platform-android .button.icon.icon-right:before, .platform-override .button.button-icon.icon:before, .platform-override .button.button-icon:before, .platform-override .button.button-icon.icon-left:before, .platform-override .button.button-icon.icon-right:before, .platform-override .button.icon.icon:before, .platform-override .button.icon:before, .platform-override .button.icon.icon-left:before, .platform-override .button.icon.icon-right:before {
     position: absolute;
     top: 50%;
@@ -5218,8 +5308,6 @@ ion-tabs.tabs-color-active-dark .tab-item {
     left: inherit !important; }
   .platform-android .bar-header .bar-light, .platform-android .bar-header .bar-stable, .platform-android .bar-header .bar-positive, .platform-android .bar-header .bar-calm, .platform-android .bar-header .bar-balanced, .platform-android .bar-header .bar-energized, .platform-android .bar-header .bar-assertive, .platform-android .bar-header .bar-royal, .platform-android .bar-header .bar-dark, .platform-override .bar-header .bar-light, .platform-override .bar-header .bar-stable, .platform-override .bar-header .bar-positive, .platform-override .bar-header .bar-calm, .platform-override .bar-header .bar-balanced, .platform-override .bar-header .bar-energized, .platform-override .bar-header .bar-assertive, .platform-override .bar-header .bar-royal, .platform-override .bar-header .bar-dark {
     background-image: none !important; }
-    .platform-android .bar-header .bar-light .button, .platform-android .bar-header .bar-stable .button, .platform-android .bar-header .bar-positive .button, .platform-android .bar-header .bar-calm .button, .platform-android .bar-header .bar-balanced .button, .platform-android .bar-header .bar-energized .button, .platform-android .bar-header .bar-assertive .button, .platform-android .bar-header .bar-royal .button, .platform-android .bar-header .bar-dark .button, .platform-override .bar-header .bar-light .button, .platform-override .bar-header .bar-stable .button, .platform-override .bar-header .bar-positive .button, .platform-override .bar-header .bar-calm .button, .platform-override .bar-header .bar-balanced .button, .platform-override .bar-header .bar-energized .button, .platform-override .bar-header .bar-assertive .button, .platform-override .bar-header .bar-royal .button, .platform-override .bar-header .bar-dark .button {
-      background-color: transparent !important; }
 .platform-android .bar.bar-subheader, .platform-android .bar-subheader.bar, .platform-override .bar.bar-subheader, .platform-override .bar-subheader.bar {
   top: 55px;
   height: 48px; }
@@ -5229,10 +5317,10 @@ ion-tabs.tabs-color-active-dark .tab-item {
     opacity: 0.54;
     font-weight: 500; }
 .platform-android .bar .button, .platform-android .bar .back-button, .platform-override .bar .button, .platform-override .bar .back-button {
+  min-width: 64px;
   background-color: transparent !important;
   padding-left: 8px;
   padding-right: 8px;
-  min-width: 64px;
   text-align: center; }
   .platform-android .bar .button:hover, .platform-android .bar .button:focus, .platform-android .bar .back-button:hover, .platform-android .bar .back-button:focus, .platform-override .bar .button:hover, .platform-override .bar .button:focus, .platform-override .bar .back-button:hover, .platform-override .bar .back-button:focus {
     color: inherit; }
@@ -5243,13 +5331,16 @@ ion-tabs.tabs-color-active-dark .tab-item {
       margin-left: 5px; }
     .platform-android .bar .button.icon.icon:before, .platform-android .bar .button.icon:before, .platform-android .bar .button.icon.icon-left:before, .platform-android .bar .button.icon.icon-right:before, .platform-android .bar .button.back-button.icon:before, .platform-android .bar .button.back-button:before, .platform-android .bar .button.back-button.icon-left:before, .platform-android .bar .button.back-button.icon-right:before, .platform-android .bar .back-button.icon.icon:before, .platform-android .bar .back-button.icon:before, .platform-android .bar .back-button.icon.icon-left:before, .platform-android .bar .back-button.icon.icon-right:before, .platform-android .bar .back-button.back-button.icon:before, .platform-android .bar .back-button.back-button:before, .platform-android .bar .back-button.back-button.icon-left:before, .platform-android .bar .back-button.back-button.icon-right:before, .platform-override .bar .button.icon.icon:before, .platform-override .bar .button.icon:before, .platform-override .bar .button.icon.icon-left:before, .platform-override .bar .button.icon.icon-right:before, .platform-override .bar .button.back-button.icon:before, .platform-override .bar .button.back-button:before, .platform-override .bar .button.back-button.icon-left:before, .platform-override .bar .button.back-button.icon-right:before, .platform-override .bar .back-button.icon.icon:before, .platform-override .bar .back-button.icon:before, .platform-override .bar .back-button.icon.icon-left:before, .platform-override .bar .back-button.icon.icon-right:before, .platform-override .bar .back-button.back-button.icon:before, .platform-override .bar .back-button.back-button:before, .platform-override .bar .back-button.back-button.icon-left:before, .platform-override .bar .back-button.back-button.icon-right:before {
       padding: 0;
-      -webkit-transform: translate(-16px, -12px);
-      transform: translate(-16px, -12px); }
+      -webkit-transform: translate(-12px, -12px);
+      transform: translate(-12px, -12px); }
     .platform-android .bar .button.icon .mdl-button__ripple-container, .platform-android .bar .button.back-button .mdl-button__ripple-container, .platform-android .bar .back-button.icon .mdl-button__ripple-container, .platform-android .bar .back-button.back-button .mdl-button__ripple-container, .platform-override .bar .button.icon .mdl-button__ripple-container, .platform-override .bar .button.back-button .mdl-button__ripple-container, .platform-override .bar .back-button.icon .mdl-button__ripple-container, .platform-override .bar .back-button.back-button .mdl-button__ripple-container {
       height: 32px;
       width: 32px;
       -webkit-transform: translate(12px, 12px);
       transform: translate(12px, 12px); }
+  .platform-android .bar .button.icon, .platform-android .bar .button.button-icon, .platform-android .bar .back-button.icon, .platform-android .bar .back-button.button-icon, .platform-override .bar .button.icon, .platform-override .bar .button.button-icon, .platform-override .bar .back-button.icon, .platform-override .bar .back-button.button-icon {
+    min-width: 56px;
+    width: 56px; }
   .platform-android .bar .button.back-button, .platform-android .bar .back-button.back-button, .platform-override .bar .button.back-button, .platform-override .bar .back-button.back-button {
     display: block; }
     .platform-android .bar .button.back-button .mdl-button__ripple-container, .platform-android .bar .back-button.back-button .mdl-button__ripple-container, .platform-override .bar .button.back-button .mdl-button__ripple-container, .platform-override .bar .back-button.back-button .mdl-button__ripple-container {
@@ -5260,8 +5351,15 @@ ion-tabs.tabs-color-active-dark .tab-item {
       display: none; }
   .platform-android .bar .button.back-button.active, .platform-android .bar .button.back-button.activated, .platform-android .bar .back-button.back-button.active, .platform-android .bar .back-button.back-button.activated, .platform-override .bar .button.back-button.active, .platform-override .bar .button.back-button.activated, .platform-override .bar .back-button.back-button.active, .platform-override .bar .back-button.back-button.activated {
     opacity: 1; }
-.platform-android .bar .title + .button:last-child, .platform-android .bar > .button + .button:last-child, .platform-android .bar > .button.pull-right, .platform-android .bar .buttons.pull-right, .platform-android .bar .title + .buttons, .platform-override .bar .title + .button:last-child, .platform-override .bar > .button + .button:last-child, .platform-override .bar > .button.pull-right, .platform-override .bar .buttons.pull-right, .platform-override .bar .title + .buttons {
+.platform-android .bar .title + .button:last-child, .platform-android .bar > .button + .button:last-child, .platform-android .bar > .button.pull-right, .platform-android .bar .buttons.pull-right, .platform-override .bar .title + .button:last-child, .platform-override .bar > .button + .button:last-child, .platform-override .bar > .button.pull-right, .platform-override .bar .buttons.pull-right {
   top: 8px; }
+.platform-android .bar .buttons-right span, .platform-override .bar .buttons-right span {
+  margin-left: 0; }
+.platform-android .bar .title + .buttons, .platform-override .bar .title + .buttons {
+  top: 0;
+  bottom: 0; }
+  .platform-android .bar .title + .buttons.buttons-right, .platform-override .bar .title + .buttons.buttons-right {
+    right: 0; }
 
 .platform-android .card, .platform-android .list-inset, .platform-android .list-inset, .platform-override .card, .platform-override .list-inset, .platform-override .list-inset {
   width: auto; }
@@ -5547,7 +5645,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
     top: 0; }
   .platform-android .tabs.is-casting-shadow, .platform-android .tabs-striped.tabs.is-casting-shadow, .platform-override .tabs.is-casting-shadow, .platform-override .tabs-striped.tabs.is-casting-shadow {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-  .platform-android .is-casting-shadow .tabs, .platform-android .is-casting-shadow .tabs-striped.tabs, .platform-override .is-casting-shadow .tabs, .platform-override .is-casting-shadow .tabs-striped.tabs {
+  .platform-android .is-casting-shadow .tabs, .platform-override .is-casting-shadow .tabs {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
   .platform-android .tabs-top.tabs-striped .tab-item.tab-item-active, .platform-android .tabs-bottom.tabs-striped .tab-item.tab-item-active, .platform-override .tabs-top.tabs-striped .tab-item.tab-item-active, .platform-override .tabs-bottom.tabs-striped .tab-item.tab-item-active {
     border: none; }

@@ -51,48 +51,48 @@
     }
 
     &.button-light {
-      @extend .button-light;
       @include button__coloured-states($button-light-bg, $button-light-active-bg);
+      background-color: $button-light-bg;
     }
 
     &.button-stable {
-      @extend .button-stable;
       @include button__coloured-states($button-stable-bg, $button-stable-active-bg);
+      background-color: $button-stable-bg;
     }
 
     &.button-positive {
-      @extend .button-positive;
       @include button__coloured-states($button-positive-bg, $button-positive-active-bg);
+      background-color: $button-positive-bg;
     }
 
     &.button-calm {
-      @extend .button-calm;
       @include button__coloured-states($button-calm-bg, $button-calm-active-bg);
+      background-color: $button-calm-bg;
     }
 
     &.button-assertive {
-      @extend .button-assertive;
       @include button__coloured-states($button-assertive-bg, $button-assertive-active-bg);
+      background-color: $button-assertive-bg;
     }
 
     &.button-balanced {
-      @extend .button-balanced;
       @include button__coloured-states($button-balanced-bg, $button-balanced-active-bg);
+      background-color: $button-balanced-bg;
     }
 
     &.button-energized {
-      @extend .button-energized;
       @include button__coloured-states($button-energized-bg, $button-energized-active-bg);
+      background-color: $button-energized-bg;
     }
 
     &.button-royal {
-      @extend .button-royal;
       @include button__coloured-states($button-royal-bg, $button-royal-active-bg);
+      background-color: $button-royal-bg;
     }
 
     &.button-dark {
-      @extend .button-dark;
       @include button__coloured-states($button-dark-bg, $button-dark-active-bg);
+      background-color: $button-dark-bg;
     }
   }
 
@@ -167,50 +167,66 @@
 
     &.button--fab {
       @extend .mdl-button--fab;
+      height: $button-fab-size;
+      width: $button-fab-size;
+
+      &.button--fab-mini {
+        height: $button-fab-size-mini;
+        min-width: $button-fab-size-mini;
+        width: $button-fab-size-mini;
+      }
 
       &.button-light {
-        @extend .button-light;
         @include button__coloured-states($button-light-bg, $button-light-active-bg);
+        background-color: $button-light-bg;
       }
 
       &.button-stable {
-        @extend .button-stable;
         @include button__coloured-states($button-stable-bg, $button-stable-active-bg);
+        background-color: $button-stable-bg;
       }
 
       &.button-positive {
-        @extend .button-positive;
         @include button__coloured-states($button-positive-bg, $button-positive-active-bg);
+        background-color: $button-positive-bg;
       }
 
       &.button-calm {
-        @extend .button-calm;
         @include button__coloured-states($button-calm-bg, $button-calm-active-bg);
+        background-color: $button-calm-bg;
       }
 
       &.button-assertive {
-        @extend .button-assertive;
         @include button__coloured-states($button-assertive-bg, $button-assertive-active-bg);
+        background-color: $button-assertive-bg;
       }
 
       &.button-balanced {
-        @extend .button-balanced;
         @include button__coloured-states($button-balanced-bg, $button-balanced-active-bg);
+        background-color: $button-balanced-bg;
       }
 
       &.button-energized {
-        @extend .button-energized;
         @include button__coloured-states($button-energized-bg, $button-energized-active-bg);
+        background-color: $button-energized-bg;
       }
 
       &.button-royal {
-        @extend .button-royal;
         @include button__coloured-states($button-royal-bg, $button-royal-active-bg);
+        background-color: $button-royal-bg;
       }
 
       &.button-dark {
-        @extend .button-dark;
         @include button__coloured-states($button-dark-bg, $button-dark-active-bg);
+        background-color: $button-dark-bg;
+      }
+
+      &:active {
+        @include shadow-4dp();
+      }
+
+      &:focus:not(:active), &.activated, &.active {
+        @include focus-shadow();
       }
     }
   }
@@ -243,8 +259,19 @@
       @extend .mdl-button--icon;
       background-color: transparent;
       min-height: inherit;
-      height: 32px;
-      width: 32px;
+      height: $button-fab-size-mini;
+      width: $button-fab-size-mini;
+
+      &.button--fab {
+        height: $button-fab-size;
+        width: $button-fab-size;
+
+        &.button--fab-mini {
+          height: $button-fab-size-mini;
+          min-width: $button-fab-size-mini;
+          width: $button-fab-size-mini;
+        }
+      }
 
       &.icon:before,
       &:before,

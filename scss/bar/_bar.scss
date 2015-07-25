@@ -108,10 +108,6 @@
     .bar-royal,
     .bar-dark {
       background-image: none !important;
-
-      .button {
-        background-color: transparent !important;
-      }
     }
   }
 
@@ -132,10 +128,10 @@
     .button, .back-button {
       @extend .button-clear;
       @extend .mdl-navigation__link;
+      min-width: $button-min-width;
       background-color: transparent !important;
       padding-left: 8px;
       padding-right: 8px;
-      min-width: 64px;
       text-align: center;
 
       &:hover, &:focus {
@@ -155,7 +151,7 @@
         &.icon-left:before,
         &.icon-right:before {
           padding: 0;
-          transform: translate(- ($button-fab-font-size / 2) - 4, - $button-fab-font-size / 2);
+          transform: translate(- ($button-fab-font-size / 2), - $button-fab-font-size / 2);
         }
 
         & .mdl-button__ripple-container {
@@ -165,6 +161,11 @@
         }
       }
 
+      &.icon, &.button-icon {
+        min-width: 56px;
+        width: 56px;
+      }
+      
       &.back-button {
         display: block;
 
@@ -191,8 +192,24 @@
   .bar .title + .button:last-child,
   .bar > .button + .button:last-child,
   .bar > .button.pull-right,
-  .bar .buttons.pull-right,
-  .bar .title + .buttons {
+  .bar .buttons.pull-right {
     top: 8px;
+  }
+
+  .bar .buttons-right span {
+    margin-left: 0;
+  }
+
+  .bar .title + .buttons {
+    top: 0;
+    bottom: 0;
+
+    .right-buttons, .left-buttons {
+      //padding-top: 8px;
+    }
+
+    &.buttons-right {
+      right: 0;
+    }
   }
 }

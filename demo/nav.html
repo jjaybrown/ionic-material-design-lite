@@ -18,6 +18,9 @@
     <ion-side-menus>
         <!-- Center content -->
         <ion-side-menu-content>
+            <ion-list>
+                <ion-item ui-sref="news">News</ion-item>
+            </ion-list>
         </ion-side-menu-content>
 
         <!-- Left menu -->
@@ -26,12 +29,11 @@
 
         <ion-side-menu-content>
             <ion-nav-bar class="bar-calm">
-                <ion-nav-view></ion-nav-view>
+                <ion-nav-back-button></ion-nav-back-button>
                 <ion-nav-buttons side="left">
                     <!-- Toggle left side menu -->
                     <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
                 </ion-nav-buttons>
-                <ion-nav-back-button></ion-nav-back-button>
             </ion-nav-bar>
             <ion-nav-view></ion-nav-view>
         </ion-side-menu-content>

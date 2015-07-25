@@ -1,56 +1,66 @@
 angular.module('ionic')
     .provider('$ionicMaterialConfig', function () {
-        var allPlatforms = false;
+        var provider = this;
 
-        var provider = {
-            enableAllPlatforms: function () {
-                allPlatforms = true;
-            },
-            disableAllPlatforms: function () {
-                allPlatforms = false;
-            },
-            availableforAllPlatforms: function () {
-                return allPlatforms;
-            },
-            $get: function () {
-                return provider;
-            }
+        this.allPlatforms = false;
+
+        provider.$get = function (){
+            return provider;
         };
-
-        return provider;
     });
 angular.module('ionic')
-    .directive('button', function () {
+    .directive('button', ['$ionicPlatform', function ($ionicPlatform) {
         return {
             restrict: 'E',
             compile: function (element, attrs) {
                 if(!attrs.hasOwnProperty('noRipple')) {
                     element.addClass('mdl-js-button mdl-js-ripple-effect');
                 }
+
+                $ionicPlatform.ready(function () {
+                    // MDL should register and upgrade our element automatically,
+                    // however lets make sure it's upgraded when we compile
+                    componentHandler.upgradeElement(element[0], 'MaterialButton');
+                    componentHandler.upgradeElement(element[0], 'MaterialRipple');
+                });
             }
         }
-    });
+    }]);
 
 angular.module('ionic')
-    .directive('ionTabNav', function () {
+    .directive('ionTabNav', ['$ionicPlatform', function ($ionicPlatform) {
         return {
             restrict: 'E',
             compile: function (element, attrs) {
                 if(!attrs.hasOwnProperty('noRipple')) {
                     element.addClass('mdl-tabs__tab');
                 }
+
+                $ionicPlatform.ready(function () {
+                    // MDL should register and upgrade our element automatically,
+                    // however lets make sure it's upgraded when we compile
+                    componentHandler.upgradeElement(element[0], 'MaterialButton');
+                    componentHandler.upgradeElement(element[0], 'MaterialRipple');
+                });
             }
         }
-    });
+    }]);
 
 angular.module('ionic')
-    .directive('ionTabs', function () {
+    .directive('ionTabs', ['$ionicPlatform', function ($ionicPlatform) {
         return {
             restrict: 'E',
             compile: function (element, attrs) {
                 if(!attrs.hasOwnProperty('noRipple')) {
                     element.addClass('mdl-js-tabs mdl-js-ripple-effect');
                 }
+
+                $ionicPlatform.ready(function () {
+                    // MDL should register and upgrade our element automatically,
+                    // however lets make sure it's upgraded when we compile
+                    componentHandler.upgradeElement(element[0], 'MaterialTabs');
+                    componentHandler.upgradeElement(element[0], 'MaterialRipple');
+                });
             }
         }
-    });
+    }]);
