@@ -1,5 +1,5 @@
 angular.module('material-starter', ['ionic'])
-    .config(function($stateProvider, $urlRouterProvider) {
+    .config(function($stateProvider, $urlRouterProvider, $ionicMaterialConfigProvider) {
         $stateProvider
             .state('index', {
                 url: '/home',

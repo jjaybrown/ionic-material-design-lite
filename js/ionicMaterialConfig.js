@@ -1,21 +1,8 @@
 angular.module('ionic')
-    .provider('$ionicMaterialConfig', function () {
-        var allPlatforms = false;
+    .provider('$ionicMaterialConfig', function ($ionicConfigProvider) {
+        var provider = this;
 
-        var provider = {
-            enableAllPlatforms: function () {
-                allPlatforms = true;
-            },
-            disableAllPlatforms: function () {
-                allPlatforms = false;
-            },
-            availableforAllPlatforms: function () {
-                return allPlatforms;
-            },
-            $get: function () {
-                return provider;
-            }
+        provider.$get = function () {
+          return provider;
         };
-
-        return provider;
     });
