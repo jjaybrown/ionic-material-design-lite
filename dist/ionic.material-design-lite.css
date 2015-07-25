@@ -5207,7 +5207,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
     .platform-android .bar-header.bar-header--expanded + .bar-subheader, .platform-override .bar-header.bar-header--expanded + .bar-subheader {
       top: 128px; }
     .platform-android .bar-header.bar-header--expanded + .tabs, .platform-android .bar-header.bar-header--expanded + .tabs-top > .tabs, .platform-android .bar-header.bar-header--expanded .tabs.tabs-top, .platform-override .bar-header.bar-header--expanded + .tabs, .platform-override .bar-header.bar-header--expanded + .tabs-top > .tabs, .platform-override .bar-header.bar-header--expanded .tabs.tabs-top {
-      top: 127px; }
+      top: 126px; }
   .platform-android .bar-header .title, .platform-override .bar-header .title {
     position: absolute;
     text-align: left;
@@ -5520,6 +5520,8 @@ ion-tabs.tabs-color-active-dark .tab-item {
   top: 176px; }
 .platform-android .has-expanded-header.has-tabs-top, .platform-override .has-expanded-header.has-tabs-top {
   top: 177px; }
+.platform-android .has-header.has-tabs-top, .platform-android .has-tabs-top.has-header, .platform-android .has-tabs-top.has-subheader, .platform-override .has-header.has-tabs-top, .platform-override .has-tabs-top.has-header, .platform-override .has-tabs-top.has-subheader {
+  top: 103px; }
 
 .platform-android, .platform-override {
   @-webkit-keyframes border-expand {
@@ -5544,6 +5546,8 @@ ion-tabs.tabs-color-active-dark .tab-item {
   .platform-android .has-tabs-top, .platform-override .has-tabs-top {
     top: 0; }
   .platform-android .tabs.is-casting-shadow, .platform-android .tabs-striped.tabs.is-casting-shadow, .platform-override .tabs.is-casting-shadow, .platform-override .tabs-striped.tabs.is-casting-shadow {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  .platform-android .is-casting-shadow .tabs, .platform-android .is-casting-shadow .tabs-striped.tabs, .platform-override .is-casting-shadow .tabs, .platform-override .is-casting-shadow .tabs-striped.tabs {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
   .platform-android .tabs-top.tabs-striped .tab-item.tab-item-active, .platform-android .tabs-bottom.tabs-striped .tab-item.tab-item-active, .platform-override .tabs-top.tabs-striped .tab-item.tab-item-active, .platform-override .tabs-bottom.tabs-striped .tab-item.tab-item-active {
     border: none; }

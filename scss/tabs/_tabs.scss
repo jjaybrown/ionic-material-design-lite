@@ -15,6 +15,12 @@
     }
   }
 
+  .is-casting-shadow {
+    .tabs {
+      @include shadow-2dp();
+    }
+  }
+
   .tabs-top.tabs-striped .tab-item.tab-item-active,
   .tabs-bottom.tabs-striped .tab-item.tab-item-active{
     border: none;

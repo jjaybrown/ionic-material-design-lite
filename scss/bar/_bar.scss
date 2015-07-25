@@ -43,7 +43,7 @@
       }
 
       + .tabs, + .tabs-top > .tabs, .tabs.tabs-top {
-        top: $expanded-bar-height - 1;
+        top: $expanded-bar-height - 2;
       }
     }
 

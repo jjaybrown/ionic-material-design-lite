@@ -6,4 +6,8 @@
   .has-expanded-header.has-tabs-top {
     top: $expanded-bar-height + $tabs-height;
   }
+
+  .has-header.has-tabs-top {
+    top: $bar-height + $tabs-height - 2;
+  }
 }
