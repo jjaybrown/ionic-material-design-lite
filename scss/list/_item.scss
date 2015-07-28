@@ -1,4 +1,10 @@
 .platform-android, .platform-override {
+  .item {
+    &.item-text-wrap {
+      width: 100%;
+    }
+  }
+
   .item.item-avatar {
     &:first-child {
       min-height: 40px;

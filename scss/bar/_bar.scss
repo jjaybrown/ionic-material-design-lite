@@ -116,7 +116,7 @@
     height: $bar-subheader-height;
 
     .title {
-        @extend .mdl-typography--subhead-color-contrast;
+        @include typo-subhead();
         text-align: left;
         line-height: $bar-subheader-height;
         opacity: 0.54;
