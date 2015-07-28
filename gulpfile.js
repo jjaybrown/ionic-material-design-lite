@@ -24,7 +24,7 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('sass', function(done) {
-    gulp.src('./scss/ionic-material-design-lite.scss')
+    gulp.src(paths.sass)
         .pipe($.sass({
             precision: 10,
             onError: console.error.bind(console, 'Sass error:')

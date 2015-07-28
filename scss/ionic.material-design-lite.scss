@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixin";
 @import "../bower_components/ionic/scss/_variables.scss";
 @import "../bower_components/ionic/scss/_mixins.scss";
 @import "../bower_components/ionic/scss/_scaffolding.scss";
@@ -16,11 +17,9 @@
 @import "../bower_components/ionic/scss/_bar.scss";
 @import "../bower_components/material-design-lite/src/layout/_layout.scss";
 @import "../bower_components/ionic/scss/ionicons/_ionicons-variables.scss";
-@import "../bower_components/material-design-lite/src/typography/_typography.scss";
 @import "../bower_components/ionic/scss/_tabs.scss";
 @import "../bower_components/material-design-lite/src/tabs/_tabs.scss";
 @import "../bower_components/material-design-lite/src/badge/_badge.scss";
-@import "./mixin";
 @import "./button/button";
 @import "./bar/bar";
 @import "./list/card";
@@ -31,7 +30,4 @@
 @import "./tabs/tabs";
 @import "./badge";
 @import "./transitions";
-
-.platform-android, .platform-override {
-  font-family: $preferred_font;
-}
+@import "./typography";

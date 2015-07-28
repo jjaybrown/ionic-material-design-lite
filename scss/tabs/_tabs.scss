@@ -29,6 +29,10 @@
   .tab-item {
     @extend .mdl-tabs__tab;
 
+    .tab-title {
+      @include roboto-family('Medium', 500);
+    }
+
     &.has-badge {
       .badge {
         position: absolute;
@@ -46,6 +50,18 @@
       background: rgba(0, 0, 0, 0.54);
       animation: border-expand 0.2s cubic-bezier(0.4, 0.0, 0.4, 1) 0.01s alternate forwards;
       transition: all 1s cubic-bezier(0.4, 0.0, 1, 1);
+    }
+  }
+
+  .tabs-icon-top {
+    .tabs {
+      height: 72px;
+    }
+
+    .tab-item {
+      height: 72px;
+      line-height: 48px;
+      font-size: 14px;
     }
   }
 

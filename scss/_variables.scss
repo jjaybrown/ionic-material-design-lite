@@ -17,3 +17,10 @@ $dark:                            #212121;
 $bar-height: 56px; // @TODO assign only to android
 $bar-subheader-height: 48px;
 $expanded-bar-height: ($bar-height + 72px);
+
+/**
+* Typography
+*/
+$preferred_font: 'Roboto', 'Helvetica', 'Arial', sans-serif !default;
+$performance_font: 'Helvetica', 'Arial', sans-serif !default;
+$roboto-font-path: '../fonts' !default;
