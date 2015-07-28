@@ -15,7 +15,7 @@ gulp.task('minor-release', ['bump']);
 gulp.task('major-release', ['major-bump']);
 
 gulp.task('scripts', function() {
-    return gulp.src('./scss/ionic-material-design-lite.scss')
+    return gulp.src(paths.js)
         .pipe($.concat('ionic.material-design-lite.js'))
         .pipe(gulp.dest(paths.dist))
         .pipe($.uglify())
@@ -24,7 +24,7 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('sass', function(done) {
-    gulp.src(paths.sass)
+    gulp.src('./scss/ionic-material-design-lite.scss')
         .pipe($.sass({
             precision: 10,
             onError: console.error.bind(console, 'Sass error:')
