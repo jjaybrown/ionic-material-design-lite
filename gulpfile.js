@@ -35,7 +35,10 @@ gulp.task('scripts', function() {
 
 gulp.task('sass', function(done) {
     gulp.src(paths.sass)
-        .pipe(sass({ errLogToConsole: true }))
+        .pipe(
+          sass({ errLogToConsole: true })
+          .on('error', console.log)
+        )
         .pipe(stripCssComments())
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
