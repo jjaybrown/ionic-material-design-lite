@@ -2,7 +2,7 @@
   .card,
   .list-inset {
     @extend .card;
-    @extend .list-insert;
+    @extend .list-inset;
     width: auto;
   }
 
