@@ -29,6 +29,12 @@
   .tab-item {
     @extend .mdl-tabs__tab;
 
+    &.has-badge {
+      .badge {
+        position: absolute;
+      }
+    }
+
     &.tab-item-active:before {
       height: 2px;
       width: 100%;
