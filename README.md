@@ -28,6 +28,14 @@ Otherwise only Android will use the Material Design (Lite) styles.
 
 ## Installation
 
+**Until RC-1 is released you will need to include the following additional includes above the `ionic-material-design-lite` scripts and css**
+
+`<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
+
+`<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">`
+
+`<script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>`
+
 ### Manually 
 You can manually add the css and js files to your project by pasting `ionic.material-design-lite.min.css` and `ionic.material-design-lite.min.js` located in the `dist` folder into your project directory.
 Refer to these files by adding a `<link>` and a `<script>` element into your HTML pages.
