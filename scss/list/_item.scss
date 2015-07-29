@@ -1,7 +1,27 @@
 .platform-android, .platform-override {
-  .item {
+  .list {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .list .item {
+    padding: 16px 16px 20px 16px;
+
     &.item-text-wrap {
       width: 100%;
+    }
+
+    &.item-divider {
+      @include typo-subhead-2(true, true);
+      line-height: 20px;
+      font-weight: 500;
+      text-align: left;
+      height: 48px;
+      opacity: 0.54;
+
+      &.item:first-child {
+        border-top: none;
+        border-bottom: none;
+      }
     }
   }
 
@@ -25,7 +45,7 @@
 
     &.item-avatar--expand {
       &:first-child {
-        display: flex;
+
         flex-wrap: wrap;
         align-items: flex-end;
         align-content: flex-end;
