@@ -52,7 +52,6 @@ angular.module('material-starter')
    // An alert dialog
    $scope.showAlert = function() {
      var alertPopup = $ionicPopup.alert({
-       title: 'Don\'t eat that!',
        template: 'It might taste good'
      });
      alertPopup.then(function(res) {

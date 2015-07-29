@@ -1,0 +1,10 @@
+.platform-android, .platform-override {
+  .popup-head {
+    display: none;
+  }
+
+  .popup-buttons {
+    text-align: right;
+    display: block;
+  }
+}
