@@ -5,34 +5,58 @@
   }
 
   .list:not(.card) .item, .list .item .item-content {
-    @extend .mdl-typography--subhead;
-    @extend .mdl-typography--text-capitalize;
+    @include typo-subhead();
+    text-transform: capitalize;
     background-color: transparent;
     margin: 0;
     padding: 0;
     border: none;
+    line-height: 16px;
   }
 
-  .list:not(.card) .item.item-icon-left {
+  .list:not(.card) .item.item-icon-left,
+  .list:not(.card) .item.item-icon-right {
+    :before {
+      width: 24px;
+      height: 24px;
+    }
+
     .item-content {
       padding-left: 72px;
 
       .icon {
-        padding: 12px 12px 12px 0;
-        left: 16px;
+        padding: 12px 12px 12px 12px;
+        font-size: 24px;
       }
     }
   }
 
+  .list:not(.card) .item.item-icon-left {
+    .icon {
+      left: 4px;
+    }
+  }
+
+  .list:not(.card) .item.item-icon-right {
+    .icon {
+      right: 4px;
+    }
+  }
+
   .list:not(.card) .item.item-avatar {
-    max-height: 72px;
+    min-height: 56px;
+    max-height: 56px;
+    height: 56px;
 
     .item-content {
-      padding-left: 72px;
-      line-height: 48px;
+      min-height: 56px;
+      max-height: 56px;
+      line-height: 16px;
+      padding: 20px 16px 24px 72px;
     }
 
     .item-content > img:first-child {
+      top: 8px;
       background-color: #bdbdbd;
       border: solid 1px #e0e0e0;
     }
@@ -70,6 +94,7 @@
 
       a {
         font-weight: 400;
+        line-height: 16px;
       }
     }
   }
