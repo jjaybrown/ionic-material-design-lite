@@ -2,6 +2,152 @@
 
 
 
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Thin.eot');
+  src: url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Thin.woff2') format('woff2'), url('../fonts/Roboto-Thin.woff') format('woff'), url('../fonts/Roboto-Thin.ttf') format('truetype'), url('../fonts/Roboto-Thin.svg#Roboto') format('svg');
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('../fonts/Roboto-Thin.eot');
+  src: url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Thin.woff2') format('woff2'), url('../fonts/Roboto-Thin.woff') format('woff'), url('../fonts/Roboto-Thin.ttf') format('truetype'), url('../fonts/Roboto-Thin.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-ThinItalic.eot');
+  src: url('../fonts/Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-ThinItalic.woff2') format('woff2'), url('../fonts/Roboto-ThinItalic.woff') format('woff'), url('../fonts/Roboto-ThinItalic.ttf') format('truetype'), url('../fonts/Roboto-ThinItalic.svg#Roboto') format('svg');
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Roboto-ThinItalic';
+  src: url('../fonts/Roboto-ThinItalic.eot');
+  src: url('../fonts/Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-ThinItalic.woff2') format('woff2'), url('../fonts/Roboto-ThinItalic.woff') format('woff'), url('../fonts/Roboto-ThinItalic.ttf') format('truetype'), url('../fonts/Roboto-ThinItalic.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.eot');
+  src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Light.woff2') format('woff2'), url('../fonts/Roboto-Light.woff') format('woff'), url('../fonts/Roboto-Light.ttf') format('truetype'), url('../fonts/Roboto-Light.svg#Roboto') format('svg');
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../fonts/Roboto-Light.eot');
+  src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Light.woff2') format('woff2'), url('../fonts/Roboto-Light.woff') format('woff'), url('../fonts/Roboto-Light.ttf') format('truetype'), url('../fonts/Roboto-Light.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-LightItalic.eot');
+  src: url('../fonts/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-LightItalic.woff2') format('woff2'), url('../fonts/Roboto-LightItalic.woff') format('woff'), url('../fonts/Roboto-LightItalic.ttf') format('truetype'), url('../fonts/Roboto-LightItalic.svg#Roboto') format('svg');
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Roboto-LightItalic';
+  src: url('../fonts/Roboto-LightItalic.eot');
+  src: url('../fonts/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-LightItalic.woff2') format('woff2'), url('../fonts/Roboto-LightItalic.woff') format('woff'), url('../fonts/Roboto-LightItalic.ttf') format('truetype'), url('../fonts/Roboto-LightItalic.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg#Roboto') format('svg');
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-RegularItalic.eot');
+  src: url('../fonts/Roboto-RegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-RegularItalic.woff2') format('woff2'), url('../fonts/Roboto-RegularItalic.woff') format('woff'), url('../fonts/Roboto-RegularItalic.ttf') format('truetype'), url('../fonts/Roboto-RegularItalic.svg#Roboto') format('svg');
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Roboto-RegularItalic';
+  src: url('../fonts/Roboto-RegularItalic.eot');
+  src: url('../fonts/Roboto-RegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-RegularItalic.woff2') format('woff2'), url('../fonts/Roboto-RegularItalic.woff') format('woff'), url('../fonts/Roboto-RegularItalic.ttf') format('truetype'), url('../fonts/Roboto-RegularItalic.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.eot');
+  src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Medium.woff2') format('woff2'), url('../fonts/Roboto-Medium.woff') format('woff'), url('../fonts/Roboto-Medium.ttf') format('truetype'), url('../fonts/Roboto-Medium.svg#Roboto') format('svg');
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('../fonts/Roboto-Medium.eot');
+  src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Medium.woff2') format('woff2'), url('../fonts/Roboto-Medium.woff') format('woff'), url('../fonts/Roboto-Medium.ttf') format('truetype'), url('../fonts/Roboto-Medium.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-MediumItalic.eot');
+  src: url('../fonts/Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-MediumItalic.woff2') format('woff2'), url('../fonts/Roboto-MediumItalic.woff') format('woff'), url('../fonts/Roboto-MediumItalic.ttf') format('truetype'), url('../fonts/Roboto-MediumItalic.svg#Roboto') format('svg');
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Roboto-MediumItalic';
+  src: url('../fonts/Roboto-MediumItalic.eot');
+  src: url('../fonts/Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-MediumItalic.woff2') format('woff2'), url('../fonts/Roboto-MediumItalic.woff') format('woff'), url('../fonts/Roboto-MediumItalic.ttf') format('truetype'), url('../fonts/Roboto-MediumItalic.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Bold.woff2') format('woff2'), url('../fonts/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto-Bold.ttf') format('truetype'), url('../fonts/Roboto-Bold.svg#Roboto') format('svg');
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Bold.woff2') format('woff2'), url('../fonts/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto-Bold.ttf') format('truetype'), url('../fonts/Roboto-Bold.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BoldItalic.eot');
+  src: url('../fonts/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-BoldItalic.woff2') format('woff2'), url('../fonts/Roboto-BoldItalic.woff') format('woff'), url('../fonts/Roboto-BoldItalic.ttf') format('truetype'), url('../fonts/Roboto-BoldItalic.svg#Roboto') format('svg');
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Roboto-BoldItalic';
+  src: url('../fonts/Roboto-BoldItalic.eot');
+  src: url('../fonts/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-BoldItalic.woff2') format('woff2'), url('../fonts/Roboto-BoldItalic.woff') format('woff'), url('../fonts/Roboto-BoldItalic.ttf') format('truetype'), url('../fonts/Roboto-BoldItalic.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.eot');
+  src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Black.woff2') format('woff2'), url('../fonts/Roboto-Black.woff') format('woff'), url('../fonts/Roboto-Black.ttf') format('truetype'), url('../fonts/Roboto-Black.svg#Roboto') format('svg');
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('../fonts/Roboto-Black.eot');
+  src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Black.woff2') format('woff2'), url('../fonts/Roboto-Black.woff') format('woff'), url('../fonts/Roboto-Black.ttf') format('truetype'), url('../fonts/Roboto-Black.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BlackItalic.eot');
+  src: url('../fonts/Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-BlackItalic.woff2') format('woff2'), url('../fonts/Roboto-BlackItalic.woff') format('woff'), url('../fonts/Roboto-BlackItalic.ttf') format('truetype'), url('../fonts/Roboto-BlackItalic.svg#Roboto') format('svg');
+  font-weight: 900;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Roboto-BlackItalic';
+  src: url('../fonts/Roboto-BlackItalic.eot');
+  src: url('../fonts/Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-BlackItalic.woff2') format('woff2'), url('../fonts/Roboto-BlackItalic.woff') format('woff'), url('../fonts/Roboto-BlackItalic.ttf') format('truetype'), url('../fonts/Roboto-BlackItalic.svg#Roboto') format('svg'); }
+
+
 *, *:before, *:after {
   box-sizing: border-box; }
 
@@ -970,7 +1116,7 @@ a.button {
   padding-left: 1px; }
 
 
-.card, .platform-android .card, .platform-android .list-inset, .platform-override .card, .platform-override .list-inset, .list-inset {
+.card, .platform-android .card, .platform-android .list-inset, .platform-override .card, .platform-override .list-inset, .list-inset, .platform-android .card, .platform-android .list-inset, .platform-override .card, .platform-override .list-inset {
   overflow: hidden;
   margin: 20px 10px;
   border-radius: 2px;
@@ -988,30 +1134,30 @@ a.button {
   .card .item:last-child, .platform-android .list-inset .item:last-child, .platform-override .list-inset .item:last-child {
     border-bottom: 0; }
 
-.padding .card, .padding .platform-android .list-inset, .platform-android .padding .list-inset, .padding .platform-override .list-inset, .platform-override .padding .list-inset, .padding .list-inset {
+.padding .card, .padding .platform-android .list-inset, .platform-android .padding .list-inset, .padding .platform-override .list-inset, .platform-override .padding .list-inset, .padding .list-inset, .padding .platform-android .card, .platform-android .padding .card, .padding .platform-override .card, .platform-override .padding .card {
   margin-left: 0;
   margin-right: 0; }
 
-.card .item:first-child, .platform-android .list-inset .item:first-child, .platform-override .list-inset .item:first-child, .list-inset .item:first-child, .padding > .list .item:first-child {
+.card .item:first-child, .platform-android .list-inset .item:first-child, .platform-override .list-inset .item:first-child, .list-inset .item:first-child, .platform-android .card .item:first-child, .platform-override .card .item:first-child, .padding > .list .item:first-child {
   border-top-left-radius: 2px;
   border-top-right-radius: 2px; }
-  .card .item:first-child .item-content, .platform-android .list-inset .item:first-child .item-content, .platform-override .list-inset .item:first-child .item-content, .list-inset .item:first-child .item-content, .padding > .list .item:first-child .item-content {
+  .card .item:first-child .item-content, .platform-android .list-inset .item:first-child .item-content, .platform-override .list-inset .item:first-child .item-content, .list-inset .item:first-child .item-content, .platform-android .card .item:first-child .item-content, .platform-override .card .item:first-child .item-content, .padding > .list .item:first-child .item-content {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px; }
-.card .item:last-child, .platform-android .list-inset .item:last-child, .platform-override .list-inset .item:last-child, .list-inset .item:last-child, .padding > .list .item:last-child {
+.card .item:last-child, .platform-android .list-inset .item:last-child, .platform-override .list-inset .item:last-child, .list-inset .item:last-child, .platform-android .card .item:last-child, .platform-override .card .item:last-child, .padding > .list .item:last-child {
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 2px; }
-  .card .item:last-child .item-content, .platform-android .list-inset .item:last-child .item-content, .platform-override .list-inset .item:last-child .item-content, .list-inset .item:last-child .item-content, .padding > .list .item:last-child .item-content {
+  .card .item:last-child .item-content, .platform-android .list-inset .item:last-child .item-content, .platform-override .list-inset .item:last-child .item-content, .list-inset .item:last-child .item-content, .platform-android .card .item:last-child .item-content, .platform-override .card .item:last-child .item-content, .padding > .list .item:last-child .item-content {
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 2px; }
 
-.card .item:last-child, .platform-android .list-inset .item:last-child, .platform-override .list-inset .item:last-child, .list-inset .item:last-child {
+.card .item:last-child, .platform-android .list-inset .item:last-child, .platform-override .list-inset .item:last-child, .list-inset .item:last-child, .platform-android .card .item:last-child, .platform-override .card .item:last-child {
   margin-bottom: -1px; }
 
-.card .item, .platform-android .list-inset .item, .platform-override .list-inset .item, .list-inset .item, .padding > .list .item, .padding-horizontal > .list .item {
+.card .item, .platform-android .list-inset .item, .platform-override .list-inset .item, .list-inset .item, .platform-android .card .item, .platform-override .card .item, .padding > .list .item, .padding-horizontal > .list .item {
   margin-right: 0;
   margin-left: 0; }
-  .card .item.item-input input, .platform-android .list-inset .item.item-input input, .platform-override .list-inset .item.item-input input, .list-inset .item.item-input input, .padding > .list .item.item-input input, .padding-horizontal > .list .item.item-input input {
+  .card .item.item-input input, .platform-android .list-inset .item.item-input input, .platform-override .list-inset .item.item-input input, .list-inset .item.item-input input, .platform-android .card .item.item-input input, .platform-override .card .item.item-input input, .padding > .list .item.item-input input, .padding-horizontal > .list .item.item-input input {
     padding-right: 44px; }
 
 .padding-left > .list .item {
@@ -3445,441 +3591,6 @@ a.item-content {
     display: block; }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-html, body {
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-  padding: 0; }
-
-
-h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 1.35;
-  letter-spacing: -0.02em;
-  opacity: 0.54;
-  font-size: 0.6em; }
-
-h1 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 1.35;
-  letter-spacing: -0.02em;
-  margin-top: 24px;
-  margin-bottom: 24px; }
-
-h2 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 45px;
-  font-weight: 400;
-  line-height: 48px;
-  margin-top: 24px;
-  margin-bottom: 24px; }
-
-h3 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 34px;
-  font-weight: 400;
-  line-height: 40px;
-  margin-top: 24px;
-  margin-bottom: 24px; }
-
-h4 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32px;
-  -moz-osx-font-smoothing: grayscale;
-  margin-top: 24px;
-  margin-bottom: 16px; }
-
-h5 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  margin-top: 24px;
-  margin-bottom: 16px; }
-
-h6 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  margin-top: 24px;
-  margin-bottom: 16px; }
-
-p {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  margin-bottom: 16px; }
-
-a {
-  color: rgb(255,64,129);
-  font-weight: 500; }
-
-blockquote {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  position: relative;
-  font-size: 24px;
-  font-weight: 300;
-  font-style: italic;
-  line-height: 1.35;
-  letter-spacing: 0.08em; }
-  blockquote:before {
-    position: absolute;
-    left: -0.5em;
-    content: '“'; }
-  blockquote:after {
-    content: '”';
-    margin-left: -0.05em; }
-
-mark {
-  background-color: #f4ff81; }
-
-dt {
-  font-weight: 700; }
-
-address {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 0;
-  font-style: normal; }
-
-ul, ol {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0; }
-
-
-.mdl-typography--display-4 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 112px;
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.04em; }
-
-.mdl-typography--display-4-color-contrast {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 112px;
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.04em;
-  opacity: 0.54; }
-
-.mdl-typography--display-3 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 1.35;
-  letter-spacing: -0.02em; }
-
-.mdl-typography--display-3-color-contrast {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 1.35;
-  letter-spacing: -0.02em;
-  opacity: 0.54; }
-
-.mdl-typography--display-2 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 45px;
-  font-weight: 400;
-  line-height: 48px; }
-
-.mdl-typography--display-2-color-contrast {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 45px;
-  font-weight: 400;
-  line-height: 48px;
-  opacity: 0.54; }
-
-.mdl-typography--display-1 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 34px;
-  font-weight: 400;
-  line-height: 40px; }
-
-.mdl-typography--display-1-color-contrast {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 34px;
-  font-weight: 400;
-  line-height: 40px;
-  opacity: 0.54; }
-
-.mdl-typography--headline {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32px;
-  -moz-osx-font-smoothing: grayscale; }
-
-.mdl-typography--headline-color-contrast {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32px;
-  -moz-osx-font-smoothing: grayscale;
-  opacity: 0.87; }
-
-.mdl-typography--title {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.02em; }
-
-.mdl-typography--title-color-contrast {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  opacity: 0.87; }
-
-.mdl-typography--subhead {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.04em; }
-
-.mdl-typography--subhead-color-contrast, .platform-android .bar-subheader.bar .title, .platform-override .bar-subheader.bar .title {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  opacity: 0.87; }
-
-.mdl-typography--body-2 {
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 24px;
-  letter-spacing: 0; }
-
-.mdl-typography--body-2-color-contrast {
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 24px;
-  letter-spacing: 0;
-  opacity: 0.87; }
-
-.mdl-typography--body-1 {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0; }
-
-.mdl-typography--body-1-color-contrast {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  opacity: 0.87; }
-
-.mdl-typography--body-2-force-preferred-font {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0; }
-
-.mdl-typography--body-2-force-preferred-font-color-contrast {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0;
-  opacity: 0.87; }
-
-.mdl-typography--body-1-force-preferred-font {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0; }
-
-.mdl-typography--body-1-force-preferred-font-color-contrast {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  opacity: 0.87; }
-
-.mdl-typography--caption {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 0; }
-
-.mdl-typography--caption-force-preferred-font {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 0; }
-
-.mdl-typography--caption-color-contrast {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 0;
-  opacity: 0.54; }
-
-.mdl-typography--caption-force-preferred-font-color-contrast {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 0;
-  opacity: 0.54; }
-
-.mdl-typography--menu {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0; }
-
-.mdl-typography--menu-color-contrast {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0;
-  opacity: 0.87; }
-
-.mdl-typography--button {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-  line-height: 1;
-  letter-spacing: 0; }
-
-.mdl-typography--button-color-contrast {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-  line-height: 1;
-  letter-spacing: 0;
-  opacity: 0.87; }
-
-.mdl-typography--text-left {
-  text-align: left; }
-
-.mdl-typography--text-right {
-  text-align: right; }
-
-.mdl-typography--text-center {
-  text-align: center; }
-
-.mdl-typography--text-justify {
-  text-align: justify; }
-
-.mdl-typography--text-nowrap {
-  white-space: nowrap; }
-
-.mdl-typography--text-lowercase {
-  text-transform: lowercase; }
-
-.mdl-typography--text-uppercase {
-  text-transform: uppercase; }
-
-.mdl-typography--text-capitalize {
-  text-transform: capitalize; }
-
-.mdl-typography--font-thin {
-  font-weight: 200 !important; }
-
-.mdl-typography--font-light {
-  font-weight: 300 !important; }
-
-.mdl-typography--font-regular {
-  font-weight: 400 !important; }
-
-.mdl-typography--font-medium {
-  font-weight: 500 !important; }
-
-.mdl-typography--font-bold {
-  font-weight: 700 !important; }
-
-.mdl-typography--font-black {
-  font-weight: 900 !important; }
-
-
 .tabs {
   display: -webkit-flex;
   display: -moz-flex;
@@ -4767,6 +4478,108 @@ ion-tabs.tabs-color-active-dark .tab-item {
     opacity: 1;
     width: 100%; } }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mdl-badge, .platform-android .tabs-light .tab-item .badge, .platform-android .tabs-light .mdl-tabs__tab .badge, .platform-override .tabs-light .tab-item .badge, .platform-override .tabs-light .mdl-tabs__tab .badge, .platform-android .tabs-stable .tab-item .badge, .platform-android .tabs-stable .mdl-tabs__tab .badge, .platform-override .tabs-stable .tab-item .badge, .platform-override .tabs-stable .mdl-tabs__tab .badge, .platform-android .tabs-positive .tab-item .badge, .platform-android .tabs-positive .mdl-tabs__tab .badge, .platform-override .tabs-positive .tab-item .badge, .platform-override .tabs-positive .mdl-tabs__tab .badge, .platform-android .tabs-calm .tab-item .badge, .platform-android .tabs-calm .mdl-tabs__tab .badge, .platform-override .tabs-calm .tab-item .badge, .platform-override .tabs-calm .mdl-tabs__tab .badge, .platform-android .tabs-assertive .tab-item .badge, .platform-android .tabs-assertive .mdl-tabs__tab .badge, .platform-override .tabs-assertive .tab-item .badge, .platform-override .tabs-assertive .mdl-tabs__tab .badge, .platform-android .tabs-balanced .tab-item .badge, .platform-android .tabs-balanced .mdl-tabs__tab .badge, .platform-override .tabs-balanced .tab-item .badge, .platform-override .tabs-balanced .mdl-tabs__tab .badge, .platform-android .tabs-energized .tab-item .badge, .platform-android .tabs-energized .mdl-tabs__tab .badge, .platform-override .tabs-energized .tab-item .badge, .platform-override .tabs-energized .mdl-tabs__tab .badge, .platform-android .tabs-royal .tab-item .badge, .platform-android .tabs-royal .mdl-tabs__tab .badge, .platform-override .tabs-royal .tab-item .badge, .platform-override .tabs-royal .mdl-tabs__tab .badge, .platform-android .tabs-dark .tab-item .badge, .platform-android .tabs-dark .mdl-tabs__tab .badge, .platform-override .tabs-dark .tab-item .badge, .platform-override .tabs-dark .mdl-tabs__tab .badge, .badge {
+  position: relative;
+  white-space: nowrap;
+  margin-right: 22px; }
+  .mdl-badge:not([data-badge]), .platform-android .tabs-light .tab-item .badge:not([data-badge]), .platform-android .tabs-light .mdl-tabs__tab .badge:not([data-badge]), .platform-override .tabs-light .tab-item .badge:not([data-badge]), .platform-override .tabs-light .mdl-tabs__tab .badge:not([data-badge]), .platform-android .tabs-stable .tab-item .badge:not([data-badge]), .platform-android .tabs-stable .mdl-tabs__tab .badge:not([data-badge]), .platform-override .tabs-stable .tab-item .badge:not([data-badge]), .platform-override .tabs-stable .mdl-tabs__tab .badge:not([data-badge]), .platform-android .tabs-positive .tab-item .badge:not([data-badge]), .platform-android .tabs-positive .mdl-tabs__tab .badge:not([data-badge]), .platform-override .tabs-positive .tab-item .badge:not([data-badge]), .platform-override .tabs-positive .mdl-tabs__tab .badge:not([data-badge]), .platform-android .tabs-calm .tab-item .badge:not([data-badge]), .platform-android .tabs-calm .mdl-tabs__tab .badge:not([data-badge]), .platform-override .tabs-calm .tab-item .badge:not([data-badge]), .platform-override .tabs-calm .mdl-tabs__tab .badge:not([data-badge]), .platform-android .tabs-assertive .tab-item .badge:not([data-badge]), .platform-android .tabs-assertive .mdl-tabs__tab .badge:not([data-badge]), .platform-override .tabs-assertive .tab-item .badge:not([data-badge]), .platform-override .tabs-assertive .mdl-tabs__tab .badge:not([data-badge]), .platform-android .tabs-balanced .tab-item .badge:not([data-badge]), .platform-android .tabs-balanced .mdl-tabs__tab .badge:not([data-badge]), .platform-override .tabs-balanced .tab-item .badge:not([data-badge]), .platform-override .tabs-balanced .mdl-tabs__tab .badge:not([data-badge]), .platform-android .tabs-energized .tab-item .badge:not([data-badge]), .platform-android .tabs-energized .mdl-tabs__tab .badge:not([data-badge]), .platform-override .tabs-energized .tab-item .badge:not([data-badge]), .platform-override .tabs-energized .mdl-tabs__tab .badge:not([data-badge]), .platform-android .tabs-royal .tab-item .badge:not([data-badge]), .platform-android .tabs-royal .mdl-tabs__tab .badge:not([data-badge]), .platform-override .tabs-royal .tab-item .badge:not([data-badge]), .platform-override .tabs-royal .mdl-tabs__tab .badge:not([data-badge]), .platform-android .tabs-dark .tab-item .badge:not([data-badge]), .platform-android .tabs-dark .mdl-tabs__tab .badge:not([data-badge]), .platform-override .tabs-dark .tab-item .badge:not([data-badge]), .platform-override .tabs-dark .mdl-tabs__tab .badge:not([data-badge]), .badge:not([data-badge]) {
+    margin-right: auto; }
+  .mdl-badge[data-badge]:after, .platform-android .tabs-light .tab-item [data-badge].badge:after, .platform-android .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-light .tab-item [data-badge].badge:after, .platform-override .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-stable .tab-item [data-badge].badge:after, .platform-android .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-stable .tab-item [data-badge].badge:after, .platform-override .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-positive .tab-item [data-badge].badge:after, .platform-android .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-positive .tab-item [data-badge].badge:after, .platform-override .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-calm .tab-item [data-badge].badge:after, .platform-android .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-calm .tab-item [data-badge].badge:after, .platform-override .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-assertive .tab-item [data-badge].badge:after, .platform-android .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-assertive .tab-item [data-badge].badge:after, .platform-override .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-balanced .tab-item [data-badge].badge:after, .platform-android .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-balanced .tab-item [data-badge].badge:after, .platform-override .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-energized .tab-item [data-badge].badge:after, .platform-android .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-energized .tab-item [data-badge].badge:after, .platform-override .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-royal .tab-item [data-badge].badge:after, .platform-android .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-royal .tab-item [data-badge].badge:after, .platform-override .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-dark .tab-item [data-badge].badge:after, .platform-android .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-dark .tab-item [data-badge].badge:after, .platform-override .tabs-dark .mdl-tabs__tab [data-badge].badge:after, [data-badge].badge:after {
+    content: attr(data-badge);
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    right: -22px;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(255,64,129);
+    color: rgb(255,255,255); }
+    .mdl-button .mdl-badge[data-badge]:after, .platform-android .button .mdl-badge[data-badge]:after, .platform-override .button .mdl-badge[data-badge]:after, .platform-android .button.activated .mdl-badge[data-badge]:after, .platform-android .button.active .mdl-badge[data-badge]:after, .platform-override .button.activated .mdl-badge[data-badge]:after, .platform-override .button.active .mdl-badge[data-badge]:after, .mdl-button .platform-android .tabs-light .tab-item [data-badge].badge:after, .platform-android .tabs-light .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .tabs-light .tab-item [data-badge].badge:after, .platform-android .tabs-light .tab-item .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-light .tab-item [data-badge].badge:after, .platform-android .tabs-light .tab-item .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-light .tab-item [data-badge].badge:after, .platform-android .tabs-light .tab-item .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-light .tab-item [data-badge].badge:after, .platform-android .tabs-light .tab-item .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-light .tab-item [data-badge].badge:after, .platform-android .tabs-light .tab-item .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-light .tab-item [data-badge].badge:after, .platform-android .tabs-light .tab-item .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-light .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-light .mdl-tabs__tab .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-light .mdl-tabs__tab .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-light .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-light .mdl-tabs__tab .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-light .mdl-tabs__tab .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-light .mdl-tabs__tab .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-light .tab-item [data-badge].badge:after, .platform-override .tabs-light .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-light .tab-item [data-badge].badge:after, .platform-override .tabs-light .tab-item .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-light .tab-item [data-badge].badge:after, .platform-override .tabs-light .tab-item .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-light .tab-item [data-badge].badge:after, .platform-override .tabs-light .tab-item .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-light .tab-item [data-badge].badge:after, .platform-override .tabs-light .tab-item .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-light .tab-item [data-badge].badge:after, .platform-override .tabs-light .tab-item .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-light .tab-item [data-badge].badge:after, .platform-override .tabs-light .tab-item .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-light .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-light .mdl-tabs__tab .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-light .mdl-tabs__tab .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-light .mdl-tabs__tab .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-light .mdl-tabs__tab .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-light .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-light .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-light .mdl-tabs__tab .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-stable .tab-item [data-badge].badge:after, .platform-android .tabs-stable .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .tabs-stable .tab-item [data-badge].badge:after, .platform-android .tabs-stable .tab-item .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-stable .tab-item [data-badge].badge:after, .platform-android .tabs-stable .tab-item .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-stable .tab-item [data-badge].badge:after, .platform-android .tabs-stable .tab-item .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-stable .tab-item [data-badge].badge:after, .platform-android .tabs-stable .tab-item .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-stable .tab-item [data-badge].badge:after, .platform-android .tabs-stable .tab-item .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-stable .tab-item [data-badge].badge:after, .platform-android .tabs-stable .tab-item .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-stable .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-stable .mdl-tabs__tab .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-stable .mdl-tabs__tab .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-stable .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-stable .mdl-tabs__tab .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-stable .mdl-tabs__tab .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-stable .mdl-tabs__tab .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-stable .tab-item [data-badge].badge:after, .platform-override .tabs-stable .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-stable .tab-item [data-badge].badge:after, .platform-override .tabs-stable .tab-item .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-stable .tab-item [data-badge].badge:after, .platform-override .tabs-stable .tab-item .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-stable .tab-item [data-badge].badge:after, .platform-override .tabs-stable .tab-item .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-stable .tab-item [data-badge].badge:after, .platform-override .tabs-stable .tab-item .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-stable .tab-item [data-badge].badge:after, .platform-override .tabs-stable .tab-item .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-stable .tab-item [data-badge].badge:after, .platform-override .tabs-stable .tab-item .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-stable .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-stable .mdl-tabs__tab .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-stable .mdl-tabs__tab .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-stable .mdl-tabs__tab .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-stable .mdl-tabs__tab .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-stable .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-stable .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-stable .mdl-tabs__tab .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-positive .tab-item [data-badge].badge:after, .platform-android .tabs-positive .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .tabs-positive .tab-item [data-badge].badge:after, .platform-android .tabs-positive .tab-item .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-positive .tab-item [data-badge].badge:after, .platform-android .tabs-positive .tab-item .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-positive .tab-item [data-badge].badge:after, .platform-android .tabs-positive .tab-item .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-positive .tab-item [data-badge].badge:after, .platform-android .tabs-positive .tab-item .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-positive .tab-item [data-badge].badge:after, .platform-android .tabs-positive .tab-item .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-positive .tab-item [data-badge].badge:after, .platform-android .tabs-positive .tab-item .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-positive .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-positive .mdl-tabs__tab .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-positive .mdl-tabs__tab .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-positive .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-positive .mdl-tabs__tab .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-positive .mdl-tabs__tab .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-positive .mdl-tabs__tab .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-positive .tab-item [data-badge].badge:after, .platform-override .tabs-positive .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-positive .tab-item [data-badge].badge:after, .platform-override .tabs-positive .tab-item .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-positive .tab-item [data-badge].badge:after, .platform-override .tabs-positive .tab-item .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-positive .tab-item [data-badge].badge:after, .platform-override .tabs-positive .tab-item .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-positive .tab-item [data-badge].badge:after, .platform-override .tabs-positive .tab-item .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-positive .tab-item [data-badge].badge:after, .platform-override .tabs-positive .tab-item .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-positive .tab-item [data-badge].badge:after, .platform-override .tabs-positive .tab-item .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-positive .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-positive .mdl-tabs__tab .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-positive .mdl-tabs__tab .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-positive .mdl-tabs__tab .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-positive .mdl-tabs__tab .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-positive .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-positive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-positive .mdl-tabs__tab .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-calm .tab-item [data-badge].badge:after, .platform-android .tabs-calm .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .tabs-calm .tab-item [data-badge].badge:after, .platform-android .tabs-calm .tab-item .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-calm .tab-item [data-badge].badge:after, .platform-android .tabs-calm .tab-item .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-calm .tab-item [data-badge].badge:after, .platform-android .tabs-calm .tab-item .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-calm .tab-item [data-badge].badge:after, .platform-android .tabs-calm .tab-item .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-calm .tab-item [data-badge].badge:after, .platform-android .tabs-calm .tab-item .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-calm .tab-item [data-badge].badge:after, .platform-android .tabs-calm .tab-item .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-calm .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-calm .mdl-tabs__tab .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-calm .mdl-tabs__tab .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-calm .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-calm .mdl-tabs__tab .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-calm .mdl-tabs__tab .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-calm .mdl-tabs__tab .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-calm .tab-item [data-badge].badge:after, .platform-override .tabs-calm .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-calm .tab-item [data-badge].badge:after, .platform-override .tabs-calm .tab-item .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-calm .tab-item [data-badge].badge:after, .platform-override .tabs-calm .tab-item .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-calm .tab-item [data-badge].badge:after, .platform-override .tabs-calm .tab-item .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-calm .tab-item [data-badge].badge:after, .platform-override .tabs-calm .tab-item .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-calm .tab-item [data-badge].badge:after, .platform-override .tabs-calm .tab-item .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-calm .tab-item [data-badge].badge:after, .platform-override .tabs-calm .tab-item .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-calm .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-calm .mdl-tabs__tab .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-calm .mdl-tabs__tab .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-calm .mdl-tabs__tab .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-calm .mdl-tabs__tab .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-calm .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-calm .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-calm .mdl-tabs__tab .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-assertive .tab-item [data-badge].badge:after, .platform-android .tabs-assertive .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .tabs-assertive .tab-item [data-badge].badge:after, .platform-android .tabs-assertive .tab-item .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-assertive .tab-item [data-badge].badge:after, .platform-android .tabs-assertive .tab-item .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-assertive .tab-item [data-badge].badge:after, .platform-android .tabs-assertive .tab-item .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-assertive .tab-item [data-badge].badge:after, .platform-android .tabs-assertive .tab-item .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-assertive .tab-item [data-badge].badge:after, .platform-android .tabs-assertive .tab-item .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-assertive .tab-item [data-badge].badge:after, .platform-android .tabs-assertive .tab-item .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-assertive .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-assertive .mdl-tabs__tab .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-assertive .mdl-tabs__tab .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-assertive .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-assertive .mdl-tabs__tab .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-assertive .mdl-tabs__tab .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-assertive .mdl-tabs__tab .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-assertive .tab-item [data-badge].badge:after, .platform-override .tabs-assertive .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-assertive .tab-item [data-badge].badge:after, .platform-override .tabs-assertive .tab-item .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-assertive .tab-item [data-badge].badge:after, .platform-override .tabs-assertive .tab-item .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-assertive .tab-item [data-badge].badge:after, .platform-override .tabs-assertive .tab-item .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-assertive .tab-item [data-badge].badge:after, .platform-override .tabs-assertive .tab-item .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-assertive .tab-item [data-badge].badge:after, .platform-override .tabs-assertive .tab-item .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-assertive .tab-item [data-badge].badge:after, .platform-override .tabs-assertive .tab-item .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-assertive .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-assertive .mdl-tabs__tab .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-assertive .mdl-tabs__tab .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-assertive .mdl-tabs__tab .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-assertive .mdl-tabs__tab .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-assertive .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-assertive .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-assertive .mdl-tabs__tab .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-balanced .tab-item [data-badge].badge:after, .platform-android .tabs-balanced .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .tabs-balanced .tab-item [data-badge].badge:after, .platform-android .tabs-balanced .tab-item .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-balanced .tab-item [data-badge].badge:after, .platform-android .tabs-balanced .tab-item .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-balanced .tab-item [data-badge].badge:after, .platform-android .tabs-balanced .tab-item .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-balanced .tab-item [data-badge].badge:after, .platform-android .tabs-balanced .tab-item .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-balanced .tab-item [data-badge].badge:after, .platform-android .tabs-balanced .tab-item .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-balanced .tab-item [data-badge].badge:after, .platform-android .tabs-balanced .tab-item .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-balanced .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-balanced .mdl-tabs__tab .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-balanced .mdl-tabs__tab .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-balanced .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-balanced .mdl-tabs__tab .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-balanced .mdl-tabs__tab .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-balanced .mdl-tabs__tab .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-balanced .tab-item [data-badge].badge:after, .platform-override .tabs-balanced .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-balanced .tab-item [data-badge].badge:after, .platform-override .tabs-balanced .tab-item .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-balanced .tab-item [data-badge].badge:after, .platform-override .tabs-balanced .tab-item .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-balanced .tab-item [data-badge].badge:after, .platform-override .tabs-balanced .tab-item .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-balanced .tab-item [data-badge].badge:after, .platform-override .tabs-balanced .tab-item .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-balanced .tab-item [data-badge].badge:after, .platform-override .tabs-balanced .tab-item .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-balanced .tab-item [data-badge].badge:after, .platform-override .tabs-balanced .tab-item .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-balanced .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-balanced .mdl-tabs__tab .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-balanced .mdl-tabs__tab .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-balanced .mdl-tabs__tab .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-balanced .mdl-tabs__tab .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-balanced .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-balanced .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-balanced .mdl-tabs__tab .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-energized .tab-item [data-badge].badge:after, .platform-android .tabs-energized .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .tabs-energized .tab-item [data-badge].badge:after, .platform-android .tabs-energized .tab-item .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-energized .tab-item [data-badge].badge:after, .platform-android .tabs-energized .tab-item .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-energized .tab-item [data-badge].badge:after, .platform-android .tabs-energized .tab-item .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-energized .tab-item [data-badge].badge:after, .platform-android .tabs-energized .tab-item .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-energized .tab-item [data-badge].badge:after, .platform-android .tabs-energized .tab-item .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-energized .tab-item [data-badge].badge:after, .platform-android .tabs-energized .tab-item .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-energized .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-energized .mdl-tabs__tab .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-energized .mdl-tabs__tab .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-energized .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-energized .mdl-tabs__tab .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-energized .mdl-tabs__tab .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-energized .mdl-tabs__tab .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-energized .tab-item [data-badge].badge:after, .platform-override .tabs-energized .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-energized .tab-item [data-badge].badge:after, .platform-override .tabs-energized .tab-item .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-energized .tab-item [data-badge].badge:after, .platform-override .tabs-energized .tab-item .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-energized .tab-item [data-badge].badge:after, .platform-override .tabs-energized .tab-item .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-energized .tab-item [data-badge].badge:after, .platform-override .tabs-energized .tab-item .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-energized .tab-item [data-badge].badge:after, .platform-override .tabs-energized .tab-item .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-energized .tab-item [data-badge].badge:after, .platform-override .tabs-energized .tab-item .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-energized .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-energized .mdl-tabs__tab .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-energized .mdl-tabs__tab .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-energized .mdl-tabs__tab .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-energized .mdl-tabs__tab .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-energized .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-energized .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-energized .mdl-tabs__tab .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-royal .tab-item [data-badge].badge:after, .platform-android .tabs-royal .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .tabs-royal .tab-item [data-badge].badge:after, .platform-android .tabs-royal .tab-item .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-royal .tab-item [data-badge].badge:after, .platform-android .tabs-royal .tab-item .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-royal .tab-item [data-badge].badge:after, .platform-android .tabs-royal .tab-item .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-royal .tab-item [data-badge].badge:after, .platform-android .tabs-royal .tab-item .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-royal .tab-item [data-badge].badge:after, .platform-android .tabs-royal .tab-item .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-royal .tab-item [data-badge].badge:after, .platform-android .tabs-royal .tab-item .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-royal .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-royal .mdl-tabs__tab .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-royal .mdl-tabs__tab .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-royal .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-royal .mdl-tabs__tab .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-royal .mdl-tabs__tab .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-royal .mdl-tabs__tab .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-royal .tab-item [data-badge].badge:after, .platform-override .tabs-royal .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-royal .tab-item [data-badge].badge:after, .platform-override .tabs-royal .tab-item .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-royal .tab-item [data-badge].badge:after, .platform-override .tabs-royal .tab-item .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-royal .tab-item [data-badge].badge:after, .platform-override .tabs-royal .tab-item .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-royal .tab-item [data-badge].badge:after, .platform-override .tabs-royal .tab-item .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-royal .tab-item [data-badge].badge:after, .platform-override .tabs-royal .tab-item .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-royal .tab-item [data-badge].badge:after, .platform-override .tabs-royal .tab-item .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-royal .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-royal .mdl-tabs__tab .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-royal .mdl-tabs__tab .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-royal .mdl-tabs__tab .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-royal .mdl-tabs__tab .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-royal .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-royal .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-royal .mdl-tabs__tab .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-dark .tab-item [data-badge].badge:after, .platform-android .tabs-dark .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .tabs-dark .tab-item [data-badge].badge:after, .platform-android .tabs-dark .tab-item .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-dark .tab-item [data-badge].badge:after, .platform-android .tabs-dark .tab-item .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-dark .tab-item [data-badge].badge:after, .platform-android .tabs-dark .tab-item .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-dark .tab-item [data-badge].badge:after, .platform-android .tabs-dark .tab-item .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-dark .tab-item [data-badge].badge:after, .platform-android .tabs-dark .tab-item .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-dark .tab-item [data-badge].badge:after, .platform-android .tabs-dark .tab-item .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-android .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-dark .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-dark .mdl-tabs__tab .button [data-badge].badge:after, .platform-override .button .platform-android .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-dark .mdl-tabs__tab .platform-override .button [data-badge].badge:after, .platform-android .button.activated .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-dark .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-android .button.active .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-dark .mdl-tabs__tab .button.active [data-badge].badge:after, .platform-override .button.activated .platform-android .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-dark .mdl-tabs__tab .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active .platform-android .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-android .tabs-dark .mdl-tabs__tab .platform-override .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-dark .tab-item [data-badge].badge:after, .platform-override .tabs-dark .tab-item .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-dark .tab-item [data-badge].badge:after, .platform-override .tabs-dark .tab-item .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-dark .tab-item [data-badge].badge:after, .platform-override .tabs-dark .tab-item .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-dark .tab-item [data-badge].badge:after, .platform-override .tabs-dark .tab-item .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-dark .tab-item [data-badge].badge:after, .platform-override .tabs-dark .tab-item .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-dark .tab-item [data-badge].badge:after, .platform-override .tabs-dark .tab-item .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-dark .tab-item [data-badge].badge:after, .platform-override .tabs-dark .tab-item .button.active [data-badge].badge:after, .mdl-button .platform-override .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-dark .mdl-tabs__tab .mdl-button [data-badge].badge:after, .platform-android .button .platform-override .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-dark .mdl-tabs__tab .platform-android .button [data-badge].badge:after, .platform-override .button .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-dark .mdl-tabs__tab .button [data-badge].badge:after, .platform-android .button.activated .platform-override .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-dark .mdl-tabs__tab .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active .platform-override .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-dark .mdl-tabs__tab .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-dark .mdl-tabs__tab .button.activated [data-badge].badge:after, .platform-override .button.active .tabs-dark .mdl-tabs__tab [data-badge].badge:after, .platform-override .tabs-dark .mdl-tabs__tab .button.active [data-badge].badge:after, .mdl-button [data-badge].badge:after, .platform-android .button [data-badge].badge:after, .platform-override .button [data-badge].badge:after, .platform-android .button.activated [data-badge].badge:after, .platform-android .button.active [data-badge].badge:after, .platform-override .button.activated [data-badge].badge:after, .platform-override .button.active [data-badge].badge:after {
+      top: -10px;
+      right: -5px; }
+  .mdl-badge.mdl-badge--no-background[data-badge]:after, .platform-android .tabs-light .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-light .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-light .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-light .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-stable .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-stable .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-stable .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-stable .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-positive .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-positive .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-positive .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-positive .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-calm .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-calm .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-calm .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-calm .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-assertive .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-assertive .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-assertive .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-assertive .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-balanced .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-balanced .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-balanced .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-balanced .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-energized .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-energized .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-energized .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-energized .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-royal .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-royal .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-royal .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-royal .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-dark .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-android .tabs-dark .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-dark .tab-item .mdl-badge--no-background[data-badge].badge:after, .platform-override .tabs-dark .mdl-tabs__tab .mdl-badge--no-background[data-badge].badge:after, .mdl-badge--no-background[data-badge].badge:after {
+    color: rgb(255,64,129);
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 0 1px gray; }
+
 .platform-android .button:focus:not(:active), .platform-override .button:focus:not(:active) {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
 .platform-android .button:hover, .platform-android .button:focus, .platform-override .button:hover, .platform-override .button:focus {
@@ -5312,6 +5125,11 @@ ion-tabs.tabs-color-active-dark .tab-item {
   top: 55px;
   height: 48px; }
   .platform-android .bar.bar-subheader .title, .platform-android .bar-subheader.bar .title, .platform-override .bar.bar-subheader .title, .platform-override .bar-subheader.bar .title {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
     text-align: left;
     line-height: 48px;
     opacity: 0.54;
@@ -5361,7 +5179,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
   .platform-android .bar .title + .buttons.buttons-right, .platform-override .bar .title + .buttons.buttons-right {
     right: 0; }
 
-.platform-android .card, .platform-android .list-inset, .platform-android .list-inset, .platform-override .card, .platform-override .list-inset, .platform-override .list-inset {
+.platform-android .card, .platform-android .list-inset, .platform-android .card, .platform-android .list-inset, .platform-override .card, .platform-override .list-inset, .platform-override .card, .platform-override .list-inset {
   width: auto; }
 .platform-android .card, .platform-android .list-inset, .platform-override .card, .platform-override .list-inset {
   min-height: inherit; }
@@ -5380,6 +5198,8 @@ ion-tabs.tabs-color-active-dark .tab-item {
   .platform-android .card .item:last-child.item-divider.item__actions, .platform-android .list-inset .item:last-child.item-divider.item__actions, .platform-override .card .item:last-child.item-divider.item__actions, .platform-override .list-inset .item:last-child.item-divider.item__actions {
     border-top: none; }
 
+.platform-android .item.item-text-wrap, .platform-android .card .item.item-text-wrap, .platform-android .list-inset .item.item-text-wrap, .platform-override .card .platform-android .item.item-text-wrap, .platform-override .list-inset .platform-android .item.item-text-wrap, .platform-override .item.item-text-wrap, .platform-android .card .platform-override .item.item-text-wrap, .platform-android .list-inset .platform-override .item.item-text-wrap, .platform-override .card .item.item-text-wrap, .platform-override .list-inset .item.item-text-wrap {
+  width: 100%; }
 .platform-android .item.item-avatar:first-child, .platform-override .item.item-avatar:first-child {
   min-height: 40px; }
 .platform-android .item.item-avatar h1, .platform-android .item.item-avatar h2, .platform-android .item.item-avatar h3, .platform-android .item.item-avatar h4, .platform-android .item.item-avatar h5, .platform-override .item.item-avatar h1, .platform-override .item.item-avatar h2, .platform-override .item.item-avatar h3, .platform-override .item.item-avatar h4, .platform-override .item.item-avatar h5 {
@@ -5649,6 +5469,11 @@ ion-tabs.tabs-color-active-dark .tab-item {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
   .platform-android .tabs-top.tabs-striped .tab-item.tab-item-active, .platform-android .tabs-bottom.tabs-striped .tab-item.tab-item-active, .platform-override .tabs-top.tabs-striped .tab-item.tab-item-active, .platform-override .tabs-bottom.tabs-striped .tab-item.tab-item-active {
     border: none; }
+  .platform-android .tab-item .tab-title, .platform-override .tab-item .tab-title {
+    font-family: 'Roboto-Medium';
+    font-weight: 500; }
+  .platform-android .tab-item.has-badge .badge, .platform-override .tab-item.has-badge .badge {
+    position: absolute; }
   .platform-android .tab-item.tab-item-active:before, .platform-override .tab-item.tab-item-active:before {
     height: 2px;
     width: 100%;
@@ -5661,6 +5486,12 @@ ion-tabs.tabs-color-active-dark .tab-item {
     -webkit-animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;
     animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;
     transition: all 1s cubic-bezier(0.4, 0, 1, 1); }
+  .platform-android .tabs-icon-top .tabs, .platform-override .tabs-icon-top .tabs {
+    height: 72px; }
+  .platform-android .tabs-icon-top .tab-item, .platform-override .tabs-icon-top .tab-item {
+    height: 72px;
+    line-height: 48px;
+    font-size: 14px; }
   .platform-android .tabs-standard .mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple, .platform-android .tabs-standard .tab-item .mdl-tabs__ripple-container .mdl-ripple, .platform-override .tabs-standard .mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple, .platform-override .tabs-standard .tab-item .mdl-tabs__ripple-container .mdl-ripple {
     background: #c7c7c7; }
   .platform-android .tabs-light .mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple, .platform-android .tabs-light .tab-item .mdl-tabs__ripple-container .mdl-ripple, .platform-override .tabs-light .mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple, .platform-override .tabs-light .tab-item .mdl-tabs__ripple-container .mdl-ripple {
@@ -5967,5 +5798,487 @@ ion-tabs.tabs-color-active-dark .tab-item {
   opacity: 0;
   transition-duration: 0s; }
 
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Thin.eot');
+  src: url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Thin.woff2') format('woff2'), url('../fonts/Roboto-Thin.woff') format('woff'), url('../fonts/Roboto-Thin.ttf') format('truetype'), url('../fonts/Roboto-Thin.svg#Roboto') format('svg');
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('../fonts/Roboto-Thin.eot');
+  src: url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Thin.woff2') format('woff2'), url('../fonts/Roboto-Thin.woff') format('woff'), url('../fonts/Roboto-Thin.ttf') format('truetype'), url('../fonts/Roboto-Thin.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-ThinItalic.eot');
+  src: url('../fonts/Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-ThinItalic.woff2') format('woff2'), url('../fonts/Roboto-ThinItalic.woff') format('woff'), url('../fonts/Roboto-ThinItalic.ttf') format('truetype'), url('../fonts/Roboto-ThinItalic.svg#Roboto') format('svg');
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Roboto-ThinItalic';
+  src: url('../fonts/Roboto-ThinItalic.eot');
+  src: url('../fonts/Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-ThinItalic.woff2') format('woff2'), url('../fonts/Roboto-ThinItalic.woff') format('woff'), url('../fonts/Roboto-ThinItalic.ttf') format('truetype'), url('../fonts/Roboto-ThinItalic.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.eot');
+  src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Light.woff2') format('woff2'), url('../fonts/Roboto-Light.woff') format('woff'), url('../fonts/Roboto-Light.ttf') format('truetype'), url('../fonts/Roboto-Light.svg#Roboto') format('svg');
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../fonts/Roboto-Light.eot');
+  src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Light.woff2') format('woff2'), url('../fonts/Roboto-Light.woff') format('woff'), url('../fonts/Roboto-Light.ttf') format('truetype'), url('../fonts/Roboto-Light.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-LightItalic.eot');
+  src: url('../fonts/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-LightItalic.woff2') format('woff2'), url('../fonts/Roboto-LightItalic.woff') format('woff'), url('../fonts/Roboto-LightItalic.ttf') format('truetype'), url('../fonts/Roboto-LightItalic.svg#Roboto') format('svg');
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Roboto-LightItalic';
+  src: url('../fonts/Roboto-LightItalic.eot');
+  src: url('../fonts/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-LightItalic.woff2') format('woff2'), url('../fonts/Roboto-LightItalic.woff') format('woff'), url('../fonts/Roboto-LightItalic.ttf') format('truetype'), url('../fonts/Roboto-LightItalic.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg#Roboto') format('svg');
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-RegularItalic.eot');
+  src: url('../fonts/Roboto-RegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-RegularItalic.woff2') format('woff2'), url('../fonts/Roboto-RegularItalic.woff') format('woff'), url('../fonts/Roboto-RegularItalic.ttf') format('truetype'), url('../fonts/Roboto-RegularItalic.svg#Roboto') format('svg');
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Roboto-RegularItalic';
+  src: url('../fonts/Roboto-RegularItalic.eot');
+  src: url('../fonts/Roboto-RegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-RegularItalic.woff2') format('woff2'), url('../fonts/Roboto-RegularItalic.woff') format('woff'), url('../fonts/Roboto-RegularItalic.ttf') format('truetype'), url('../fonts/Roboto-RegularItalic.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.eot');
+  src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Medium.woff2') format('woff2'), url('../fonts/Roboto-Medium.woff') format('woff'), url('../fonts/Roboto-Medium.ttf') format('truetype'), url('../fonts/Roboto-Medium.svg#Roboto') format('svg');
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('../fonts/Roboto-Medium.eot');
+  src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Medium.woff2') format('woff2'), url('../fonts/Roboto-Medium.woff') format('woff'), url('../fonts/Roboto-Medium.ttf') format('truetype'), url('../fonts/Roboto-Medium.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-MediumItalic.eot');
+  src: url('../fonts/Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-MediumItalic.woff2') format('woff2'), url('../fonts/Roboto-MediumItalic.woff') format('woff'), url('../fonts/Roboto-MediumItalic.ttf') format('truetype'), url('../fonts/Roboto-MediumItalic.svg#Roboto') format('svg');
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Roboto-MediumItalic';
+  src: url('../fonts/Roboto-MediumItalic.eot');
+  src: url('../fonts/Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-MediumItalic.woff2') format('woff2'), url('../fonts/Roboto-MediumItalic.woff') format('woff'), url('../fonts/Roboto-MediumItalic.ttf') format('truetype'), url('../fonts/Roboto-MediumItalic.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Bold.woff2') format('woff2'), url('../fonts/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto-Bold.ttf') format('truetype'), url('../fonts/Roboto-Bold.svg#Roboto') format('svg');
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Bold.woff2') format('woff2'), url('../fonts/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto-Bold.ttf') format('truetype'), url('../fonts/Roboto-Bold.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BoldItalic.eot');
+  src: url('../fonts/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-BoldItalic.woff2') format('woff2'), url('../fonts/Roboto-BoldItalic.woff') format('woff'), url('../fonts/Roboto-BoldItalic.ttf') format('truetype'), url('../fonts/Roboto-BoldItalic.svg#Roboto') format('svg');
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Roboto-BoldItalic';
+  src: url('../fonts/Roboto-BoldItalic.eot');
+  src: url('../fonts/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-BoldItalic.woff2') format('woff2'), url('../fonts/Roboto-BoldItalic.woff') format('woff'), url('../fonts/Roboto-BoldItalic.ttf') format('truetype'), url('../fonts/Roboto-BoldItalic.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.eot');
+  src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Black.woff2') format('woff2'), url('../fonts/Roboto-Black.woff') format('woff'), url('../fonts/Roboto-Black.ttf') format('truetype'), url('../fonts/Roboto-Black.svg#Roboto') format('svg');
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('../fonts/Roboto-Black.eot');
+  src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Black.woff2') format('woff2'), url('../fonts/Roboto-Black.woff') format('woff'), url('../fonts/Roboto-Black.ttf') format('truetype'), url('../fonts/Roboto-Black.svg#Roboto') format('svg'); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BlackItalic.eot');
+  src: url('../fonts/Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-BlackItalic.woff2') format('woff2'), url('../fonts/Roboto-BlackItalic.woff') format('woff'), url('../fonts/Roboto-BlackItalic.ttf') format('truetype'), url('../fonts/Roboto-BlackItalic.svg#Roboto') format('svg');
+  font-weight: 900;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Roboto-BlackItalic';
+  src: url('../fonts/Roboto-BlackItalic.eot');
+  src: url('../fonts/Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-BlackItalic.woff2') format('woff2'), url('../fonts/Roboto-BlackItalic.woff') format('woff'), url('../fonts/Roboto-BlackItalic.ttf') format('truetype'), url('../fonts/Roboto-BlackItalic.svg#Roboto') format('svg'); }
+
+body.platform-android, body.platform-override {
+  font-family: 'Roboto-Regular';
+  font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
 .platform-android, .platform-override {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; }
+  
+   }
+  .platform-android h1 small, .platform-android h2 small, .platform-android h3 small, .platform-android h4 small, .platform-android h5 small, .platform-android h6 small, .platform-override h1 small, .platform-override h2 small, .platform-override h3 small, .platform-override h4 small, .platform-override h5 small, .platform-override h6 small {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    opacity: 0.54;
+    font-size: 0.6em; }
+  .platform-android h1, .platform-android .h1, .platform-override h1, .platform-override .h1 {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    margin-top: 24px;
+    margin-bottom: 24px; }
+  .platform-android h2, .platform-android .h2, .platform-override h2, .platform-override .h2 {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 48px;
+    margin-top: 24px;
+    margin-bottom: 24px; }
+  .platform-android h3, .platform-android .h3, .platform-override h3, .platform-override .h3 {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px; }
+  .platform-android h4, .platform-android .h4, .platform-override h4, .platform-override .h4 {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: 24px;
+    margin-bottom: 16px; }
+  .platform-android h5, .platform-android .h5, .platform-override h5, .platform-override .h5 {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    margin-top: 24px;
+    margin-bottom: 16px; }
+  .platform-android h6, .platform-android .h6, .platform-override h6, .platform-override .h6 {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    margin-top: 24px;
+    margin-bottom: 16px; }
+  .platform-android p, .platform-override p {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    margin-bottom: 16px; }
+  .platform-android a, .platform-override a {
+    font-weight: 500; }
+  .platform-android blockquote, .platform-override blockquote {
+    font-family: 'Roboto-Regular';
+    font-weight: 300;
+    position: relative;
+    font-size: 24px;
+    line-height: 1.35;
+    letter-spacing: 0.08em;
+    font-style: italic; }
+    .platform-android blockquote:before, .platform-override blockquote:before {
+      position: absolute;
+      left: -0.5em;
+      content: '“'; }
+    .platform-android blockquote:after, .platform-override blockquote:after {
+      content: '”';
+      margin-left: -0.05em; }
+  .platform-android mark, .platform-override mark {
+    background-color: #f4ff81; }
+  .platform-android dt, .platform-override dt {
+    font-weight: 700; }
+  .platform-android address, .platform-override address {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0;
+    font-style: normal; }
+  .platform-android ul, .platform-android ol, .platform-override ul, .platform-override ol {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0; }
+  .platform-android .mdl-typography--display-4, .platform-override .mdl-typography--display-4 {
+    font-family: 'Roboto-Light';
+    font-weight: 300;
+    font-size: 112px;
+    line-height: 1;
+    letter-spacing: -0.04em; }
+  .platform-android .mdl-typography--display-4-color-contrast, .platform-override .mdl-typography--display-4-color-contrast {
+    font-family: 'Roboto-Light';
+    font-weight: 300;
+    font-size: 112px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    opacity: 0.54; }
+  .platform-android .mdl-typography--display-3, .platform-override .mdl-typography--display-3 {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 1.35;
+    letter-spacing: -0.02em; }
+  .platform-android .mdl-typography--display-3-color-contrast, .platform-override .mdl-typography--display-3-color-contrast {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    opacity: 0.54; }
+  .platform-android .mdl-typography--display-2, .platform-override .mdl-typography--display-2 {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 48px; }
+  .platform-android .mdl-typography--display-2-color-contrast, .platform-override .mdl-typography--display-2-color-contrast {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 48px;
+    opacity: 0.54; }
+  .platform-android .mdl-typography--display-1, .platform-override .mdl-typography--display-1 {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px; }
+  .platform-android .mdl-typography--display-1-color-contrast, .platform-override .mdl-typography--display-1-color-contrast {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    opacity: 0.54; }
+  .platform-android .mdl-typography--headline, .platform-override .mdl-typography--headline {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    -moz-osx-font-smoothing: grayscale; }
+  .platform-android .mdl-typography--headline-color-contrast, .platform-override .mdl-typography--headline-color-contrast {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    -moz-osx-font-smoothing: grayscale;
+    opacity: 0.87; }
+  .platform-android .mdl-typography--title, .platform-override .mdl-typography--title {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.02em; }
+  .platform-android .mdl-typography--title-color-contrast, .platform-override .mdl-typography--title-color-contrast {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    opacity: 0.87; }
+  .platform-android .mdl-typography--subhead, .platform-override .mdl-typography--subhead {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em; }
+  .platform-android .mdl-typography--subhead-color-contrast, .platform-override .mdl-typography--subhead-color-contrast {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    opacity: 0.87; }
+  .platform-android .mdl-typography--body-2, .platform-override .mdl-typography--body-2 {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0; }
+  .platform-android .mdl-typography--body-2-color-contrast, .platform-override .mdl-typography--body-2-color-contrast {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0;
+    opacity: 0.87; }
+  .platform-android .mdl-typography--body-1, .platform-override .mdl-typography--body-1 {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0; }
+  .platform-android .mdl-typography--body-1-color-contrast, .platform-override .mdl-typography--body-1-color-contrast {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    opacity: 0.87; }
+  .platform-android .mdl-typography--body-2-force-preferred-font, .platform-override .mdl-typography--body-2-force-preferred-font {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0; }
+  .platform-android .mdl-typography--body-2-force-preferred-font-color-contrast, .platform-override .mdl-typography--body-2-force-preferred-font-color-contrast {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    opacity: 0.87; }
+  .platform-android .mdl-typography--body-1-force-preferred-font, .platform-override .mdl-typography--body-1-force-preferred-font {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0; }
+  .platform-android .mdl-typography--body-1-force-preferred-font-color-contrast, .platform-override .mdl-typography--body-1-force-preferred-font-color-contrast {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    opacity: 0.87; }
+  .platform-android .mdl-typography--caption, .platform-override .mdl-typography--caption {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0; }
+  .platform-android .mdl-typography--caption-force-preferred-font, .platform-override .mdl-typography--caption-force-preferred-font {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0; }
+  .platform-android .mdl-typography--caption-color-contrast, .platform-override .mdl-typography--caption-color-contrast {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0;
+    opacity: 0.54; }
+  .platform-android .mdl-typography--caption-force-preferred-font-color-contrast, .platform-override .mdl-typography--caption-force-preferred-font-color-contrast {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0;
+    opacity: 0.54; }
+  .platform-android .mdl-typography--menu, .platform-override .mdl-typography--menu {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0; }
+  .platform-android .mdl-typography--menu-color-contrast, .platform-override .mdl-typography--menu-color-contrast {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0;
+    opacity: 0.87; }
+  .platform-android .mdl-typography--button, .platform-override .mdl-typography--button {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0; }
+  .platform-android .mdl-typography--button-color-contrast, .platform-override .mdl-typography--button-color-contrast {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0;
+    opacity: 0.87; }
+  .platform-android .mdl-typography--text-left, .platform-override .mdl-typography--text-left {
+    text-align: left; }
+  .platform-android .mdl-typography--text-right, .platform-override .mdl-typography--text-right {
+    text-align: right; }
+  .platform-android .mdl-typography--text-center, .platform-override .mdl-typography--text-center {
+    text-align: center; }
+  .platform-android .mdl-typography--text-justify, .platform-override .mdl-typography--text-justify {
+    text-align: justify; }
+  .platform-android .mdl-typography--text-nowrap, .platform-override .mdl-typography--text-nowrap {
+    white-space: nowrap; }
+  .platform-android .mdl-typography--text-lowercase, .platform-override .mdl-typography--text-lowercase {
+    text-transform: lowercase; }
+  .platform-android .mdl-typography--text-uppercase, .platform-override .mdl-typography--text-uppercase {
+    text-transform: uppercase; }
+  .platform-android .mdl-typography--text-capitalize, .platform-override .mdl-typography--text-capitalize {
+    text-transform: capitalize; }
+  .platform-android .mdl-typography--font-thin, .platform-override .mdl-typography--font-thin {
+    font-weight: 200 !important; }
+  .platform-android .mdl-typography--font-light, .platform-override .mdl-typography--font-light {
+    font-weight: 300 !important; }
+  .platform-android .mdl-typography--font-regular, .platform-override .mdl-typography--font-regular {
+    font-weight: 400 !important; }
+  .platform-android .mdl-typography--font-medium, .platform-override .mdl-typography--font-medium {
+    font-weight: 500 !important; }
+  .platform-android .mdl-typography--font-bold, .platform-override .mdl-typography--font-bold {
+    font-weight: 700 !important; }
+  .platform-android .mdl-typography--font-black, .platform-override .mdl-typography--font-black {
+    font-weight: 900 !important; }
