@@ -1,26 +1,75 @@
 .platform-android, .platform-override {
-  .list {
+  .list:not(.card) {
     padding-top: 8px;
     padding-bottom: 8px;
   }
-  .list .item {
-    padding: 16px 16px 20px 16px;
 
+  .list:not(.card) .item, .list .item .item-content {
+    @extend .mdl-typography--subhead;
+    @extend .mdl-typography--text-capitalize;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  .list:not(.card) .item.item-icon-left {
+    .item-content {
+      padding-left: 72px;
+
+      .icon {
+        padding: 12px 12px 12px 0;
+        left: 16px;
+      }
+    }
+  }
+
+  .list:not(.card) .item.item-avatar {
+    max-height: 72px;
+
+    .item-content {
+      padding-left: 72px;
+      line-height: 48px;
+    }
+
+    .item-content > img:first-child {
+      background-color: #bdbdbd;
+      border: solid 1px #e0e0e0;
+    }
+  }
+
+  .list .item {
     &.item-text-wrap {
       width: 100%;
     }
 
     &.item-divider {
-      @include typo-subhead-2(true, true);
-      line-height: 20px;
-      font-weight: 500;
+      @include typo-subhead-2(false, true);
       text-align: left;
       height: 48px;
       opacity: 0.54;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 48px;
+      padding-left: 16px;
 
       &.item:first-child {
         border-top: none;
         border-bottom: none;
+      }
+    }
+
+    .item-content {
+      display: block;
+      padding: 16px;
+      transition: background 0.3s 0.1s;
+
+      &:hover, &:active, &:focus, &.active, &.activated {
+        background: #efefef;
+      }
+
+      a {
+        font-weight: 400;
       }
     }
   }
@@ -45,10 +94,10 @@
 
     &.item-avatar--expand {
       &:first-child {
-
+        display: flex;
         flex-wrap: wrap;
-        align-items: flex-end;
-        align-content: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
         height: $card-cover-image-height;
 
         h1,
@@ -60,11 +109,12 @@
           overflow: visible;
           text-overflow: inherit;
           color: inherit;
+          line-height: 24px;
         }
 
         &.item-avatar > img:first-child {
           top: auto;
-          bottom: 18px;
+          bottom: 24px;
         }
       }
     }
