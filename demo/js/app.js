@@ -8,6 +8,10 @@ angular.module('material-starter', ['ionic'])
             .state('news', {
                 url: '/news',
                 templateUrl: 'views/news.html'
+            })
+            .state('contacts', {
+                url: '/contacts',
+                templateUrl: 'views/contacts.html'
             });
 
         $urlRouterProvider.otherwise("/home");

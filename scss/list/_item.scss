@@ -1,7 +1,196 @@
 .platform-android, .platform-override {
-  .item {
+  .list:not(.card) {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .list:not(.card) .item, .list .item .item-content {
+    @include typo-subhead();
+    text-transform: capitalize;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: 16px;
+  }
+
+
+  .list:not(.card) .item.item-icon-left,
+  .list:not(.card) .item.item-icon-right {
+    :before {
+      width: 24px;
+      height: 24px;
+    }
+
+    .item-content {
+      padding-left: 72px;
+
+      .icon {
+        padding: 12px 12px 12px 12px;
+        font-size: 24px;
+      }
+    }
+  }
+
+  .list:not(.card) .item.item-icon-left {
+    .icon {
+      left: 4px;
+    }
+  }
+
+  .list:not(.card) .item.item-icon-right {
+    .icon {
+      right: 4px;
+    }
+  }
+
+  .list:not(.card) .item.item-avatar,
+  .list:not(.card) .item.item-thumbnail-left,
+  .list:not(.card) .item.item-thumbnail-right {
+    min-height: 56px;
+    max-height: 56px;
+    height: 56px;
+
+    .item-content {
+      min-height: 56px;
+      max-height: 56px;
+      line-height: 16px;
+      padding: 20px 16px 24px 72px;
+    }
+  }
+
+  .list:not(.card) .item.item-avatar {
+    .item-content > img:first-child {
+      top: 8px;
+      background-color: #bdbdbd;
+      border: solid 1px #e0e0e0;
+    }
+  }
+
+  .list:not(.card) .item.item-thumbnail-left,
+  .list:not(.card) .item.item-thumbnail-right {
+    .item-content > img:first-child {
+      top: 3px;
+      background-color: #bdbdbd;
+      border: solid 1px #e0e0e0;
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .list:not(.card) .item.item-thumbnail-left {
+    .item-content > img:first-child {
+      left: 16px;
+    }
+  }
+  .list:not(.card) .item.item-thumbnail-right {
+    .item-content > img:first-child {
+      right: 16px;
+    }
+  }
+
+  .list:not(.card) .item .button {
+    @extend .button-clear;
+  }
+
+  .list:not(.card) .item.button-item-right {
+    .button {
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      &:not(.show-ripple) {
+        .mdl-ripple {
+          visibility: hidden;
+        }
+      }
+    }
+
+    &.item-avatar {
+      .button {
+        top: 4px;
+      }
+    }
+  }
+
+  .list .item {
     &.item-text-wrap {
       width: 100%;
+    }
+
+    &.item-divider {
+      @include roboto-family('Medium', 500);
+      text-align: left;
+      height: 48px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 48px;
+      padding-left: 16px;
+      color: #000000;
+      opacity: 0.54;
+
+      &.item:first-child {
+        border-top: none;
+        border-bottom: none;
+      }
+
+      &.item-divider__full, &.item-divider__inset {
+        &:before {
+          display: block;
+          margin: 0;
+          height: 1px;
+          border: none;
+          background-color: #e0e0e0;
+          content: " ";
+        }
+      }
+
+      &.item-divider__full {
+        &:before {
+          margin-left: -16px;
+
+        }
+      }
+
+      &.item-divider__inset {
+        margin-left: 72px;
+        padding-left: 0;
+      }
+    }
+
+    &.item-divider:first-child {
+      margin-top: -8px;
+    }
+
+    .item-content {
+      display: block;
+      padding: 16px;
+      transition: background 0.3s 0.1s;
+
+      &:hover, &:active, &:focus, &.active, &.activated {
+        background: #efefef;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6
+      a {
+        font-weight: 400;
+        line-height: 16px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+        font-size: 16px;
+      }
     }
   }
 
@@ -27,8 +216,8 @@
       &:first-child {
         display: flex;
         flex-wrap: wrap;
-        align-items: flex-end;
-        align-content: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
         height: $card-cover-image-height;
 
         h1,
@@ -40,12 +229,39 @@
           overflow: visible;
           text-overflow: inherit;
           color: inherit;
+          line-height: 24px;
         }
 
         &.item-avatar > img:first-child {
           top: auto;
-          bottom: 18px;
+          bottom: 24px;
         }
+      }
+    }
+  }
+
+  .list:not(.card) .item.item-right-editable {
+    background-color: #FFF;
+
+    .item-content {
+      background-color: #FFF;
+    }
+
+    .item-options {
+      box-shadow: inset 0 0 8px -1px #ABABAB;
+      background-color: #eee;
+
+      .button{
+        min-height: 48px;
+        width: 48px;
+      }
+    }
+  }
+
+  .list:not(.card) {
+    .item.item-checkbox {
+      .item-content {
+        padding-left: 72px;
       }
     }
   }

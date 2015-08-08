@@ -173,7 +173,7 @@
 @include roboto-font-pair('Black', 900);
 
 @mixin roboto-family($type, $weight: normal) {
-  font-family: 'Roboto-#{$type}';
+  font-family: 'Roboto-#{$type}' -apple-system, "Helvetica Neue", sans-serif;
   font-weight: $weight;
 }
 
