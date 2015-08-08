@@ -14,6 +14,7 @@
     line-height: 16px;
   }
 
+
   .list:not(.card) .item.item-icon-left,
   .list:not(.card) .item.item-icon-right {
     :before {
@@ -88,6 +89,30 @@
     }
   }
 
+  .list:not(.card) .item .button {
+    @extend .button-clear;
+  }
+
+  .list:not(.card) .item.button-item-right {
+    .button {
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      &:not(.show-ripple) {
+        .mdl-ripple {
+          visibility: hidden;
+        }
+      }
+    }
+
+    &.item-avatar {
+      .button {
+        top: 4px;
+      }
+    }
+  }
+
   .list .item {
     &.item-text-wrap {
       width: 100%;
@@ -133,6 +158,10 @@
       }
     }
 
+    &.item-divider:first-child {
+      margin-top: -8px;
+    }
+
     .item-content {
       display: block;
       padding: 16px;
@@ -142,9 +171,25 @@
         background: #efefef;
       }
 
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6
       a {
         font-weight: 400;
         line-height: 16px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+        font-size: 16px;
       }
     }
   }
@@ -191,6 +236,32 @@
           top: auto;
           bottom: 24px;
         }
+      }
+    }
+  }
+
+  .list:not(.card) .item.item-right-editable {
+    background-color: #FFF;
+
+    .item-content {
+      background-color: #FFF;
+    }
+
+    .item-options {
+      box-shadow: inset 0 0 8px -1px #ABABAB;
+      background-color: #eee;
+
+      .button{
+        min-height: 48px;
+        width: 48px;
+      }
+    }
+  }
+
+  .list:not(.card) {
+    .item.item-checkbox {
+      .item-content {
+        padding-left: 72px;
       }
     }
   }
