@@ -22,7 +22,7 @@ This project includes the Google implementation directly allowing for a friction
 ##Override styles for both platforms (iOS/Android)
 You can override both iOS and Android platform styles to use Material Design (Lite) by adding a single line of config to your application.
 
-`$mdlConfigProvider.allPlatforms = true`
+`$ionicMaterialConfigProvider.enableForAllPlatforms();`
 
 Otherwise only Android will use the Material Design (Lite) styles.
 
