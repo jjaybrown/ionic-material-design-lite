@@ -1,6 +1,6 @@
 {
   "name": "ionic-material-design-lite",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "authors": [
     "Jason Brown (https://github.com/delta98)"
   ],
@@ -13,10 +13,6 @@
     "android"
   ],
   "license": "MIT",
-  "main": [
-    "dist/ionic.material-design-lite.css",
-    "dist/ionic.material-design-lite.js"
-  ],
   "ignore": [
     "**/.*",
     "node_modules",
