@@ -99,7 +99,7 @@ gulp.task('commit-changes', function () {
 });
 
 gulp.task('push-changes', function () {
-    git.push('origin', 'master');
+    $.git.push('origin', 'master');
 });
 
 gulp.task('git-version-tag', function(){

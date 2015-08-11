@@ -1,6 +1,6 @@
 {
   "name": "ionic-material-design-lite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Material Design (lite) style override for Ionic Framework",
   "author": "Jason Brown (https://github.com/delta98)",
   "main": "dist/ionic.material-design-lite.js",
@@ -17,6 +17,7 @@
     "gulp-autoprefixer": "^2.3.1",
     "gulp-concat": "^2.2.0",
     "gulp-coveralls": "^0.1.4",
+    "gulp-filter": "^3.0.0",
     "gulp-git": "^1.2.4",
     "gulp-jasmine": "^2.0.1",
     "gulp-karma": "0.0.4",
