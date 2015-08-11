@@ -5,6 +5,10 @@
     "Jason Brown (https://github.com/delta98)"
   ],
   "description": "Material Design (lite) style override for Ionic Framework",
+  "main": [
+    "dist/ionic.material-design-lite.css",
+    "dist/ionic.material-design-lite.js"
+  ],
   "keywords": [
     "material design",
     "ionic",
