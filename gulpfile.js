@@ -1,13 +1,11 @@
 var gulp = require('gulp');
-var $ = require('gulp-load-plugins')({
-    rename: {
-        'gulp-tag-version': 'tag'
-    }
-});
+var $ = require('gulp-load-plugins')();
 var bower = require('bower');
 var sh = require('shelljs');
 var fs = require('fs');
+var tagVersion = require('gulp-tag-version');
 var runSequence = require('run-sequence');
+
 
 var paths = {
     sass: ['./scss/**/*.scss'],
@@ -117,7 +115,7 @@ gulp.task('git-version-tag', function(){
         .pipe($.filter('package.json'))
 
         // **tag it in the repository**
-        .pipe($.tag())
+        .pipe(tagVersion())
 
         .pipe($.git.push('origin', 'master', {args: '--tags'}));
 });
