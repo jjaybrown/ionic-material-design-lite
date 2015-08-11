@@ -3,7 +3,6 @@ var $ = require('gulp-load-plugins')();
 var bower = require('bower');
 var sh = require('shelljs');
 var fs = require('fs');
-var tagVersion = require('gulp-tag-version');
 var runSequence = require('run-sequence');
 
 
@@ -104,20 +103,13 @@ gulp.task('git-version-tag', function(){
     var version = JSON.parse(fs.readFileSync('./package.json', 'utf8')).version;
 
     // get all the files to bump version in
-    return gulp.src(['./package.json', './bower.json'])
-        // commit the changed version number
-        .pipe($.git.commit('bumps package version to ' + version)).on('error', function (err) {
-            console.log(err);
-            process.exit(1);
-        })
-
-        // read only one file to get the version number
-        .pipe($.filter('package.json'))
-
-        // **tag it in the repository**
-        .pipe(tagVersion())
-
-        .pipe($.git.push('origin', 'master', {args: '--tags'}));
+    $.git.tag(version, 'released version' + version, function (err) {
+        if(err) {
+            throw err;
+        }else{
+            $.git.push('origin', 'master', {args: '--tags'})
+        }
+    });
 });
 
 gulp.task('release', function(){
