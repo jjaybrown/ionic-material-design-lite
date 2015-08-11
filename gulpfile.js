@@ -1,7 +1,13 @@
 var gulp = require('gulp');
-var $ = require('gulp-load-plugins')();
+var $ = require('gulp-load-plugins')({
+    rename: {
+        'gulp-tag-version': 'tag'
+    }
+});
 var bower = require('bower');
 var sh = require('shelljs');
+var fs = require('fs');
+var runSequence = require('run-sequence');
 
 var paths = {
     sass: ['./scss/**/*.scss'],
@@ -11,7 +17,8 @@ var paths = {
 
 gulp.task('default', ['test']);
 gulp.task('dist', ['scripts', 'sass']);
-gulp.task('minor-release', ['bump']);
+gulp.task('patch', ['bump']);
+gulp.task('minor-release', ['minor-bump']);
 gulp.task('major-release', ['major-bump']);
 
 gulp.task('scripts', function() {
@@ -71,10 +78,65 @@ gulp.task('bump', ['dist'], function(){
         .pipe(gulp.dest('./'));
 });
 
+gulp.task('minor-bump', ['dist'], function(){
+    gulp.src(['./bower.json', './package.json'])
+        .pipe($.bump({type: 'minor'}))
+        .pipe(gulp.dest('./'));
+});
+
 gulp.task('major-bump', ['dist'], function(){
     gulp.src(['./bower.json', './package.json'])
         .pipe($.bump({type: 'major'}))
         .pipe(gulp.dest('./'));
+});
+
+gulp.task('commit-changes', function () {
+    var version = JSON.parse(fs.readFileSync('./package.json', 'utf8')).version;
+
+    return gulp.src('.')
+        .pipe($.git.add())
+        .pipe($.git.commit('[Prerelease] Bumped version to ' + version));
+});
+
+gulp.task('push-changes', function () {
+    git.push('origin', 'master');
+});
+
+gulp.task('git-version-tag', function(){
+    var version = JSON.parse(fs.readFileSync('./package.json', 'utf8')).version;
+
+    // get all the files to bump version in
+    return gulp.src(['./package.json', './bower.json'])
+        // commit the changed version number
+        .pipe($.git.commit('bumps package version to ' + version)).on('error', function (err) {
+            console.log(err);
+            process.exit(1);
+        })
+
+        // read only one file to get the version number
+        .pipe($.filter('package.json'))
+
+        // **tag it in the repository**
+        .pipe($.tag())
+
+        .pipe($.git.push('origin', 'master', {args: '--tags'}));
+});
+
+gulp.task('release', function(){
+    var version = JSON.parse(fs.readFileSync('./package.json', 'utf8')).version;
+
+    runSequence(
+        'commit-changes',
+        'push-changes',
+        'git-version-tag',
+        function (error) {
+            if(error) {
+                console.log(error);
+            } else {
+                console.log('Release of version ' + version + ' finished successfully');
+            }
+        }
+    );
 });
 
 gulp.task('install', ['git-check'], function() {

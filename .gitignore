@@ -2,3 +2,4 @@ bower_components
 node_modules
 .idea
 .sass-cache
+.DS_Store
