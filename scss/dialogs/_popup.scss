@@ -1,0 +1,32 @@
+.platform-android, .platform-override {
+
+  .popup {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+
+  .popup-head {
+    display: none;
+  }
+
+  .popup-body {
+    padding: 24px 24px 0 24px;
+  }
+
+  .popup-buttons {
+    text-align: right;
+    display: block;
+
+    button {
+      &.button-positive,
+      &.button-calm,
+      &.button-assertive,
+      &.button-balanced,
+      &.button-energized,
+      &.button-royal,
+      &.button-dark,
+      &.button-default {
+        @extend .button-clear;
+      }
+    }
+  }
+}
