@@ -43,7 +43,7 @@ Refer to these files by adding a `<link>` and a `<script>` element into your HTM
 ### CDN 
 TBC
 
-### Bower - Unavailable until 31st Aug 2015
+### Bower
 Assuming you have `wiredep` setup for your project and `bower` you can run:
 
 `bower install ionic-material-design-lite`
