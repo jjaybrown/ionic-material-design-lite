@@ -3,6 +3,8 @@
     @extend .mdl-button;
     @extend .mdl-button--raised;
 
+    overflow: hidden;
+
     &.activated, &.active {
       @extend .mdl-button;
       @extend .mdl-button--raised;

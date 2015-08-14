@@ -14,7 +14,7 @@ angular.module('material-starter')
       buttons: [
         { text: 'Cancel' },
         {
-          text: '<b>Save</b>',
+          text: 'Save',
           type: 'button-positive',
           onTap: function(e) {
             if (!$scope.data.wifi) {
