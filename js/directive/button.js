@@ -1,6 +1,7 @@
 angular.module('ionic')
     .directive('button', ['$ionicPlatform', '$ionicMaterialConfig', function ($ionicPlatform, $ionicMaterialConfig) {
         return {
+            priority: 10,
             restrict: 'E',
             compile: function (element, attrs) {
                 if(!attrs.hasOwnProperty('noRipple')
@@ -9,12 +10,16 @@ angular.module('ionic')
 
                     element.addClass('mdl-js-button mdl-js-ripple-effect');
 
-                    $ionicPlatform.ready(function () {
-                        // MDL should register and upgrade our element automatically,
-                        // however lets make sure it's upgraded when we compile
-                        componentHandler.upgradeElement(element[0], 'MaterialButton');
-                        componentHandler.upgradeElement(element[0], 'MaterialRipple');
-                    });
+                    return {
+                        post: function (scope, element) {
+                            $ionicPlatform.ready(function () {
+                                // MDL should register and upgrade our element automatically,
+                                // however lets make sure it's upgraded when we compile
+                                componentHandler.upgradeElement(element[0], 'MaterialButton');
+                                componentHandler.upgradeElement(element[0], 'MaterialRipple');
+                            });
+                        }
+                    };
                 }
             }
         }

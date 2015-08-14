@@ -1,0 +1,50 @@
+.platform-android, .platform-override {
+
+  .popup {
+    @include shadow-16dp();
+  }
+
+  .popup-head {
+    padding: 0;
+    border: none;
+
+    &.popup-head--hidden {
+      display: none;
+    }
+
+    .popup-title {
+      @include typo-title();
+      text-align: left;
+      padding: 24px 24px 20px 24px;
+      margin:0;
+    }
+
+  }
+
+  .popup-body {
+    padding: 0 24px 24px 24px;
+  }
+
+  .popup-head.popup-head--hidden + .popup-body {
+    padding: 24px;
+  }
+
+  .popup-buttons {
+    text-align: right;
+    display: block;
+    overflow: hidden;
+
+    button {
+      &.button-positive,
+      &.button-calm,
+      &.button-assertive,
+      &.button-balanced,
+      &.button-energized,
+      &.button-royal,
+      &.button-dark,
+      &.button-default {
+        @extend .button-clear;
+      }
+    }
+  }
+}
