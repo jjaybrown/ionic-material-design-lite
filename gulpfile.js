@@ -12,7 +12,7 @@ var paths = {
     dist: './dist'
 };
 
-gulp.task('default', ['test']);
+gulp.task('default', ['scripts', 'sass']);
 gulp.task('dist', ['scripts', 'sass']);
 gulp.task('patch', ['bump']);
 gulp.task('patch-release', ['patch', 'release']);
@@ -44,6 +44,30 @@ gulp.task('sass', function(done) {
         .pipe($.rename({ extname: '.min.css' }))
         .pipe(gulp.dest(paths.dist))
         .on('end', done);
+});
+
+gulp.task('test', function () {
+    // Be sure to return the stream
+    // NOTE: Using the fake './foobar' so as to run the files
+    // listed in karma.conf.js INSTEAD of what was passed to
+    // gulp.src !
+    return gulp.src('./foobar')
+        .pipe($.karma({
+            configFile: './tests/karma.conf.js',
+            action: 'run'
+        }))
+        .on('error', function (err) {
+            // Make sure failed tests cause gulp to exit non-zero
+            process.exit(1);
+        });
+});
+
+gulp.task('coverage', ['test'], function () {
+    return gulp.src('tests/coverage/**/lcov.info')
+        .pipe($.coveralls()).on('error', function (err) {
+            // Make sure failed tests cause gulp to exit non-zero
+            process.exit(1);
+        });
 });
 
 gulp.task('bump', ['dist'], function(){
