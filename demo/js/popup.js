@@ -3,7 +3,7 @@ angular.module('material-starter')
 
   // Triggered on a button click, or some other target
   $scope.showPopup = function() {
-    $scope.data = {}
+    $scope.data = {};
 
     // An elaborate, custom popup
     var myPopup = $ionicPopup.show({
@@ -27,12 +27,6 @@ angular.module('material-starter')
         }
       ]
     });
-    myPopup.then(function(res) {
-      console.log('Tapped!', res);
-    });
-    $timeout(function() {
-       myPopup.close(); //close the popup after 3 seconds for some reason
-    }, 3000);
    };
    // A confirm dialog
    $scope.showConfirm = function() {

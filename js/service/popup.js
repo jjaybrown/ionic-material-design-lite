@@ -124,7 +124,8 @@ IonicModule
   '$ionicPlatform',
   '$ionicModal',
   'IONIC_BACK_PRIORITY',
-function($ionicTemplateLoader, $ionicBackdrop, $q, $timeout, $rootScope, $ionicBody, $compile, $ionicPlatform, $ionicModal, IONIC_BACK_PRIORITY) {
+  '$ionicMaterialConfig',
+function($ionicTemplateLoader, $ionicBackdrop, $q, $timeout, $rootScope, $ionicBody, $compile, $ionicPlatform, $ionicModal, IONIC_BACK_PRIORITY, $ionicMaterialConfig) {
   //TODO allow this to be configured
   var config = {
     stackPushDelay: 75
@@ -298,6 +299,15 @@ function($ionicTemplateLoader, $ionicBackdrop, $q, $timeout, $rootScope, $ionicB
 
     $ionicBody.get().appendChild(self.element[0]);
     $compile(self.element)(self.scope);
+
+    // Determine if title is empty so we can hide header
+    if($ionicMaterialConfig.allPlatforms === true
+        || ionic.Platform.isAndroid()) {
+      if(options.title == '') {
+        var popupHead = jqLite(self.element[0].querySelector('.popup-head'));
+        popupHead.addClass('popup-head--hidden');
+      }
+    }
 
     extend(self.scope, {
       title: options.title,
