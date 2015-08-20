@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: v0.10.26
+  ruby:
+    version: 2.1.2
+dependencies:
+  post:
+    - npm install -g gulp
+    - bower install
