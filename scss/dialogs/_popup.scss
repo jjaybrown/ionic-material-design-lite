@@ -19,9 +19,17 @@
       margin:0;
     }
 
+    .popup-sub-title {
+      @include typo-subhead();
+      padding: 0 24px 24px 24px;
+      margin: 0;
+      opacity: 0.5;
+    }
   }
 
   .popup-body {
+    opacity: 0.5;
+    font-size: 16px;
     padding: 0 24px 24px 24px;
   }
 
