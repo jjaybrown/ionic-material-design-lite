@@ -37,9 +37,6 @@
     "run-sequence": "^1.1.2",
     "shelljs": "^0.3.0"
   },
-  "scripts": {
-    "test": "gulp test"
-  },
   "dependencies": {
     "gulp-bump": "^0.3.1"
   }
