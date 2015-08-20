@@ -15,6 +15,7 @@ var paths = {
 gulp.task('default', ['test']);
 gulp.task('dist', ['scripts', 'sass']);
 gulp.task('patch', ['bump']);
+gulp.task('patch-release', ['patch', 'release']);
 gulp.task('minor-release', ['minor-bump', 'release']);
 gulp.task('major-release', ['major-bump', 'release']);
 
