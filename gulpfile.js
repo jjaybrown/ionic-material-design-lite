@@ -103,7 +103,7 @@ gulp.task('git-version-tag', function(){
     var version = JSON.parse(fs.readFileSync('./package.json', 'utf8')).version;
 
     // get all the files to bump version in
-    $.git.tag(version, 'released version' + version, function (err) {
+    $.git.tag(version, 'released version ' + version, function (err) {
         if(err) {
             throw err;
         }else{
