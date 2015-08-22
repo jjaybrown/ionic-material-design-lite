@@ -4,15 +4,15 @@
     padding-bottom: 8px;
   }
 
-  .list:not(.card) .item, .list .item .item-content {
-    @include typo-subhead();
-    text-transform: capitalize;
-    background-color: transparent;
-    margin: 0;
-    padding: 0;
-    border: none;
-    line-height: 16px;
-  }
+//  .list:not(.card) .item, .list .item .item-content {
+//    @include typo-subhead();
+//    text-transform: capitalize;
+//    background-color: transparent;
+//    margin: 0;
+//    padding: 0;
+//    border: none;
+//    line-height: 16px;
+//  }
 
 
   .list:not(.card) .item.item-icon-left,

@@ -11,6 +11,18 @@ $assertive:                       #F44336;
 $royal:                           #673AB7;
 $dark:                            #212121;
 
+$color-map: (
+  'light': $light,
+  'stable': $stable,
+  'positive': $positive,
+  'calm': $calm,
+  'balanced': $balanced,
+  'energized': $energized,
+  'assertive': $assertive,
+  'royal': $royal,
+  'dark': $dark
+);
+
 /**
 * Bars
 */
