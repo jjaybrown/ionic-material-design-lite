@@ -1,0 +1,80 @@
+.platform-android, .platform-override {
+  .list:not(.card) .item.item-input {
+    @extend .mdl-textfield;
+    @extend .mdl-textfield--full-width;
+
+    background: transparent;
+    border: none;
+
+    // The after label is the colored underline for the TextField.
+    &:after {
+      background-color: $input-text-highlight-color;
+      bottom: $input-text-vertical-spacing;
+      content: '';
+      height: 2px;
+      left: 45%;
+      position: absolute;
+      @include material-animation-default();
+      visibility: hidden;
+      width: 10px;
+    }
+
+    &.is-focused:after {
+      left: 0;
+      visibility: visible;
+      width: 100%;
+    }
+
+    &.is-invalid {
+      input, textarea {
+        color: $input-text-error-color;
+        text-shadow: 0 0 0 $input-text-error-color;
+        background-color: transparent;
+      }
+
+      &:after {
+        background-color: $input-text-error-color;
+      }
+    }
+
+    &.is-disabled {
+      input, textarea {
+        color: $input-text-disabled-color;
+        text-shadow: 0 0 0 $input-text-disabled-color;
+        background-color: transparent;
+        border-bottom: 1px dotted $input-text-disabled-color;
+      }
+    }
+
+    input, textarea {
+      @extend .mdl-textfield__input;
+
+      text-shadow: 0 0 0 #444;
+      color: $input-text-highlight-color;
+      -webkit-text-fill-color: transparent;
+    }
+
+    input::-webkit-input-placeholder,
+    textarea::-webkit-input-placeholder {
+      color: #444;
+      opacity: 0.5;
+      text-shadow: none;
+      -webkit-text-fill-color: initial;
+    }
+
+    @each $color-name, $color in $color-map {
+      &.input-#{$color-name} {
+        @include input-focus-color($color);
+
+        input {
+          color: $color;
+        }
+
+      }
+    }
+  }
+
+  .list:not(.card) .item.item-input + .item.item-input {
+    padding-top: 0;
+  }
+}

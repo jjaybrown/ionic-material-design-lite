@@ -351,3 +351,9 @@
     opacity: 0.87;
   }
 }
+
+@mixin input-focus-color($color) {
+  &:after {
+    background-color: $color;
+  }
+}
