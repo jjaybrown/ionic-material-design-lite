@@ -13,7 +13,7 @@
     <script src="../dist/ionic.material-design-lite.min.js"></script>
     <script src="js/app.js"></script>
 </head>
-<body class="platform-android use-material-icons" ng-app="material-starter">
+<body class="use-material-icons" ng-app="material-starter">
     <div class="bar bar-header bar-assertive">
         <button class="button icon ion-navicon"></button>
         <h1 class="title">Form Elements</h1>
@@ -21,10 +21,19 @@
     <ion-content class="has-header padding">
         <div class="list">
             <label class="item item-input">
-                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="First Name" class="ng-invalid">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Last Name</span>
+                <input type="text" placeholder="Last Name">
             </label>
             <label class="item item-input">
-                <input type="text" placeholder="Last Name">
+                <span class="input-label">Username</span>
+                <input type="text">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Email</span>
+                <input type="text" placeholder="example@something.com">
             </label>
             <label class="item item-input">
                 <textarea placeholder="Comments"></textarea>

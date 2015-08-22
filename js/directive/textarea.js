@@ -1,5 +1,5 @@
 angular.module('ionic')
-    .directive('input', ['$ionicPlatform', '$ionicMaterialConfig', function ($ionicMaterialConfig) {
+    .directive('textarea', ['$ionicPlatform', '$ionicMaterialConfig', function ($ionicMaterialConfig) {
         return {
             restrict: 'E',
             compile: function (element) {

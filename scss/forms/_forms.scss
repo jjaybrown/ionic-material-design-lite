@@ -25,7 +25,28 @@
       width: 100%;
     }
 
-    input {
+    &.is-invalid {
+      input, textarea {
+        color: $input-text-error-color;
+        text-shadow: 0 0 0 $input-text-error-color;
+        background-color: transparent;
+      }
+
+      &:after {
+        background-color: $input-text-error-color;
+      }
+    }
+
+    &.is-disabled {
+      input, textarea {
+        color: $input-text-disabled-color;
+        text-shadow: 0 0 0 $input-text-disabled-color;
+        background-color: transparent;
+        border-bottom: 1px dotted $input-text-disabled-color;
+      }
+    }
+
+    input, textarea {
       @extend .mdl-textfield__input;
 
       text-shadow: 0 0 0 #444;
@@ -33,7 +54,8 @@
       -webkit-text-fill-color: transparent;
     }
 
-    input::-webkit-input-placeholder {
+    input::-webkit-input-placeholder,
+    textarea::-webkit-input-placeholder {
       color: #444;
       opacity: 0.5;
       text-shadow: none;
@@ -50,5 +72,9 @@
 
       }
     }
+  }
+
+  .list:not(.card) .item.item-input + .item.item-input {
+    padding-top: 0;
   }
 }
