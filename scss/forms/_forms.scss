@@ -94,7 +94,7 @@
       &.input-#{$color-name} {
         @include input-focus-color($color);
 
-        input {
+        input, .input-label {
           color: $color;
         }
 
