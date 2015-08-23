@@ -5514,39 +5514,39 @@ ion-tabs.tabs-color-active-dark .tab-item {
     -webkit-text-fill-color: initial; }
   .platform-android .list:not(.card) .item.item-input.input-light:after, .platform-override .list:not(.card) .item.item-input.input-light:after {
     background-color: #FAFAFA; }
-  .platform-android .list:not(.card) .item.item-input.input-light input, .platform-override .list:not(.card) .item.item-input.input-light input {
+  .platform-android .list:not(.card) .item.item-input.input-light input, .platform-android .list:not(.card) .item.item-input.input-light.is-focused .input-label, .platform-android .list:not(.card) .item.item-input.input-light.is-dirty .input-label, .platform-override .list:not(.card) .item.item-input.input-light input, .platform-override .list:not(.card) .item.item-input.input-light.is-focused .input-label, .platform-override .list:not(.card) .item.item-input.input-light.is-dirty .input-label {
     color: #FAFAFA; }
   .platform-android .list:not(.card) .item.item-input.input-stable:after, .platform-override .list:not(.card) .item.item-input.input-stable:after {
     background-color: #F5F5F5; }
-  .platform-android .list:not(.card) .item.item-input.input-stable input, .platform-override .list:not(.card) .item.item-input.input-stable input {
+  .platform-android .list:not(.card) .item.item-input.input-stable input, .platform-android .list:not(.card) .item.item-input.input-stable.is-focused .input-label, .platform-android .list:not(.card) .item.item-input.input-stable.is-dirty .input-label, .platform-override .list:not(.card) .item.item-input.input-stable input, .platform-override .list:not(.card) .item.item-input.input-stable.is-focused .input-label, .platform-override .list:not(.card) .item.item-input.input-stable.is-dirty .input-label {
     color: #F5F5F5; }
   .platform-android .list:not(.card) .item.item-input.input-positive:after, .platform-override .list:not(.card) .item.item-input.input-positive:after {
     background-color: #3F51B5; }
-  .platform-android .list:not(.card) .item.item-input.input-positive input, .platform-override .list:not(.card) .item.item-input.input-positive input {
+  .platform-android .list:not(.card) .item.item-input.input-positive input, .platform-android .list:not(.card) .item.item-input.input-positive.is-focused .input-label, .platform-android .list:not(.card) .item.item-input.input-positive.is-dirty .input-label, .platform-override .list:not(.card) .item.item-input.input-positive input, .platform-override .list:not(.card) .item.item-input.input-positive.is-focused .input-label, .platform-override .list:not(.card) .item.item-input.input-positive.is-dirty .input-label {
     color: #3F51B5; }
   .platform-android .list:not(.card) .item.item-input.input-calm:after, .platform-override .list:not(.card) .item.item-input.input-calm:after {
     background-color: #2196F3; }
-  .platform-android .list:not(.card) .item.item-input.input-calm input, .platform-override .list:not(.card) .item.item-input.input-calm input {
+  .platform-android .list:not(.card) .item.item-input.input-calm input, .platform-android .list:not(.card) .item.item-input.input-calm.is-focused .input-label, .platform-android .list:not(.card) .item.item-input.input-calm.is-dirty .input-label, .platform-override .list:not(.card) .item.item-input.input-calm input, .platform-override .list:not(.card) .item.item-input.input-calm.is-focused .input-label, .platform-override .list:not(.card) .item.item-input.input-calm.is-dirty .input-label {
     color: #2196F3; }
   .platform-android .list:not(.card) .item.item-input.input-balanced:after, .platform-override .list:not(.card) .item.item-input.input-balanced:after {
     background-color: #4CAF50; }
-  .platform-android .list:not(.card) .item.item-input.input-balanced input, .platform-override .list:not(.card) .item.item-input.input-balanced input {
+  .platform-android .list:not(.card) .item.item-input.input-balanced input, .platform-android .list:not(.card) .item.item-input.input-balanced.is-focused .input-label, .platform-android .list:not(.card) .item.item-input.input-balanced.is-dirty .input-label, .platform-override .list:not(.card) .item.item-input.input-balanced input, .platform-override .list:not(.card) .item.item-input.input-balanced.is-focused .input-label, .platform-override .list:not(.card) .item.item-input.input-balanced.is-dirty .input-label {
     color: #4CAF50; }
   .platform-android .list:not(.card) .item.item-input.input-energized:after, .platform-override .list:not(.card) .item.item-input.input-energized:after {
     background-color: #FFC107; }
-  .platform-android .list:not(.card) .item.item-input.input-energized input, .platform-override .list:not(.card) .item.item-input.input-energized input {
+  .platform-android .list:not(.card) .item.item-input.input-energized input, .platform-android .list:not(.card) .item.item-input.input-energized.is-focused .input-label, .platform-android .list:not(.card) .item.item-input.input-energized.is-dirty .input-label, .platform-override .list:not(.card) .item.item-input.input-energized input, .platform-override .list:not(.card) .item.item-input.input-energized.is-focused .input-label, .platform-override .list:not(.card) .item.item-input.input-energized.is-dirty .input-label {
     color: #FFC107; }
   .platform-android .list:not(.card) .item.item-input.input-assertive:after, .platform-override .list:not(.card) .item.item-input.input-assertive:after {
     background-color: #F44336; }
-  .platform-android .list:not(.card) .item.item-input.input-assertive input, .platform-override .list:not(.card) .item.item-input.input-assertive input {
+  .platform-android .list:not(.card) .item.item-input.input-assertive input, .platform-android .list:not(.card) .item.item-input.input-assertive.is-focused .input-label, .platform-android .list:not(.card) .item.item-input.input-assertive.is-dirty .input-label, .platform-override .list:not(.card) .item.item-input.input-assertive input, .platform-override .list:not(.card) .item.item-input.input-assertive.is-focused .input-label, .platform-override .list:not(.card) .item.item-input.input-assertive.is-dirty .input-label {
     color: #F44336; }
   .platform-android .list:not(.card) .item.item-input.input-royal:after, .platform-override .list:not(.card) .item.item-input.input-royal:after {
     background-color: #673AB7; }
-  .platform-android .list:not(.card) .item.item-input.input-royal input, .platform-override .list:not(.card) .item.item-input.input-royal input {
+  .platform-android .list:not(.card) .item.item-input.input-royal input, .platform-android .list:not(.card) .item.item-input.input-royal.is-focused .input-label, .platform-android .list:not(.card) .item.item-input.input-royal.is-dirty .input-label, .platform-override .list:not(.card) .item.item-input.input-royal input, .platform-override .list:not(.card) .item.item-input.input-royal.is-focused .input-label, .platform-override .list:not(.card) .item.item-input.input-royal.is-dirty .input-label {
     color: #673AB7; }
   .platform-android .list:not(.card) .item.item-input.input-dark:after, .platform-override .list:not(.card) .item.item-input.input-dark:after {
     background-color: #212121; }
-  .platform-android .list:not(.card) .item.item-input.input-dark input, .platform-override .list:not(.card) .item.item-input.input-dark input {
+  .platform-android .list:not(.card) .item.item-input.input-dark input, .platform-android .list:not(.card) .item.item-input.input-dark.is-focused .input-label, .platform-android .list:not(.card) .item.item-input.input-dark.is-dirty .input-label, .platform-override .list:not(.card) .item.item-input.input-dark input, .platform-override .list:not(.card) .item.item-input.input-dark.is-focused .input-label, .platform-override .list:not(.card) .item.item-input.input-dark.is-dirty .input-label {
     color: #212121; }
 
 
