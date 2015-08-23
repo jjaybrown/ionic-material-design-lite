@@ -6,6 +6,34 @@
     background: transparent;
     border: none;
 
+    .input-label {
+      @include material-animation-default();
+    }
+
+    &.is-focused, &.is-dirty {
+      .input-label {
+        color: $input-text-highlight-color;
+        font-size : $input-text-floating-label-fontsize;
+        transform: translate3d(0, -20px, 0) scale(1);
+        visibility: visible;
+      }
+    }
+
+    .input-label {
+      bottom: 0;
+      color: $input-text-label-color;
+      font-size: $input-text-font-size;
+      left: 0;
+      right: 0;
+      pointer-events: none;
+      position: absolute;
+      top: 26px;
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-align: left;
+    }
+
     // The after label is the colored underline for the TextField.
     &:after {
       background-color: $input-text-highlight-color;
@@ -72,9 +100,5 @@
 
       }
     }
-  }
-
-  .list:not(.card) .item.item-input + .item.item-input {
-    padding-top: 0;
   }
 }

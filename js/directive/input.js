@@ -12,6 +12,11 @@ angular.module('ionic')
 
                         element.bind('blur', function () {
                             parent.removeClass('is-focused');
+                            if(element.val() !== '') {
+                                parent.addClass('is-dirty');
+                            }else{
+                                parent.removeClass('is-dirty');
+                            }
                         });
                     }
                 }
