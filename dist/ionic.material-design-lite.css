@@ -4484,6 +4484,174 @@ ion-tabs.tabs-color-active-dark .tab-item {
     background: rgba(255,255,255,0.2);
     box-shadow: 0 0 1px gray; }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mdl-textfield, .platform-android .list:not(.card) .item.item-input, .platform-override .list:not(.card) .item.item-input {
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 300px;
+  margin: 0;
+  padding: 20px 0; }
+  .mdl-textfield .mdl-button, .platform-android .list:not(.card) .item.item-input .mdl-button, .platform-override .list:not(.card) .item.item-input .mdl-button, .mdl-textfield .platform-android .button, .platform-android .mdl-textfield .button, .platform-android .list:not(.card) .item.item-input .button, .mdl-textfield .platform-override .button, .platform-override .mdl-textfield .button, .platform-override .list:not(.card) .item.item-input .button {
+    position: absolute;
+    bottom: 20px; }
+
+.mdl-textfield--align-right {
+  text-align: right; }
+
+.mdl-textfield--full-width, .platform-android .list:not(.card) .item.item-input, .platform-override .list:not(.card) .item.item-input {
+  width: 100%; }
+
+.mdl-textfield--expandable {
+  min-width: 32px;
+  width: auto;
+  min-height: 32px; }
+
+.mdl-textfield__input, .platform-android .list:not(.card) .item.item-input input, .platform-android .list:not(.card) .item.item-input textarea, .platform-override .list:not(.card) .item.item-input input, .platform-override .list:not(.card) .item.item-input textarea {
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0, 0.12);
+  display: block;
+  font-size: 16px;
+  margin: 0;
+  padding: 4px 0;
+  width: 100%;
+  background: 16px;
+  text-align: left;
+  color: inherit; }
+  .mdl-textfield.is-focused .mdl-textfield__input, .platform-android .list:not(.card) .is-focused.item.item-input .mdl-textfield__input, .platform-override .list:not(.card) .is-focused.item.item-input .mdl-textfield__input, .mdl-textfield.is-focused .platform-android .list:not(.card) .item.item-input input, .platform-android .list:not(.card) .item.item-input .mdl-textfield.is-focused input, .platform-android .list:not(.card) .is-focused.item.item-input input, .mdl-textfield.is-focused .platform-android .list:not(.card) .item.item-input textarea, .platform-android .list:not(.card) .item.item-input .mdl-textfield.is-focused textarea, .platform-android .list:not(.card) .is-focused.item.item-input textarea, .mdl-textfield.is-focused .platform-override .list:not(.card) .item.item-input input, .platform-override .list:not(.card) .item.item-input .mdl-textfield.is-focused input, .platform-override .list:not(.card) .is-focused.item.item-input input, .mdl-textfield.is-focused .platform-override .list:not(.card) .item.item-input textarea, .platform-override .list:not(.card) .item.item-input .mdl-textfield.is-focused textarea, .platform-override .list:not(.card) .is-focused.item.item-input textarea {
+    outline: none; }
+  .mdl-textfield.is-invalid .mdl-textfield__input, .platform-android .list:not(.card) .is-invalid.item.item-input .mdl-textfield__input, .platform-override .list:not(.card) .is-invalid.item.item-input .mdl-textfield__input, .mdl-textfield.is-invalid .platform-android .list:not(.card) .item.item-input input, .platform-android .list:not(.card) .item.item-input .mdl-textfield.is-invalid input, .platform-android .list:not(.card) .is-invalid.item.item-input input, .mdl-textfield.is-invalid .platform-android .list:not(.card) .item.item-input textarea, .platform-android .list:not(.card) .item.item-input .mdl-textfield.is-invalid textarea, .platform-android .list:not(.card) .is-invalid.item.item-input textarea, .mdl-textfield.is-invalid .platform-override .list:not(.card) .item.item-input input, .platform-override .list:not(.card) .item.item-input .mdl-textfield.is-invalid input, .platform-override .list:not(.card) .is-invalid.item.item-input input, .mdl-textfield.is-invalid .platform-override .list:not(.card) .item.item-input textarea, .platform-override .list:not(.card) .item.item-input .mdl-textfield.is-invalid textarea, .platform-override .list:not(.card) .is-invalid.item.item-input textarea {
+    border-color: rgb(222, 50, 38);
+    box-shadow: none; }
+  .mdl-textfield.is-disabled .mdl-textfield__input, .platform-android .list:not(.card) .is-disabled.item.item-input .mdl-textfield__input, .platform-override .list:not(.card) .is-disabled.item.item-input .mdl-textfield__input, .mdl-textfield.is-disabled .platform-android .list:not(.card) .item.item-input input, .platform-android .list:not(.card) .item.item-input .mdl-textfield.is-disabled input, .platform-android .list:not(.card) .is-disabled.item.item-input input, .mdl-textfield.is-disabled .platform-android .list:not(.card) .item.item-input textarea, .platform-android .list:not(.card) .item.item-input .mdl-textfield.is-disabled textarea, .platform-android .list:not(.card) .is-disabled.item.item-input textarea, .mdl-textfield.is-disabled .platform-override .list:not(.card) .item.item-input input, .platform-override .list:not(.card) .item.item-input .mdl-textfield.is-disabled input, .platform-override .list:not(.card) .is-disabled.item.item-input input, .mdl-textfield.is-disabled .platform-override .list:not(.card) .item.item-input textarea, .platform-override .list:not(.card) .item.item-input .mdl-textfield.is-disabled textarea, .platform-override .list:not(.card) .is-disabled.item.item-input textarea {
+    background-color: transparent;
+    border-bottom: 1px dotted rgba(0,0,0, 0.12); }
+
+.mdl-textfield__label {
+  bottom: 0;
+  color: rgba(0,0,0, 0.26);
+  font-size: 16px;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 24px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left; }
+  .mdl-textfield.is-dirty .mdl-textfield__label, .platform-android .list:not(.card) .is-dirty.item.item-input .mdl-textfield__label, .platform-override .list:not(.card) .is-dirty.item.item-input .mdl-textfield__label {
+    visibility: hidden; }
+  .mdl-textfield--floating-label .mdl-textfield__label {
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+  .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label {
+    color: rgb(63,81,181);
+    font-size: 12px;
+    top: 4px;
+    visibility: visible; }
+  .mdl-textfield--floating-label.is-focused .mdl-textfield__expandable-holder .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__expandable-holder .mdl-textfield__label {
+    top: -16px; }
+  .mdl-textfield--floating-label.is-invalid .mdl-textfield__label {
+    color: rgb(222, 50, 38);
+    font-size: 12px; }
+  .mdl-textfield__label:after {
+    background-color: rgb(63,81,181);
+    bottom: 20px;
+    content: '';
+    height: 2px;
+    left: 45%;
+    position: absolute;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    visibility: hidden;
+    width: 10px; }
+  .mdl-textfield.is-focused .mdl-textfield__label:after, .platform-android .list:not(.card) .is-focused.item.item-input .mdl-textfield__label:after, .platform-override .list:not(.card) .is-focused.item.item-input .mdl-textfield__label:after {
+    left: 0;
+    visibility: visible;
+    width: 100%; }
+  .mdl-textfield.is-invalid .mdl-textfield__label:after, .platform-android .list:not(.card) .is-invalid.item.item-input .mdl-textfield__label:after, .platform-override .list:not(.card) .is-invalid.item.item-input .mdl-textfield__label:after {
+    background-color: rgb(222, 50, 38); }
+
+.mdl-textfield__error {
+  color: rgb(222, 50, 38);
+  position: absolute;
+  font-size: 12px;
+  margin-top: 3px;
+  visibility: hidden; }
+  .mdl-textfield.is-invalid .mdl-textfield__error, .platform-android .list:not(.card) .is-invalid.item.item-input .mdl-textfield__error, .platform-override .list:not(.card) .is-invalid.item.item-input .mdl-textfield__error {
+    visibility: visible; }
+
+.mdl-textfield__expandable-holder {
+  display: inline-block;
+  position: relative;
+  margin-left: 32px;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+  max-width: 0.1px; }
+  .mdl-textfield.is-focused .mdl-textfield__expandable-holder, .platform-android .list:not(.card) .is-focused.item.item-input .mdl-textfield__expandable-holder, .platform-override .list:not(.card) .is-focused.item.item-input .mdl-textfield__expandable-holder, .mdl-textfield.is-dirty .mdl-textfield__expandable-holder, .platform-android .list:not(.card) .is-dirty.item.item-input .mdl-textfield__expandable-holder, .platform-override .list:not(.card) .is-dirty.item.item-input .mdl-textfield__expandable-holder {
+    max-width: 600px; }
+  .mdl-textfield__expandable-holder .mdl-textfield__label:after {
+    bottom: 0; }
+
 .platform-android .button, .platform-override .button {
   overflow: hidden; }
   .platform-android .button:focus:not(:active), .platform-override .button:focus:not(:active) {
@@ -5283,6 +5451,103 @@ ion-tabs.tabs-color-active-dark .tab-item {
       width: 48px; }
 .platform-android .list:not(.card) .item.item-checkbox .item-content, .platform-override .list:not(.card) .item.item-checkbox .item-content {
   padding-left: 72px; }
+
+.platform-android .list:not(.card) .item.item-input, .platform-override .list:not(.card) .item.item-input {
+  background: transparent;
+  border: none; }
+  .platform-android .list:not(.card) .item.item-input .input-label, .platform-override .list:not(.card) .item.item-input .input-label {
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+  .platform-android .list:not(.card) .item.item-input.is-focused .input-label, .platform-android .list:not(.card) .item.item-input.is-dirty .input-label, .platform-override .list:not(.card) .item.item-input.is-focused .input-label, .platform-override .list:not(.card) .item.item-input.is-dirty .input-label {
+    color: rgb(63,81,181);
+    font-size: 12px;
+    -webkit-transform: translate3d(0, -20px, 0) scale(1);
+    transform: translate3d(0, -20px, 0) scale(1);
+    visibility: visible; }
+  .platform-android .list:not(.card) .item.item-input .input-label, .platform-override .list:not(.card) .item.item-input .input-label {
+    bottom: 0;
+    color: rgba(0,0,0, 0.26);
+    font-size: 16px;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 26px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left; }
+  .platform-android .list:not(.card) .item.item-input:after, .platform-override .list:not(.card) .item.item-input:after {
+    background-color: rgb(63,81,181);
+    bottom: 20px;
+    content: '';
+    height: 2px;
+    left: 45%;
+    position: absolute;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    visibility: hidden;
+    width: 10px; }
+  .platform-android .list:not(.card) .item.item-input.is-focused:after, .platform-override .list:not(.card) .item.item-input.is-focused:after {
+    left: 0;
+    visibility: visible;
+    width: 100%; }
+  .platform-android .list:not(.card) .item.item-input.is-invalid input, .platform-android .list:not(.card) .item.item-input.is-invalid textarea, .platform-override .list:not(.card) .item.item-input.is-invalid input, .platform-override .list:not(.card) .item.item-input.is-invalid textarea {
+    color: rgb(222, 50, 38);
+    text-shadow: 0 0 0 rgb(222, 50, 38);
+    background-color: transparent; }
+  .platform-android .list:not(.card) .item.item-input.is-invalid:after, .platform-override .list:not(.card) .item.item-input.is-invalid:after {
+    background-color: rgb(222, 50, 38); }
+  .platform-android .list:not(.card) .item.item-input.is-disabled input, .platform-android .list:not(.card) .item.item-input.is-disabled textarea, .platform-override .list:not(.card) .item.item-input.is-disabled input, .platform-override .list:not(.card) .item.item-input.is-disabled textarea {
+    color: rgba(0,0,0, 0.12);
+    text-shadow: 0 0 0 rgba(0,0,0, 0.12);
+    background-color: transparent;
+    border-bottom: 1px dotted rgba(0,0,0, 0.12); }
+  .platform-android .list:not(.card) .item.item-input input, .platform-android .list:not(.card) .item.item-input textarea, .platform-override .list:not(.card) .item.item-input input, .platform-override .list:not(.card) .item.item-input textarea {
+    text-shadow: 0 0 0 #444;
+    color: rgb(63,81,181);
+    -webkit-text-fill-color: transparent; }
+  .platform-android .list:not(.card) .item.item-input input::-webkit-input-placeholder, .platform-android .list:not(.card) .item.item-input textarea::-webkit-input-placeholder, .platform-override .list:not(.card) .item.item-input input::-webkit-input-placeholder, .platform-override .list:not(.card) .item.item-input textarea::-webkit-input-placeholder {
+    color: #444;
+    opacity: 0.5;
+    text-shadow: none;
+    -webkit-text-fill-color: initial; }
+  .platform-android .list:not(.card) .item.item-input.input-light:after, .platform-override .list:not(.card) .item.item-input.input-light:after {
+    background-color: #FAFAFA; }
+  .platform-android .list:not(.card) .item.item-input.input-light input, .platform-override .list:not(.card) .item.item-input.input-light input {
+    color: #FAFAFA; }
+  .platform-android .list:not(.card) .item.item-input.input-stable:after, .platform-override .list:not(.card) .item.item-input.input-stable:after {
+    background-color: #F5F5F5; }
+  .platform-android .list:not(.card) .item.item-input.input-stable input, .platform-override .list:not(.card) .item.item-input.input-stable input {
+    color: #F5F5F5; }
+  .platform-android .list:not(.card) .item.item-input.input-positive:after, .platform-override .list:not(.card) .item.item-input.input-positive:after {
+    background-color: #3F51B5; }
+  .platform-android .list:not(.card) .item.item-input.input-positive input, .platform-override .list:not(.card) .item.item-input.input-positive input {
+    color: #3F51B5; }
+  .platform-android .list:not(.card) .item.item-input.input-calm:after, .platform-override .list:not(.card) .item.item-input.input-calm:after {
+    background-color: #2196F3; }
+  .platform-android .list:not(.card) .item.item-input.input-calm input, .platform-override .list:not(.card) .item.item-input.input-calm input {
+    color: #2196F3; }
+  .platform-android .list:not(.card) .item.item-input.input-balanced:after, .platform-override .list:not(.card) .item.item-input.input-balanced:after {
+    background-color: #4CAF50; }
+  .platform-android .list:not(.card) .item.item-input.input-balanced input, .platform-override .list:not(.card) .item.item-input.input-balanced input {
+    color: #4CAF50; }
+  .platform-android .list:not(.card) .item.item-input.input-energized:after, .platform-override .list:not(.card) .item.item-input.input-energized:after {
+    background-color: #FFC107; }
+  .platform-android .list:not(.card) .item.item-input.input-energized input, .platform-override .list:not(.card) .item.item-input.input-energized input {
+    color: #FFC107; }
+  .platform-android .list:not(.card) .item.item-input.input-assertive:after, .platform-override .list:not(.card) .item.item-input.input-assertive:after {
+    background-color: #F44336; }
+  .platform-android .list:not(.card) .item.item-input.input-assertive input, .platform-override .list:not(.card) .item.item-input.input-assertive input {
+    color: #F44336; }
+  .platform-android .list:not(.card) .item.item-input.input-royal:after, .platform-override .list:not(.card) .item.item-input.input-royal:after {
+    background-color: #673AB7; }
+  .platform-android .list:not(.card) .item.item-input.input-royal input, .platform-override .list:not(.card) .item.item-input.input-royal input {
+    color: #673AB7; }
+  .platform-android .list:not(.card) .item.item-input.input-dark:after, .platform-override .list:not(.card) .item.item-input.input-dark:after {
+    background-color: #212121; }
+  .platform-android .list:not(.card) .item.item-input.input-dark input, .platform-override .list:not(.card) .item.item-input.input-dark input {
+    color: #212121; }
 
 
 .ion-star:before, .ion-star-outline:before, .ion-star-half:before, .ion-heart:before, .ion-heart-outline:before {
