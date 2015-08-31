@@ -1,5 +1,5 @@
 **Status:** In Development
-**Next Release:** RC-1 - 31st August 2015
+**Next Release:** RC-1 - 14th September 2015
 
 [![Stories in Ready](https://badge.waffle.io/delta98/ionic-material-design-lite.png?label=ready&title=Ready)](https://waffle.io/delta98/ionic-material-design-lite)
 # Material Design Lite for Ionic Framework
