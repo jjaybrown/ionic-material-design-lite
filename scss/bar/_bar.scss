@@ -57,6 +57,10 @@
     .button:first-child + .title, .buttons.buttons-left + .title {
       left: 72px !important; // Don't want nav transition to change position
     }
+    
+    .buttons-left span, .buttons-right span {
+      display: inline-block;
+    }
 
     .buttons.hide + .title {
       left: inherit !important; // Don't want nav transition to change position
