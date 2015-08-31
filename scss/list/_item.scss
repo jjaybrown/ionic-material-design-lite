@@ -14,6 +14,14 @@
     line-height: 16px;
   }
 
+  .list:not(.card) {
+    &.list-inset {
+      box-shadow: none;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
 
   .list:not(.card) .item.item-icon-left,
   .list:not(.card) .item.item-icon-right {
