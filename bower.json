@@ -23,8 +23,7 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests",
-    "fonts"
+    "tests"
   ],
   "dependencies": {
     "ionic": "~1.0.1"
