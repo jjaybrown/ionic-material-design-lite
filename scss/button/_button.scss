@@ -101,7 +101,7 @@
   }
 
   .button {
-    &.button-outline, &.button-clear, &.button-icon {
+    &.button-outline, &.button-clear, &.icon, &.button-icon {
       box-shadow:none;
 
       &:focus:not(:active) {
@@ -277,6 +277,7 @@
         }
       }
 
+      &.button-icon:before,
       &.icon:before,
       &:before,
       &.icon-left:before,

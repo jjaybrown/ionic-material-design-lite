@@ -138,7 +138,7 @@
         color: inherit;
       }
 
-      &.icon, &.back-button {
+      &.icon, &.button-icon, &.back-button {
         min-height: $bar-height - 1;
         border-radius: 0;
 
@@ -147,6 +147,7 @@
           box-shadow: none;
         }
 
+        &.button-icon:before,
         &.icon:before,
         &:before,
         &.icon-left:before,
@@ -174,6 +175,7 @@
           opacity: 0;
         }
 
+        &.button-icon:before,
         .icon:before {
           line-height: $bar-height;
         }
@@ -202,15 +204,17 @@
   }
 
   .bar .title + .buttons {
-    top: 0;
+    top: 8px;
     bottom: 0;
 
-    .right-buttons, .left-buttons {
-      //padding-top: 8px;
+    &.buttons-right {
+      top: 0;
+      right: 0;
     }
 
-    &.buttons-right {
-      right: 0;
+    &.buttons-left {
+      top: 0;
+      left: 0;
     }
   }
 }

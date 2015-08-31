@@ -5,7 +5,10 @@
   }
 
   .list:not(.card) .item, .list .item .item-content {
-    @include typo-subhead();
+    @include roboto-family('Regular', 400);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
     text-transform: capitalize;
     background-color: transparent;
     margin: 0;
