@@ -5,51 +5,51 @@
 
 @font-face {
   font-family: 'Roboto-Thin';
-  src: url('../fonts/Roboto-Thin.woff2') format('woff2'), url('../fonts/Roboto-Thin.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-Thin.woff2') format('woff2'), url('../fonts/roboto/Roboto-Thin.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-ThinItalic';
-  src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'), url('../fonts/Roboto-ThinItalic.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-ThinItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-ThinItalic.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-Light';
-  src: url('../fonts/Roboto-Light.woff2') format('woff2'), url('../fonts/Roboto-Light.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-Light.woff2') format('woff2'), url('../fonts/roboto/Roboto-Light.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-LightItalic';
-  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'), url('../fonts/Roboto-LightItalic.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-LightItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-LightItalic.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-Regular';
-  src: url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-Regular.woff2') format('woff2'), url('../fonts/roboto/Roboto-Regular.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-RegularItalic';
-  src: url('../fonts/Roboto-RegularItalic.woff2') format('woff2'), url('../fonts/Roboto-RegularItalic.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-RegularItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-RegularItalic.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-Medium';
-  src: url('../fonts/Roboto-Medium.woff2') format('woff2'), url('../fonts/Roboto-Medium.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-Medium.woff2') format('woff2'), url('../fonts/roboto/Roboto-Medium.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-MediumItalic';
-  src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'), url('../fonts/Roboto-MediumItalic.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-MediumItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-MediumItalic.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-Bold';
-  src: url('../fonts/Roboto-Bold.woff2') format('woff2'), url('../fonts/Roboto-Bold.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-Bold.woff2') format('woff2'), url('../fonts/roboto/Roboto-Bold.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-BoldItalic';
-  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'), url('../fonts/Roboto-BoldItalic.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-BoldItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-BoldItalic.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-Black';
-  src: url('../fonts/Roboto-Black.woff2') format('woff2'), url('../fonts/Roboto-Black.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-Black.woff2') format('woff2'), url('../fonts/roboto/Roboto-Black.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-BlackItalic';
-  src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'), url('../fonts/Roboto-BlackItalic.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-BlackItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-BlackItalic.woff') format('woff'); }
 
 
 *, *:before, *:after {
@@ -4591,7 +4591,12 @@ ion-tabs.tabs-color-active-dark .tab-item {
     bottom: 0; }
 
 .platform-android .button, .platform-override .button {
+  font-family: 'Roboto-Medium' -apple-system, "Helvetica Neue", sans-serif;
+  font-weight: 500;
   overflow: hidden; }
+  .platform-android .button.activated, .platform-android .button.active, .platform-override .button.activated, .platform-override .button.active {
+    font-family: 'Roboto-Medium' -apple-system, "Helvetica Neue", sans-serif;
+    font-weight: 500; }
   .platform-android .button:focus:not(:active), .platform-override .button:focus:not(:active) {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
   .platform-android .button:hover, .platform-android .button:focus, .platform-override .button:hover, .platform-override .button:focus {
@@ -5396,12 +5401,18 @@ ion-tabs.tabs-color-active-dark .tab-item {
   padding-left: 72px; }
 
 .platform-android .list:not(.card) .item.item-input, .platform-override .list:not(.card) .item.item-input {
+  font-family: 'Roboto-Regular' -apple-system, "Helvetica Neue", sans-serif;
+  font-weight: 400;
   background: transparent;
   border: none; }
   .platform-android .list:not(.card) .item.item-input .input-label, .platform-override .list:not(.card) .item.item-input .input-label {
     transition-duration: 0.2s;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: 'Roboto-Regular' -apple-system, "Helvetica Neue", sans-serif;
+    font-weight: 400; }
   .platform-android .list:not(.card) .item.item-input.is-focused .input-label, .platform-android .list:not(.card) .item.item-input.is-dirty .input-label, .platform-override .list:not(.card) .item.item-input.is-focused .input-label, .platform-override .list:not(.card) .item.item-input.is-dirty .input-label {
+    font-family: 'Roboto-Regular' -apple-system, "Helvetica Neue", sans-serif;
+    font-weight: 400;
     color: rgb(63,81,181);
     font-size: 12px;
     -webkit-transform: translate3d(0, -20px, 0) scale(1);
@@ -5695,6 +5706,33 @@ ion-tabs.tabs-color-active-dark .tab-item {
 .platform-android.use-material-icons .ion-chatbubble-working:before, .platform-override.use-material-icons .ion-chatbubble-working:before {
   font-family: 'Material Icons';
   content: "\e0b7"; }
+
+
+
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url('../fonts/material-icons/MaterialIcons-Regular.woff2') format('woff2'), url('../fonts/material-icons/MaterialIcons-Regular.woff') format('woff'); }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  
+  -webkit-font-smoothing: antialiased;
+  
+  text-rendering: optimizeLegibility; }
 
 .platform-android .has-expanded-header.has-subheader, .platform-override .has-expanded-header.has-subheader {
   top: 176px; }
@@ -6063,59 +6101,55 @@ ion-tabs.tabs-color-active-dark .tab-item {
 
 @font-face {
   font-family: 'Roboto-Thin';
-  src: url('../fonts/Roboto-Thin.woff2') format('woff2'), url('../fonts/Roboto-Thin.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-Thin.woff2') format('woff2'), url('../fonts/roboto/Roboto-Thin.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-ThinItalic';
-  src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'), url('../fonts/Roboto-ThinItalic.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-ThinItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-ThinItalic.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-Light';
-  src: url('../fonts/Roboto-Light.woff2') format('woff2'), url('../fonts/Roboto-Light.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-Light.woff2') format('woff2'), url('../fonts/roboto/Roboto-Light.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-LightItalic';
-  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'), url('../fonts/Roboto-LightItalic.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-LightItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-LightItalic.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-Regular';
-  src: url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-Regular.woff2') format('woff2'), url('../fonts/roboto/Roboto-Regular.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-RegularItalic';
-  src: url('../fonts/Roboto-RegularItalic.woff2') format('woff2'), url('../fonts/Roboto-RegularItalic.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-RegularItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-RegularItalic.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-Medium';
-  src: url('../fonts/Roboto-Medium.woff2') format('woff2'), url('../fonts/Roboto-Medium.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-Medium.woff2') format('woff2'), url('../fonts/roboto/Roboto-Medium.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-MediumItalic';
-  src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'), url('../fonts/Roboto-MediumItalic.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-MediumItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-MediumItalic.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-Bold';
-  src: url('../fonts/Roboto-Bold.woff2') format('woff2'), url('../fonts/Roboto-Bold.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-Bold.woff2') format('woff2'), url('../fonts/roboto/Roboto-Bold.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-BoldItalic';
-  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'), url('../fonts/Roboto-BoldItalic.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-BoldItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-BoldItalic.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-Black';
-  src: url('../fonts/Roboto-Black.woff2') format('woff2'), url('../fonts/Roboto-Black.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-Black.woff2') format('woff2'), url('../fonts/roboto/Roboto-Black.woff') format('woff'); }
 
 @font-face {
   font-family: 'Roboto-BlackItalic';
-  src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'), url('../fonts/Roboto-BlackItalic.woff') format('woff'); }
+  src: url('../fonts/roboto/Roboto-BlackItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-BlackItalic.woff') format('woff'); }
 
 body.platform-android, body.platform-override {
   font-family: 'Roboto-Regular' -apple-system, "Helvetica Neue", sans-serif;
   font-weight: 400; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-  padding: 0; }
 
 .platform-android, .platform-override {
   
@@ -6217,6 +6251,9 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0; }
+  .platform-android button, .platform-android input, .platform-android select, .platform-android textarea, .platform-override button, .platform-override input, .platform-override select, .platform-override textarea {
+    font-family: 'Roboto-Regular' -apple-system, "Helvetica Neue", sans-serif;
+    font-weight: 400; }
   .platform-android .mdl-typography--display-4, .platform-override .mdl-typography--display-4 {
     font-family: 'Roboto-Light' -apple-system, "Helvetica Neue", sans-serif;
     font-weight: 300;

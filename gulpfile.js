@@ -11,11 +11,16 @@ var del = require('del');
 var paths = {
     sass: ['./scss/**/*.scss'],
     js: ['./js/**/*.js'],
-    dist: './dist'
+    dist: {
+        base: './dist',
+        js: '/js',
+        css: '/css',
+        fonts: '/fonts'
+    }
 };
 
 gulp.task('default', ['bundle', 'sass']);
-gulp.task('dist', ['bundle', 'sass']);
+gulp.task('dist', ['bundle', 'sass', 'fonts']);
 gulp.task('patch', ['bump']);
 gulp.task('patch-release', ['patch', 'release']);
 gulp.task('minor-release', ['minor-bump', 'release']);
@@ -24,24 +29,29 @@ gulp.task('major-release', ['major-bump', 'release']);
 gulp.task('scripts', function() {
     return gulp.src(paths.js)
         .pipe($.concat('ionic.material-design-lite.js'))
-        .pipe(gulp.dest(paths.dist))
+        .pipe(gulp.dest(paths.dist.base + paths.dist.js))
         .pipe($.uglify())
         .pipe($.rename({ extname: '.min.js' }))
-        .pipe(gulp.dest(paths.dist));
+        .pipe(gulp.dest(paths.dist.base + paths.dist.js));
 });
 
 gulp.task('bundle', ['scripts'], function() {
     return gulp.src([
             './bower_components/material-design-lite/material.js',
-            './dist/ionic.material-design-lite.js'
+            './dist/js/ionic.material-design-lite.js'
         ])
         .pipe($.concat('ionic.material-design-lite.bundle.js'))
-        .pipe(gulp.dest(paths.dist))
+        .pipe(gulp.dest(paths.dist.base + paths.dist.js))
         .pipe($.uglify())
         .pipe(strip())
         .pipe(stripDebug())
         .pipe($.rename({ extname: '.min.js' }))
-        .pipe(gulp.dest(paths.dist));
+        .pipe(gulp.dest(paths.dist.base + paths.dist.js));
+});
+
+gulp.task('fonts', function () {
+    return gulp.src(['./fonts/material-icons/**/*', './fonts/roboto/**/*'])
+        .pipe($.copy(paths.dist.base));
 });
 
 gulp.task('sass', function(done) {
@@ -55,10 +65,10 @@ gulp.task('sass', function(done) {
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(gulp.dest(paths.dist))
+        .pipe(gulp.dest(paths.dist.base + paths.dist.css))
         .pipe($.minifyCss({ keepSpecialComments: 0 }))
         .pipe($.rename({ extname: '.min.css' }))
-        .pipe(gulp.dest(paths.dist))
+        .pipe(gulp.dest(paths.dist.base + paths.dist.css))
         .on('end', done);
 });
 
