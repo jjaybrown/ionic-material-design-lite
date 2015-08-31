@@ -4,7 +4,9 @@ var bower = require('bower');
 var sh = require('shelljs');
 var fs = require('fs');
 var runSequence = require('run-sequence');
-
+var strip = require('gulp-strip-comments');
+var stripDebug = require('gulp-strip-debug');
+var del = require('del');
 
 var paths = {
     sass: ['./scss/**/*.scss'],
@@ -12,8 +14,8 @@ var paths = {
     dist: './dist'
 };
 
-gulp.task('default', ['scripts', 'sass']);
-gulp.task('dist', ['scripts', 'sass']);
+gulp.task('default', ['bundle', 'sass']);
+gulp.task('dist', ['bundle', 'sass']);
 gulp.task('patch', ['bump']);
 gulp.task('patch-release', ['patch', 'release']);
 gulp.task('minor-release', ['minor-bump', 'release']);
@@ -24,6 +26,20 @@ gulp.task('scripts', function() {
         .pipe($.concat('ionic.material-design-lite.js'))
         .pipe(gulp.dest(paths.dist))
         .pipe($.uglify())
+        .pipe($.rename({ extname: '.min.js' }))
+        .pipe(gulp.dest(paths.dist));
+});
+
+gulp.task('bundle', ['scripts'], function() {
+    return gulp.src([
+            './bower_components/material-design-lite/material.js',
+            './dist/ionic.material-design-lite.js'
+        ])
+        .pipe($.concat('ionic.material-design-lite.bundle.js'))
+        .pipe(gulp.dest(paths.dist))
+        .pipe($.uglify())
+        .pipe(strip())
+        .pipe(stripDebug())
         .pipe($.rename({ extname: '.min.js' }))
         .pipe(gulp.dest(paths.dist));
 });
@@ -152,6 +168,6 @@ gulp.task('git-check', function(done) {
 
 
 gulp.task('watch', function() {
-  gulp.watch(paths.js, ['scripts']);
+  gulp.watch(paths.js, ['bundle']);
   gulp.watch(paths.sass, ['sass']);
 });

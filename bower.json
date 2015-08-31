@@ -7,7 +7,7 @@
   "description": "Material Design (lite) style override for Ionic Framework",
   "main": [
     "dist/ionic.material-design-lite.css",
-    "dist/ionic.material-design-lite.js"
+    "dist/ionic.material-design-lite.bundle.js"
   ],
   "keywords": [
     "material design",
@@ -25,7 +25,7 @@
     "tests"
   ],
   "dependencies": {
-    "material-design-lite": "https://github.com/google/material-design-lite.git#v1.0.0-rc.1",
+    "material-design-lite": "https://github.com/google/material-design-lite.git#v1.0.4",
     "material-design-icons": "~2.0.0"
   },
   "devDependencies": {
