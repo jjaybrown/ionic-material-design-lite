@@ -2,16 +2,19 @@
   .list:not(.card) .item.item-input {
     @extend .mdl-textfield;
     @extend .mdl-textfield--full-width;
+    @include roboto-family('Regular', 400);
 
     background: transparent;
     border: none;
 
     .input-label {
       @include material-animation-default();
+      @include roboto-family('Regular', 400);
     }
 
     &.is-focused, &.is-dirty {
       .input-label {
+        @include roboto-family('Regular', 400);
         color: $input-text-highlight-color;
         font-size : $input-text-floating-label-fontsize;
         transform: translate3d(0, -20px, 0) scale(1);

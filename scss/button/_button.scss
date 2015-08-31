@@ -2,12 +2,14 @@
   .button {
     @extend .mdl-button;
     @extend .mdl-button--raised;
+    @include roboto-family('Medium', 500);
 
     overflow: hidden;
 
     &.activated, &.active {
       @extend .mdl-button;
       @extend .mdl-button--raised;
+      @include roboto-family('Medium', 500);
     }
 
     &:focus:not(:active) {
