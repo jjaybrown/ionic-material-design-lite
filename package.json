@@ -1,6 +1,6 @@
 {
   "name": "ionic-material-design-lite",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Material Design (lite) style override for Ionic Framework",
   "author": "Jason Brown (https://github.com/delta98)",
   "main": "dist/ionic.material-design-lite.js",
