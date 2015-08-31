@@ -5324,6 +5324,11 @@ ion-tabs.tabs-color-active-dark .tab-item {
   padding: 0;
   border: none;
   line-height: 16px; }
+.platform-android .list:not(.card).list-inset, .platform-android .list.card:not(.card), .platform-android .list.list-inset:not(.card), .platform-override .list:not(.card).list-inset, .platform-override .list.card:not(.card), .platform-override .list.list-inset:not(.card) {
+  box-shadow: none;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
 .platform-android .list:not(.card) .item.item-icon-left :before, .platform-android .list:not(.card) .item.item-icon-right :before, .platform-override .list:not(.card) .item.item-icon-left :before, .platform-override .list:not(.card) .item.item-icon-right :before {
   width: 24px;
   height: 24px; }
