@@ -3593,30 +3593,29 @@ angular.module('ionic')
     .directive('input', ['$ionicPlatform', '$ionicMaterialConfig', function ($ionicMaterialConfig) {
         return {
             restrict: 'E',
-            compile: function (element) {
-                if($ionicMaterialConfig.allPlatforms || ionic.Platform.isAndroid()) {
-                    var parent = element.parent();
-                    if(parent.hasClass('item-input')) {
-                        element.bind('focus', function () {
-                            parent.addClass('is-focused');
-                        });
-
-                        element.bind('blur', function () {
-                            parent.removeClass('is-focused');
-                            if(element.val() !== '') {
-                                parent.addClass('is-dirty');
-                            }else{
-                                parent.removeClass('is-dirty');
-                            }
-                        });
-                    }
-                }
-
+            compile: function () {
                 return {
                     post: function (scope, element, attrs) {
-                        if(attrs.hasOwnProperty('disabled') && attrs.disabled === true) {
-                            var parent = element.parent();
-                            parent.addClass('is-disabled');
+                        var parent = element.parent();
+                        if($ionicMaterialConfig.allPlatforms || ionic.Platform.isAndroid()) {
+                            if(parent.hasClass('item-input')) {
+                                element.bind('focus', function () {
+                                    parent.addClass('is-focused');
+                                });
+
+                                element.bind('blur', function () {
+                                    parent.removeClass('is-focused');
+                                    if(element.val() !== '') {
+                                        parent.addClass('is-dirty');
+                                    }else{
+                                        parent.removeClass('is-dirty');
+                                    }
+                                });
+                            }
+
+                            if(attrs.hasOwnProperty('disabled') && attrs.disabled === true) {
+                                parent.addClass('is-disabled');
+                            }
                         }
                     }
                 };
@@ -3628,23 +3627,27 @@ angular.module('ionic')
     .directive('ionItem', ['$ionicPlatform', '$ionicMaterialConfig', function ($ionicPlatform, $ionicMaterialConfig) {
         return {
             restrict: 'E',
-            compile: function (element, attrs) {
-                // Only add ripple to list items and not dividers
-                if(!attrs.hasOwnProperty('class') || attrs.class.indexOf('item-divider') === -1) {
-                    if(!attrs.hasOwnProperty('noRipple')
-                        && $ionicMaterialConfig.useMaterialRipple
-                        || attrs.hasOwnProperty('forceRipple')) {
+            compile: function () {
+                return {
+                    post: function (scope, element, attrs) {
+                        // Only add ripple to list items and not dividers
+                        if(!attrs.hasOwnProperty('class') || attrs.class.indexOf('item-divider') === -1) {
+                            if(!attrs.hasOwnProperty('noRipple')
+                                && $ionicMaterialConfig.useMaterialRipple
+                                || attrs.hasOwnProperty('forceRipple')) {
 
-                        element.addClass('mdl-js-ripple-effect');
+                                element.addClass('mdl-js-ripple-effect');
 
-                        // Add ripple container as MDL currently doesn't support lists
-                        element.append('<span class="mdl-ripple"></span>');
+                                // Add ripple container as MDL currently doesn't support lists
+                                element.append('<span class="mdl-ripple"></span>');
 
-                        $ionicPlatform.ready(function () {
-                            // MDL should register and upgrade our element automatically,
-                            // however lets make sure it's upgraded when we compile
-                            componentHandler.upgradeElement(element[0], 'MaterialRipple');
-                        });
+                                $ionicPlatform.ready(function () {
+                                    // MDL should register and upgrade our element automatically,
+                                    // however lets make sure it's upgraded when we compile
+                                    componentHandler.upgradeElement(element[0], 'MaterialRipple');
+                                });
+                            }
+                        }
                     }
                 }
             }
