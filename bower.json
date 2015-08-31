@@ -8,7 +8,7 @@
   "main": [
     "dist/css/ionic.material-design-lite.min.css",
     "dist/js/ionic.material-design-lite.bundle.min.js",
-    "dist/fonts/**/*"
+    "dist/fonts/*"
   ],
   "keywords": [
     "material design",
