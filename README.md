@@ -14,6 +14,8 @@ Codepen: http://codepen.io/delta98/pen/eNjeWJ
 ## Demo
 A demo has been included in the `demo` folder.
 
+You can also see a tab example here: http://embed.plnkr.co/AomYinRm5IhcnJ6Pd4Ys/preview - plnkr originally provided by [@adyba](https://github.com/adyba)
+
 ##Why another Material Design library thing?
 Material Design Lite reduces a lot of the boilerplate and dependencies on external libraries and frameworks such as Polymer. Other efforts have implemented the Material Design specification badly, built it to be workflow intensive or gets outdated quickly.
 
