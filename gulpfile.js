@@ -37,7 +37,7 @@ gulp.task('scripts', function() {
 
 gulp.task('bundle', ['scripts'], function() {
     return gulp.src([
-            './bower_components/material-design-lite/material.js',
+            './bower_components/material-design-lite/dist/material.js',
             './dist/js/ionic.material-design-lite.js'
         ])
         .pipe($.concat('ionic.material-design-lite.bundle.js'))
