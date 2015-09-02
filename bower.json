@@ -26,7 +26,7 @@
     "tests"
   ],
   "dependencies": {
-    "ionic": "~1.0.1"
+    "ionic": "1.1.0",
   },
   "devDependencies": {
     "material-design-lite": "https://github.com/google/material-design-lite.git#v1.0.4",
