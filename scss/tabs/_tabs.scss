@@ -7,16 +7,10 @@
     top: 0;
   }
 
-  .tabs, .tabs-striped.tabs {
+  .tabs {
     @extend .mdl-tabs__tab-bar;
 
     &.is-casting-shadow {
-      @include shadow-2dp();
-    }
-  }
-
-  .is-casting-shadow {
-    .tabs {
       @include shadow-2dp();
     }
   }
