@@ -26,9 +26,9 @@ $color-map: (
 /**
 * Bars
 */
-$bar-height: 56px; // @TODO assign only to android
+$bar-android-height: 56px; // @TODO assign only to android
 $bar-subheader-height: 48px;
-$expanded-bar-height: ($bar-height + 72px);
+$expanded-bar-height: ($bar-android-height + 72px);
 
 /**
 * Typography

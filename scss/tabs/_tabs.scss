@@ -1,6 +1,6 @@
 .platform-android, .platform-override {
   .tabs-top > .tabs, .tabs.tabs-top {
-    top: $bar-height - 1;
+    top: $bar-android-height - 1;
   }
 
   .has-tabs-top {

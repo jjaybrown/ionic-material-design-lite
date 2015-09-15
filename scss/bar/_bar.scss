@@ -1,8 +1,8 @@
 .platform-android, .platform-override {
   .bar {
     @extend .bar;
-    height: $bar-height;
-    line-height: $bar-height;
+    height: $bar-android-height;
+    line-height: $bar-android-height;
     background-image: none !important;
     padding: 0;
   }
@@ -30,8 +30,9 @@
 
       .title {
         @include typo-headline();
-        margin-top: $bar-height;
+        margin-top: $bar-android-height;
         line-height: $layout-header-mobile-baseline;
+        height: $bar-android-height;
       }
 
       + .has-header {
@@ -51,7 +52,7 @@
       @extend .mdl-layout-title;
       position: absolute;
       text-align: left;
-      line-height: $bar-height;
+      line-height: $bar-android-height;
     }
 
     .button:first-child + .title, .buttons.buttons-left + .title {
@@ -116,7 +117,7 @@
   }
 
   .bar.bar-subheader {
-    top: $bar-height - 1;
+    top: $bar-android-height - 1;
     height: $bar-subheader-height;
 
     .title {
@@ -143,7 +144,7 @@
       }
 
       &.icon, &.button-icon, &.back-button {
-        min-height: $bar-height - 1;
+        min-height: $bar-android-height - 1;
         border-radius: 0;
 
         &:first-child {
@@ -181,7 +182,7 @@
 
         &.button-icon:before,
         .icon:before {
-          line-height: $bar-height;
+          line-height: $bar-android-height;
         }
 
         &.hide {
