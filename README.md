@@ -1,3 +1,4 @@
+#As part of V1 this project will be moving to https://github.com/IonicMaterialDesign a mirror will be setup to ensure backwards compatibility with your existing projects
 **Status:** In Development
 **Next Release:** TBC
 
