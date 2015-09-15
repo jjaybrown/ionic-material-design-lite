@@ -218,25 +218,25 @@ ion-infinite-scroll {
 
 
 .has-header, .platform-android .has-header, .platform-override .has-header, .platform-android .has-subheader, .platform-override .has-subheader {
-  top: 56px; }
+  top: 44px; }
 
 .no-header {
   top: 0; }
 
 .has-subheader {
-  top: 104px; }
+  top: 92px; }
 
 .has-tabs-top {
-  top: 105px; }
+  top: 93px; }
 
 .has-header.has-subheader.has-tabs-top, .platform-android .has-subheader.has-tabs-top, .platform-override .has-subheader.has-tabs-top {
-  top: 153px; }
+  top: 141px; }
 
 .has-footer {
-  bottom: 56px; }
+  bottom: 44px; }
 
 .has-subfooter {
-  bottom: 112px; }
+  bottom: 88px; }
 
 .has-tabs, .bar-footer.has-tabs {
   bottom: 49px; }
@@ -245,7 +245,7 @@ ion-infinite-scroll {
     height: auto; }
 
 .has-footer.has-tabs {
-  bottom: 105px; }
+  bottom: 93px; }
 
 .pane {
   -webkit-transform: translate3d(0, 0, 0);
@@ -2422,7 +2422,7 @@ a.item-content {
   box-sizing: border-box;
   padding: 5px;
   width: 100%;
-  height: 56px;
+  height: 44px;
   border-width: 0;
   border-style: solid;
   border-top: 1px solid transparent;
@@ -2543,13 +2543,13 @@ a.item-content {
     overflow: hidden;
     margin: 0 10px;
     min-width: 30px;
-    height: 55px;
+    height: 43px;
     text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;
     font-size: 17px;
     font-weight: 500;
-    line-height: 56px; }
+    line-height: 44px; }
     .bar .title.title-left {
       text-align: left; }
     .bar .title.title-right {
@@ -2618,7 +2618,7 @@ a.item-content {
   font-size: 24px; }
 .platform-android .bar .title {
   font-size: 19px;
-  line-height: 56px; }
+  line-height: 44px; }
 
 .bar-light .button, .platform-android .bar-header.bar-light .button, .platform-override .bar-header.bar-light .button {
   border-color: #ddd;
@@ -2826,7 +2826,7 @@ a.item-content {
   border-top-width: 1px;
   border-bottom-width: 0;
   background-position: top;
-  height: 56px; }
+  height: 44px; }
   .bar-footer.item-input-inset {
     position: absolute; }
 
@@ -2834,14 +2834,14 @@ a.item-content {
   padding: 0; }
 
 .bar-subheader {
-  top: 56px;
+  top: 44px;
   display: block;
   height: 48px; }
 
 .bar-subfooter {
-  bottom: 56px;
+  bottom: 44px;
   display: block;
-  height: 56px; }
+  height: 44px; }
 
 .nav-bar-block {
   position: absolute;
@@ -4011,7 +4011,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
 
 
 .tabs-top > .tabs, .tabs.tabs-top {
-  top: 56px;
+  top: 44px;
   padding-top: 0;
   background-position: bottom;
   border-top-width: 0;
@@ -5078,7 +5078,8 @@ ion-tabs.tabs-color-active-dark .tab-item {
       line-height: 32px;
       -moz-osx-font-smoothing: grayscale;
       margin-top: 56px;
-      line-height: 72px; }
+      line-height: 72px;
+      height: 56px; }
     .platform-android .bar-header.bar-header--expanded + .has-header, .platform-android .bar-header.bar-header--expanded + .has-subheader, .platform-override .bar-header.bar-header--expanded + .has-header, .platform-override .bar-header.bar-header--expanded + .has-subheader {
       top: 128px; }
     .platform-android .bar-header.bar-header--expanded + .bar-subheader, .platform-override .bar-header.bar-header--expanded + .bar-subheader {
