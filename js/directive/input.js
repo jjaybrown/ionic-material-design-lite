@@ -1,5 +1,5 @@
 angular.module('ionic')
-    .directive('input', ['$ionicPlatform', '$ionicMaterialConfig', function ($ionicMaterialConfig) {
+    .directive('input', ['$ionicPlatform', '$ionicMaterialConfig', function ($ionicPlatform, $ionicMaterialConfig) {
         return {
             restrict: 'E',
             compile: function () {
