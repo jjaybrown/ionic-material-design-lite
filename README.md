@@ -1,6 +1,5 @@
 #As part of V1 this project will be moving to https://github.com/IonicMaterialDesign a mirror will be setup to ensure backwards compatibility with your existing projects
 **Status:** In Development
-**Next Release:** TBC
 
 [![Stories in Ready](https://badge.waffle.io/delta98/ionic-material-design-lite.png?label=ready&title=Ready)](https://waffle.io/delta98/ionic-material-design-lite)
 # Material Design Lite for Ionic Framework
