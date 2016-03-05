@@ -39,7 +39,16 @@ You can manually add the css and js files to your project by pasting `ionic.mate
 Refer to these files by adding a `<link>` and a `<script>` element into your HTML pages.
 
 ### CDN 
-TBC
+
+In testing, use :
+
+- `https://rawgit.com/delta98/ionic-material-design-lite/master/dist/css/ionic.material-design-lite.min.css`
+- `https://rawgit.com/delta98/ionic-material-design-lite/master/dist/js/ionic.material-design-lite.min.js`
+
+In production, use :
+
+- `https://cdn.rawgit.com/delta98/ionic-material-design-lite/master/dist/css/ionic.material-design-lite.min.css`
+- `https://cdn.rawgit.com/delta98/ionic-material-design-lite/master/dist/js/ionic.material-design-lite.min.js`
 
 ### Bower
 Assuming you have `wiredep` setup for your project and `bower` you can run:
