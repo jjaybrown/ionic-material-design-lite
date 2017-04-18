@@ -1,4 +1,4 @@
-#As part of V1 this project will be moving to https://github.com/IonicMaterialDesign a mirror will be setup to ensure backwards compatibility with your existing projects
+# As part of V1 this project will be moving to https://github.com/IonicMaterialDesign a mirror will be setup to ensure backwards compatibility with your existing projects
 **Status:** In Development
 
 [![Stories in Ready](https://badge.waffle.io/delta98/ionic-material-design-lite.png?label=ready&title=Ready)](https://waffle.io/delta98/ionic-material-design-lite)
@@ -16,12 +16,12 @@ A demo has been included in the `demo` folder.
 
 You can also see a tab example here: http://embed.plnkr.co/AomYinRm5IhcnJ6Pd4Ys/preview - plnkr originally provided by [@adyba](https://github.com/adyba)
 
-##Why another Material Design library thing?
+## Why another Material Design library thing?
 Material Design Lite reduces a lot of the boilerplate and dependencies on external libraries and frameworks such as Polymer. Other efforts have implemented the Material Design specification badly, built it to be workflow intensive or gets outdated quickly.
 
 This project includes the Google implementation directly allowing for a frictionless implementation and relatively quick upgrade path.
 
-##Override styles for both platforms (iOS/Android)
+## Override styles for both platforms (iOS/Android)
 You can override both iOS and Android platform styles to use Material Design (Lite) by adding a single line of config to your application.
 
 `$ionicMaterialConfigProvider.enableForAllPlatforms();`
